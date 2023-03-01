@@ -1,10 +1,3 @@
----
-lab:
-    title: '09 - Enable Azure AD self service password reset'
-    learning path: '02'
-    module: 'Module 02 - Implement an Authentication and Access Management Solution'
----
-
 # Lab 09 - Configure and deploy self-service password reset
 ## Lab scenario
 
@@ -45,17 +38,21 @@ Enable SSPR for the group.
 
 2. Under **Manage**, select **Password reset**.
 
-3. On the Password reset page Properties page, under **Self service password reset enabled**, select **Selected**.
+3. Select **Get a free Premium trial to use this feature** and choose **Activate** on **Azure AD premium P2**. Wait for the trial license to be assigned and refresh your webpage before proceeding. 
 
-4. Select **Select group** and choose **SSPRSecurityGroupUser**.
+    ![](./media/activate-license.png)
 
-5. In the Default password reset policy pane, select the **SSPRTesters** group.
+4. On the Password reset page Properties page, under **Self service password reset enabled**, select **Selected**.
 
-6. On the Password reset page Properties page, select **Save**.
+5. Select **Select group** and choose **SSPRSecurityGroupUser**.
+
+6. In the Default password reset policy pane, select the **SSPRTesters** group.
+
+7. On the Password reset page Properties page, select **Save**.
 
     ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/lp2-mod2-enable-password-reset-for-selected-group.png)
 
-7. Under **Manage**, select and review the default values for the **Authentication methods**, **Registration**, **Notifications**, and **Customization** settings.
+8. Under **Manage**, select and review the default values for the **Authentication methods**, **Registration**, **Notifications**, and **Customization** settings.
 
     **Note** it is important to have **phone** selected as one of the authentication methods for the rest of this lab, but you can have other options as well.
 
@@ -75,9 +72,9 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
 4. In the **More information required** dialog box, select **Next**.
 
-5. On the Keep your account secure page, user the **Phone** option.
+5. On the My Sign-ins page, select **+ Add sign-in method** and select **Phone** on the **Add a method** pop up. 
 
-    ![Screen image displaying the Keep your account secure page with the Choose a different method dialog box highlighted](./media/lp2-mod2-keep-your-account-secure-page.png)
+    ![Screen image displaying the Keep your account secure page with the Choose a different method dialog box highlighted](./media/add-sign-in.png)
 
     **Note** - In this lab, you will use the **Phone** option. Enter your mobile phone details.
 

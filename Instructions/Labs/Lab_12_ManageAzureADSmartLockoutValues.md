@@ -1,10 +1,3 @@
----
-lab:
-    title: '12 - Manage Azure AD smart lockout values'
-    learning path: '02'
-    module: 'Module 02 - Implement an Authentication and Access Management Solution'
----
-
 # Lab 12 - Manage Azure AD smart lockout values
 
 ## Lab scenario
@@ -41,3 +34,5 @@ Based on your organizational requirements, you can customize the Azure AD smart 
     - Your account is temporarily locked to prevent unauthorized use. Try again later, and if you still have trouble, contact your admin.
 
 9. This can be tested by choosing a user in your Azure AD tenant, navigate in a private browser to <login.microsoftonline.com> and enter an incorrect password until the account gets notification that it is locked out.
+
+    ![Screen image displaying verification step 1 with contact methods, phone number box, and text button highlighted](./media/account-locked.png)
