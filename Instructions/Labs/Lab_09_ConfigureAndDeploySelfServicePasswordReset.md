@@ -124,4 +124,4 @@ Now let's test whether the user can reset their password.
 
 #### Task 5 - What happens if you try a user not in SSPRTesters group?
 
-1. As a test, open a new InPrivate browser window and try to log into the Azure Portal as GradyA, and select **Forgot my password** option.
+1. As a test, open a new InPrivate browser window and try to log into the Azure Portal as GradyA (you can find the username from the Environment details tab), and select **Forgot my password** option.
