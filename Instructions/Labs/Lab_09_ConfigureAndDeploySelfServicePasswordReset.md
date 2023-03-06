@@ -27,7 +27,7 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
     | |  Allan Deyoung |
     | | Bianca Pisani |
   
-5. To add the members, under **Members** please click no members selected and in the add member pane, please select the members mentioned in the above table.
+5. Under **Members** please click no members selected and in the add member pane, please select the members mentioned in the above table.
    
 6. Select **Create**.
 
