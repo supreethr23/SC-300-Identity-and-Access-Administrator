@@ -11,9 +11,11 @@ The company has decided to empower the employees and enable self-service passwor
 
 You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
 
-1. On the Azure Active Directory page, under **Manage**, select **Groups** and select **New Group** on the right side window.
+1. On the home page of Azure portal, please search for **Azure Active Directory**.
+ 
+2. On the Azure Active Directory page, under **Manage**, select **Groups** and select **New Group** on the right side window.
 
-2. Create a new group using the following information:
+3. Create a new group using the following information:
 
     | **Setting**| **Value**|
     | :--- | :--- |
@@ -25,8 +27,9 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
     | |  Allan Deyoung |
     | | Bianca Pisani |
   
-    
-3. Select **Create**.
+5. To add the members, under **Members** please click no members selected and in the add member pane, please select the members mentioned in the above table.
+   
+6. Select **Create**.
 
     ![Screen image displaying the New Group page with group type, group name, and create highlighted](./media/lp2-mod2-create-sspr-security-group.png)
 
