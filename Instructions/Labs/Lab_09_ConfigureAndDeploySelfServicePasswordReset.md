@@ -66,7 +66,7 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
     This is to ensure you well be prompted for user authentication.
 
-2. Sign in as **AlexW@** `<<organization-domain-name>>.onmicrosoft.com` with the password = Enter the admin password of the tenant(Refer the Lab Resources tab to retrieve the admin password).
+2. Sign in as **AlexW@** `<<organization-domain-name>>.onmicrosoft.com` with the password = Enter the admin password of the tenant(Refer the Lab Environment Details tab to retrieve the admin password).
 
     **Note** - Replace the organization-domain-name with your domain name.
 
