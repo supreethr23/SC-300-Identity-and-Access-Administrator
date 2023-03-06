@@ -11,9 +11,11 @@ The company has decided to empower the employees and enable self-service passwor
 
 You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
 
-1. On the Azure Active Directory page, under **Manage**, select **Groups** and select **New Group** on the right side window.
+1. On the home page of Azure portal, please search for **Azure Active Directory**.
+ 
+2. On the Azure Active Directory page, under **Manage**, select **Groups** and select **New Group** on the right side window.
 
-2. Create a new group using the following information:
+3. Create a new group using the following information:
 
     | **Setting**| **Value**|
     | :--- | :--- |
@@ -25,8 +27,9 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
     | |  Allan Deyoung |
     | | Bianca Pisani |
   
-    
-3. Select **Create**.
+5. Under **Members** please click no members selected and in the Add members pane, please select the members mentioned in the above table.
+   
+6. Select **Create**.
 
     ![Screen image displaying the New Group page with group type, group name, and create highlighted](./media/lp2-mod2-create-sspr-security-group.png)
 
@@ -46,7 +49,7 @@ Enable SSPR for the group.
 
 5. On the Password reset page Properties page, under **Self service password reset enabled**, select **Selected**.
 
-6. Select **Select group** and choose **SSPRSecurityGroupUser**.
+6. Select **Select group**.
 
 7. In the Default password reset policy pane, select the **SSPRTesters** group.
 
@@ -66,7 +69,7 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
     This is to ensure you well be prompted for user authentication.
 
-2. Sign in as **AlexW@** `<<organization-domain-name>>.onmicrosoft.com` with the password = Enter the admin password of the tenant(Refer the Lab Resources tab to retrieve the admin password).
+2. Sign in as **AlexW@** `<<organization-domain-name>>.onmicrosoft.com` with the password = Enter the admin password of the tenant(Refer the Lab Environment Details tab to retrieve the admin password).
 
     **Note** - Replace the organization-domain-name with your domain name.
 
