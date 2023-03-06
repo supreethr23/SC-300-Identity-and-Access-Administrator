@@ -41,18 +41,20 @@ Enable SSPR for the group.
 3. Select **Get a free Premium trial to use this feature** and choose **Activate** on **Azure AD premium P2**. Wait for the trial license to be assigned and refresh your webpage before proceeding. 
 
     ![](./media/activate-license.png)
+    
+4. On search bar, search for **Password reset**.    
 
-4. On the Password reset page Properties page, under **Self service password reset enabled**, select **Selected**.
+5. On the Password reset page Properties page, under **Self service password reset enabled**, select **Selected**.
 
-5. Select **Select group** and choose **SSPRSecurityGroupUser**.
+6. Select **Select group** and choose **SSPRSecurityGroupUser**.
 
-6. In the Default password reset policy pane, select the **SSPRTesters** group.
+7. In the Default password reset policy pane, select the **SSPRTesters** group.
 
-7. On the Password reset page Properties page, select **Save**.
+8. On the Password reset page Properties page, select **Save**.
 
     ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/lp2-mod2-enable-password-reset-for-selected-group.png)
 
-8. Under **Manage**, select and review the default values for the **Authentication methods**, **Registration**, **Notifications**, and **Customization** settings.
+9. Under **Manage**, select and review the default values for the **Authentication methods**, **Registration**, **Notifications**, and **Customization** settings.
 
     **Note** it is important to have **phone** selected as one of the authentication methods for the rest of this lab, but you can have other options as well.
 
@@ -70,23 +72,25 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
 3. If prompted to update your password, enter a new password of your choice. Be sure to record the new password.
 
-4. In the **More information required** dialog box, select **Next**.
+4. Select **Ask later** on **Action Required** Page. 
 
-5. On the My Sign-ins page, select **+ Add sign-in method** and select **Phone** on the **Add a method** pop up. 
+5. In the **More information required** dialog box, select **Next**.
+
+6. On the My Sign-ins page, select **+ Add sign-in method** and select **Phone** on the **Add a method** pop up. 
 
     ![Screen image displaying the Keep your account secure page with the Choose a different method dialog box highlighted](./media/add-sign-in.png)
 
     **Note** - In this lab, you will use the **Phone** option. Enter your mobile phone details.
 
-6. Enter your personal cell phone number into the phone number field.
-7. Select **Text me a code**.
-8. Select **Next**.
+7. Enter your personal cell phone number into the phone number field.
+8. Select **Text me a code**.
+9. Select **Next**.
 
-9. When you receive the code on your mobile phone, enter the code in the text box and then select **Next**.
+10. When you receive the code on your mobile phone, enter the code in the text box and then select **Next**.
 
-10. After your phone has been registered, select **Next** and then select **Done**.
+11. After your phone has been registered, select **Next** and then select **Done**.
 
-11. Close the browser. You do not need to complete the sign in process.
+12. Close the browser. You do not need to complete the sign in process.
 
 #### Task 4 - Test SSPR
 
