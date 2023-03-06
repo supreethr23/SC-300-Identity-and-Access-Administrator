@@ -49,7 +49,7 @@ Enable SSPR for the group.
 
 5. On the Password reset page Properties page, under **Self service password reset enabled**, select **Selected**.
 
-6. Select **Select group** and choose **SSPRSecurityGroupUser**.
+6. Select **Select group**.
 
 7. In the Default password reset policy pane, select the **SSPRTesters** group.
 
