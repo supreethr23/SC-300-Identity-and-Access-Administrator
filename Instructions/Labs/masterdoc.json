@@ -1,0 +1,121 @@
+[
+  {
+    "Name": "SC-300: Identity and Access Administrator",
+    "Language": "English",
+    "BaseURL": "https://github.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/tree/stage",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/azure-pass/Instructions/Labs/Lab_00_SetUpLabResources.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_01_ManageUserRoles.md",
+        "Order": 2
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_02_WorkingWithTenantProperties.md",
+        "Order": 3
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_03_AssignLicensesToUsersByGroupMembershipAAD.md",
+        "Order": 4
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_04_ConfigureExternalCollaborationSettings.md",
+        "Order": 5
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_05_AddGuestUsersToTheDirectory.md",
+        "Order": 6
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_06_AddFederatedIdentityProvider.md",
+        "Order": 7
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_08_EnableAzureADMultiFactorAuthentication.md",
+        "Order": 8
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_09_ConfigureAndDeploySelfServicePasswordReset.md",
+        "Order": 9
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_10_AzureADAuthenticationForWindowsAndLinuxVM.md",
+        "Order": 10
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_11_AssignAzureResourceRolesInPrivilegedIdentityManagement.md",
+        "Order": 11
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_12_ManageAzureADSmartLockoutValues.md",
+        "Order": 12
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_13_ImplementAndTestAConditionalAccessPolicy.md",
+        "Order": 13
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_14_EnableSignRiskPolicy.md",
+        "Order": 14
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_15_ConfigureAAD_MultiFactorAuthRegPolicy.md",
+        "Order": 15
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_16_UsingAzureKeyVaultForManagedIdentities.md",
+        "Order": 16
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_17_DefenderForCloudAppsDiscoveryAndRestrictions.md",
+        "Order": 17
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_18_DefenderForCloudAppsAccessPolicies.md",
+        "Order": 18
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_19_RegisterAnApplication.md",
+        "Order": 19
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_20_ImplementAccessManagementForApps.md",
+        "Order": 20
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_21_GrantTenantWideAdminConsentToAnApplication.md",
+        "Order": 21
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_22_CreateAndManageACatalogOfResourcesInAADEntitlementManagement.md",
+        "Order": 22
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_23_AddTermsOfUseAcceptanceReporting.md",
+        "Order": 23
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_24_ManageTheLifecycleOfExternalUsersInAADIdentityGovernanceSettings%20.md",
+        "Order": 24
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_25_CreatingAccessReviewsForUsers.md",
+        "Order": 25
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_26_ConfigurePrivilegedIdentityManagementForAADRoles.md",
+        "Order": 26
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_27_MicrosoftSentinelKustoQueries.md",
+        "Order": 27
+      },
+	  {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_28_MonitorIdentitySecureScore.md",
+        "Order": 28
+      }
+    ]
+  }
+]
