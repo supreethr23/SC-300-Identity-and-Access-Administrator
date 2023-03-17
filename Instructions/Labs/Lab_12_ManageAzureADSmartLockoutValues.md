@@ -30,9 +30,8 @@ Based on your organizational requirements, you can customize the Azure AD smart 
 
 8. Save your changes.
 
-    **NOTE** - When the smart lockout threshold is triggered, you will get the following message while the account is locked:
-    - Your account is temporarily locked to prevent unauthorized use. Try again later, and if you still have trouble, contact your admin.
+    >**NOTE** - When the smart lockout threshold is triggered, you will get the following message while the account is locked: **Your account is temporarily locked to prevent unauthorized use. Try again later, and if you still have trouble, contact your admin**.
 
-9. This can be tested by choosing a user in your Azure AD tenant, navigate in a private browser to <login.microsoftonline.com> and enter an incorrect password until the account gets notification that it is locked out.
+9. This can be tested by choosing a user in your Azure AD tenant, navigate in a private browser to [login.microsoftonline.com](login.microsoftonline.com) and enter an incorrect password until the account gets notification that it is locked out.
 
     ![Screen image displaying verification step 1 with contact methods, phone number box, and text button highlighted](./media/account-locked.png)
