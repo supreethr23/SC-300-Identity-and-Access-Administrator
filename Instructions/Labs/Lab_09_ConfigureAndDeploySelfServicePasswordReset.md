@@ -27,7 +27,7 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
     | |  Allan Deyoung |
     | | Bianca Pisani |
   
-5. Under **Members** please click no members selected and in the Add members pane, please select the members mentioned in the above table.
+5. Under **Members** please click **No members selected** and in the Add members pane, please select the members mentioned in the above table.
    
 6. Select **Create**.
 
@@ -47,7 +47,7 @@ Enable SSPR for the group.
     
 4. On search bar, search for **Password reset**.    
 
-5. On the Password reset page Properties page, under **Self service password reset enabled**, select **Selected**.
+5. On the **Password reset|Properties** pane, under **Self service password reset enabled**, select **Selected**.
 
 6. Select **Select group**.
 
@@ -69,24 +69,25 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
     This is to ensure you well be prompted for user authentication.
 
-2. Sign in as **AlexW@** `<<organization-domain-name>>.onmicrosoft.com` with the password = Enter the admin password of the tenant(Refer the Lab Environment Details tab to retrieve the admin password).
+2. Sign in with the following user details of Alex Wilber:
 
-    **Note** - Replace the organization-domain-name with your domain name.
-
+    - Username: **<inject key="User 02 UPN" enableCopy="true"/>** 
+    - Password: **<inject key="User 02 Password" enableCopy="true"/>**
+ 
+       >**Note**: The credentails of all the users can be found in the lab environment details tab.  
+ 
 3. If prompted to update your password, enter a new password of your choice. Be sure to record the new password.
 
 4. Select **Ask later** on **Action Required** Page. 
 
 5. In the **More information required** dialog box, select **Next**.
 
-6. On the My Sign-ins page, select **+ Add sign-in method** and select **Phone** on the **Add a method** pop up. 
+6. On the **Keep your account secure** page, select you **Country Code** and **Enter your phone number** in the field. Make sure the **Text me a code** radio button is enabled.
+
+    >**Note** - This lab uses the **Phone Aunthentication method** for verification.
 
     ![Screen image displaying the Keep your account secure page with the Choose a different method dialog box highlighted](./media/add-sign-in.png)
-
-    **Note** - In this lab, you will use the **Phone** option. Enter your mobile phone details.
-
-7. Enter your personal cell phone number into the phone number field.
-8. Select **Text me a code**.
+    
 9. Select **Next**.
 
 10. When you receive the code on your mobile phone, enter the code in the text box and then select **Next**.
@@ -99,13 +100,11 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
 Now let's test whether the user can reset their password.
 
-1. Open a different browser or open an InPrivate or Incognito browser session and then browse to [https://portal.azure.com](https://portal.azure.com).
+1. Open an InPrivate or Incognito browser session and then browse to [https://portal.azure.com](https://portal.azure.com).
 
     This is to ensure you well be prompted for user authentication.
 
-2. Enter **AlexW@** `<<organization-domain-name>>.onmicrosoft.com` and then select **Next**.
-
-    **Note** - Replace the organization-domain-name with your domain name.
+2. Enter the username of Alex Wilber, **<inject key="User 02 UPN" enableCopy="true"/>** and then select **Next**.
 
 3. On the Enter password page, select **Forgot my password**.
 
@@ -119,7 +118,9 @@ Now let's test whether the user can reset their password.
 
 6. Enter your verification code and then select **Next**.
 
-7. In the choose a new password step, enter and then confirm your new password.  Recommend password = **Pass@w.rd1234**.
+7. In the choose a new password step, enter and then confirm your new password.  
+
+    >**Note**: Recommended password = **Pass@w.rd1234**
 
 8. When complete, select **Finish**.
 
