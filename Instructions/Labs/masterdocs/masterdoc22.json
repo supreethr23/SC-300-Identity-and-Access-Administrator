@@ -1,6 +1,6 @@
 [
   {
-    "Name": "Lab 01: Manage user roles",
+    "Name": "Lab 22: Create and manage a catalog of resources in Azure AD entitlement management",
     "Language": "English",
     "BaseURL": "https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator",
     "Files": [
@@ -9,7 +9,7 @@
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_01_ManageUserRoles.md",
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_22_CreateAndManageACatalogOfResourcesInAADEntitlementManagement.md",
         "Order": 2
       }
     ]

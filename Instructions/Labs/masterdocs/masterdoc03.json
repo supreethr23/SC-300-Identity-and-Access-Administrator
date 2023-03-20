@@ -1,6 +1,6 @@
 [
   {
-    "Name": "Lab 01: Manage user roles",
+    "Name": "Lab 03: Assigning licenses using group membership",
     "Language": "English",
     "BaseURL": "https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator",
     "Files": [
@@ -9,7 +9,7 @@
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_01_ManageUserRoles.md",
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/master/Instructions/Labs/Lab_03_AssignLicensesToUsersByGroupMembershipAAD.md",
         "Order": 2
       }
     ]
