@@ -26,25 +26,11 @@
 
 1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
 
-# Lab 00: Lab Environment Setup
-
-## Lab scenario
-
-You need to create a new Azure subscription and request a Azure AD P2 license to be ready to complete the upcoming labs.
-
-#### Estimated time: 5 minutes
-
-## Activate an Azure Active Directory Premium P2 trial licenses
+### Task 2: Activate an Azure Active Directory Premium P2 trial licenses
 
 The tasks in this exercise and the exercises in this learning path require you to already have an Azure subscription that you can use or to sign up for an Azure trial account. If you already have your own Azure subscription, you may skip this task and continue to the next.
 
-1. In a web browser, go to [https://azure.microsoft.com/free](https://azure.microsoft.com/free).
-
-1. Scroll down through the page to learn more about the benefits and free services available.
-
-1. Select **Start free**.
-
-1. Use the wizard to sign up for your Azure trial subscription.
+1. In a web browser, go to [https://portal.azure.com](https://portal.azure.com).
 
 1. You will need to an Azure AD P2 license to complete some of the exercises. Search for and then select **Azure Active Directory**.
 
