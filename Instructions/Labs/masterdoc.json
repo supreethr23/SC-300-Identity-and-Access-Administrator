@@ -5,7 +5,7 @@
     "BaseURL": "https://github.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/tree/stage",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/azure-pass/Instructions/Labs/Lab_00_SetUpLabResources.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/azure-pass/Instructions/Labs/lab-intro.md",
         "Order": 1
       },
       {
