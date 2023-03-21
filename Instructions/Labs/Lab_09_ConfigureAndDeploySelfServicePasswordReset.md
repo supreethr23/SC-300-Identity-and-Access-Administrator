@@ -31,7 +31,7 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
    
 6. Select **Create**.
 
-    ![Screen image displaying the New Group page with group type, group name, and create highlighted](./media/lp2-mod2-create-sspr-security-group.png)
+    ![Screen image displaying the New Group page with group type, group name, and create highlighted](./media/az204_07_09-01.png)
 
 #### Task 2 - Enable SSPR for you test group
 
@@ -55,7 +55,7 @@ Enable SSPR for the group.
 
 8. On the Password reset page Properties page, select **Save**.
 
-    ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/lp2-mod2-enable-password-reset-for-selected-group.png)
+    ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/az204_07_09-03.png)
 
 9. Under **Manage**, select and review the default values for the **Authentication methods**, **Registration**, **Notifications**, and **Customization** settings.
 
@@ -86,7 +86,7 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
     >**Note** - This lab uses the **Phone Aunthentication method** for verification.
 
-    ![Screen image displaying the Keep your account secure page with the Choose a different method dialog box highlighted](./media/add-sign-in.png)
+    ![Screen image displaying the Keep your account secure page with the Choose a different method dialog box highlighted](./media/az204_07_09-04.png)
     
 9. Select **Next**.
 
@@ -110,11 +110,11 @@ Now let's test whether the user can reset their password.
 
 4. On the Get back into your account page, complete the requested information and then select **Next**.
 
-    ![Screen image displaying the Get back into your account page with Email or Username, captcha box, and next button highlighted](./media/lp2-mod2-get-back-into-your-account-page.png)
+    ![Screen image displaying the Get back into your account page with Email or Username, captcha box, and next button highlighted](./media/az204_07_09-05.png)
 
 5. In the **verification step 1** task, select **Text my mobile phone**, enter your phone number and then select **Text**.
 
-    ![Screen image displaying verification step 1 with contact methods, phone number box, and text button highlighted](./media/lp2-mod2-sspr-verification-step-1.png)
+    ![Screen image displaying verification step 1 with contact methods, phone number box, and text button highlighted](./media/az204_07_09-06.png)
 
 6. Enter your verification code and then select **Next**.
 
