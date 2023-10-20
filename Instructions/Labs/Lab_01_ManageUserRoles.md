@@ -114,8 +114,8 @@ Using Azure Active Directory (Azure AD), you can designate limited administrator
 This task will use an alternative method to remove the assigned role; it will use the **Roles and administrators** option in Entra ID.
 
 1. If you are not already logged in as your Global Admin, launch the Azure Portal and log in now.
-2. In the search box type **Azure Active Directory** and launch Azure AD.
-3. In **Azure Active Directory**, select **Roles and administrators**, and then select the **Application administrator** role from the list.
+2. In the search box type **Microsoft Entra ID** and launch Microsoft Entra ID.
+3. In **Microsoft Entra ID**, select **Roles and administrators**, and then select the **Application administrator** role from the list.
 
 **Note** - If the lab environment has already activated Azure AD Premium P2, Privileged Identity Management (PIM) will be enabled and you wll need to select **Next** and assign a Permanent role to this user.
 
@@ -129,13 +129,13 @@ This task will use an alternative method to remove the assigned role; it will us
 
 #### Task 1 - Bulk operations for creating users with a .csv file
 
-1. In the Azure AD menu, select **Users** under **Manage**.
+1. In the Microsoft Entra ID menu, select **Users** under **Manage**.
 
 2. On the **Users | All users** tile, select the **Bulk operations** drop-down arrow and then **Bulk create**.
 
 3. Selecting **Bulk create** will open a new tile. This tile provides a **Download** link to a template file that you will edit to populate with your user information and upload to add the bulk creation of users.
 
-4. Select **Download** to download the .csv file.
+4. Select **Download** to download the .csv file.  C:\AllFiles\AllFiles.zip\SC-300-Identity-and-Access-Administrator-prod\Allfiles\Labs\Lab1
 
 5. The .csv template provides you with the fields included with the user profile. This includes the required username, display name, and initial password. You can also complete optional fields, such as Department and Usage location, at this time. The following screenshot is an example of how you can complete the .csvfile: 
 
