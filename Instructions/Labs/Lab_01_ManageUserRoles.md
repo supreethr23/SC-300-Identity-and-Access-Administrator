@@ -18,7 +18,7 @@ Your company recently hired a new employee who will perform duties as an applica
 
 1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a Global administrator
 
-2. Search for and then select **Azure Active Directory**.
+2. Search for and then select **Microsoft Entra ID**.
 
 3. In the left navigation menu, under **Manage**, select **Users**, then select **+ New User** and **Create new user**.
 
@@ -35,9 +35,9 @@ Your company recently hired a new employee who will perform duties as an applica
 
 6. Copy the generated password to a location you can remember it for the next task.
 
-     *You will have to change the password upon first login to this account*
+   >**Note:** You will have to change the password upon first login to this account
 
-7. Select **Create**. The user is now created and registered to your organization.
+7. Click on **Review + Create** and subsequently click on **Create**. The user is now created and registered to your organization.
 
 #### Task 2 - Login and try to create an app
 
