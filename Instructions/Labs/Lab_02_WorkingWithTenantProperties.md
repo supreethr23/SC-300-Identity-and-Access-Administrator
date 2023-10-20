@@ -1,15 +1,17 @@
----
-lab:
-    title: '02 - Working with Tenant Properties'
-    learning path: '01'
-    module: 'Module 01 - Implement an Identity Management Solution'
----
 
 # Lab 02: Working with tenant properties
 
 ## Lab scenario
 
 You need to identify and update the different properties associated with your tenant.
+
+## Lab Objectives
+
+In this lab, you will be performing the following tasks:
+
+- Create a custom subdomains
+- Change the tenant display name
+- Set your privacy information
 
 #### Estimated time: 15 minutes
 
@@ -19,9 +21,9 @@ You need to identify and update the different properties associated with your te
 
 1. Browse to the [https://portal.azure.com](https://portal.azure.com) and sign in using a Global administrator account for the directory.
 
-1. Select the **Show portal menu** hamburger icon and then select **Azure Active Directory**.
+1. Select the **Show portal menu** hamburger icon and then select **Microsoft Entra ID**.
 
-    ![Azure portal menu with Azure Active Directory selected](./media/azure-portal-menu-aad.png)
+    ![Azure portal menu with Azure Active Directory selected](./media/msentrid.png)
 
 1. In the **Manage** section of **Azure AD**, select **Custom domain names**.
 
@@ -30,11 +32,12 @@ You need to identify and update the different properties associated with your te
 1. In the **Custom domain name** field, create a custom subdomain for the lab tenant by putting **sales** in front of the **onmicrosoft.com** domain name.  The format will look similar to this:
 
     ```
-    sales.labtenant.onmicrosoft.com
+    sales[DeploymentID].onmicrosoft.com
     ```
+  
+   >**Note:** Replace the [DeploymentID] with <inject key="DeploymentID" enableCopy="false" />
 
 1. Select **Add domain** to add the subdomain.
-
 
 ### Exercise 2 - Changing the tenant display name
 
@@ -47,11 +50,11 @@ You need to identify and update the different properties associated with your te
     | **Setting** | **Value** |
     | :--- | :--- |
     | Name | Contoso Marketing |
-    | Technical contact | `your Global admin account` |
+    | Technical contact | <inject key="Username" enableCopy="false" /> |
 
 1. Select **Save** to update the tenant properties.
 
-   **You will notice the name change immediately upon completion of the save.**
+   >**Note:** You will notice the name change immediately upon completion of the save.
 
 #### Task 2 - Review the Country or region and other values associated with your tenant
 
@@ -63,17 +66,17 @@ You need to identify and update the different properties associated with your te
 
 3. In the **Properties** page, under **Tenant properties**, locate **Location** and review the information.
 
-    ![Screen image showing the Azure Active Directory Properties page with the Country or region and Location settings highlighted](./media/azure-active-directory-properties-country-location.png)
+   ![B2B Collaboration Review permissions box with message](./media/contoso11.png)
 
 #### Task 3 - Finding the tenant ID
 
 Azure subscriptions have a trust relationship with Azure Active Directory (Azure AD). Azure AD is trusted to authenticate users, services, and devices for the subscription. Each subscription has a tenant ID associated with it, and there are a few ways you can find the tenant ID for your subscription.
 
-1. In the **Azure Active Directory** page, in the Manage section, select **Properties**.
+1. In the **Microsoft Entra ID** page, in the Manage section, select **Properties**.
 
 2. Under **Tenant properties**, locate **Tenant ID**. This is your unique tenant identifier.
 
-    ![Screen image displaying the Tenant properties page with the Tenant ID box highlighted](./media/portal-tenant-id.png)
+   ![Screen image displaying the Tenant properties page with the Tenant ID box highlighted](./media/marketing.png)
 
 ### Exercise 3 - Setting your privacy information
 
@@ -87,7 +90,7 @@ You add your organization's privacy information in the **Properties** area of 
 
 1. In the **Azure Active Directory** page, in the Manage section, select **Properties**.
 
-    ![Screen image displaying tenant properties with the Technical contact, Global contact, and Privacy statement boxes highlighted](./media/properties-area.png)
+    ![Screen image displaying tenant properties with the Technical contact, Global contact, and Privacy statement boxes highlighted](./media/logs.png)  
 
 2. Add your privacy info for your employees:
 
@@ -95,12 +98,14 @@ You add your organization's privacy information in the **Properties** area of 
      - Allan Deyoung is a built-in users in your Azure lab tenant who works as an IT Admin, we will use him as the Privacy contact.
      - This person is also who Microsoft contacts if there's a data breach. If there's no person listed here, Microsoft contacts your global administrators.
 
+    >**Note:** Navigate to the users section under Microsoft Entra ID and copy the email ID of **Andre Lawson**
+
 - **Privacy statement URL** -  <https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/blob/master/Allfiles/Labs/Lab2/SC-300-Lab_ContosoPrivacySample.pdf>
 
      - In sample Privacy PDF is provided in your labs directory.
      - Type the link to your organization's document that describes how your organization handles both internal and external guest's data privacy.
 
-    **IMPORTANT** -If you don't include either your own privacy statement or your privacy contact, your external guests will see text in the Review Permissions box that says, **<your org name\>** has not provided links to their terms for you to review. For example, a guest user will see this message when they receive an invitation to access an organization through B2B collaboration.
+  >**Note:** -If you don't include either your own privacy statement or your privacy contact, your external guests will see text in the Review Permissions box that says, **<your org name\>** has not provided links to their terms for you to review. For example, a guest user will see this message when they receive an invitation to access an organization through B2B collaboration.
 
     ![B2B Collaboration Review permissions box with message](./media/active-directory-no-privacy-statement-or-contact.png)
 
@@ -118,8 +123,18 @@ You add your organization's privacy information in the **Properties** area of 
 5. Select **Privacy**.
 6. Under **Organization's notice** select the **View** item next to Contoso Marketing organizational privacy statement.
 
-     **A new browser tab will open with the Prvacy PDF file you linked to displayed.**
+     **A new browser tab will open with the Privacy PDF file you linked to displayed.**
 
 7. Review the sample Privacy statement.
 8. Close the browser tab with the PDF in it.
 9. Close the browser tab displaying the **My Account** items.
+
+## Review
+
+In this lab you have completed the following tasks:
+
+- Create a custom subdomains
+- Changing the tenant display name
+- Setting your privacy information
+
+## You have successfully completed the lab.
