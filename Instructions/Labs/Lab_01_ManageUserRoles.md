@@ -73,7 +73,7 @@ Your company recently hired a new employee who will perform duties as an applica
 Using Azure Active Directory (Azure AD), you can designate limited administrators to manage identity tasks in less-privileged roles. Administrators can be assigned for such purposes as adding or changing users, assigning administrative roles, resetting user passwords, managing user licenses, and managing domain names.
 
 1. If you are not already logged in as a Global Administrator role, open the Azure Portal and log in.
-2. Navigate to Azure Active Directory page.
+2. Navigate to Microsoft Entra ID  page.
 3. Select on **Users** under the Manage section of the menu.
 4. Select on **Chris Green** account.
 5. Choose **Assigned roles** from the Manage menu.
