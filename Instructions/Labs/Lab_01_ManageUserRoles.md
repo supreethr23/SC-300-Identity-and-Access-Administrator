@@ -2,8 +2,6 @@
 # WWL Tenants - Terms of Use
 If you are being provided with a tenant as a part of an instructor-led training delivery, please note that the tenant is made available for the purpose of supporting the hands-on labs in the instructor-led training. Tenants should not be shared or used for purposes outside of hands-on labs. The tenant used in this course is a trial tenant and cannot be used or accessed after the class is over and are not eligible for extension. Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time. 
 
-
-
 # Lab 01: Manage user roles
 
 ## Lab scenario
@@ -11,6 +9,17 @@ If you are being provided with a tenant as a part of an instructor-led training 
 Your company recently hired a new employee who will perform duties as an application administrator. You must create a new user and assign the appropriate role.
 
 #### Estimated time: 30 minutes
+
+## Lab Objectives
+
+In this lab you will be performing the following tasks:
+
+- Create a new user and test their application admin rights
+- Assign the application admin role and create an app
+- Remove a role assignment
+- Bulk import of users
+- Remove a user from Azure Active Directory
+- Add a Windows 10 license to a user account
 
 ### Exercise 1 - Create a new user and test their application admin rights
 
@@ -76,13 +85,13 @@ Using Azure Active Directory (Azure AD), you can designate limited administrator
 2. Navigate to Microsoft Entra ID  page.
 3. Select on **Users** under the Manage section of the menu.
 4. Select on **Chris Green** account.
-5. Choose **Assigned roles** from the Manage menu.
-6. Select **+ Add assignments** and mark the `Application administrator` role.
-7. Select **Add**
+5. Choose **Assigned roles** from the Manage menu.(1)
+6. Select **+ Add assignments** (2)and mark the `Application administrator` role.(3)
+7. Select **Add**(4)
 
     ![Assigned roles page - showing the selected role](./media/directory-role-select-role.png)
 
-**Note** - If the lab environment has already activated Azure AD Premium P2, Privileged Identity Management (PIM) will be enabled and you wll need to select **Next** and assign a Permanent role to this user.
+   >**Note** - If the lab environment has already activated Azure AD Premium P2, Privileged Identity Management (PIM) will be enabled and you wll need to select **Next** and assign a Permanent role to this user.
 
 8.Select the **Refesh** button.
 
@@ -103,7 +112,7 @@ Using Azure Active Directory (Azure AD), you can designate limited administrator
 5. Notice that **+ New Application** is available now.
 6. Select **+ New Application**
 
-   **Note - This role now has the ability to add applications to the tenant.  We will experiment more with this feature in later labs.**
+   >**Note - This role now has the ability to add applications to the tenant.  We will experiment more with this feature in later labs.**
 
 7. Sign out of the Chris Green instance of the Azure Portal and close the browser.
 
@@ -117,7 +126,7 @@ This task will use an alternative method to remove the assigned role; it will us
 2. In the search box type **Microsoft Entra ID** and launch Microsoft Entra ID.
 3. In **Microsoft Entra ID**, select **Roles and administrators**, and then select the **Application administrator** role from the list.
 
-**Note** - If the lab environment has already activated Azure AD Premium P2, Privileged Identity Management (PIM) will be enabled and you wll need to select **Next** and assign a Permanent role to this user.
+>**Note** - If the lab environment has already activated Azure AD Premium P2, Privileged Identity Management (PIM) will be enabled and you wll need to select **Next** and assign a Permanent role to this user.
 
 4. On the **Application administrator | Assignments** page you should see Chris Green's name listed.
 5. Put a check in the box next to Chris Green.
@@ -129,36 +138,25 @@ This task will use an alternative method to remove the assigned role; it will us
 
 #### Task 1 - Bulk operations for creating users with a .csv file
 
-1. In the Microsoft Entra ID menu, select **Users** under **Manage**.
+1. In your Lab Vm  navigate to **C:\AllFiles\AllFiles.zip\SC-300-Identity-and-Access-Administrator-prod\Allfiles\Labs\Lab1** and open the SC-300 excel file and modify the domain names for all the users.
 
-2. On the **Users | All users** tile, select the **Bulk operations** drop-down arrow and then **Bulk create**.
+   >**Note:** You do not need to fill out all the field.  As per the sample data provide, you mainly need to add the name and username information.
 
-3. Selecting **Bulk create** will open a new tile. This tile provides a **Download** link to a template file that you will edit to populate with your user information and upload to add the bulk creation of users.
-
-4. Select **Download** to download the .csv file.  C:\AllFiles\AllFiles.zip\SC-300-Identity-and-Access-Administrator-prod\Allfiles\Labs\Lab1
-
-5. The .csv template provides you with the fields included with the user profile. This includes the required username, display name, and initial password. You can also complete optional fields, such as Department and Usage location, at this time. The following screenshot is an example of how you can complete the .csvfile: 
+2. The .csv template provides you with the fields included with the user profile. This includes the required username, display name, and initial password. You can also complete optional fields, such as Department and Usage location, at this time. The following screenshot is an example of how you can complete the .csvfile: 
 
     ![Bulk import using csv file entry](./media/bulkimportexample.png)
 
-    You can modify this file to add users in bulk.  Note that you do not need to fill out all the field.  As per the sample data provide, you mainly need to add the name and username information.
+3. In the Microsoft Entra ID menu, select **Users** under **Manage**.
 
-6. A sample CSV has been provided in the Allfiles/Lab1 folder -- **SC300BulkUser.csv**.
-   1. Open Notepad.
-     - Inside the lab environment, select the START button and type Notepad.  
-   1. Open the SC300BulkUser.csv file
-   1. Change the **enter your domain name** to the domain of your Azure lab environment.
-   1. Save the file.
+4. On the **Users | All users** tile, select the **Bulk operations** drop-down arrow and then **Bulk create**.
 
-7. On the **Bulk create users** dialog, select the file folder icon on step 3.
+   ![Bulk import using csv file entry](./media/bulkcreate.png)
 
-8. Path to the Allfiles/Lab1 folder and select **SC300BulkUser.csv** file.
+5. Selecting **Bulk create** will open a new tile. From the upload button browse to **C:\AllFiles\AllFiles.zip\SC-300-Identity-and-Access-Administrator-prod\Allfiles\Labs\Lab1** and select **Open**.
 
-9. Select **Open**.
+6. You will be notified that the file uploaded successfully.  Choose **Submit** to add the users. 
 
-7. You will be notified that the file uploaded successfully.  Choose **Submit** to add the users. 
-
-After the users have been created, you will be prompted that the creation has succeeded.  Close the Bulk create users tile and the new users will be populated in the list of **Users | All users**. 
+7. After the users have been created, you will be prompted that the creation has succeeded.  Close the Bulk create users tile and the new users will be populated in the list of **Users | All users**. 
 
 #### Task 2 - Bulk addition of users using PowerShell
 
@@ -208,14 +206,15 @@ After the users have been created, you will be prompted that the creation has su
     ```
     New-AzureADUser -DisplayName "New User" -PasswordProfile $PasswordProfile -UserPrincipalName "NewUser@labtenantname.com" -AccountEnabled $true -MailNickName "Newuser"
     ```
-**Note** - Replace **labtenantname.com** with the **onmicrosoft.com** name assigned by the lab tenant.
+
+>**Note** - Replace **labtenantname.com** with the **onmicrosoft.com** name assigned by the lab tenant.
 
 ## Experiment with managing users
 
 You can add and remove users with the Azure AD page.  However, users can be created and roles can be assigned using the scripting.  Experiment with giving the Chris Green user account a different role using script. 
  
 
-### Exercise 5 - Remove a user from Azure Active Directory
+### Exercise 5 - Remove a user from Microsoft Entra ID
 
 #### Task 1 - Remove a User
 
@@ -252,7 +251,7 @@ It may happen that an account is deleted and then needs to be recovered. You nee
 6. Verify the user has been restored.
 
 
-### Exercise 6 - Add a Windows 10 license to a user account
+### Exercise 6 - Add a  license to a user account
 
 #### Task 1 - Find your unlicensed user in Azure Active Directory
 
@@ -262,7 +261,7 @@ Some user accounts in your organization will not be provided all available produ
 
 2. In the left navigation, under **Mange**, select **Users**.
 
-3. In the Users page, enter **Raul** into the search box.
+3. In the Users page, enter **Andrew** into the search box.
 
 4. Select on **Raul Razo**.
 
@@ -293,3 +292,16 @@ Some user accounts in your organization will not be provided all available produ
 15. At the top of the screen Select **Home**, then select **Contoso**, then select **User**, and select **Raul Razo**.
 
 16. Notice that the license has been assigned.
+
+## Review
+
+In this lab, you have performed  the following tasks:
+
+- Created a new user and test their application admin rights
+- Assigned the application admin role and create an app
+- Removed a role assignment
+- Bulk imported users
+- Removed a user from Microsoft Entra ID
+- Added license to a user account
+
+## You have successfully completed the lab
