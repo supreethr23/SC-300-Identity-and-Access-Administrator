@@ -1,11 +1,11 @@
----
-lab:
-    title: '19 - Register an application'
-    learning path: '03'
-    module: 'Module 03 - Implement Access Management for Apps'
----
-
 # Lab 19 - Register an application
+
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Register an application
++ Task 2: Manage app registration with a custom role
 
 #### Estimated time: 30 minutes
 
@@ -202,4 +202,12 @@ You need to create a new custom role for app management. This new role should be
     **Why pick those two** - For application provisionsing these two items are the bare minimum permissions needed to enable and enforce single sign-on for the application or service principal being created; and be able to assign the enterise application to a set of users or groups.  Other permissions could also be granted.  You can get a full list of available permissions at `https://docs.microsoft.com/azure/active-directory/roles/custom-enterprise-app-permissions`.
 
 10. Review the changes and then select **Create**.
+
+## Review
+In this lab, you have completed:
+- Register an application
+- Manage app registration with a custom role
+
+## You have successfully completed the lab
+
 
