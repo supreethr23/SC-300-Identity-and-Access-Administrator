@@ -15,13 +15,31 @@ For applications your organization has developed or for those that are registere
 
 ### Exercise 1 - Admin Consent
 
-#### Task 1 - Grant admin consent in App registrations
+#### Task 1 - App registration
+
+Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
+
+1. Sign in to [https://portal.azure.com](https://portal.azure.com) using a Global Administrator account.
+
+2. Open the portal menu and then select **Azure Active Directory**.
+
+3. On the **Azure Active Directory** blade, under **Manage**, select **App registrations.**
+
+4. On the **App registrations** page, on the menu, select **+ New registration**.
+
+5. On the **register an application** blade, register an app named **Demo app** using the default values. You do not need to enter the redirect URI.
+
+    ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/lp3-mod3-register-an-application.png)
+
+6. When complete, you will be directed to the **Demo app** blade.
+
+#### Task 2 - Grant admin consent in App registrations
 
    **Warning** - Granting tenant-wide admin consent to an application will grant the app and the app's publisher access to your organization's data. Carefully review the permissions the application is requesting before granting consent.
 
 The Global Administrator role is required in order to provide admin consent for application permissions to the Microsoft Graph API.
 
-1. In a previous exercise, you created an app named Demo app. If necessary, in Microsoft Azure, browse to **Azure Active Directory**, then select **App registrations**, and then select **Demo app**.
+1. In a previous task, you created an app named Demo app. If necessary, in Microsoft Azure, browse to **Azure Active Directory**, then select **App registrations**, and then select **Demo app**.
 
 
 2. On the **Demo app** page, locate and copy and save each **Application (client) ID** and **Directory (tenant) ID** values so that you can use them later.
