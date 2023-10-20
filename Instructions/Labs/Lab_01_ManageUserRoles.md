@@ -111,7 +111,7 @@ Using Azure Active Directory (Azure AD), you can designate limited administrator
 
 #### Task 1 - Remove the application administrator from Chris Green
 
-This task will use an alternative method to remove the assigned role; it will use the **Roles and administrators** option in Azure AD.
+This task will use an alternative method to remove the assigned role; it will use the **Roles and administrators** option in Entra ID.
 
 1. If you are not already logged in as your Global Admin, launch the Azure Portal and log in now.
 2. In the search box type **Azure Active Directory** and launch Azure AD.
