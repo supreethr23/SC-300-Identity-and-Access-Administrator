@@ -45,7 +45,7 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
 Enable SSPR for the group.
 
-1. Browse back to the Azure Active Directory page.
+1. Browse back to the Microsoft Entra ID page.
 
 2. Under **Manage**, select **Password reset**.
 
