@@ -40,7 +40,7 @@ In this lab, you will complete the following tasks:
 
 5. Turn the **Policy enforcement** to **Enabled** (if not done so already), and select **Save**.
 
-  ![](./media/Identify.png)
+   ![](./media/Identify.png)
 
 6. You have created a Sign-in risk policy that should now increase your Identity Secure Score.  This will take up to 24 hours to take affect in your Identity Secure Score.
 
