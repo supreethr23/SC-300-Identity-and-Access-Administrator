@@ -1,9 +1,3 @@
----
-lab:
-    title: '03 - Assigning licenses using group membership'
-    learning path: '01'
-    module: 'Module 01 - Implement an identity management solution'
----
 
 # Lab 03: Assigning licenses using group membership
 
@@ -16,7 +10,7 @@ Your organization has decided to use security groups in Azure AD to manage licen
 ### Exercise 1 - Create a security group and add a user
 
 #### Task 1 - Check to see if Delia Dennis has access to Office 365
-
+ 
 1. Launch a new InPrivate browser window.
 2. Connect to [https://www.office.com](https://www.office.com).
 3. Select Sign in and connect as Delia Dennis.
@@ -24,18 +18,23 @@ Your organization has decided to use security groups in Azure AD to manage licen
    | **Setting**| **Value**|
    | :--- | :--- |
    | Username | DeliaD@`your domain name.com`|
-   | Password| Enter the password of the Global Admin from the Resources|
+   | Password| Enter the password for Delia Dennis|
 
-4. You should connect to the Office.com website, but see a message indicating you don't have a license.
+   >**Note:** To find the username for Delia Dennis, login to the Azure portal and navigate to the Users section of the Microsoft Entra ID, and copy the user name.
 
-   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/delia-no-office-license.png)
+   >**Note:** From the Microsoft Entra ID **Users** section,click on **Delia Dennis** user and from the upper tab click on **Reset Password** and copy the temporary password and login to office.com and reset the password to **Pa55w.rd@123**
+
+    ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/azureaad.png)
+
+  4. You should connect to the Office.com website, but see a message indicating you don't have a license.
+
+      ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/msoffice.png)
     
 5. Close the browser window.
 
-#### Task 2 -  Create a security group in Azure Active Directory
+#### Task 2 -  Create a security group in Microsoft Entra ID
 
-1. Browse to [https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
-
+1. In the search resources tab in the azure portal, type **Microsoft Entra ID** and navigate to it.
 2. In the left navigation, under **Manage**, select **Groups**.
 3. In the Groups page, on the menu, select **New group**.
 4. Create a group using the following information:
@@ -47,12 +46,11 @@ Your organization has decided to use security groups in Azure AD to manage licen
    | Membership type| Assigned|
    | Owners| *Assign your own administrator account as the group owner*|
 
+   ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/odluser.png)
+
 5. Select the **No members selected** text under Members.
 6. Select **Delia Dennis** from the list of users.
 7. Select the **Select** button.
-
-   ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/lp1-mod2-create-group.png)
-
 8. Select the **Create** button.
 9. When complete, verify the group named **sg-SC300-O365** is shown in the **All groups** list.
 
@@ -65,7 +63,7 @@ Your organization has decided to use security groups in Azure AD to manage licen
 
    **Tip** - When multiple licenses are selected, you can use the Review license options menu to select a specific license and view the license option for that license.
 
-   ![Screen image displaying licenses selected and assigned to a group. The review license menu is also selected displaying multiple selection options.](./media/lp1-mod2-assign-license-group.png)
+   ![Screen image displaying licenses selected and assigned to a group. The review license menu is also selected displaying multiple selection options.](./media/e3.png)
 
 6. Select **Save**.
 
@@ -78,21 +76,23 @@ Your organization has decided to use security groups in Azure AD to manage licen
    | **Setting**| **Value**|
    | :--- | :--- |
    | Username | DeliaD@`your domain name.com`|
-   | Password| Enter the password of the Global Admin from the Resources|
+   | Password| **Pa55w.rd@123** |
+
+   >**Note:** To find the username for Delia Dennis, login to the Azure portal and navigate to the Users section of the Microsoft Entra ID, and copy the user name.
 
 4. You should connect to the Office.com website, and see no messages regarding license. All of the Office applications are available on the left.
 
-   ![Screen image the Office.com website with Delia Dennis logged in with office applications available, because a license is assigned.](./media/delia-office-license.png)
+   ![Screen image the Office.com website with Delia Dennis logged in with office applications available, because a license is assigned.](./media/licassign.png)
     
 5. Close the browser window. 
 
-### Exercise 2 - Create an Microsoft 365 group in Azure Active Directory
+### Exercise 2 - Create an Microsoft 365 group in Microsoft Entra ID
 
 #### Task 1 - Create the group
 
 Part of your duties as an Azure AD administrator is to create different types of groups. You need to create a new Microsoft 365 group for your organization's sales department.
 
-1. Browse to [https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
+1. From the Azure portal, navigate to **Microsoft Entra ID**
 
 2. In the left navigation, under **Manage**, select **Groups**.
 
@@ -105,10 +105,10 @@ Part of your duties as an Azure AD administrator is to create different types of
    | Group type| Microsoft 365|
    | Group name| Northwest Sales|
    | Membership type| Assigned|
-   | Owners| *Assign your own administrator account as the group owner*|
+   | Owners| *Assign your own administrator account as the group owner*(ODL user account)|
    | Members| **Alex Wilber** and **Bianca Pisani**|
 
-   ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/lp1-mod2-create-o365-group.png)
+   ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/msgroup.png)
 
 5. When complete, verify the group named **Northwest sales** is shown in the **All groups** list.
 
@@ -120,7 +120,7 @@ As your company grows, manually group management is too time consuming. Since st
 
 1. Sign in to the [https://portal.azure.com](https://portal.azure.com) with an account that is assigned the Global administrator or User administrator role in the tenant.
 
-2. Select **Azure Active Directory**.
+2. Select **Microsoft Entra ID**.
 
 3. Under **Manage**, select **Groups**, and then select **New group**.
 
@@ -130,7 +130,7 @@ As your company grows, manually group management is too time consuming. Since st
 
 6. Select the **Membership type** menu and then select **Dynamic User**.
 
-7. Select an **Owner** for the group.
+7. Select an **Owner** for the group(ODL user account).
 
 7. Under **Dynamic user members**, select **Add dynamic query**.
 
@@ -144,28 +144,26 @@ As your company grows, manually group management is too time consuming. Since st
 
    **Warning** - the `user.objectid` is case sensitive.
 
-10. Select **OK**. The rule appears in the Rule syntax box.
+   ![Screen image displaying the dynamic group membership rules page with rule syntax highlighted](./media/dyn1.png)
 
-   ![Screen image displaying the dynamic group membership rules page with rule syntax highlighted](./media/lp1-mod3-dynamic-group-membership-rule.png)
+10. Select **Save**. The new dynamic group will now include B2B guest users as well as member users.
 
-11. Select **Save**. The new dynamic group will now include B2B guest users as well as member users.
-
-12. On the New group page, select **Create** to create the group.
+11. On the New group page, select **Create** to create the group.
 
 #### Task 2 - Verify the members have been added
 
 **Note** - The population of Dynamic group membership may take up to 15 minutes.
 
-1. Select on the **Home** `Azure Active Directory`.
-2. Launch **Azure Active Directory**.
+1. Select on the **Home** `Microsoft Entra ID`.
+2. Launch **Microsoft Entra ID**.
 3. In the **Manage** menu Select on **Groups**.
 4. In the filter box type **SC300** and your newly created group will be listed.
 5. Select on **SC300-myDynamicGroup** to open the group.
-6. Notice that it shows that it contains 30+ **Direct members*.
+6. Notice that it shows that it contains **Direct members**.
 7. Select on **Members** in the **Manage** menu.
 8. Review the members.
 
-#### Task 3 - Experiment with alternate rules
+#### Task 3 - Experiment with alternate rules (Optional)
 
 1. Try making a group with only **Guest** users:
 
