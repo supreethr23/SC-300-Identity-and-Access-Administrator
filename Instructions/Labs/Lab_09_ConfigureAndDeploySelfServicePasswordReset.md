@@ -1,16 +1,20 @@
----
-lab:
-    title: '09 - Enable Azure AD self service password reset'
-    learning path: '02'
-    module: 'Module 02 - Implement an Authentication and Access Management Solution'
----
-
 # Lab 09 - Configure and deploy self-service password reset
-## Lab scenario
 
+## Lab scenario
 The company has decided to empower the employees and enable self-service password reset. You must configure this setting in your organization.
 
+## Lab objectives
+In this lab, you will complete the following tasks:
+
++ Task 1: Create a group to assign SSPR to
++ Task 2 - Enable SSPR for you test group
++ Taks 3 - Register for SSPR with Alex
++ Task 4 - Test SSPR
++ Task 5 - What happens if you try a user not in SSPRTesters group?
+
 #### Estimated time: 15 minutes
+
+## Architecture diagram
 
 ### Exercise 1 - Create a group with SSPR enabled and add users to it
 
@@ -18,7 +22,7 @@ The company has decided to empower the employees and enable self-service passwor
 
 You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
 
-1. On the Azure Active Directory page, under **Manage**, select **Groups** and select **New Group** on the right side window.
+1. On the Microsoft Entra ID page, under **Manage**, select **Groups** and select **New Group** on the right side window.
 
 2. Create a new group using the following information:
 
