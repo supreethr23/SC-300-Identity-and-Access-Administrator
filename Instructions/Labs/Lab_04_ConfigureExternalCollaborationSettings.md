@@ -1,9 +1,3 @@
----
-lab:
-    title: '04 - Configure external collaboration settings'
-    learning path: '01'
-    module: 'Module 01 - Implement an identity management solution'
----
 
 # Lab 04: Configure external collaboration settings
 
