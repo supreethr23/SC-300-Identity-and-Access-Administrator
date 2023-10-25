@@ -17,8 +17,6 @@ Your company works with many vendors and, on occasion, you need to add some vend
 
 2. Accept the terms of service if you're prompted to do so.
 
-**Create a new project:**
-
 3. At the top of the page, click on the dropdown next to the **select the project** menu to open the Select a project page. Choose **New Project**.  Leave the remaining fields with the default settings.
 
 4. On the New Project page, give the project a name (for example, **MyB2BApp**), and then select **Create**.
@@ -35,9 +33,9 @@ Your company works with many vendors and, on occasion, you need to add some vend
 
 10. Scroll down and under Authorized domains, select **+ Add domain**, and then add the microsoftonline.com domain.
 
-   ```
-   microsoftonline.com
-   ```
+      ```
+      microsoftonline.com
+      ```
 
 11. Under Developer contact information, enter the email address for the lab account that you used to sign into the portal.
 
@@ -58,6 +56,10 @@ Your company works with many vendors and, on occasion, you need to add some vend
       https://login.microsoftonline.com/te/**tenant name**.onmicrosoft.com/oauth2/authresp
        
    ```
+     
+   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/URI.png) 
+   
+   
    >**Note:** Replace the Tenant ID and Tenant Name with the your Tenant ID and Tenant Name. Go to Azure portal and search for and select **Microsoft Entra ID** in the overview page copy the **Tenant ID** and **Tenant Name**.
 
 16. Select **Create**. Copy your **client ID** and **client secret**. You'll use them when you add the identity provider in the Azure portal.
@@ -85,6 +87,8 @@ Your company works with many vendors and, on occasion, you need to add some vend
 3. Under **Manage**, select **External Identities**.
 
 4. Choose **All identity providers** from the menu on the left.
+
+   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/federation.png)  
 
 5. Microsoft provides a direct federation for **Google** as an identity provider.  This can be initiated by selecting **+ Google** from the **External Identities | All identity providers** page
  
@@ -145,7 +149,7 @@ This completes the configuration of Google as an identity provider.
    login.microsoftonline.com
    ```
 
-  >**Note:** If you are already signed in with the odl user account,sign out from the top right corner.
+   >**Note:** If you are already signed in with the odl user account,sign out from the top right corner.
 
 4. Click on **Sign in** and choose **Sign in with another account** and subsequently click on **Sign-in options** on the dialog.
  
@@ -154,6 +158,8 @@ This completes the configuration of Google as an identity provider.
 6. Enter your **lab tenant domain name** in the box and select **Next**.
 
    >**Note:** To find the domain name, navigate to the Azure Portal where you are signed in as as the ODL user.Go to Microsoft Entra ID and from the Overview page copy the entry next to the **Primary Domain Name**.
+
+    ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/primdomain121.png)  
 
 7. Enter the **Google** email address and password that you created if prompted.
 
