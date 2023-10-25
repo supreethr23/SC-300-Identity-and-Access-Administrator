@@ -143,7 +143,7 @@ This completes the configuration of Google as an identity provider.
 
    >**NOTE** If you did not open a new InPrivate browser in Task 3, you should do so for this step.
 
-4. Enter the following web address:
+3. Enter the following web address:
 
    ```
    login.microsoftonline.com
@@ -152,6 +152,8 @@ This completes the configuration of Google as an identity provider.
    >**Note:** If you are already signed in with the odl user account,sign out from the top right corner.
 
 4. Click on **Sign in** and choose **Sign in with another account** and subsequently click on **Sign-in options** on the dialog.
+
+   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/sigin.png)
  
 5. Choose **Sign in to an organization**.
 
