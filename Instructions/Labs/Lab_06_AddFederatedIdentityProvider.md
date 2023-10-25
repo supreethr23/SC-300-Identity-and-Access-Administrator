@@ -53,24 +53,26 @@ Your company works with many vendors and, on occasion, you need to add some vend
       https://login.microsoftonline.com
    ```
       https://login.microsoftonline.com/te/**tenant ID**/oauth2/authresp
-       (where <tenant ID> is your tenant ID)
+       
    ```
       https://login.microsoftonline.com/te/**tenant name**.onmicrosoft.com/oauth2/authresp
-       (where <tenant name> is your tenant name)
+       
    ```
+   >**Note:** Replace the Tenant ID and Tenant Name with the your Tenant ID and Tenant Name. Go to Azure portal and search for and select **Microsoft Entra ID** in the overview page copy the **Tenant ID** and **Tenant Name**.
 
 16. Select **Create**. Copy your **client ID** and **client secret**. You'll use them when you add the identity provider in the Azure portal.
 
 17. You can leave your project at a publishing status of Testing.
 
 #### Task 2 - Add a test user
-18. Select the **OAuth consent screen** under APIs and Services menu.
 
-19. Scroll down and under the **Test Users* section of the page, choose **+ Add Users**.
+1. Select the **OAuth consent screen** under APIs and Services menu.
 
-20. Enter the gmail account you created (or are using) for this lab.
+2. Scroll down and under the **Test Users* section of the page, choose **+ Add Users**.
 
-21. Select **Save**
+3. Enter the gmail account you created (or are using) for this lab.
+
+4. Select **Save**
 
 
 ### Exercise 2 - Configure Azure to work with an External identity provider
@@ -95,47 +97,49 @@ Your company works with many vendors and, on occasion, you need to add some vend
 This completes the configuration of Google as an identity provider.
 
 #### Task 2 - Invite you Test User account
-9. If you used an existing Gmail account, remember to delete the account with **External Identities | All identity providers**. You can also return to the Google developer console and delete the project that you created.
+1. If you used an existing Gmail account, remember to delete the account with **External Identities | All identity providers**. You can also return to the Google developer console and delete the project that you created.
 
-10. Open Azure Active Directory (Azure AD).
+2. Open Azure Active Directory (Azure AD).
 
-11. Go to Users.
+3. Go to Users.
 
-12. Select **+ New User**.
+4. Select **+ New User**.
 
-13. Choose **Invite external user** from the dropdown menu.
+5. Choose **Invite external user** from the dropdown menu.
 
-14. Enter the information for the gmail account you set up as a test user for the Google App in Exercise 1 Task 2.
+6. Enter the information for the gmail account you set up as a test user for the Google App in Exercise 1 Task 2.
 
-15. Enter a personal message as you want.
+7. Enter a personal message as you want.
 
-16. Select **Review + Invite** and subsequently click on **Invite**.
+8. Select **Review + Invite** and subsequently click on **Invite**.
 
 #### Task 3 - Accept the invitation and login
-17. Use an InPrivate browser to log into your gmail account.
+1. Use an InPrivate browser to log into your gmail account.
 
-18. Open the **Microsoft Invitation on behalf of** in the Inbox.
+2. Open the **Microsoft Invitation on behalf of** in the Inbox.
 
-19. Select the **Accept invitation** link in the message.
+3. Select the **Accept invitation** link in the message.
 
-20. Enter your username and password as requested in the login dialog (if requested).
-   **NOTE** If the ferderation is working correctly, this is where you will see the first results of your new Google External Identity provider.  You will go to the login screen and be able to log in with your gmail credentials.  If the federation is not work, or has not been set up, the user would be sent and ACCOUNT VERIFICATION email after the log in, to confirm the account.  With the federation, no extra verification is needed.
+4. Enter your username and password as requested in the login dialog (if requested).
 
-   **NOTE** If you get an access error 500, wait about 30 seconds and refresh the page.  Choose to RESUBMIT.  This error is a timing issue only in the lab environment.
+   >**NOTE** If the ferderation is working correctly, this is where you will see the first results of your new Google External Identity provider.  You will go to the login screen and be able to log in with your gmail credentials.  If the federation is not work, or has not been set up, the user would be sent and ACCOUNT VERIFICATION email after the log in, to confirm the account.  With the federation, no extra verification is needed.
 
-21. Read over the new **Permissions requested by:** message that you get.  This message is coming from your Azure Lab Domain.
+   >**NOTE** If you get an access error 500, wait about 30 seconds and refresh the page.  Choose to RESUBMIT.  This error is a timing issue only in the lab environment.
 
-22. Choose **Accept**.
+5. Read over the new **Permissions requested by:** message that you get.  This message is coming from your Azure Lab Domain.
 
-23. Once login is complete, you will be sent MyApplications.
+6. Choose **Accept**.
+
+7. Once login is complete, you will be sent MyApplications.
 
 #### Task 4 - Login to Microsoft 365 using your Google account
-24. Once you have finished the external user invite process of Task 3, you can log directly into Microsoft Online.
+1. Once you have finished the external user invite process of Task 3, you can log directly into Microsoft Online.
 
-25. Open a new tab in the browser you have open.
-   **NOTE** if you did not open a new InPrivate browser in Task 3, you should do so for this step.
+2. Open a new tab in the browser you have open.
 
-26. Enter the following web address:
+   >**NOTE** If you did not open a new InPrivate browser in Task 3, you should do so for this step.
+
+4. Enter the following web address:
 
    ```
    login.microsoftonline.com
@@ -143,14 +147,14 @@ This completes the configuration of Google as an identity provider.
 
   >**Note:** If you are already signed in with the odl user account,sign out from the top right corner.
 
-27. Click on**Sign in** and choose **Sign in with another account** and subsequently click on **Sign-in options** on the dialog.
+4. Click on **Sign in** and choose **Sign in with another account** and subsequently click on **Sign-in options** on the dialog.
  
-28. Choose **Sign in to an organization**.
+5. Choose **Sign in to an organization**.
 
-29. Enter your **lab tenant domain name** in the box and select **Next**.
+6. Enter your **lab tenant domain name** in the box and select **Next**.
 
    >**Note:** To find the domain name, navigate to the Azure Portal where you are signed in as as the ODL user.Go to Microsoft Entra ID and from the Overview page copy the entry next to the **Primary Domain Name**.
 
-30. Enter the **Google** email address and password that you created if prompted.
+7. Enter the **Google** email address and password that you created if prompted.
 
-31. At this point, you should see your account passed to Google for confirmation; then entered the Microsoft Office portal.
+8. At this point, you should see your account passed to Google for confirmation; then enter the Microsoft Office portal.
