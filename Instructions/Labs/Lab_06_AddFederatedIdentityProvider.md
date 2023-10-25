@@ -1,9 +1,3 @@
----
-lab:
-    title: '06 - Add a federated identity provider'
-    learning path: '01'
-    module: 'Module 01 - Implement an identity management solution'
----
 
 # Lab 06: Add a federated identity provider
 
@@ -17,14 +11,15 @@ Your company works with many vendors and, on occasion, you need to add some vend
 
 #### Task 1 - Configure Google to be used as an identity provider
 
-**Important Note** - For this exercise, you will need a Gmail account on Google. Create a **new Google account** and then follow the steps for the exercise.  Be sure to note the email address and password, they are necessary to complete the lab.
+**Important Note** - For this exercise, you will need a Gmail account on Google. You can use your personnel Gmail account or  create a **new Google account** and then follow the steps for the exercise.  Be sure to note the email address and password, they are necessary to complete the lab.
 
-1. Go to the Google APIs at https://console.developers.google.com, and sign in with your Google account. We recommend that you use a shared team Google account.
+1. Open the Microsoft Edge browser and copy and paste the link to go to the Google APIs at https://console.developers.google.com, and sign in with your Google account. We recommend that you use a shared team Google account.
 
 2. Accept the terms of service if you're prompted to do so.
 
 **Create a new project:**
-3. At the top of the page, select the project menu to open the Select a project page. Choose **New Project**.  Leave the remaining fields with the default settings.
+
+3. At the top of the page, click on the dropdown next to the **select the project** menu to open the Select a project page. Choose **New Project**.  Leave the remaining fields with the default settings.
 
 4. On the New Project page, give the project a name (for example, **MyB2BApp**), and then select **Create**.
 
@@ -34,11 +29,11 @@ Your company works with many vendors and, on occasion, you need to add some vend
 
 7. Under User Type, select **External**, and then select **Create**.
 
-8. On the **OAuth consent screen**, under App information, enter an App name, such as **Azure AD**.
+8. On the **OAuth consent screen**, under App information, enter an App name, such as **Entra ID**.
 
 9. Under User support email, select an email address. This should include the email address that you used to log into Google.
 
-10. Under Authorized domains, select **+ Add domain**, and then add the microsoftonline.com domain.
+10. Scroll down and under Authorized domains, select **+ Add domain**, and then add the microsoftonline.com domain.
 
    ```
    microsoftonline.com
@@ -52,7 +47,7 @@ Your company works with many vendors and, on occasion, you need to add some vend
 
 14. Select **+ Create credentials**, and then select **OAuth client ID**.
 
-15. In the Application type menu, select Web application. Give the application a suitable name, like Azure AD B2B. Under **Authorized redirect URIs**, add the following URIs:
+15. In the Application type menu, select Web application. Give the application a suitable name, like Entra ID B2B. Under **Authorized redirect URIs**, add the following URIs:
 
    ```
       https://login.microsoftonline.com
@@ -71,7 +66,7 @@ Your company works with many vendors and, on occasion, you need to add some vend
 #### Task 2 - Add a test user
 18. Select the **OAuth consent screen** under APIs and Services menu.
 
-19. In the **Test Users* section of the page, choose **+ Add Users**.
+19. Scroll down and under the **Test Users* section of the page, choose **+ Add Users**.
 
 20. Enter the gmail account you created (or are using) for this lab.
 
@@ -83,7 +78,7 @@ Your company works with many vendors and, on occasion, you need to add some vend
 #### Task 1 - Configure Azure AD for Google federation
 1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as an admin.
 
-2. Select **Azure Active Directory**.
+2. Search for and select **Microsoft Entra ID**.
 
 3. Under **Manage**, select **External Identities**.
 
@@ -114,7 +109,7 @@ This completes the configuration of Google as an identity provider.
 
 15. Enter a personal message as you want.
 
-16. Select **Invite**.
+16. Select **Review + Invite** and subsequently click on **Invite**.
 
 #### Task 3 - Accept the invitation and login
 17. Use an InPrivate browser to log into your gmail account.
@@ -146,11 +141,16 @@ This completes the configuration of Google as an identity provider.
    login.microsoftonline.com
    ```
 
-27. Select **Sign-in options** on the dialog.
+  >**Note:** If you are already signed in with the odl user account,sign out from the top right corner.
+
+27. Click on**Sign in** and choose **Sign in with another account** and subsequently click on **Sign-in options** on the dialog.
  
 28. Choose **Sign in to an organization**.
 
 29. Enter your **lab tenant domain name** in the box and select **Next**.
 
-30. Enter the **Google** email address and password that you created.
-At this point, you should see your account passed to Google for confirmation; then enter the Microsoft Office portal.
+   >**Note:** To find the domain name, navigate to the Azure Portal where you are signed in as as the ODL user.Go to Microsoft Entra ID and from the Overview page copy the entry next to the **Primary Domain Name**.
+
+30. Enter the **Google** email address and password that you created if prompted.
+
+31. At this point, you should see your account passed to Google for confirmation; then entered the Microsoft Office portal.
