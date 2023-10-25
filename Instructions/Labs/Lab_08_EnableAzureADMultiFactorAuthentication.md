@@ -43,31 +43,31 @@ Next let's examine how to set up Conditional Access policy rules that would enfo
 
 3. Name your policy, for example **MFA_for_Delia**.
 
-4. Select **Users or workload identities** under Assignments.
+4. Under Assignments:
 
-    - Select **0 users or workload identities selected**  
+    - Select **0 users and groups selected**  
     - On the right side screen, select **Select users and groups** check box to configure.
     - Check **Users and groups** (available users will be populated to the right)
     - Choose **Delia Dennis** from the list of users then choose **Select** button.
 
-5. Select **Cloud apps or actions**.
+5. Under **Target Resources** click on **No target resources selected**
 
    - In the dropdown, make sure **Cloud apps** is selected.
    - Under Include, mark **All cloud apps** and note the warning the pops up about possibly locking yourself out. 
-   - Now under Include, change your choice to **Select apps** item.
+   - Now under Include, change your choice to **Select apps** item and then under Select click on **None**.
    - In the newly opened dialog, choose **Office 365**.
       - **Reminder** - in a previous lab we gave Delia Dennis an Office 365 license and logged into ensure it worked.
    - Choose **Select**.
 
 6. Review the Conditions section.
 
-   - Select **Locations** and then configure it for **Any location**.
+   - Under **Conditions** click on **0 conditions selected** Under **Locations** click on **Any Location** and then configure it to **Yes**  and ensure that under **Include** ,**Any location** is selected.
 
-7. Under **Access Controls** select **Grant** and verify **Grant access** is selected.
+7. Under **Access Controls** click on  **0 controls selected** and verify **Grant access** is selected.
 
 8. Select the **Require multi-factor authentication** check box to enforces MFA.
 
-9. Ensure that **Require all the slected controls** is selected.
+9. Ensure that **Require all the selected controls** is selected.
 
 10. Select **Select**.
 
@@ -87,9 +87,9 @@ Next let's examine how to set up Conditional Access policy rules that would enfo
 4. Enter **DeliaD@** `<<your domain address>>`.
 5. Enter the password = Enter the Global admin password of the tenant (Note : Refer the 'Lab Resources' tab to retrieve the admin password).
 
-**Note** - At this point one of two things will happen.  You should get a message that you need to set up Authenticator app and register for MFA.  Follow the prompts to complete using your personal phone.  NOTE - there is a chance that you might get a login failure message with several options on how to proceed.  Select the **Try Again** option in this case.
+>**Note:** There is a chance that you might get a login failure message with several options on how to proceed.  Select the **Try Again** option in this case.
 
-You can see that because of the Conditional Access rule we created for Delia, MFA is required to launch Office 365 home page.
+6. You can see that because of the Conditional Access rule we created for Delia, MFA is required to launch Office 365 home page.
 
 ### Exercise 2 - Configure MFA to be required for login
 
