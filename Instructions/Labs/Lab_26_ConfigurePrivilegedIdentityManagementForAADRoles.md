@@ -133,11 +133,12 @@ When you need to assume an Azure AD role, you can request activation by opening 
     ![Screen image displaying a popup to activate the compliance administrator](./media/lp4-mod3-pim-activate-role.png)
 
     >**Verification** - Based on our current lab environment configuration, you will be required configure MFA and log in successfully.
-    >**Note:** In the MFA window select **I want to set up a different method** and choose **Phone** and complete the authentication.
+    
+    >**Note:** In the MFA window select **I want to set up a different method** and choose **Phone** and complete the additional verification process.
 
-7. After you have completed the additional security verification, in the Activate – Compliance Administrator pane, in the **Reason** box, enter the **This is my justification for activating this role**.
+7. After you have completed the additional security verification, back in the Azure portal, in the **Activate – Compliance Administrator** pane, in the **Reason** box, enter the **This is my justification for activating this role**.
 
-    **Important Note** - the principal of least prvilege, you should only activate the account for the amount of time you need it.  If the work needed to be done, only takes 1.5 hours, then set the duration to two hours.  Similarily, if you know that you won't be able to do the work until after 3pm, choose a Custom activation time.
+    >**Important Note** - The principal of least privilege, you should only activate the account for the amount of time you need it.  If the work needed to be done, only takes 1.5 hours, then set the duration to two hours.  Similarily, if you know that you won't be able to do the work until after 3 p.m., choose a Custom activation time.
 
 8. Select **Activate**.
 
