@@ -11,6 +11,8 @@ In this lab, you will complete the following tasks:
 
 ### Estimated time: 5 minutes
 
+## Architecture diagram
+
 ## Exercise 1: Manage Microsoft Entra ID smart lockout values
 
 ### Task 1: Add Smart Lockouts
