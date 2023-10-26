@@ -46,9 +46,9 @@ In this lab, you will complete the following tasks:
       -  **Username:** Enter **<inject key="LabVM Admin Username" enableCopy="true" /> (7)**.
       -  **Password:** Enter **<inject key="LabVM Admin Password" enableCopy="true" /> (8)**.
       -  **Confirm password:** Re-enter **<inject key="LabVM Admin Password" enableCopy="true" /> (9)**.
-      -  **Public inbound ports:** Select **Allow selected ports** radio button.
-      -  **Select inbound ports:** Ensure port **RDP (3389) (10)** is selected.
-      -  Click on **Next Disks > (11)**
+      -  **Public inbound ports:** Select **Allow selected ports (10)** radio button.
+      -  **Select inbound ports:** Ensure port **RDP (3389) (11)** is selected.
+      -  Click on **Next Disks > (12)**
   
     ![Create vm](../media/create-vm-01.png)
     ![Create vm](../media/create-vm-02.png)
@@ -62,7 +62,7 @@ In this lab, you will complete the following tasks:
 
     ![Create vm](../media/create-vm-03.png)
 
-1. On the **Management** tab, check the box - **Login with Azure AD (2)** under the Azure AD section and then click on **Review + create (2)**.
+1. On the **Management (1)** tab, check the box - **Login with Azure AD (2)** under the Azure AD section and then click on **Review + create (3)**.
    >**Note:** Notice that the **System assigned managed identity** under the Identity section is auto-matically checked and turned grey. This action should happen automatically once you enable Login with Azure AD.
 
     ![Create vm](../media/create-vm-04.png)
