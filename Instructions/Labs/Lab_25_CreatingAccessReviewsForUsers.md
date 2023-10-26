@@ -1,10 +1,3 @@
----
-lab:
-    title: '25 - Creating Access Reviews for Internal and External Users'
-    learning path: '04'
-    module: 'Module 04 - Plan and Implement and Identity Governance Strategy'
----
-
 # Lab 25 - Creating Access Reviews for Internal and External Users  
 
 ## Lab scenario
@@ -19,7 +12,7 @@ Privileged user access should be regularly reviewed in a similar manner.  Since
 
 1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a Global administrator.
 
-2. Access reviews can manage the access lifecycle.  Within **Azure Active Directory**, find **Identity Governance** under the **Manage** menu.  In **Identity Goverance**, select **Access reviews**.
+2. Access reviews can manage the access lifecycle.  Within **Microsoft Entra ID**, find **Identity Governance** under the **Manage** menu.  In **Identity Goverance**, select **Access reviews** from left panel.
 
 3. Select **+ New access review**.
 
