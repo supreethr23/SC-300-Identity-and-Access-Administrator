@@ -36,7 +36,7 @@ Azure AD multi-factor authentication provides a means to verify who you are usin
 
 #### Task 2 - Configure Azure AD Identity Protection policy for MFA registration
 
-**Note**: Azure AD Identity Protection requires Azure AD Premium P2 to be activated. 
+**Note**: Microsoft Entra ID Identity Protection requires a Microsoft Entra ID Premium P2 license to be activated. 
 
 Now let us enable MFA registration for a single user.
 
