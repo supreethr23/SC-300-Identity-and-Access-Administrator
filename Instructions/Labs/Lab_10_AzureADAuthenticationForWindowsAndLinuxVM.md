@@ -252,7 +252,7 @@ The tasks outlined here are intended solely for informational purposes. They are
 
 1. For detailed steps, see Assign Azure roles using the Azure portal.
 
-### Review
+## Review
 In this lab, you have completed:
 - Login to Windows Virtual Machines in Azure with Azure AD
 - Azure AD login for existing Azure Virtual Machines
