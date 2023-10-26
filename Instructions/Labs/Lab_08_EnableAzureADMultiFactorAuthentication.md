@@ -88,8 +88,9 @@ Next let's examine how to set up Conditional Access policy rules that would enfo
 4. Enter **DeliaD@** `<<your domain address>>`.
 5. Enter the password = Enter the Global admin password of the tenant (Note : Refer the 'Lab Resources' tab to retrieve the admin password).
 
->**Note:** There is a chance that you might get a login failure message with several options on how to proceed.  Select the **Try Again** option in this case.
->**Note:** You can find the username and password for Delina from the Azure portal in the **Microsoft Entra ID** Users section.
+    >**Note:** There is a chance that you might get a login failure message with several options on how to proceed.  Select the **Try Again** option in this case.
+    >**Note:** You can find the username and password for Delina from the Azure portal in the **Microsoft Entra ID** Users section.
+
 6. You can see that because of the Conditional Access rule we created for Delia, MFA is required to launch Office 365 home page.
 
    ![Screenshot showing the complete Add Policy dialog](./media/mfa.png)
