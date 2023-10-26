@@ -13,15 +13,15 @@ As an additional layer of security, you need to enable and configure your Azure 
 
 1. Sign in to the [https://portal.azure.com]( https://portal.azure.com) using a Global administrator account.
 
-2. Open the portal menu and then select **Azure Active Directory**.
+2. Open the portal menu and then search for and select **Microsoft Entra ID**.
 
-3. On the Azure Active Directory page, under **Manage**, select **Security**.
+3. On the Microsoft Entra ID* page, under **Manage**, select **Security**.
 
-4. On the Security page, in the left navigation, select **Identity protection**.
+4. On the Security page, in the left navigation, under **Protect** select **Identity protection**.
 
 5. In the Identity protection page, in the left navigation, select **User risk policy**.
 
-    ![Screen image displaying the User risk policy page and highlighted browsing path](./media/lp2-mod4-browse-to-identity-protection.png)
+    ![Screen image displaying the User risk policy page and highlighted browsing path](./media/protection.png)
 
 6. Under **Assignments**, select **All users** and review the available options.
 
@@ -41,7 +41,7 @@ As an additional layer of security, you need to enable and configure your Azure 
 
 13. Select the **Require password change** check box and then select **Done**.
 
-14. Under **Policy enforcement**, select **On** and then select **Save**.
+14. Under **Policy enforcement**, toggle to  **Enabled** and then select **Save**.
 
 #### Task 2 - Enable Sign-in risk policy
 
@@ -57,4 +57,4 @@ As an additional layer of security, you need to enable and configure your Azure 
 
 6. Select the **Require multi-factor authentication** check box and then select **Done**.
 
-7. Under **Policy enforcement**, select **On** and then select **Save**.
+7. Under **Policy enforcement**,  toggle to  **Enabled** and then select **Save**.
