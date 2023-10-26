@@ -21,7 +21,7 @@ Azure AD multi-factor authentication provides a means to verify who you are usin
 
 5. In the Identity protection page, in the left navigation under **Protect**, select **Multifactor authentication registration policy**.
 
-    ![Screen image displaying the MFA registration policy page with browsing path highlighted](./media/lp2-mod4-browse-to-mfa-registration-policy.png)
+    ![Screen image displaying the MFA registration policy page with browsing path highlighted](./media/policy23.png)
 
 6. Under **Assignments**
 
@@ -40,7 +40,9 @@ Azure AD multi-factor authentication provides a means to verify who you are usin
 
 Now let us enable MFA registration for a single user.
 
-1. Under **Protect** in the menu, select **MFA registration policy**.
+1. In the Azure portal, navigate to **Microsoft Entra ID Identity Protection** in the search bar.
+
+1. Under **Protect** in the menu, select **Multifactor authentication registration policy**.
 
 1. Under **Assignments**, select **All users** under Users, and in the Include tab, select **Select individuals and groups**
 
