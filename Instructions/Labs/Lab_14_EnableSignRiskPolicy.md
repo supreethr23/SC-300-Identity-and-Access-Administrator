@@ -1,9 +1,3 @@
----
-lab:
-    title: '14 - Enable sign in and user risk policies'
-    learning path: '02'
-    module: 'Module 02 - Implement an Authentication and Access Management Solution'
----
 
 # Lab 14 - Enable sign in and user risk policies
 
@@ -12,7 +6,6 @@ lab:
 As an additional layer of security, you need to enable and configure your Azure AD organization's sign in and user risk policies.
 
 #### Estimated time: 10 minutes
-
 
 ### Exercise 1 - Enable User risk policy
 
