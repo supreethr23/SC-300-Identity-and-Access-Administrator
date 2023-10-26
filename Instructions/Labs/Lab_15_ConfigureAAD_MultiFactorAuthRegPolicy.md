@@ -1,9 +1,3 @@
----
-lab:
-    title: '15 - Configure an Azure AD multi-factor authentication registration policy'
-    learning path: '02'
-    module: 'Module 02 - Implement an Authentication and Access Management Solution'
----
 
 # Lab 15 - Configure an Azure AD multi-factor authentication registration policy
 
@@ -19,9 +13,9 @@ Azure AD multi-factor authentication provides a means to verify who you are usin
 
 1. Sign in to the [https://portal.azure.com]( https://portal.azure.com) using a Global administrator account.
 
-2. Open the portal menu and then select **Azure Active Directory**.
+2. Open the portal menu and then search for and select **Microsoft Entra ID**.
 
-3. On the Azure Active Directory page, under **Manage**, select **Security**.
+3. On the  Microsoft Entra ID page, under **Manage**, select **Security**.
 
 4. On the Security page, in the left navigation, select **Identity protection**.
 
@@ -44,16 +38,20 @@ Azure AD multi-factor authentication provides a means to verify who you are usin
 
 **Note**: Azure AD Identity Protection requires Azure AD Premium P2 to be activated. 
 
-1. In the Azure portal, navigate to **Azure AD Identity Protection** in the search bar.
+Now let us enable MFA registration for a single user.
 
 1. Under **Protect** in the menu, select **MFA registration policy**.
 
-1. Under **Assignments**, select **All users** under Users, and select a user to enforce MFA.
+1. Under **Assignments**, select **All users** under Users, and in the Include tab, select **Select individuals and groups**
 
-1. Change **Policy enforcement** from **Off** to **On**.
+1. Now, select the user named **Chris Green** and click on **Select**.
+
+1. Ensure that  **Policy enforcement** is toggled to **Enabled** 
 
 1. Select **Save**.
 
-This will require the user to complete the MFA registration the next time they attempt to login.
+1. This will require the user to complete the MFA registration the next time they attempt to login.
 
 1. From a private browser, navigate to `https://login.microsoftonline.com`. Enter a user name and password from the tenant.  Note the additional security information requirements that the user is asked to enter.
+
+    ![Screenshot showing the complete Add Policy dialog](./media/mfa.png)
