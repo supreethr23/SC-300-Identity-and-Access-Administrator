@@ -45,3 +45,10 @@ Based on your organizational requirements, you can customize the Microsoft Entra
     - Your account is temporarily locked to prevent unauthorized use. Try again later, and if you still have trouble, contact your admin.
 
 1. This can be tested by choosing a user in your Azure AD tenant, navigate in a private browser to <login.microsoftonline.com> and enter an incorrect password until the account gets notification that it is locked out.
+
+## Review
+In this lab, you have completed:
+- Added Smart Lockouts.
+- Understood the functionality of the Smart Lockouts.
+
+### You have successfully completed the lab
