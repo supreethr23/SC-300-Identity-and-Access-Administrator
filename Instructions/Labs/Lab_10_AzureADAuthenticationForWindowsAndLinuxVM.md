@@ -1,42 +1,78 @@
----
-lab:
-    title: '10 - Azure AD Authentication for Windows and Linux Virtual Machines'
-    learning path: '02'
-    module: 'Module 02 - Implement an Authentication and Access Management Solution'
----
-
 # Lab 10 - Azure AD Authentication for Windows and Linux Virtual Machines
-
-**Note** - This lab requires an Azure Pass. Please see lab 00 for directions.
 
 ## Lab scenario
 
-The company has decided that Azure Active Directory should be used to login to virtual machines for remote access.  This lab will show how this can be setup for Windows and Linux virtual machines.
+The company has made the decision to implement Azure Active Directory as the authentication method for accessing virtual machines remotely. This lab will demonstrate the process of configuring this setup for both Windows and Linux virtual machines.
 
-#### Estimated time: 30 minutes
+## Lab objectives
+In this lab, you will complete the following tasks:
 
-### Exercise 1 - Login to Windows Virtual Machines in Azure with Azure AD
++ Exercise 1:
+    + Task 1: Login to Windows Virtual Machines in Azure with Azure AD
+    + Task 2: Azure AD login for existing Azure Virtual Machines
+    + Task 3: Update the Server VM to support the Azure AD login
+    + Task 4: Modify your RDP file to support the Azure AD login
+    + Task 5: Connect to the Windows Server 2022 Datacenter using Azure AD login
+    + Task 6: Optional testing to explore the Azure AD login
 
-#### Task 1 - Create a Windows Virtual Machine with Azure AD login enabled
+## Estimated time: 30 minutes
 
-1. Browse to the [https://portal.azure.com](https://portal.azure.com)
+## Architecture diagram
 
-1. Select **+ Create a resource**.
+## Exercise 1: Login to Windows Virtual Machines in Azure with Azure AD
 
-1. Type **Windows Server** in Search the Marketplace search bar.
+### Task 1: Create a Windows Virtual Machine with Azure AD login enabled
 
-1. Select **Windows Server** and choose **Windows Server 2022 Datacenter** from Select a software plan dropdown.
+1. In the Azure Portal, from the upper left corner select the **menu (1)** icon with three lines as highlighted below and then select **+ Create a resource (2)**.
 
-1. You will have to create an administrator username and password for the VM on the basics tab.
-   - Use a username you will remember and a secure password.
+    ![Create resource](../media/create-resource-1.png)
 
-1. On the **Management** tab, check the box to Login with Azure AD under the Azure AD section.
+1. Type **Windows Server (1)** in Search the Marketplace search bar and then click on the **Windows Server (2)** card.
 
-1. You will notice that the **System assigned managed identity** under the Identity section is auto-matically checked and turned grey. This action should happen automatically once you enable Login with Azure AD.
+    ![Create resource](../media/windows-server-1.png)
 
-1. Go through the rest of the experience of creating a virtual machine. 
+1. Ensure to choose **Windows Server 2022 Datacenter (1)** from Select a software plan dropdown and then click on **Create (2)**
 
-1. Select Create.
+    ![Create resource](../media/windows-server-2.png)
+
+1. On the **Basics** tab of the **Create a virtual machine** page, enter the following details:
+
+      -  **Subscription:** Select the default assigned subscription **(1)**.
+      -  **Resource group:** Select **sc-300-rg** resource group from the drop-down list **(2)**.
+      -  **Virtual machine name:**  Enter **Virtual-Machine-01 (3)**.
+      -  **Region:** Select **<inject key="Region" enableCopy="false" /> (4)**.
+      -  **Image:** Ensure to select **Windows Server 2022 Datacenter - x64 Gen2 (5)**.
+      -  **Size:** Select **Standard_DS1_v2 - 1vcpu, 3.5 GiB memory (6)**.
+      -  **Username:** Enter **<inject key="LabVM Admin Username" enableCopy="true" /> (7)**.
+      -  **Password:** Enter **<inject key="LabVM Admin Password" enableCopy="true" /> (8)**.
+      -  **Confirm password:** Re-enter **<inject key="LabVM Admin Password" enableCopy="true" /> (9)**.
+      -  **Public inbound ports:** Select **Allow selected ports** radio button.
+      -  **Select inbound ports:** Ensure port **RDP (3389) (10)** is selected.
+      -  Click on **Next Disks > (11)**
+  
+    ![Create vm](../media/create-vm-01.png)
+    ![Create vm](../media/create-vm-02.png)
+
+1. On the **Disks** tab of the **Create a virtual machine** page, enter the following details:
+   
+      -  **OS disk size:** Select **Image default (127 GiB) (1)**
+      -  **OS disk type:** Select **Standard SSD (locally-redundant storage) (2)**.
+
+    ![Create vm](../media/create-vm-03.png)
+
+1. On the **Management** tab, check the box - **Login with Azure AD (2)** under the Azure AD section and then click on **Review + create (2)**.
+   >**Note:** Notice that the **System assigned managed identity** under the Identity section is auto-matically checked and turned grey. This action should happen automatically once you enable Login with Azure AD.
+
+    ![Create vm](../media/create-vm-04.png)
+
+1. On the **Review + create** tab, review the virtual machine configurations and then click on the **Create** button to initiate the deployment process.
+   >**Note:** The deployment of the virtual machine can take upto 3 minutes.
+
+    ![Create vm](../media/create-vm-05.png)
+
+1. Once the deployment is successful, click on **Go to resource** to navigate to the overview page of the newly created virtual machine.
+
+    ![Create vm](../media/create-vm-06.png)
 
 #### Task 2 - Azure AD login for existing Azure Virtual Machines
 
@@ -127,7 +163,7 @@ The company has decided that Azure Active Directory should be used to login to v
 
 1. Windows Server should confirm the login and open to the normal Server Manager Dashboard.
 
-#### Task 6 -- Optional testing to explore the Azure AD login
+#### Task 6 - Optional testing to explore the Azure AD login
 
 1. Check to see that JoniS was the only user added to the Administrators group.
 
