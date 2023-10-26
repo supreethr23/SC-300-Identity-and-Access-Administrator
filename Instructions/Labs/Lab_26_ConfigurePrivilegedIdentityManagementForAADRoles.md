@@ -21,7 +21,7 @@ Follow these steps to open the settings for an Azure AD role.
 
 4. On the Quick start page, in the left navigation, select **Settings.**
 
-    ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/lp3-mod3-pim-ad-roles-settings.png)
+    ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/settings12.png)
 
 5. Review the list of roles and then, in the **Search by role name**, enter **compliance**.
 
@@ -35,7 +35,7 @@ If setting multiple approvers, approval completes as soon as one of them approve
 
 1. In the Role setting details page, on the top menu, select **Edit**.
 
-    ![Screen image displaying the top portion of the Role setting details -Compliance Administrator page with Edit highlighted](./media/lp4-mod3-pim-edit-compliance-role.png)
+    ![Screen image displaying the top portion of the Role setting details -Compliance Administrator page with Edit highlighted](./media/role12.png)
 
 2. In the Edit role setting – Compliance Administrator page, select the **Require approval to activate** check box.
 
@@ -43,7 +43,7 @@ If setting multiple approvers, approval completes as soon as one of them approve
 
 4. In the Select a member pane, select your administrator account and then select **Select**.
 
-    ![Screen image displaying the edit role settings page and select a member pane with the selected members highlighted](./media/lp4-mod3-pim-add-approver.png)
+    ![Screen image displaying the edit role settings page and select a member pane with the selected members highlighted](./media/approver12.png)
 
 5. Once you have configured the role settings, select **Update** to save your changes.
 
@@ -65,7 +65,7 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 
 4. On the top menu, select **+ Add assignments.**
 
-    ![Screen image displaying Azure AD roles with Add assignments menu highlighted](./media/lp4-mod3-pim-assign-role.png)
+    ![Screen image displaying Azure AD roles with Add assignments menu highlighted](./media/cotoso12.png)
 
 5. In the Add assignments page, on the **Membership** tab, review the settings.
 
@@ -77,7 +77,7 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 
 9. In the Select a member pane, select **Miriam Graham** and then select **Select**.
 
-    ![Screen image displaying the select a member pane with a selected member highlighted](./media/lp4-mod3-pim-add-role-assignment.png)
+   ![Screen image displaying the select a member pane with a selected member highlighted](./media/graham12.png)
 
 10. In the Add assignments page, select **Next**.
 
@@ -124,13 +124,13 @@ When you need to assume an Azure AD role, you can request activation by opening 
 
 4. In the My roles page, review the list of eligible assignments.
 
-    ![Screen image displaying My roles with eligible role assignments highlighted](./media/lp4-mod3-my-roles.png)
+    ![Screen image displaying My roles with eligible role assignments highlighted](./media/roles123.png)
 
 5. In the Compliance Administrator role row, select **Activate**.
 
 6. In the Activate – Compliance Administrator pane, select **Additional verification required** and then follow the instructions to provide additional security verification. You are required to authenticate only once per session.
 
-    ![Screen image displaying a popup to activate the compliance administrator](./media/lp4-mod3-pim-activate-role.png)
+    ![Screen image displaying a popup to activate the compliance administrator](./media/activate121.png)
 
     >**Verification** - Based on our current lab environment configuration, you will be required configure MFA and log in successfully.
     
@@ -167,7 +167,7 @@ Follow these steps to update or remove an existing role assignment.
 
 2. In **Assignments** list, for Compliance Administrator, review the options in the **Action** column.
 
-    ![Screen image displaying the options listed in the action column of the Compliance Adminsitrator](./media/lp4-mod3-pim-edit-role-assignments.png)
+    ![Screen image displaying the options listed in the action column of the Compliance Adminsitrator](./media/remove121.png)
 
 3. Select **Update** and review the options available in the Membership settings pane. When complete, close the pane.
 
