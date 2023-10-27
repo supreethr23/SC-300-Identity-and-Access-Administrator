@@ -1,10 +1,3 @@
----
-lab:
-    title: '13 - Implement and test a conditional access policy'
-    learning path: '02'
-    module: 'Module 02 - Implement an Authentication and Access Management Solution'
----
-
 # Lab 13 - Implement and test a conditional access policy
 
 ## Lab scenario
@@ -13,163 +6,241 @@ Your organization needs to be able to limit user access to its internal applicat
 
 **Note** - For Conditional Access Policies, you can turn off Security Defaults, the key points to remember are from the training.  Additional information on Security defaults can be found at this link: <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults>
 
-#### Estimated time: 30 minutes
+## Lab objectives
+In this lab, you will complete the following tasks:
 
-### Exercise 1 - Set a conditional access policy to block DebraB from accessing Yammer
++ Exercise 1: Set a conditional access policy to block an user from accessing Office 365
+    + Task 1: Confirm that the user has access to Office 365
+    + Task 2: Create a conditional access policy
+    + Task 3: Test the conditional access policy
++ Exercise 2: Test conditional access policies with "What if"
+    + Task 1: Use What if to test conditional access policies
++ Exercise 3: Configure sign in frequency controls using a conditional access policy
+    + Task 1: Use the Azure Portal to configure conditional access
 
-#### Task 1 -- Confirm DebraB has access to Yammer
+### Estimated time: 30 minutes
 
+## Exercise 1: Set a conditional access policy to block an user from accessing Office 365
+
+### Task 1: Confirm that the user has access to Office 365
 
 1. Launch a new InPrivate browser window.
+
 2. Connect to [https://www.office.com](https://www.office.com) 
-3. When prompted, log in as DebraB:
+
+3. When prompted, log in with the following credentials which are also provided in the Environment details page:
 
    | Setting | Value |
    | :--- | :--- |
-   | Username | **DebraB@** `<<your lab domain>>.onmicrosoft.com` |
-   | Password | Enter the admin password of the tenant(Refer the Lab Resources tab to retrieve the tenant's admin password). |
+   | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
+   | Password | **<inject key="AzureAdUserPassword" enableCopy="true" />** |
     
-4. Select on the Yammer icon to see that it loads correctly.
+5. Ensure that you are able to access the Microsoft Office website via browser.
 
-#### Task 2 -  Create a conditional access policy
+### Task 2: Create a conditional access policy
 
 Azure Active Directory conditional access is an advanced feature of Azure AD that allows you to specify detailed policies that control who can access your resources. Using Conditional Access, you can protect your applications by limiting users' access based on things like groups, device type, location, and role.
 
-1. Browse to [https://portal.azure.com](https://portal.azure.com) and sign in using a Global administrator account for the directory.
+1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
 
-2. Open the portal menu and then select **Azure Active Directory**.
+    ![](./media/ms-entra-id-1.png)
 
-3. On the Azure Active Directory page, under **Manage**, select **Security**.
+2. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Security**.
 
-4. On the Security page, in the left navigation, select **Conditional access**.
+    ![](./media/ms-entra-id-2.png)
 
-5. On the **Overview (Preview)**, click **+Create new policy**.
+3. On the Security page, in the left navigation, select **Conditional Access**.
 
-   ![Screen image displaying the Conditional Access page with New policy highlighted](./media/lp2-mod1-conditional-access-new-policy.png)
+    ![](./media/lab13-ms-entra-id-3.png)
 
-6. In the **Name** box, enter **Block Yammer for DebraB**.
+4. On the **Overview** page, click **+ Create new policy**.
 
-   **Note** - Using this naming to help you quickly recognize the policy and its function.
+    ![](./media/lab13-ms-entra-id-4.png)
 
-7. Under **Assignments**, select **Users or workload identities**.
+5. Within the new policy page, configure the following:
+    - In the **Name** box, enter **Block Office 365 for odl_user <inject key="DeploymentId" enableCopy="false" /> (1)**.
+      
+    >**Note:** Using such naming conventions/formats help you to quickly recognize the policy and its function.
+    
+    - Under **Assignments**, click on **Users (2)**.
+    - Within the **Include** tab, ensure to choose **Select users and groups (3)** radio button.
+    - Select the **Users and groups (4)** checkbox.
+    - Under **Select**, click on **0 users and groups selected (5)** to add the new user who would be alligned to this conditional access policy.
+    - In the Select pane, select **ODL_user <inject key="DeploymentId" enableCopy="false" /> (6)** account and then click on **Select (7)**.
 
-8. On the Include tab, select the **Users and groups** check box.
+    ![](./media/lab13-ms-entra-id-5.png)
+    ![](./media/lab13-ms-entra-id-6.png)
 
-9. In the Select pane, select **DebraB** account and then select **Select**.
+6. In order to block a specific app from the user, execute the following configurations while creating the conditional access policy:
+    - Under the **Target resources** section, click on **No target resources selected (1)**.
+    - Ensure to have **Cloud apps (2)** option selected from the dropdown list.
+    - Within the **Include** tab, choose the **Select apps (3)** radio button.
+    - Click on **Select (4)** which opens the Select pane.
+    - In the Select pane, search for and select **Office 365 (5)** and then click on **Select (6)**.
 
-10. Select **Cloud apps or actions**.
+    ![](./media/lab13-ms-entra-id-7.png)
 
-11. Verify **Cloud apps** is selected and then select **Select apps**.
+7. To provide control access enforcement to block or grant access, perform the following:
+    - Under **Access controls**, select **0 controls selected (1)**.
+    - In the Grant pane, select **Block access (2)** and then click on **Select (3)**.
 
-12. In the Select pane, search for **Yammer** and select **Office 365 Yammer** and then select **Select**.
+    ![](./media/lab13-ms-entra-id-8.png)
 
-13. Under **Access controls**, select **Grant**.
+    >**Note:** This policy is configured solely for the purpose of demonstration in an exercise, intended to quickly showcase a conditional access policy.
 
-14. In the Grant pane, select **Block access** and then select **Select**.
+8. Under **Enable policy**, select **On (1)**, and then select **Create (2)**.
 
-   **Note** - This policy is being configure for the exercise only and is being used to quickly demonstrate a conditional access policy.
+    ![](./media/lab13-ms-entra-id-9.png)
 
-15. Under **Enable policy**, select **On**, and then select **Create**.
+>**Note:** There may be scenarios in which you may be produced with an error message stating that the Security defaults must be disabled to enable conditional access policy. In such cases, the account being provided may have the security defaults set to enabled for MFA functionality. It is recommended to disable the security default before proceeding with this lab. Follow the below instructions:
+    - Click on the **disable security defaults** from the warning that displays as shown in the below screenshot.
+    ![](./media/lab13-ms-entra-id-10.png)
+    - Within the Security defaults page, ensure that the option - **Disabled (1)** is selected.
+    - Select a reason for disabling - **Too many sign-in multifactor authentication challenges (2)**
+    - Click on **Save (3)**
 
-   ![Screen image displaying a new conditional access policy with policy settings highlighted](./media/lp2-mod3-create-conditional-access-policy.png)
+   ![](./media/lab13-ms-entra-id-11.png)
 
-#### Task 3 - Test the conditional access policy
+### Task 3: Test the conditional access policy
 
 You should test your conditional access policies to ensure they working as expected.
 
-1. Open a new 'Inprivate' browser tab and then browse to [https://www.yammer.com/office365](https://www.yammer.com/office365).
+1. Open a new 'Inprivate' browser tab and then browse to [https://www.office.com](https://www.office.com).
     - When prompted, log in as DebraB:
 
    | Setting | Value |
    | :--- | :--- |
-   | Username | **DebraB@** `<<your lab domain>>.onmicrosoft.com` |
-   | Password | Enter the admin password of the tenant(Refer the Lab Resources tab to retrieve the tenant's admin password). |
+   | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
+   | Password | **<inject key="AzureAdUserPassword" enableCopy="true" />** |
      
-2. Verify you are prevented from successfully access Microsoft Yammer.
+2. Verify you are prevented from successfully access Microsoft Office 365.
 
-   ![Screen image displaying a the blocked resource access due to an enabled conditional access policy](./media/lp2-mod3-test-conditional-access-policy.png)
+   ![](./media/lab13-ms-entra-id-12.png)
 
 3. If you are signed in, close the tab, wait 1 minute, and then retry.
     
-   **Note** - If your are auto-logged into Yammer as DebraB, then you will need to manually log out.  You credentials / access were cached.  Once you log out and sign-in, your Yammer session should deny access.
+   **Note** - If your are auto-logged into Office 365 as the user, then you will need to manually log out. Your credentials/access were cached. Once you log out and sign-in, your Office 365 should deny access.
 
-4. Close the tab and return to the Conditional Access page.
+4. Close the tab and return to the Conditional Access page that displays the list of available policies.
 
-5. Select the **Yammer conditional access** policy.
+   ![](./media/lab13-ms-entra-id-13.png)
+
+5. Select the Office 365 conditional access policy that was just created.
 
 6. Under **Enable policy**, select **Off** and then select **Save**.
 
-### Exercise 2 - Test conditional access policies with "What if"
+   ![](./media/lab13-ms-entra-id-14.png)
 
-#### Task - Use What if to test conditional access policies
+## Exercise 2: Test conditional access policies with "What if"
 
-1. Open the portal menu and then select **Azure Active Directory**.
+### Task 1: Use What if to test conditional access policies
 
-1. On the Azure Active Directory page, under **Manage**, select **Security**.
+1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
 
-1. On the Security page, in the left navigation, select **Conditional access**.
+    ![](./media/ms-entra-id-1.png)
 
-1. In the navigation pane, select **Policies**.
+2. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Security**.
 
-1. Select **What If**.
+    ![](./media/ms-entra-id-2.png)
 
-1. Under **User or Workload identity**, select **No user or service principal selected**.
+3. On the Security page, in the left navigation, select **Conditional Access**.
 
-1. Choose **DebraB** as the user.
+    ![](./media/lab13-ms-entra-id-3.png)
 
-1. Under **Cloud apps, actions, or authentication context**, select **Yammer**. 
+4. In the navigation pane, select **Policies (1)** and then click on **What if (2)**.
 
-1. Select **What if**. You will be provided with a report at the bottom of the tile for **Policies that will apply** and **Policies that will not apply**.
+    ![](./media/lab13-ms-entra-id-15.png)
 
-This allows you to test the policies and their affectiveness before enabling the policies.
+5. To test conditional access policy with What if, perform the following:
+    - Under **User or Workload identity**, select **No user or service principal selected (1)**.
+    - **Select identity type**: User **(2)**
+    - **Select**: User **(3)**
+    - Click on **No user selected (4)**
 
-### Exercise 3 - Configure sign in frequency controls using a conditional access policy
+    ![](./media/lab13-ms-entra-id-16.png)
 
-#### Task - Use the Azure Portal to configure conditional access
+6. Within the Users page, choose **ODL_User <inject key="DeploymentID" enableCopy="false" /> (1)** as the user and then click on **Select (2)**
 
-As part of your company's larger security configuration, you must test a conditional access policy that can be used to control sign in frequency
+    ![](./media/lab13-ms-entra-id-17.png)
 
-1. Browse to [https://portal.azure.com](https://portal.azure.com) and sign in using a Global administrator account for the directory.
+7. To select the target resource, 
+    - Select **Cloud apps, actions, or authentication context (1)**.
+    - Select **Cloud apps (2)** from the dropdown list.
+    - Ensure to select the **Select apps (3)** radio button.
+    - Click on **Select (4)** which opens the Select pane.
+    - In the Select pane, search for and select **Office 365 (5)** and then click on **Select (6)**
 
-2. Open the portal menu and then select **Azure Active Directory**.
+    ![](./media/lab13-ms-entra-id-18.png)
 
-3. On the Azure Active Directory page, under **Manage**, select **Security**.
+8. Select **What if** present at the bottom of the page. You will be provided with a report at the bottom of the tile for **Policies that will apply** and **Policies that will not apply**.
 
-4. On the Security page, in the left navigation, select **Conditional access**.
+    ![](./media/lab13-ms-entra-id-19.png)
 
-5. On the top menu, select **+ New policy** from the drop-down select **Create a new policy**.
+    >**Note:** This allows you to test the policies and their affectiveness before enabling the policies.
 
-   ![Screen image displaying the Conditional Access page with New policy highlighted](./media/lp2-mod1-conditional-access-new-policy.png)
+## Exercise 3: Configure sign in frequency controls using a conditional access policy
 
-6. In the **Name** box, enter **Sign in frequency**.
+### Task 1: Use the Azure Portal to configure conditional access
 
-7. Under **Assignments**, select **Users or workload identities**.
+As part of your company's larger security configuration, you must test a conditional access policy that can be used to control sign in frequency.
 
-8. On the Include tab, select the **Users and groups** check box.
+1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
 
-9. In the Select pane, select your **Grady Archie** account and then select **Select**.
+    ![](./media/ms-entra-id-1.png)
 
-10. Select **Cloud apps or actions**.
+2. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Security**.
 
-11. Verify **Cloud apps** is selected and then select **Select apps**.
+    ![](./media/ms-entra-id-2.png)
 
-12. In the Select pane, select **Office 365** and then select **Select**.
+3. On the Security page, in the left navigation, select **Conditional Access**.
 
-13. Under **Access controls**, select **Session**.
+    ![](./media/lab13-ms-entra-id-3.png)
 
-14. In the Session pane, select **Sign-in frequency**.
+5. On the **Overview** page, click **+ Create new policy**.
 
-15. In the value box, enter **30**.
+    ![](./media/lab13-ms-entra-id-4.png)
 
-16. Select the units menu, select **Days**, and then select **Select**.
+6. Within the new policy page, configure the following:
+    - In the **Name** box, enter **Sign in frequency (1)**.    
+    - Under **Assignments**, click on **Users (2)**.
+    - Within the **Include** tab, ensure to choose **Select users and groups (3)** radio button.
+    - Select the **Users and groups (4)** checkbox.
+    - Under **Select**, click on **0 users and groups selected (5)** to add the new user who would be alligned to this conditional access policy.
+    - In the Select pane, select **ODL_user <inject key="DeploymentId" enableCopy="false" /> (6)** account and then click on **Select (7)**.
 
-17. Under **Enable policy**, select **Report-only**, and then select **Create**.
+    ![](./media/lab13-ms-entra-id-21.png)
+    ![](./media/lab13-ms-entra-id-22.png)
 
-   ![Screen image displaying a new conditional access policy with policy settings highlighted](./media/lp2-mod3-create-session-conditional-access-policy.png)
+7. In order to implement sign in reauthentication frequency to a specific app for the user, execute the following configurations while creating the conditional access policy:
+    - Under the **Target resources** section, click on **No target resources selected (1)**.
+    - Ensure to have **Cloud apps (2)** option selected from the dropdown list.
+    - Within the **Include** tab, choose the **Select apps (3)** radio button.
+    - Click on **Select (4)** which opens the Select pane.
+    - In the Select pane, search for and select **Office 365 (5)** and then click on **Select (6)**.
 
-   **NOTE** - Report-only mode is a new Conditional Access policy state that allows administrators to evaluate the impact of Conditional Access policies before enabling them in their environment. With the release of report-only mode:
-    
-- Conditional Access policies can be enabled in report-only mode.
-- During sign-in, policies in report-only mode are evaluated but not enforced.
-- Results are logged in the Conditional Access and Report-only tabs of the Sign-in log details.
-- Customers with an Azure Monitor subscription can monitor the impact of their Conditional Access policies using the Conditional Access insights workbook.
+    ![](./media/lab13-ms-entra-id-7.png)
+
+8. To set control access based on session controls to enable limited experiences within specific cloud applications, perform the following:
+    - Under **Access controls**, select **Session (1)**.
+    - In the Session pane, select the **Sign-in frequency (2)** checkbox.
+    - In the value box, enter **30 (3)**.
+    - Select the units menu, choose **Days (4)**.
+    - Click on **Select (5)**
+    - Under **Enable policy**, select **Report-only (6)**
+    - Click on **Create (7)** to create the sign in frequency conditional access policy.
+  
+    ![](./media/lab13-ms-entra-id-20.png)
+
+   >**Note:** Report-only mode is a new Conditional Access policy state that allows administrators to evaluate the impact of Conditional Access policies before enabling them in their environment. With the release of report-only mode:
+    - Conditional Access policies can be enabled in report-only mode.
+    - During sign-in, policies in report-only mode are evaluated but not enforced.
+    - Results are logged in the Conditional Access and Report-only tabs of the Sign-in log details.
+    - Customers with an Azure Monitor subscription can monitor the impact of their Conditional Access policies using the Conditional Access insights workbook.
+
+## Review
+In this lab, you have completed:
+- Set a conditional access policy to block an user from accessing Office 365
+- Use What if to test conditional access policies
+- Configure sign in frequency controls using a conditional access policy
+
+### You have successfully completed the lab

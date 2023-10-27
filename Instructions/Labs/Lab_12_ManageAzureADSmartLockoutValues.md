@@ -1,43 +1,56 @@
----
-lab:
-    title: '12 - Manage Azure AD smart lockout values'
-    learning path: '02'
-    module: 'Module 02 - Implement an Authentication and Access Management Solution'
----
-
-# Lab 12 - Manage Azure AD smart lockout values
+# Lab 12 - Manage Microsoft Entra ID smart lockout values
 
 ## Lab scenario
 
 You must configure the additional password protection settings for your organization.
 
-#### Estimated time: 5 minutes
+## Lab objectives
+In this lab, you will complete the following tasks:
 
-### Exercise 1 - Manage Azure AD smart lockout values
++ Task 1: Add Smart Lockouts
 
-#### Task - Add Smart Lockouts
+### Estimated time: 5 minutes
 
-Based on your organizational requirements, you can customize the Azure AD smart lockout values. Customization of the smart lockout settings, with values specific to your organization, requires Azure AD Premium P1 or higher licenses for your users.
+## Architecture diagram
 
-1. Browse to [https://portal.azure.com](https://portal.azure.com) and sign in using a Global administrator account for the directory.
+## Exercise 1: Manage Microsoft Entra ID smart lockout values
 
-2. Open the portal menu and then select **Azure Active Directory**.
+### Task 1: Add Smart Lockouts
 
-3. On the Azure Active Directory page, under **Manage**, select **Security**.
+Based on your organizational requirements, you can customize the Microsoft Entra ID smart lockout values. Customization of the smart lockout settings, with values specific to your organization, requires Microsoft Entra ID Premium P1 or higher licenses for your users. For the ease of lab accessibility, this laboratory scenario is provided with an active Microsoft Entra ID P1 license.
 
-4. On the Security page, in the left navigation, select **Authentication methods**.
+1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
 
-5. In the left navigation, select **Password protection**.
+    ![](./media/ms-entra-id-1.png)
 
-    ![Screen image displaying the Authentication methods page and the highlighted selections to browse to Password authentication](./media/lp2-mod3-browse-to-password-protection.png)
+1. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Security**.
 
-6. In the Password protection settings, in the **Lockout duration in seconds** box, set the value to **120**.
+    ![](./media/ms-entra-id-2.png)
 
-7. Next to **Mode**, select **Enforced**.
+1. On the Security page, in the left navigation, select **Authentication methods**.
 
-8. Save your changes.
+    ![](./media/ms-entra-id-3.png)
 
-    **NOTE** - When the smart lockout threshold is triggered, you will get the following message while the account is locked:
+1. On the **Authentication methods** page, within the left navigation, select **Password protection**.
+
+    ![](./media/ms-entra-id-4.png)
+
+1. In the Password protection settings, configure the following:
+   - In the **Lockout duration in seconds** box, set the value to **120 (1)**.
+   - **Enforce custom list:** Ensure that it has been toggled to **Yes (2)**.
+   - **Mode:** Select **Enforced (3)**
+   - Save your changes **(4)**.
+
+    ![](./media/ms-entra-id-5.png)
+
+   >**Note:** When the smart lockout threshold is triggered, you will get the following message while the account is locked:
     - Your account is temporarily locked to prevent unauthorized use. Try again later, and if you still have trouble, contact your admin.
 
-9. This can be tested by choosing a user in your Azure AD tenant, navigate in a private browser to <login.microsoftonline.com> and enter an incorrect password until the account gets notification that it is locked out.
+1. This can be tested by choosing a user in your Azure AD tenant, navigate in a private browser to <login.microsoftonline.com> and enter an incorrect password until the account gets notification that it is locked out.
+
+## Review
+In this lab, you have completed:
+- Added Smart Lockouts.
+- Understood the functionality of the Smart Lockouts.
+
+### You have successfully completed the lab
