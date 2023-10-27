@@ -1,21 +1,21 @@
----
-lab:
-    title: '20 - Implement access management for apps'
-    learning path: '03'
-    module: 'Module 03 - Implement Access Management for Apps'
----
-
 # Lab 20 - Implement access management for apps
 
 ## Lab scenario
 
 Your organization requires that only specific users or groups have access to enterprise applications. You must assign a user to a specific application.
 
-#### Estimated time: 5 minutes
+## Lab objectives
+In this lab, you will complete the following tasks:
 
-### Exercise 1 - Configure an Enterprise App
++ Exercise 1: Configure an Enterprise App
+    + Task 1: Add an app to your Azure AD tenant
+    + Task 2: Assign users to an app
 
-#### Task 1 - Add an app to your Azure AD tenant
+### Estimated time: 5 minutes
+
+## Exercise 1: Configure an Enterprise App
+
+### Task 1: Add an app to your Azure AD tenant
 
 1. Sign in to the [https://portal.azure.com](https://portal.azure.com) using a Global administrator account.
 
@@ -35,9 +35,11 @@ Your organization requires that only specific users or groups have access to ent
 
 7. In the **GitHub Enterprise Cloud – Enterprise Account**, review the settings and then select **Create**.
 
+    >**Note:** The Enterprise Application creation may take upto 2 minutes. Please wait till the deployment is successful.
+
 8. Once created, you will be redirected to the GitHub Enterprise Cloud – Enterprise Account page.
 
-#### Task 2 - Assign users to an app
+### Task 2: Assign users to an app
 
 1. On the GitHub Enterprise Cloud – Enterprise Account page, on the Overview page, under **Getting Started**, select **1. Assign users and groups**.
 
