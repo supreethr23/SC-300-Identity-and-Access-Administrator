@@ -5,6 +5,12 @@
 
 As an additional layer of security, you need to enable and configure your Azure AD organization's sign in and user risk policies.
 
+## Lab Objectives
+
+After completing this lab, you will be able to:
+- Configure the policy
+- Enable Sign-in risk policy
+
 #### Estimated time: 10 minutes
 
 ### Exercise 1 - Enable User risk policy
@@ -58,3 +64,12 @@ As an additional layer of security, you need to enable and configure your Azure 
 6. Select the **Require multi-factor authentication** check box and then select **Done**.
 
 7. Under **Policy enforcement**,  toggle to  **Enabled** and then select **Save**.
+
+## Review
+
+In this lab you have completed the following tasks:
+
+- Configured the policy
+- Enabled Sign-in risk policy
+
+## You have successfully completed the lab
