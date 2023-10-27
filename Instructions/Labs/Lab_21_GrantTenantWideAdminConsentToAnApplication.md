@@ -4,6 +4,11 @@
 
 For applications your organization has developed or for those that are registered directly in your Azure AD tenant, you can grant tenant-wide admin consent from App registrations in the Azure portal.
 
+## Lab Objectives
+After completing this lab, you will be able to:
+- Perform App registration
+- Grant admin consent in Enterprise apps
+
 #### Estimated time: 15 minutes
 
 ### Exercise 1 - Admin Consent
@@ -66,3 +71,11 @@ You can grant tenant-wide admin consent through Enterprise applications if the a
 4. When prompted, sign in using your Global Administrator account.
 
 5. In the **Permissions requested** dialog box, review the information and then select **Accept**.
+
+## Review
+
+In this lab you have completed the following tasks:
+- Performed App registration
+- Granted admin consent in Enterprise apps
+
+## You have successfully completed the lab
