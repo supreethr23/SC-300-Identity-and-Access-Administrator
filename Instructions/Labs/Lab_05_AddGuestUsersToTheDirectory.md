@@ -5,6 +5,12 @@
 
 Your company works with many vendors and, on occasion, you need to add some vendor accounts to your directory as a guest.
 
+## Lab Objectives
+
+After completing this lab, you will be able to:
+- Add guest users to the directory
+- Invite guest users in bulk
+
 #### Estimated time: 20 minutes
 
 ### Exercise 1 - Add guest users to the directory
@@ -114,3 +120,11 @@ A recent partnership has been established with another company. For now, employe
     ```
 
 You now know how to invite users within the Azure AD portal, Microsoft 365 Admin center, Bulk invitations with a csv file, and inviting users with PowerShell commands.
+
+## Review
+
+In this lab you have completed the following tasks:
+- Added guest users to the directory
+- Invited guest users in bulk
+
+## You have successfully completed the lab
