@@ -7,7 +7,7 @@ You need to identify and update the different properties associated with your te
 
 ## Lab Objectives
 
-In this lab, you will be performing the following tasks:
+After completing this lab, you will be able to:
 
 - Create a custom subdomains
 - Change the tenant display name
