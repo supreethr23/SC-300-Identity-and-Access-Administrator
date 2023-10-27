@@ -94,7 +94,7 @@ Azure Active Directory conditional access is an advanced feature of Azure AD tha
 
 >**Note:** There may be scenarios in which you may be produced with an error message stating that the Security defaults must be disabled to enable conditional access policy. In such cases, the account being provided may have the security defaults set to enabled for MFA functionality. It is recommended to disable the security default before proceeding with this lab. Follow the below instructions:
     - Click on the **disable security defaults** from the warning that displays as shown in the below screenshot.
-         ![](./media/lab13-ms-entra-id-10.png)
+    ![](./media/lab13-ms-entra-id-10.png)
     - Within the Security defaults page, ensure that the option - **Disabled (1)** is selected.
     - Select a reason for disabling - **Too many sign-in multifactor authentication challenges (2)**
     - Click on **Save (3)**
@@ -218,7 +218,7 @@ As part of your company's larger security configuration, you must test a conditi
     - Click on **Select (4)** which opens the Select pane.
     - In the Select pane, search for and select **Office 365 (5)** and then click on **Select (6)**.
 
-    ![](./media/lab13-ms-entra-id-23.png)
+    ![](./media/lab13-ms-entra-id-7.png)
 
 8. To set control access based on session controls to enable limited experiences within specific cloud applications, perform the following:
     - Under **Access controls**, select **Session (1)**.
