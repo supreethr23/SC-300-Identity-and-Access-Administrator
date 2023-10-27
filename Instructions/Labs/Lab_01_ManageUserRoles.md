@@ -25,9 +25,7 @@ After completing this lab, you will be able to:
 
 #### Task 1 - Add a new user
 
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a Global administrator
-
-2. Search for and then select **Microsoft Entra ID**.
+2. In the Azure portal,search for and  select **Microsoft Entra ID**.
 
 3. In the left navigation menu, under **Manage**, select **Users**, then select **+ New User** and **Create new user**.
 
@@ -45,6 +43,8 @@ After completing this lab, you will be able to:
 6. Copy the generated password to a location you can remember it for the next task.
 
    >**Note:** You will have to change the password upon first login to this account
+   
+   >**Note:** Copy the username Of Chris Green in order to login in the next task
 
 7. Click on **Review + Create** and subsequently click on **Create**. The user is now created and registered to your organization.
 
@@ -58,6 +58,7 @@ After completing this lab, you will be able to:
     | User name| ChrisG@`your domain name.com`|
     | Password| Enter the auto-generated password from previous task. |
 
+
 3. Update your password.
 
     | **Setting**| **Value**|
@@ -66,9 +67,11 @@ After completing this lab, you will be able to:
     | New Password| Enter a unique and secure password |
     | Confirm Password| Reenter a unique and secure password |
 
+    >**Note:** If you get a prompt to Enable MFA you can choose **Ask Later**.
+
 4. If you see a **Welcome to Microsoft Azure** tour dialog, Select the **Maybe Later** button.
 
-5. Search on and select **Enterprise applications** in the search dialog at the top of the screen.
+5. Search for and select **Enterprise applications** in the search dialog at the top of the screen.
 7. Select on **+ New application**. Notice that **+ Create your own application** is unavailable.
 
 9. Try Selecting on some of the other settings like **Application Proxy**, **User settings**, and others to see the **Chris Green** does not have rights.
@@ -84,7 +87,7 @@ Using Azure Active Directory (Azure AD), you can designate limited administrator
 1. If you are not already logged in as a Global Administrator role, open the Azure Portal and log in.
 2. Navigate to Microsoft Entra ID  page.
 3. Select on **Users** under the Manage section of the menu.
-4. Select on **Chris Green** account.
+4. Select **Chris Green's** account.
 5. Choose **Assigned roles** from the Manage menu.(1)
 6. Select **+ Add assignments** (2)and mark the `Application administrator` role.(3)
 7. Select **Add**(4)
@@ -93,9 +96,9 @@ Using Azure Active Directory (Azure AD), you can designate limited administrator
 
    >**Note** - If the lab environment has already activated Azure AD Premium P2, Privileged Identity Management (PIM) will be enabled and you wll need to select **Next** and assign a Permanent role to this user.
 
-8.Select the **Refesh** button.
+8. Select the **Refesh** button.
 
-**Note - The newly assigned Application administrator role appears on the user’s Assigned roles page.**
+9. The newly assigned Application administrator role appears on the user’s Assigned roles page.**
 
 #### Task 2 - Check application permissions
 
@@ -109,10 +112,9 @@ Using Azure Active Directory (Azure AD), you can designate limited administrator
 
 3. If you see a **Welcome to Microsoft Azure** tour dialog, Select the **Maybe Later** button.
 4. Search on and select **Enterprise applications** in the search dialog at the top of the screen.
-5. Notice that **+ New Application** is available now.
-6. Select **+ New Application**
+5. Click on  **+ New Application**.Notice that **+ Create your own application** is available now.
 
-   >**Note - This role now has the ability to add applications to the tenant.  We will experiment more with this feature in later labs.**
+   >**Note:** This role now has the ability to add applications to the tenant.  We will experiment more with this feature in later labs.
 
 7. Sign out of the Chris Green instance of the Azure Portal and close the browser.
 
@@ -125,44 +127,49 @@ This task will use an alternative method to remove the assigned role; it will us
 1. If you are not already logged in as your Global Admin, launch the Azure Portal and log in now.
 2. In the search box type **Microsoft Entra ID** and launch Microsoft Entra ID.
 3. In **Microsoft Entra ID**, select **Roles and administrators**, and then select the **Application administrator** role from the list.
-
->**Note** - If the lab environment has already activated Azure AD Premium P2, Privileged Identity Management (PIM) will be enabled and you wll need to select **Next** and assign a Permanent role to this user.
-
 4. On the **Application administrator | Assignments** page you should see Chris Green's name listed.
 5. Put a check in the box next to Chris Green.
 6. Select **X Remove assignments** from the options at the top of the dialog.
 7. Answer **Yes** when the confirmation box opens.
-8. Close Azure Active Directory.
+8. Close Microsoft Entra ID.
 
 ### Exercise 4 - Bulk import of users
 
 #### Task 1 - Bulk operations for creating users with a .csv file
 
-1. In your Lab Vm  navigate to **C:\AllFiles\AllFiles.zip\SC-300-Identity-and-Access-Administrator-prod\Allfiles\Labs\Lab1** and open the SC-300 excel file and modify the domain names for all the users.
+1. In your Lab Vm  navigate to **C:\AllFiles\AllFiles.zip\SC-300-Identity-and-Access-Administrator-prod\Allfiles\Labs\Lab1** and open the **SC-300BulkUser** excel file and modify the domain names for all the users.
 
-   >**Note:** You do not need to fill out all the field.  As per the sample data provide, you mainly need to add the name and username information.
-
+   >**Note:** Sign in with the ODL user credentials present in the Environment Details page in order to be able to edit the excel sheet.
+      
 2. The .csv template provides you with the fields included with the user profile. This includes the required username, display name, and initial password. You can also complete optional fields, such as Department and Usage location, at this time. The following screenshot is an example of how you can complete the .csvfile: 
 
-    ![Bulk import using csv file entry](./media/bulkimportexample.png)
+    ![Bulk import using csv file entry](./media/bulk121.png)
 
-3. In the Microsoft Entra ID menu, select **Users** under **Manage**.
+      >**Note:** You do not need to fill out all the fields. As per the sample data provided, you mainly need to add the username information. Be careful not to leave any extra white spaces in the Excel sheet else Bulk creation will fail.
+       
+      >**Note:** You can copy the domain name for all the users in the Azure portal from the Overview page, copy the primary domain name, and replace **<<<enter your domain name>>>** with primary domain name for all the users.
 
-4. On the **Users | All users** tile, select the **Bulk operations** drop-down arrow and then **Bulk create**.
+3. Once you are done with replacing the domain names, save the file as **BulkUser** in the **Downloads** section and close the file.
+
+4. In the Microsoft Entra ID menu, select **Users** under **Manage**.
+
+5. On the **Users | All users** tile, select the **Bulk operations** drop-down arrow and then **Bulk create**.
 
    ![Bulk import using csv file entry](./media/bulkcreate.png)
 
-5. Selecting **Bulk create** will open a new tile. From the upload button browse to **C:\AllFiles\AllFiles.zip\SC-300-Identity-and-Access-Administrator-prod\Allfiles\Labs\Lab1** and select **Open**.
+6. Selecting **Bulk create** will open a new tile. From the upload button browse to **Downloads** section and choose the file named as **BulkUser** and select **Open**.
 
-6. You will be notified that the file uploaded successfully.  Choose **Submit** to add the users. 
+7. You will be notified that the file has been uploaded successfully. Choose **Submit** to add the users. 
 
-7. After the users have been created, you will be prompted that the creation has succeeded.  Close the Bulk create users tile and the new users will be populated in the list of **Users | All users**. 
+8. After the users have been created, you will be prompted that the creation has succeeded.  Close the Bulk create users tile and the new users will be populated in the list of **Users | All users**.
+
+   ![Bulk import using csv file entry](./media/newcruser.png)
 
 #### Task 2 - Bulk addition of users using PowerShell
 
 1. Open PowerShell as an administrator.  This can be done by searching for PowerShell in Windows and choosing Run as administrator. 
 
-**Note** - Select PowerShell and not PowerShell ISE.
+   >**Note** - Select PowerShell and not PowerShell ISE.
 
 2. You will need to add and import the Azure AD PowerShell module if you have not used it before.  Run the following two commands and when prompted to confirm press Y:
 
@@ -207,13 +214,12 @@ This task will use an alternative method to remove the assigned role; it will us
     New-AzureADUser -DisplayName "New User" -PasswordProfile $PasswordProfile -UserPrincipalName "NewUser@labtenantname.com" -AccountEnabled $true -MailNickName "Newuser"
     ```
 
->**Note** - Replace **labtenantname.com** with the **onmicrosoft.com** name assigned by the lab tenant.
+    >**Note** - Replace **labtenantname.com** with the **onmicrosoft.com** name assigned by the lab tenant.
 
 ## Experiment with managing users
 
 You can add and remove users with the Azure AD page.  However, users can be created and roles can be assigned using the scripting.  Experiment with giving the Chris Green user account a different role using script. 
  
-
 ### Exercise 5 - Remove a user from Microsoft Entra ID
 
 #### Task 1 - Remove a User
@@ -228,7 +234,7 @@ It may happen that an account is deleted and then needs to be recovered. You nee
 
     **Tip** - Selecting users from the list allows you to manage multiple users at the same time. If you select the user, to open that user’s page, you will only be managing that individual user.
 
-    ![Screen image displaying the All users users list with one user check box selected and another check box highlighted indicating the ability to select multiple users from the list.](./media/lp1-mod2-remove-user.png)
+    ![Screen image displaying the All users users list with one user check box selected and another check box highlighted indicating the ability to select multiple users from the list.](./media/users.png)
 
 4. With the user account selected, on the menu, select **Delete**.
 
@@ -261,17 +267,23 @@ Some user accounts in your organization will not be provided all available produ
 
 2. In the left navigation, under **Mange**, select **Users**.
 
-3. In the Users page, enter **Andrew** into the search box.
+3. In the Users page, enter **Andre** into the search box.
 
-4. Select on **Raul Razo**.
+4. Select on **Andre Lawson**.
 
-5. Review Raul's profile and ensure he has a Usage Location set.
+5. Review Andre's profile and ensure he has a Usage Location set.
 
-    **Warning** - To assign a license to a user, the user must assigned a usage location.
+    >**Warning** - To assign a license to a user, the user must assigned a usage location.
 
-6. Select the **Licenses** menu item in the left-hand menu.
+6. To check if Andre has a usage location set, navigate to Andre Lawson's profile and choose **Edit Properties** from the top menu.
 
-7. Ensure that Raul has "No license assignments found."
+7. Navigate to the **Settings** section and enter the location as **United States** and click on **Save**.
+
+   ![Screen image displaying the Update license assignments page and license options highlighted](./media/unitedst.png)
+
+6. Now, back on the Overview page of Microsoft Entra ID, select the **Licenses** menu item in the left-hand menu.
+
+7. Ensure that Andre has "No license assignments found."
 
 8. Browse to [https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
 
@@ -283,15 +295,17 @@ Some user accounts in your organization will not be provided all available produ
 
 12. Select the **+ Assignments** button. 
 
-13. On the Update license assignments page, select the check box for a **Windows 10/11 Enterprise E3** license.
+13. On the Update license assignments page, select the check box for  **Office 365 E5** license.
 
-    ![Screen image displaying the Update license assignments page and license options highlighted](./media/lp1-mod2-assign-user-license-options.png)
+    ![Screen image displaying the Update license assignments page and license options highlighted](./media/office365.png)
 
 14. When complete, select **Save**.
 
-15. At the top of the screen Select **Home**, then select **Contoso**, then select **User**, and select **Raul Razo**.
+15. Now navigate to the user profile of **Andre Lawson**  from the left navigation pane select **Licenses**.
 
 16. Notice that the license has been assigned.
+
+    ![Screen image displaying the Update license assignments page and license options highlighted](./media/e5lic.png)
 
 ## Review
 
