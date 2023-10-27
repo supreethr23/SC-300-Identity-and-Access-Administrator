@@ -5,6 +5,12 @@
 
 You must enable external collaboration settings for your organization for approved guests access.
 
+## Lab scenario
+
+After completing this lab, you will be able to:
+- Enable Guest Users to perform self service sign-up
+- Configure external collaboration settings
+  
 #### Estimated timing: 5 minutes
 
 ### Exercise 1 - Allowing guest users to be invited into your organization
@@ -67,3 +73,11 @@ You must enable external collaboration settings for your organization for approv
     >- The list does not apply to external users who have already redeemed the invitation. The list will be enforced after the list is set up. If a user invitation is in a pending state, and you set a policy that blocks their domain, the user's attempt to redeem the invitation will fail.
 
 12. When finished, **save** your changes.
+
+## Review
+
+In this lab you have completed the following tasks:
+- Enabled Guest Users to perform self service sign-up
+- Configured external collaboration settings
+
+## You have successfully completed the lab
