@@ -1,15 +1,14 @@
----
-lab:
-    title: '24 - Manage the lifecycle of external users in Azure AD Identity Governance settings'
-    learning path: '04'
-    module: 'Module 04 - Plan and Implement and Identity Governance Strategy'
----
-
 # Lab 24: Manage the lifecycle of external users in Azure AD Identity Governance settings  
 
 ## Lab scenario
 
 You can select what happens when an external user, who was invited to your directory through an access package request being approved, no longer has any access package assignments. This can happen if the user relinquishes all their access package assignments, or their last access package assignment expires. By default, when an external user no longer has any access package assignments, they are blocked from signing in to your directory. After 30 days, their guest user account is removed from your directory.
+
+## Lab Objectives
+
+In this lab you will be performing the following tasks:
+
+- Task 1 - Manage the lifecycle of external users in Azure AD Identity Governance settings
 
 #### Estimated time: 5 minutes
 
@@ -27,7 +26,7 @@ You can select what happens when an external user, who was invited to your direc
 
 5. On the top menu, select **Edit**.
 
-    ![Screen image displaying the Identity governance settings page with manage the lifecycle of external users highlighted.](./media/lp4-mod1-manage-lifcycle-of-ext-users.png)
+    ![Screen image displaying the Identity governance settings page with manage the lifecycle of external users highlighted.](./media/setting.png)
 
 6. In the **Manage the lifecycle of external users** section, review the different settings for external users.
 
@@ -42,3 +41,12 @@ You can select what happens when an external user, who was invited to your direc
 10. If you want to remove the guest user account in this directory, you can set the number of days before it is removed. If you want to remove the guest user account as soon as they lose their last assignment to any access packages, set **Number of days before removing external user from this directory** to **0**.
 
 11. If you’ve made any changes, select **Save**.
+
+
+## Review
+
+In this lab, you have performed  the following tasks:
+
+- Manage the lifecycle of external users in Azure AD Identity Governance settings.
+  
+## You have successfully completed the lab
