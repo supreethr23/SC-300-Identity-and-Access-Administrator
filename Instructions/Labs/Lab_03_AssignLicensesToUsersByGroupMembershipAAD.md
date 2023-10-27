@@ -5,6 +5,14 @@
 
 Your organization has decided to use security groups in Azure AD to manage licenses. You need to configure a new security group and assign a license to that group and verify group member license's have been updated.
 
+## Lab Objectives
+
+After completing this lab, you will be able to:
+
+- Create a security group and add a user
+- Create a Microsoft 365 group in Microsoft Entra ID
+- Creating a dynamic group with all users as members
+
 #### Estimated time: 25 minutes
 
 ### Exercise 1 - Create a security group and add a user
@@ -86,7 +94,7 @@ Your organization has decided to use security groups in Azure AD to manage licen
     
 5. Close the browser window. 
 
-### Exercise 2 - Create an Microsoft 365 group in Microsoft Entra ID
+### Exercise 2 - Create a Microsoft 365 group in Microsoft Entra ID
 
 #### Task 1 - Create the group
 
@@ -172,3 +180,12 @@ As your company grows, manually group management is too time consuming. Since st
 2. Try make a group with only **Members** of the Azure AD users.
 
    - (user.objectid -ne null) and (user.userType -eq "Member")
+
+### Review
+
+In this lab you have completed the following tasks:
+- Created a security group and add a user
+- Created a Microsoft 365 group in Microsoft Entra ID
+- Created a dynamic group with all users as members
+
+## You have successfully completed the lab
