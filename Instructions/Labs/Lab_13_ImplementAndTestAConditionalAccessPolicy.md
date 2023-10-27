@@ -35,7 +35,7 @@ In this lab, you will complete the following tasks:
    | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
    | Password | **<inject key="AzureAdUserPassword" enableCopy="true" />** |
     
-5. Ensure that you (having Global Administrator Privilages) are able to access the Microsoft Office website via browser.
+5. Ensure that you are able to access the Microsoft Office website via browser.
 
 ### Task 2: Create a conditional access policy
 
