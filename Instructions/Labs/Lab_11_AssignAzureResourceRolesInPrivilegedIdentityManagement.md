@@ -58,7 +58,7 @@ In this lab, you will complete the following tasks:
 
 1. Under **Select member(s),** select **No member selected**.
 
-1. In the Select **Miriam Graham** from your organization that will be assigned the role. Then chose **Select**.
+1. Select **Miriam Graham** from your organization that will be assigned the role. Then chose **Select**.
 
 1. Select **Next >**.
 
@@ -94,7 +94,7 @@ Follow these steps to update or remove an existing role assignment.
 
 ### Review
 In this lab, you have completed:
-+ Assigned Azure resource roles
-+ Updated or removed an existing resource role assignment
+- Assigned Azure resource roles
+- Updated or removed an existing resource role assignment
 
 ### You have successfully completed the lab
