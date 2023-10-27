@@ -37,7 +37,7 @@ Based on your organizational requirements, you can customize the Microsoft Entra
 
 1. In the Password protection settings, configure the following:
    - In the **Lockout duration in seconds** box, set the value to **120 (1)**.
-   - **Enforce custom list:** Ensure that it has been toggeled to **Yes (2)**.
+   - **Enforce custom list:** Ensure that it has been toggled to **Yes (2)**.
    - **Mode:** Select **Enforced (3)**
    - Save your changes **(4)**.
 
