@@ -5,6 +5,11 @@
 
 A Privileged role administrator can customize Privileged Identity Management (PIM) in their Azure Active Directory (Azure AD) organization, including changing the experience for a user who is activating an eligible role assignment. You must become familiar with configuring PIM.
 
+## Lab Objectives
+After completing this lab, you will be able to:
+- Configure Azure AD role settings
+- Configured PIM with Azure AD roles
+
 #### Estimated time: 30 minutes
 
 ### Exercise 1 - Configure Azure AD role settings
@@ -174,3 +179,10 @@ Follow these steps to update or remove an existing role assignment.
 4. Select **Remove**.
 
 5. In the **Remove** dialog box, review the information and then select **Yes**.
+
+## Review
+In this lab you have completed the following tasks:
+- Configured Azure AD role settings
+- Configured PIM with Azure AD roles
+
+## You have successfully completed the lab
