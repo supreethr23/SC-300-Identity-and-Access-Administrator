@@ -5,6 +5,12 @@
 
 Azure AD multi-factor authentication provides a means to verify who you are using more than just a username and password. It provides a second layer of security to user sign-ins. For users to be able to respond to MFA prompts, they must first register for Azure AD Multi-Factor Authentication. You must configure your Azure AD organization's MFA registration policy to be assigned to all users.
 
+## Lab Objectives
+
+After completing this lab, you will be able to:
+- Complete Policy configuration
+- Configure Azure AD Identity Protection policy for MFA registration
+
 #### Estimated time: 10 minutes
 
 ### Exercise 1 - Set up MFA registration policy
@@ -57,3 +63,12 @@ Now let us enable MFA registration for a single user.
 1. From a private browser, navigate to `https://login.microsoftonline.com`. Enter a user name and password from the tenant.  Note the additional security information requirements that the user is asked to enter.
 
     ![Screenshot showing the complete Add Policy dialog](./media/mfa.png)
+
+## Review
+
+In this lab you have completed the following tasks:
+- Completed Policy configuration
+- Configured Azure AD Identity Protection policy for MFA registration
+
+## You have successfully completed the lab
+
