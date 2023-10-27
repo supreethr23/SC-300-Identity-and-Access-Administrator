@@ -289,7 +289,7 @@ Some user accounts in your organization will not be provided all available produ
 
 9. In the left navigation, under **Manage**, select **Users**
 
-10. In the Users page, select **Raul Razo**.
+10. In the Users page, select **Andre Lawson**.
 
 11. In the left navigation, select **Licenses**.
 
