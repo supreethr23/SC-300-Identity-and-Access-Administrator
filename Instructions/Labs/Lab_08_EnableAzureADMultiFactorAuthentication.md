@@ -5,9 +5,16 @@
 
 To improve security in your organization, you've been directed to enable multi-factor authentication for Azure Active Directory.
 
+## Lab Objectives
+
+After completing this lab, you will be able to:
+
+- Review and enable Multi-factor Authentication in Azure
+- Configure MFA to be required for login
+
 #### Estimated time: 15 minutes
 
-**IMPORTANT** - An Azure AD Premium license is required for this exercise.
+>**IMPORTANT** - An Azure AD Premium license is required for this exercise.
 
 ### Exercise 1 - Review and enable Multi-factor Authentication in Azure
 
@@ -126,3 +133,12 @@ Finally, let's look at how to configure MFA for user accounts. This is another w
 #### Task 2 -- Try logging in as Adele
 
 1. If you want to see another example of MFA login process, you can try to log in a Adele.
+
+## Review
+
+In this lab you have completed the following tasks:
+- Reviewed and enabled Multi-factor Authentication in Azure
+- Configured MFA to be required for login
+
+## You have successfully complete the lab
+
