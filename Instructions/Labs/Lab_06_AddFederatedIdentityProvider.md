@@ -5,6 +5,12 @@
 
 Your company works with many vendors and, on occasion, you need to add some vendor accounts to your directory as a guest and allow them to use their Google account to sign-in.
 
+## Lab Objectives
+
+After completing this lab, you will be able to:
+- Configure identity providers
+- Configure Azure to work with an External identity provider
+
 #### Estimated time: 25 minutes
 
 ### Exercise 1 - Configure identity providers
@@ -166,3 +172,12 @@ This completes the configuration of Google as an identity provider.
 7. Enter the **Google** email address and password that you created if prompted.
 
 8. At this point, you should see your account passed to Google for confirmation; then enter the Microsoft Office portal.
+
+## Review
+
+In this lab you have completed the following tasks:
+- Configured identity providers
+- Configured Azure to work with an External identity provider
+
+## You have successfully completed the lab
+
