@@ -11,7 +11,9 @@ In this lab, you will complete the following tasks:
     + Task 1: Add an app to your Azure AD tenant
     + Task 2: Assign users to an app
 
-### Estimated time: 5 minutes
+### Estimated time: 20 minutes
+
+## Architecture diagram
 
 ## Exercise 1: Configure an Enterprise App
 
@@ -55,3 +57,11 @@ In this lab, you will complete the following tasks:
 
 6. Select **Assign**.
 
+## Review
+
+In this lab, you have completed:
+- Adding an app to your Azure AD tenant
+- Assigning users to an app
+Thus, completes the configuration process of an Enterprise Application.
+
+### You have successfully completed the lab
