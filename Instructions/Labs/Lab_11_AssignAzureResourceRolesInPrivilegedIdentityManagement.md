@@ -94,7 +94,7 @@ Follow these steps to update or remove an existing role assignment.
 
 ### Review
 In this lab, you have completed:
-+ Assigned Azure resource roles
-+ Updated or removed an existing resource role assignment
+- Assigned Azure resource roles
+- Updated or removed an existing resource role assignment
 
 ### You have successfully completed the lab

@@ -138,6 +138,6 @@ Registering your application establishes a trust relationship between your app a
 ### Review
 In this lab, you have completed:
 - Created and test the Conditional Access App Contol policy
-+ Setup alerts in Microsoft Defender for Cloud Apps
+- Setup alerts in Microsoft Defender for Cloud Apps
 
 ### You have successfully completed the lab

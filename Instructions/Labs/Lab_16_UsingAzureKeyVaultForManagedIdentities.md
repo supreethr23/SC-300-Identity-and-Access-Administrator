@@ -88,6 +88,7 @@ In this lab, you will complete the following tasks:
 
 1. Select **Create**.
 
+    >**Note:** Copy the Key Vault URI, and paste it in the notepad.
 
 #### Task 3 - Create a secret
 
@@ -108,6 +109,8 @@ In this lab, you will complete the following tasks:
 
 1. Select **Create** to create the secret.
 
+    >**Note:** Copy the secret name, and paste it in the notepad.
+
 #### Task 4 - Grant access to Key Vault
 
 1. On the **keyvault-<inject key="DeploymentID" enableCopy="false"/> | Secrets**, from the left-hand navigation pane, select **Access policies**.
@@ -124,7 +127,13 @@ In this lab, you will complete the following tasks:
 
 #### Task 5 - Access data with Key Vault secret with PowerShell
 
-1. In the lab virtual machine, in **Type here to search** search and select for **Windows PowerShell**.  
+1. In **Search, resources, services and docs** search and select **Virtual machines**.
+
+1. Select the virtual machine that you created in Task-1, that is **VM-<inject key="DeploymentID" enableCopy="false"/>**.
+
+1. Select **Connect**, under **Most common**, choose **Select**, and select **Download RDP file**. Open the downloaded file, select **Connect**, and enter the VM credentials, that is username which is **azureuser**, and password which is **Password@..!!**, select **OK**. Select **Yes** on the certificate pop-up.
+
+1. In the virtual machine, in **Type here to search** search and select for **Windows PowerShell**.  
 
     ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/powershell.png)
 
@@ -145,10 +154,15 @@ In this lab, you will complete the following tasks:
     ```
     Invoke-RestMethod -Uri https://<your-key-vault-URI>/secrets/<secret-name>?api-version=2016-10-01 -Method GET -Headers @{Authorization="Bearer $KeyVaultToken"}
     ```
+
+    >**Note:** Replace **your-key-vault-URI** to the Key Vault URI that you copied in Task-2, and replace **secret-name** with the secret name that you copied in Task-3.
+
+    >**Important-note:** It will look similar to this:- **Invoke-RestMethod -Uri https://keyvault-1131297.vault.azure.net//secrets/secret-1131297?api-version=2016-10-01 -Method GET -Headers @{Authorization="Bearer $KeyVaultToken"}**
+
 1. You should receive a response that looks like the following: 
-    ```
-    'My Secret' https://mi-lab-vault.vault.azure.net/secrets/mi-test/50644e90b13249b584c44b9f712f2e51 @{enabled=True; created=16…
-    ```
+    
+    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/results.png)
+
 1. This secret can be used to authenticate to services that require a name and password.
 
 ### Review
