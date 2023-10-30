@@ -55,7 +55,7 @@ A recent partnership has been established with another company. For now, employe
 
 3. On the Users page, on the menu, select **Bulk operations > Bulk invite**.
 
-     ![Screen image displaying the All user page with the Bulk operations and Bulk invite menu options highlighted](./media/lp1-mod3-bulk-invite-option1.png)
+     ![Screen image displaying the All user page with the Bulk operations and Bulk invite menu options highlighted](./media/bkinv.png)
 
 4. In the Bulk invite users pane, select **Download** to a sample CSV template with invitation properties.
 
@@ -67,6 +67,9 @@ A recent partnership has been established with another company. For now, employe
     - **Redirection url** - the URL to which the invited user is forwarded after accepting the invitation.
 
     ![Screen image displaying the example bulk invite guests template CSV](./media/lp1-mod3-template-csv1.png)
+
+    >**Note:** Sign in with the ODL user credentials present in the Environment Details page in order to be able to edit the excel sheet.
+    >**Note:** You can use any email address and redirection URL
 
 7. Save the file.
 
@@ -108,21 +111,22 @@ A recent partnership has been established with another company. For now, employe
     Connect-AzureAD
     ```
     
-1. The Microsoft login window will appear for you to login to Azure AD.  
+1. The Microsoft login window will appear for you to login to Microsoft Entra ID.You can find the login credentils from the Environment details page.  
 
 1. To verify that you are connected and to see existing users, run:  
 
     ```
     Get-AzureADUser 
     ```
+    >**Note:** If you get any warnings you can click on **Yes**
 
-1. You are ready to invite a guest user.  The following command will be populated with the user information and run.  If you have more than one user to add, you can use a notepad txt file to add the user information and copy/paste into PowerShell. 
+1. You are ready to invite a guest user.  You can run the following command  with the user information and run.  If you have more than one user to add, you can use a notepad txt file to add the user information and copy/paste into PowerShell. 
 
     ```
     New-AzureADMSInvitation -InvitedUserDisplayName "Display" -InvitedUserEmailAddress name@emaildomain.com -InviteRedirectURL https://myapps.microsoft.com -SendInvitationMessage $true 
     ```
 
-You now know how to invite users within the Azure AD portal, Microsoft 365 Admin center, Bulk invitations with a csv file, and inviting users with PowerShell commands.
+1. You now know how to invite users within the Microsoft Entra ID portal,Bulk invitations with a csv file, and inviting users with PowerShell commands.
 
 ## Review
 
