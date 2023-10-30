@@ -19,43 +19,56 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Add an app to your Azure AD tenant
 
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) using a Global administrator account.
+1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
 
-2. Open the portal menu and then select **Azure Active Directory**.
+    ![](./media/ms-entra-id-1.png)
 
-3. On the Azure Active Directory page, under **Manage**, select **Enterprise applications**.
+2. On the Microsoft Entra ID page, under **Manage**, select **Enterprise applications**.
 
-4. In the Enterprise applications pane, select **+ New application**.
+    ![](./media/enterprise-apps-1.png)
 
-    ![Screen image displaying the Enterprise applications page with New application highlighted](./media/lp3-mod1-new-enterprise-application.png)
+3. In the Enterprise applications pane, select **+ New application**.
 
-5. In the Browse Azure AD Gallery (Preview) page, in the **Search application** box, enter **GitHub**.
+    ![](./media/enterprise-apps-2.png)
 
-    ![Screen image displaying the Browse Azure AD Gallery (Preview) page with the search box highlighted](./media/lp3-mod1-azure-ad-gallery-search.png)
+4. Perform the following steps within Browse Microsoft Entra Gallery page to create a new Enterprise Application:
+    - In the **Search application** box, enter **GitHub (1)**.
+    - From the list of results, select **GitHub Enterprise Cloud – Enterprise Account (2)**.
+    - In the **GitHub Enterprise Cloud – Enterprise Account**, review the settings and then select **Create (3)**.
 
-6. In the results, select **GitHub Enterprise Cloud – Enterprise Account**.
-
-7. In the **GitHub Enterprise Cloud – Enterprise Account**, review the settings and then select **Create**.
+    ![](./media/enterprise-apps-3.png)
 
     >**Note:** The Enterprise Application creation may take upto 2 minutes. Please wait till the deployment is successful.
 
-8. Once created, you will be redirected to the GitHub Enterprise Cloud – Enterprise Account page.
+5. Once created, you will be redirected to the GitHub Enterprise Cloud – Enterprise Account page.
+
+    ![](./media/enterprise-apps-4.png)
 
 ### Task 2: Assign users to an app
 
 1. On the GitHub Enterprise Cloud – Enterprise Account page, on the Overview page, under **Getting Started**, select **1. Assign users and groups**.
 
+    ![](./media/enterprise-apps-4-1.png)
+
 2. Alternatively, in the left navigation, under **Manage**, you can select **Users and groups**.
 
-3. On the Users and groups page, on the menu, select **+Add user/group**.
+    ![](./media/enterprise-apps-4-2.png)
 
-4. On the Add Assignment page, select **Users and groups**.
+3. Within the Users and groups page, on the menu, select **+Add user/group**.
 
-5. In the Users and groups pane, select your administrator account and then select **Select**.
+    ![](./media/enterprise-apps-5.png)
 
-    ![Screen image displaying adding a user account assignment to an app with the Select button highlighted ](./media/lp3-mod1-add-app-assignment.png)
+4. On the Add Assignment page, under **Users**, selct **None selected**.
 
-6. Select **Assign**.
+    ![](./media/enterprise-apps-6.png)
+
+5. In the Users pane, select your administrator account ie, **ODL_User <inject key="DeploymentId" enableCopy="false" /> (1)** and then select **Select (2)**.
+
+    ![](./media/enterprise-apps-7.png)
+
+6. Select **Assign** on the **Add Assignment** page.
+
+    ![](./media/enterprise-apps-8.png)
 
 ## Review
 
