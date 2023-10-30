@@ -68,15 +68,15 @@ After completing this lab, you will be able to:
 
 #### Task 2 - Review the Country or region and other values associated with your tenant
 
-1. In the **Azure Active Directory** page, in the Manage section, select **Properties**.
+1. In the **Microsoft Entra ID** page, in the Manage section, select **Properties**.
 
 2. Under **Tenant properties**, locate **Country or region** and review the information.
 
     **IMPORTANT** - When the tenant is created, the Country or region are specified at that time. This setting cannot be changed later.
 
-3. In the **Properties** page, under **Tenant properties**, locate **Location** and review the information.
+3. In the **Properties** page, locate **Location** and review the information.
 
-   ![B2B Collaboration Review permissions box with message](./media/contoso11.png)
+   ![B2B Collaboration Review permissions box with message](./media/SC-300-marketing.png)
 
 #### Task 3 - Finding the tenant ID
 
@@ -84,9 +84,9 @@ Azure subscriptions have a trust relationship with Azure Active Directory (Azure
 
 1. In the **Microsoft Entra ID** page, in the Manage section, select **Properties**.
 
-2. Under **Tenant properties**, locate **Tenant ID**. This is your unique tenant identifier.
+2. Locate **Tenant ID**. This is your unique tenant identifier.
 
-   ![Screen image displaying the Tenant properties page with the Tenant ID box highlighted](./media/marketing.png)
+   ![Screen image displaying the Tenant properties page with the Tenant ID box highlighted](./media/TenantID.png)
 
 ### Exercise 3 - Setting your privacy information
 
@@ -98,17 +98,15 @@ Microsoft strongly recommends you add both your global privacy contact and your 
 
 You add your organization's privacy information in the **Properties** area of Azure AD. To access the Properties area and add your privacy information:
 
-1. In the **Azure Active Directory** page, in the Manage section, select **Properties**.
-
-    ![Screen image displaying tenant properties with the Technical contact, Global contact, and Privacy statement boxes highlighted](./media/logs.png)  
+1. On the **Microsoft Entra ID** page, in the Manage section, select **Properties**. 
 
 2. Add your privacy info for your employees:
 
-- **Global privacy contact** - `AllanD@` **your Azure lab domain**
+- **Global privacy contact** - `Allan Deyoung` **your Azure lab domain**
      - Allan Deyoung is a built-in users in your Azure lab tenant who works as an IT Admin, we will use him as the Privacy contact.
      - This person is also who Microsoft contacts if there's a data breach. If there's no person listed here, Microsoft contacts your global administrators.
 
-    >**Note:** Navigate to the users section under Microsoft Entra ID and copy the email ID of **Andre Lawson**
+    >**Note:** Navigate to the **Environment Details** page and copy the email ID of **Allan Deyoung**
 
 - **Privacy statement URL** -  <https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/blob/master/Allfiles/Labs/Lab2/SC-300-Lab_ContosoPrivacySample.pdf>
 

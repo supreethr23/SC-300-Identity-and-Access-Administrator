@@ -51,24 +51,24 @@ After completing this lab, you will be able to:
 
 14. Select **+ Create credentials**, and then select **OAuth client ID**.
 
-15. In the Application type menu, select Web application. Give the application a suitable name, like Entra ID B2B. Under **Authorized redirect URIs**, add the following URIs:
+15. In the Application type menu, select Web application. Give the application a suitable name, like Entra ID B2B. Under **Authorized redirect URIs**, select **ADD URI**, and add the following URIs:
 
-   ```
+      ```
       https://login.microsoftonline.com
-   ```
+      ```
+      ```
       https://login.microsoftonline.com/te/**tenant ID**/oauth2/authresp
-       
-   ```
+      ```
+      ```
       https://login.microsoftonline.com/te/**tenant name**.onmicrosoft.com/oauth2/authresp
-       
-   ```
+      ```
      
-   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/URI.png) 
+      ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/URI.png) 
    
    
-   >**Note:** Replace the Tenant ID and Tenant Name with the your Tenant ID and Tenant Name. Go to Azure portal and search for and select **Microsoft Entra ID** in the overview page copy the **Tenant ID** and **Tenant Name**.
+      >**Note:** Replace the Tenant ID and Tenant Name with the your Tenant ID and Tenant Name. Go to Azure portal and search for and select **Microsoft Entra ID** in the overview page copy the **Tenant ID** and **Tenant Name**.
 
-16. Select **Create**. Copy your **client ID** and **client secret**. You'll use them when you add the identity provider in the Azure portal.
+16. Select **Create**. Copy your **client ID** and **client secret**. You'll use them when you add the identity provider in the Azure portal. Select **OK**.
 
 17. You can leave your project at a publishing status of Testing.
 
@@ -76,7 +76,7 @@ After completing this lab, you will be able to:
 
 1. Select the **OAuth consent screen** under APIs and Services menu.
 
-2. Scroll down and under the **Test Users* section of the page, choose **+ Add Users**.
+2. Scroll down and under the **Test Users** section of the page, choose **+ Add Users**.
 
 3. Enter the gmail account you created (or are using) for this lab.
 
@@ -86,9 +86,9 @@ After completing this lab, you will be able to:
 ### Exercise 2 - Configure Azure to work with an External identity provider
 
 #### Task 1 - Configure Azure AD for Google federation
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as an admin.
+1. Navigate back to the Azure Portal.
 
-2. Search for and select **Microsoft Entra ID**.
+2. Search and select for **Microsoft Entra ID**.
 
 3. Under **Manage**, select **External Identities**.
 
@@ -106,25 +106,36 @@ After completing this lab, you will be able to:
 
 This completes the configuration of Google as an identity provider.
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 #### Task 2 - Invite you Test User account
-1. If you used an existing Gmail account, remember to delete the account with **External Identities | All identity providers**. You can also return to the Google developer console and delete the project that you created.
 
-2. Open Azure Active Directory (Azure AD).
+1. Open **Microsoft Entra ID**.
 
-3. Go to Users.
+1. From the left-hand navigation pane, Select Users.
 
-4. Select **+ New User**.
+1. Select **+ New User**.
 
-5. Choose **Invite external user** from the dropdown menu.
+1. Select **Invite external user** from the dropdown menu.
 
-6. Enter the information for the gmail account you set up as a test user for the Google App in Exercise 1 Task 2.
+1. Enter the information for the gmail account you set up as a test user for the Google App in Exercise 1 Task 2.
 
-7. Enter a personal message as you want.
+1. Enter a personal message as you want.
 
-8. Select **Review + Invite** and subsequently click on **Invite**.
+1. Select **Review + Invite** and subsequently click on **Invite**.
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 #### Task 3 - Accept the invitation and login
-1. Use an InPrivate browser to log into your gmail account.
+1. Open an InPrivate browser to log into your gmail account.
 
 2. Open the **Microsoft Invitation on behalf of** in the Inbox.
 
