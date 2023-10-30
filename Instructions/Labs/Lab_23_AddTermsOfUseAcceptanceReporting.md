@@ -136,20 +136,22 @@ Once you have finalized your terms of use document, use the following procedure 
 
     >**Note:** There may be scenarios in which you may be produced with an error message stating that the Security defaults must be disabled to enable conditional access policy. In such cases, the account being provided may have the security defaults set to enabled for MFA functionality. It is recommended to disable the security default before proceeding with this lab. Follow the below instructions:
     - Click on the **disable security defaults** from the warning that displays as shown in the below screenshot.
+      
     ![](./media/lab13-ms-entra-id-10.png)
+    
     - Within the Security defaults page, ensure that the option - **Disabled (1)** is selected.
     - Select a reason for disabling - **Too many sign-in multifactor authentication challenges (2)**
     - Click on **Save (3)**
 
     ![](./media/lab13-ms-entra-id-11.png)
 
-12. If you chose to use your own account, you can refresh your browser. You will be prompted to sign in again. When you sign in, you will be required to accept the terms of use.
+13. If you chose to use your own account, you can refresh your browser. You will be prompted to sign in again. When you sign in, you will be required to accept the terms of use.
 
 ### Task 2: Log in as an user
 
 1. Open a new InPrivate browser window.
 
-2. Connect to https://portal.azure.com.
+2. Connect to `https://portal.azure.com`.
 
     >**Note:** If if comes up saying you are already logged in, Select on the logged in users name in the upper-right of the screen and choose **Sign in with a different account**.
 
@@ -177,16 +179,15 @@ Once you have finalized your terms of use document, use the following procedure 
 The Terms of use page shows a count of the users who have accepted and declined. These counts and who accepted/declined are stored for the life of the terms of use.
 
 1. In Microsoft Azure, within the **Identity Governance | Terms of use** page, locate the terms of use that was newly created.
-
-2. For a terms of use, select the numbers under **Accepted** or **Declined** to view the current state for users.
+    - For a terms of use, select the numbers under **Users accepted** or **Users declined** to view the current state for users.
 
     ![](./media/lab23-11.png)
 
-3. In this exercise you may not have any accepted or declined terms of use. In this lab execution, since the **Accepted** value was selected. You can see the reported user information for those that have accepted the terms of use.
+2. In this exercise you may not have any accepted or declined terms of use. In this lab execution, since the **Accepted** value was selected. You can see the reported user information for those that have accepted the terms of use.
 
-4. On the **Terms of Use Consents** page select **Download** to download a consents report.
+3. On the **Terms of Use Consents** page select **Download** to download a consents report.
 
-5. On the **Identity Governance | Terms of Use** page, highlight **Testing terms of use** and select **View selected audit logs** to view the audit logs activity.
+4. On the **Identity Governance | Terms of Use** page, highlight **Testing terms of use** and select **View selected audit logs** to view the audit logs activity.
 
 ### Task 4: What terms of use looks like for users
 
@@ -215,7 +216,7 @@ Users can review and see the terms of use that they have accepted by using the f
    | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
    | Password | **<inject key="AzureAdUserPassword" enableCopy="true" />** |
 
-3. Select the user profile photo and then select **View account**. On the Overview page, select VIEW SETTINGS AND PRIVACY.
+3. Select the user profile photo and then select **View account**. On the Overview page, select **VIEW SETTINGS AND PRIVACY**.
 
     ![](./media/settings-privacy.png)
 
