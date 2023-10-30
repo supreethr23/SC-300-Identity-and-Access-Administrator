@@ -17,7 +17,7 @@ In this lab, you will complete the following tasks:
     + Task 6: Edit terms of use details
     + Task 7: Update an existing terms of use document
 
-### Estimated time: 20 minutes
+### Estimated time: 30 minutes
 
 ## Architecture diagram
 
@@ -27,31 +27,29 @@ In this lab, you will complete the following tasks:
 
 Once you have finalized your terms of use document, use the following procedure to add it.
 
-1. Sign in to [https://portal.azure.com](https://portal.azure.com) using a Global Administrator account.
+1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
 
-2. Open **Azure Active Directory** and the select **Identity Governance**.
+    ![](./media/ms-entra-id-1.png)
 
-3. In the left navigation menu, under **Terms of use**, select **Terms of use**.
+2. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Identity Governance**.
 
-4. On the Terms of use page, on the top menu, select **+ New terms**
+    ![](./media/lab23-1.png)
 
-    ![Screen image displaying the Terms of use page with New terms highlighted](./media/lp4-mod1-new-terms-of-use.png)
+3. To create a new term,
+    - In the left navigation menu of the **Identity Governance** page, under **Terms of use**, select **Terms of use (1)**.
+    - On the Terms of use page, on the top menu, select **+ New terms (2)**
 
-5. In the **Name** box, enter **Testing terms of use**.
+    ![](./media/lab23-2.png)
 
-6. This is the terms of use that will be used in the Azure portal.
+4. Within the **New terms of use** page, configure the following:
+    - **Name:** Enter **Testing terms of use (1)**. This is the terms of use that will be used in the Azure portal.
+    - Select the **Terms of use document box (2)**, browse to your finalized terms of use PDF and select it.
+    >**Note:** **ToU File Provided** - browse to the github repo AllFiles/Labs/Lab26 to get a sample Terms-of-User PDF document for use in this lab.
+    - Select **English (3)** for the language for your terms of use document.
+    >**Note:** The language option allows you to upload multiple terms of use, each with a different language. The version of the terms of use that an end user will see will be based on their browser preferences.
+    - In the **Display name** box, enter **Contoso Terms of Use (4)**. This is the title that users see when they sign in.
 
-7. In the **Display name** box, enter **Contoso Terms of Use**.
 
-8. This is the title that users see when they sign in.
-
-9. Select the **Terms of use document box**, browse to your finalized terms of use PDF and select it.
-
-   **ToU File Provided** - browse to the github repo AllFiles/Labs/Lab26 to get a sample Terms-of-User PDF document for use in this lab.
-
-10. Select **English** for the language for your terms of use document.
-
-   **Note** - The language option allows you to upload multiple terms of use, each with a different language. The version of the terms of use that an end user will see will be based on their browser preferences.
 
 11. To require end users to view the terms of use prior to accepting them, set **Require users to expand the terms of use** to **On**.
 
