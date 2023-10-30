@@ -1,23 +1,29 @@
----
-lab:
-    title: '23 - Add terms of use and acceptance reporting'
-    learning path: '04'
-    module: 'Module 04 - Plan and Implement and Identity Governance Strategy'
----
-
 # Lab 23: Add terms of use and acceptance reporting 
 
 ## Lab scenario
-
-Azure AD terms of use policies provide a simple method that organizations can use to present information to end users. This presentation ensures users see relevant disclaimers for legal or compliance requirements. This article describes how to get started with terms of use (ToU) policies.
+Microsoft Entra terms of use policies provide a simple method that organizations can use to present information to end users. This presentation ensures users see relevant disclaimers for legal or compliance requirements. This article describes how to get started with terms of use (ToU) policies.
 
 You must create and enforce a ToU policy for your organization.
 
-#### Estimated time: 20 minutes
+## Lab objectives
+In this lab, you will complete the following tasks:
 
-### Exercise 1 - Set up a Term of Use and test them
++ Exercise 1: Establish a Terms of Use and Conduct Testing
+    + Task 1: Add terms of use
+    + Task 2: Log in as an user
+    + Task 3: Review the report of aceptance and rejection records
+    + Task 4: What terms of use looks like for users
+    + Task 5: How users can review their terms of use
+    + Task 6: Edit terms of use details
+    + Task 7: Update an existing terms of use document
 
-#### Task 1 - Add terms of use
+### Estimated time: 20 minutes
+
+## Architecture diagram
+
+## Exercise 1: Establish a Terms of Use and Conduct Testing
+
+### Task 1: Add terms of use
 
 Once you have finalized your terms of use document, use the following procedure to add it.
 
@@ -123,7 +129,7 @@ Once you have finalized your terms of use document, use the following procedure 
 
 28. If you chose to use your own account, you can refresh your browser. You will be prompted to sign in again. When you sign in, you will be required to accept the terms of use.
 
-#### Task 2 - Log in as Adele
+### Task 2: Log in as an user
 
 1. Open a new InPrivate browser window.
 2. Connect to https://portal.azure.com.
@@ -143,7 +149,7 @@ Once you have finalized your terms of use document, use the following procedure 
 
     >**Note**: Terms of Use may take a few minutes to appear or you can logout and log back in to the portal.
  
-#### Task 3 - View report of who has accepted and declined
+### Task 3: Review the report of acceptance and rejection records
 
 The Terms of use page shows a count of the users who have accepted and declined. These counts and who accepted/declined are stored for the life of the terms of use.
 
@@ -161,7 +167,7 @@ The Terms of use page shows a count of the users who have accepted and declined.
 
 5. On the **Identity Governance | Terms of Use** page, highlight **Testing terms of use** and select **View selected audit logs** to view the audit logs activity.
 
-#### Task 4 - What terms of use looks like for users
+### Task 4: What terms of use looks like for users
 
 1. Once a terms of use is created and enforced, users who are in scope will see the terms of use page.
 
@@ -175,7 +181,7 @@ The Terms of use page shows a count of the users who have accepted and declined.
 
     ![Example terms of use that appears when a user signs in on a mobile device](./media/mobile-tou.png)
 
-#### Task 5 - How users can review their terms of use
+### Task 5: How users can review their terms of use
 
 Users can review and see the terms of use that they have accepted by using the following procedure.
 
@@ -191,7 +197,7 @@ Users can review and see the terms of use that they have accepted by using the f
 
 4. Under **Organization’s notice**, you can review the terms of use you have accepted.
 
-#### Task 6 - Edit terms of use details
+### Task 6: Edit terms of use details
 
 You can edit some details of terms of use, but you can't modify an existing document. The following procedure describes how to edit the details.
 
@@ -221,7 +227,7 @@ You can edit some details of terms of use, but you can't modify an existing docu
 
 7. Once you are done, select **Save** to save your changes.
 
-#### Task 7 - Update an existing terms of use document
+### Task 7: Update an existing terms of use document
 
 You may, on occasion, be required to update the terms of use document.
 
