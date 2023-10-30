@@ -19,13 +19,11 @@ After completing this lab, you will be able to:
 
 #### Task 1 - Create a custom subdomain name
 
-1. Browse to the [https://portal.azure.com](https://portal.azure.com) and sign in using a Global administrator account for the directory.
-
 1. Select the **Show portal menu** hamburger icon and then select **Microsoft Entra ID**.
 
     ![Azure portal menu with Azure Active Directory selected](./media/msentrid.png)
 
-1. In the **Manage** section of **Azure AD**, select **Custom domain names**.
+1. From the left-hand navigation pane, in the **Manage** section of **Microsoft Entra ID**, select **Custom domain names**.
 
 1. Select **Add custom domain**.
 
@@ -39,22 +37,34 @@ After completing this lab, you will be able to:
 
 1. Select **Add domain** to add the subdomain.
 
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ### Exercise 2 - Changing the tenant display name
 
 #### Task 1 - Set the tenant name and technical contact
 
-1. From within Azure Active Directory, in the left navigation, in the **Manage** section, select **Properties**.
+1. Navigate back to **Azure HOL 1709 | Custom domain names**. From the left-hand navigation pane, in the **Manage** section, select **Properties**.
 
 1. Change the Tenant Properties for the **Name** and **Technical contact** in the dialog.
 
     | **Setting** | **Value** |
     | :--- | :--- |
     | Name | Contoso Marketing |
-    | Technical contact | <inject key="Username" enableCopy="false" /> |
+    | Technical contact | <inject key="AzureAdUserEmail"></inject> |
 
 1. Select **Save** to update the tenant properties.
 
    >**Note:** You will notice the name change immediately upon completion of the save.
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 #### Task 2 - Review the Country or region and other values associated with your tenant
 
