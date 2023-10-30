@@ -44,7 +44,7 @@ Once you have finalized your terms of use document, use the following procedure 
 4. Within the **New terms of use** page, configure the following:
     - **Name:** Enter **Testing terms of use (1)**. This is the terms of use that will be used in the Azure portal.
     - Select the **Terms of use document box (2)**, browse to your finalized terms of use PDF and select it.
-    >**Note:** **ToU File Provided** - Browse to the local file path C:/LabFiles/Lab26 to get a sample Terms-of-User PDF document for use in this lab.
+    >**Note:** **ToU File Provided** - Browse to the local file path C:\AllFiles\SC-300-Identity-and-Access-Administrator\AllFiles\Labs\Lab26\Contoso_TermsOfuse.pdf to get a sample Terms-of-User PDF document for use in this lab.
     - Select **English (3)** for the language for your terms of use document.
     >**Note:** The language option allows you to upload multiple terms of use, each with a different language. The version of the terms of use that an end user will see will be based on their browser preferences.
     - In the **Display name** box, enter **Contoso Terms of Use (4)**. This is the title that users see when they sign in.
