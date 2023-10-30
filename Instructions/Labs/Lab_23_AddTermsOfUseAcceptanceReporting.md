@@ -17,7 +17,7 @@ In this lab, you will complete the following tasks:
     + Task 6: Edit terms of use details
     + Task 7: Update an existing terms of use document
 
-### Estimated time: 30 minutes
+### Estimated time: 40 minutes
 
 ## Architecture diagram
 
