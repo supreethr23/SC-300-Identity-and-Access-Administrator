@@ -165,9 +165,9 @@ This task will use an alternative method to remove the assigned role; it will us
 
    ![Bulk import using csv file entry](./media/newcruser.png)
 
-#### Task 2 - Bulk addition of users using PowerShell
+#### Task 2 - Addition of users using PowerShell
 
-1. Open PowerShell as an administrator.  This can be done by searching for PowerShell in Windows and choosing Run as administrator. 
+1. Open PowerShell as an administrator. This can be done by searching for PowerShell in Windows and choosing Run as administrator. 
 
    >**Note** - Select PowerShell and not PowerShell ISE.
 
@@ -214,7 +214,7 @@ This task will use an alternative method to remove the assigned role; it will us
     New-AzureADUser -DisplayName "New User" -PasswordProfile $PasswordProfile -UserPrincipalName "NewUser@labtenantname.com" -AccountEnabled $true -MailNickName "Newuser"
     ```
 
-    >**Note** - Replace **labtenantname.com** with the **onmicrosoft.com** name assigned by the lab tenant.
+    >**Note** - Replace **labtenantname.com** with the **azurehol...onmicrosoft.com** name assigned by the lab tenant.You can find it in the Primary domain section of Microsoft Entra ID Overview page
 
 ## Experiment with managing users
 
