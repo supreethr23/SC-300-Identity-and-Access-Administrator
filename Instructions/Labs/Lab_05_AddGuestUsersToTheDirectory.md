@@ -17,23 +17,21 @@ After completing this lab, you will be able to:
 
 #### Task - Add the guest user
 
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) with the user credentials provided in the **Environment Details Page**
+1. In the Azure portal, search for  and select **Microsoft Entra ID**.
 
-2. Search for  and select **Microsoft Entra ID**.
+2. Under **Manage**, select **Users**.
 
-3. Under **Manage**, select **Users**.
+3. Select **+ New user**.
 
-4. Select **+ New user**.
-
-5. On the New user menu, select **Invite external user** and then add your information as the guest user.
+4. On the New user menu, select **Invite external user** and then add your information as the guest user.
 
    >**NOTE** - Group email addresses are not supported; enter the email address for an individual. Also, some email providers allow users to add a plus symbol (+) and additional text to their email addresses to help with things like inbox filtering. However, Azure AD does not currently support plus symbols in email addresses. To avoid delivery issues, omit the plus symbol and any characters following it up to the @ symbol.
 
-6. Enter an email address, such as **sc300externaluser1@sc300email.com**
+5. Enter an email address, such as **sc300externaluser1@sc300email.com**
 
-7. Click on **Review + Invite** and subsequebtly click on **Invite**.
+6. Click on **Review + Invite** and subsequebtly click on **Invite**.
 
-8. On the Users page, verify your account is listed and, in the **User type** column, verify **Guest** is shown.After you send the invitation, the user account is automatically added to the directory as a guest.
+7. On the Users page, verify your account is listed and, in the **User type** column, verify **Guest** is shown.After you send the invitation, the user account is automatically added to the directory as a guest.
 
    ![Screen image displaying the example bulk invite guests template CSV](./media/extuser.png)
 
