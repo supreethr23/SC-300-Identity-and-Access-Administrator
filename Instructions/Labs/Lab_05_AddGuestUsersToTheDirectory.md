@@ -25,7 +25,7 @@ After completing this lab, you will be able to:
 
 4. On the New user menu, select **Invite external user** and then add your information as the guest user.
 
-   >**NOTE** - Group email addresses are not supported; enter the email address for an individual. Also, some email providers allow users to add a plus symbol (+) and additional text to their email addresses to help with things like inbox filtering. However, Azure AD does not currently support plus symbols in email addresses. To avoid delivery issues, omit the plus symbol and any characters following it up to the @ symbol.
+   >**Note:** - Group email addresses are not supported; enter the email address for an individual. Also, some email providers allow users to add a plus symbol (+) and additional text to their email addresses to help with things like inbox filtering. However, Azure AD does not currently support plus symbols in email addresses. To avoid delivery issues, omit the plus symbol and any characters following it up to the @ symbol.
 
 5. Enter an email address, such as **sc300externaluser1@sc300email.com**
 
@@ -35,6 +35,13 @@ After completing this lab, you will be able to:
 
    ![Screen image displaying the example bulk invite guests template CSV](./media/extuser.png)
 
+   >**Note:** Kindly click on **Refresh** from the top menu until you see the Guest user entry.
+   
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 ### Exercise 2 - Invite guest users in bulk
 
@@ -42,44 +49,42 @@ After completing this lab, you will be able to:
 
 A recent partnership has been established with another company. For now, employees of the partner company will be added as guests. You need to ensure you can import multiple guest users at one time.
 
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as your Global Administrator.
+1. Navigate to **Microsoft Entra ID**.
 
-2. In the navigation pane, select **Microsoft Entra ID**.
+2. Under **Manage**, select **Users**.
 
-3. Under **Manage**, select **Users**.
-
-4. On the Users page, on the menu, select **Bulk operations > Bulk invite**.
+3. On the Users page, on the menu, select **Bulk operations > Bulk invite**.
 
      ![Screen image displaying the All user page with the Bulk operations and Bulk invite menu options highlighted](./media/lp1-mod3-bulk-invite-option1.png)
 
-5. In the Bulk invite users pane, select **Download** to a sample CSV template with invitation properties.
+4. In the Bulk invite users pane, select **Download** to a sample CSV template with invitation properties.
 
-6. Using an editor to view the CSV file, review the template.
+5. Using an editor to view the CSV file, review the template.
 
-7. Open the .csv template and add a line for each guest user. Required values are:
+6. Open the .csv template and add a line for each guest user. Required values are:
 
     - **Email address to invite** - the user who will receive an invitation
     - **Redirection url** - the URL to which the invited user is forwarded after accepting the invitation.
 
     ![Screen image displaying the example bulk invite guests template CSV](./media/lp1-mod3-template-csv1.png)
 
-8. Save the file.
+7. Save the file.
 
-9. On the Bulk invite users page, under **Upload your csv file**, browse to the file.
+8. On the Bulk invite users page, under **Upload your csv file**, browse to the file.
 
      **Note** - When you select the file, validation of the .csv file starts.
 
-10. After the file contents are validated, you will see **File uploaded successfully**. If there are errors, you must fix them before you can submit the job.
+9. After the file contents are validated, you will see **File uploaded successfully**. If there are errors, you must fix them before you can submit the job.
 
     ![Screen image displaying Bulk invite users with File uploaded successfully message highlighted](./media/lp1-mod3-bulk-invite-users-upload1.png)
 
-11. When your file passes validation, select **Submit** to start the Azure bulk operation that adds the invitations.
+10. When your file passes validation, select **Submit** to start the Azure bulk operation that adds the invitations.
 
-12. To view the job status, select **Select here to view the status of each operation**. Or, you can select **Bulk operation results** in the Activity section. For details about each line item within the bulk operation, select the values under the **# Success**, **# Failure**, or **Total Requests** columns. If failures occurred, the reasons for failure will be listed.
+11. To view the job status, select **Select here to view the status of each operation**. Or, you can select **Bulk operation results** in the Activity section. For details about each line item within the bulk operation, select the values under the **# Success**, **# Failure**, or **Total Requests** columns. If failures occurred, the reasons for failure will be listed.
 
      ![Screen image displaying Bulk invite users with File uploaded successfully message highlighted](./media/lp1-mod3-bulk-operations-results12.png)
 
-13. When the job completes, you will see a notification that the bulk operation succeeded.
+12. When the job completes, you will see a notification that the bulk operation succeeded.
 
 #### Task 2 - Invite guest users with PowerShell
 
