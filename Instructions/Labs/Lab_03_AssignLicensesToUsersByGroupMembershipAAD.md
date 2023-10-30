@@ -167,11 +167,13 @@ As your company grows, manually group management is too time consuming. Since st
 
    **Warning** - the `user.objectid` is case sensitive.
 
-   ![Screen image displaying the dynamic group membership rules page with rule syntax highlighted](./media/dyn1.png)
+   ![Screen image displaying the dynamic group membership rules page with rule syntax highlighted](./media/usersyn.png)
 
-10. Select **Save**. The new dynamic group will now include B2B guest users as well as member users.
+10. Click on **Ok**
 
-11. On the New group page, select **Create** to create the group.
+11. Select **Save**. The new dynamic group will now include B2B guest users as well as member users.
+
+12. On the New group page, select **Create** to create the group.
 
 #### Task 2 - Verify the members have been added
 
