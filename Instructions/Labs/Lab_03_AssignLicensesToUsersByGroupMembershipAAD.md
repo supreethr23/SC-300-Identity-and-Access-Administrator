@@ -28,7 +28,7 @@ After completing this lab, you will be able to:
    | Username | DeliaD@`your domain name.com`|
    | Password| Enter the password for Delia Dennis|
 
-   >**Note:** To find the username for Delia Dennis, login to the Azure portal and navigate to the Users section of the Microsoft Entra ID, and copy the user name.
+   >**Note:** To find the username for Delia Dennis, login to the Azure portal using the credentials given in the Environment Details page and navigate to the Users section of the Microsoft Entra ID, and copy the user name.
 
    >**Note:** From the Microsoft Entra ID **Users** section,click on **Delia Dennis** user and from the upper tab click on **Reset Password** and copy the temporary password and login to office.com and reset the password to **Pa55w.rd@123**
 
@@ -61,6 +61,15 @@ After completing this lab, you will be able to:
 7. Select the **Select** button.
 8. Select the **Create** button.
 9. When complete, verify the group named **sg-SC300-O365** is shown in the **All groups** list.
+
+   >**Note:** Kindly click the refresh button if you are not able to see the newly created group.
+   
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
 
 #### Task 3 - Assign a license to a group
 
