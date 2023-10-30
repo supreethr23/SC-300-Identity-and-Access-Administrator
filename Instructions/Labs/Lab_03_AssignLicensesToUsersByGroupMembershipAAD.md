@@ -188,6 +188,12 @@ As your company grows, manually group management is too time consuming. Since st
 7. Select on **Members** in the **Manage** menu.
 8. Review the members.
 
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
 #### Task 3 - Experiment with alternate rules (Optional)
 
 1. Try making a group with only **Guest** users:
