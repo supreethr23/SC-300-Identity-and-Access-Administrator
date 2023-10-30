@@ -48,20 +48,18 @@ Once you have finalized your terms of use document, use the following procedure 
     - Select **English (3)** for the language for your terms of use document.
     >**Note:** The language option allows you to upload multiple terms of use, each with a different language. The version of the terms of use that an end user will see will be based on their browser preferences.
     - In the **Display name** box, enter **Contoso Terms of Use (4)**. This is the title that users see when they sign in.
+    - To require end users to view the terms of use prior to accepting them, set **Require users to expand the terms of use** to **On (5)**.
+    - To require end users to accept your terms of use on every device they are accessing from, set **Require users to consent on every device** to **Off (6)**. Users may be required to install additional applications if this option is enabled.
+    >**Note:** Consent on every device will require users to register each device with Azure AD prior to getting access. It is a good practice to require this setting to On; however for the purpose of a cleaner lab, we are using Off.
+    - If you want to expire terms of use consents on a schedule, set **Expire consents** to **On (7)**.
 
+    ![](./media/lab23-3.png)
 
+5. When **Expire consents** is set to **On**, two additional schedule settings are displayed:
 
-11. To require end users to view the terms of use prior to accepting them, set **Require users to expand the terms of use** to **On**.
+    ![](./media/lab23-3-1.png)
 
-12. To require end users to accept your terms of use on every device they are accessing from, set **Require users to consent on every device** to **Off**. Users may be required to install additional applications if this option is enabled.
-
-    **Warning** - Consent on every device will require users to register each device with Azure AD prior to getting access. It is a good practice to require this setting to On; however for the purpose of a cleaner lab, we are using Off.
-
-13. If you want to expire terms of use consents on a schedule, set **Expire consents** to **On**. When set to On, two additional schedule settings are displayed.
-
-    ![Expire consents settings to set start date, frequency, and duration](./media/lp4-mod1-new-terms-of-use-create.png)
-
-14. Use the **Expire starting on** and **Frequency** settings to specify the schedule for terms of use expirations. The following table shows the result for a couple of example settings:
+6. Use the **Expire starting on (1)** and **Frequency (2)** settings to specify the schedule for terms of use expirations. The following table shows the result for a couple of example settings:
 
     | Expire starting on | Frequency | Result |
     |---|---|---|
@@ -75,16 +73,20 @@ Once you have finalized your terms of use document, use the following procedure 
     | Alice | Jan 1 | Feb 1 | Mar 1 | Apr 1|
     | Bob | Jan 15 | Feb 1 | Mar 1| Apr 1 |
 
-15. Use the **Duration before re-acceptance requires (days)** setting to specify the number of days before the user must reaccept the terms of use. This allows users to follow their own schedule. For example, if you set the duration to **30** days, here is how expirations might occur for two users:
+    ![](./media/lab23-3-2.png)
+
+7. Use the **Duration before re-acceptance requires (days)** setting to specify the number of days before the user must reaccept the terms of use. This allows users to follow their own schedule. For example, if you set the duration to **30** days, here is how expirations might occur for two users:
 
     | User | First accept date | First expire date | Second expire date | Third expire date |
     |---|---|---|---|---|
     | Alice | Jan 1 | Jan 31 | Mar 2 | Apr 1|
     | Bob | Jan 15 | Feb 14 | Mar 16| Apr 15
 
-    **Note** - It is possible to use the Expire consents and Duration before re-acceptance requires (days) settings together, but typically you use one or the other.
+    >**Note:** It is possible to use the Expire consents and Duration before re-acceptance requires (days) settings together, but typically you use one or the other.
 
-16. Under **Conditional Access**, select **Custom policy**.
+    ![](./media/lab23-3-3.png)
+
+8. Under **Conditional Access**, select **Custom policy (1)** and then click on **Create (2)**.
 
     | Template | Description |
     |---|---|
@@ -93,73 +95,94 @@ Once you have finalized your terms of use document, use the following procedure 
     | **Custom policy** | Select the users, groups, and apps that this terms of use will be applied to. |
     | **Create Conditional Access policy later** | This terms of use will appear in the grant control list when creating a Conditional Access policy. |
 
-    **IMPORTANT** - Conditional Access policy controls (including terms of use) do not support enforcement on service accounts. We recommend excluding all service accounts from the Conditional Access policy.
+    ![](./media/lab23-3-4.png)
 
-    Custom Conditional Access policies enable granular terms of use, down to a specific cloud application or group of users. For more information, see [https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/require-tou](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/require-tou).
+    >**IMPORTANT:** Conditional Access policy controls (including terms of use) do not support enforcement on service accounts. We recommend excluding all service accounts from the Conditional Access policy.
 
-17. When complete, select **Create**.
+    >**Note:** Custom Conditional Access policies enable granular terms of use, down to a specific cloud application or group of users. For more information, see [https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/require-tou](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/require-tou).
 
-    ![Screen image displaying the New terms of use page with configured options highlighted](./media/lp4-mod1-new-terms-of-use-create.png)
+9. When the terms of use is created, you will automatically be redirected to the Conditional access policy page. On the page,
+    - **Name:** Enter **Enforce ToU (1)**.
+    - Under **Assignments**, click on **Users (2)**.
+    - Within the **Include** tab, ensure to choose **Select users and groups (3)** radio button.
+    - Select the **Users and groups (4)** checkbox.
+    - Under **Select**, click on **0 users and groups selected (5)** to add the new user who would be alligned to this conditional access policy.
+    - In the Select pane, select **Alex Wilber (6)** account to use to test the terms and policy.
+    - Click on **Select (7)**.
 
-18. When the terms of use is created, you will automatically be redirected to the Conditional access policy page. On the page, in the **Name** box, enter **Enforce ToU**.
+    >**Note:** Do not select the ODL_user <inject key="DeploymentId" enableCopy="false" /> which can be used to ensure that your administrator account does not get locked out.
+    >**Warning:** If you choose your administrator account, like all conditional access policies, be sure you have another account with enough permissions to change the conditional access policy. This is to ensure your administrator account will not be locked out should the conditional access policy result in an undesirable outcome.
 
-19. Under **Assignments**, select **Users or workload identities**.
+    ![](./media/lab23-4.png)
+    ![](./media/lab23-5.png)
 
-20. On the include tab, select **Users and groups** check box.
+10. In order to implement terms of use over a specific app for the user, execute the following configurations while creating the conditional access policy:
+    - Under the **Target resources** section, click on **No target resources selected (1)**.
+    - Ensure to have **Cloud apps (2)** option selected from the dropdown list.
+    - Within the **Include** tab, choose the **All cloud apps (3)** radio button.
 
-21. In the Select pane, select **Adele Vance** to use to test the terms of use policy.
+    ![](./media/lab23-6.png)
 
-   **Warning** - If you choose your administrator account, like all conditional access policies, be sure you have another account with enough permissions to change the conditional access policy. This is to ensure your administrator account will not be locked out should the conditional access policy result in an undesirable outcome.
+11. To provide control access enforcement to block or grant access, perform the following:
+    - Under **Access controls**, select **0 controls selected (1)**.
+    - In the Grant pane,
+        - Select the **Grant access (2)** radio button.
+        - Ensure to check the **Testing terms of use (3)** checkbox.
+        - Click on **Select (4)**.
+        - Under **Enable policy**, select **On (5)**.
+        - When complete, select **Create (6)**.
+    
+    ![](./media/lab23-7.png)
 
-22. Select **Cloud apps or actions.**
+    >**Note:** There may be scenarios in which you may be produced with an error message stating that the Security defaults must be disabled to enable conditional access policy. In such cases, the account being provided may have the security defaults set to enabled for MFA functionality. It is recommended to disable the security default before proceeding with this lab. Follow the below instructions:
+    - Click on the **disable security defaults** from the warning that displays as shown in the below screenshot.
+    ![](./media/lab13-ms-entra-id-10.png)
+    - Within the Security defaults page, ensure that the option - **Disabled (1)** is selected.
+    - Select a reason for disabling - **Too many sign-in multifactor authentication challenges (2)**
+    - Click on **Save (3)**
 
-23. Select **All cloud apps**.
+    ![](./media/lab13-ms-entra-id-11.png)
 
-24. Under **Access controls**, select **Grant**.
-
-25. In the Grant pane, select **Testing terms of use** and then select **Select**.
-
-26. Under **Enable policy**, select **On**.
-
-27. When complete, select **Create**.
-
-    ![Screen image displaying the conditional access policy with configuration options highlighted](./media/lp4-mod1-terms-of-use-ca-policy.png)
-
-28. If you chose to use your own account, you can refresh your browser. You will be prompted to sign in again. When you sign in, you will be required to accept the terms of use.
+12. If you chose to use your own account, you can refresh your browser. You will be prompted to sign in again. When you sign in, you will be required to accept the terms of use.
 
 ### Task 2: Log in as an user
 
 1. Open a new InPrivate browser window.
+
 2. Connect to https://portal.azure.com.
-3. If if comes up saying you are already logged in, Select on the logged in users name in the upper-right of the screen and choose **Sign in with a different account**.
-4. Log in as Adele:
+
+    >**Note:** If if comes up saying you are already logged in, Select on the logged in users name in the upper-right of the screen and choose **Sign in with a different account**.
+
+3. Log in as Alex Wilber:
 
     | Setting | Value to enter |
     | :--- | :--- |
-    | User Name | **AdeleV@** `<<your domain name>>.onmicrosoft.com` |
+    | User Name | **alex.wilber@** `<<your domain name>>.onmicrosoft.com` |
     | Password | Enter the tenant's admin password(Refer the Lab Resources tab to retrieve the tenant admin password) |
 
-5. Validate Adele's login with the MFA request.
-6. View the Terms of Use.
-7. You can choose to **Accept** or **Decline**.
+    >**Note:** The Azure credentials for Alex can be found in the Environment details tab.
 
-    >**Note** - If you choose **decline** then during a future login as AdeleV you will again be required to view and accept the Terms of Use.
+4. Validate Alex's login with the MFA request:
+    - View the Terms of Use **(1)**.
+    - Choose to **Accept (2)**.
 
-    >**Note**: Terms of Use may take a few minutes to appear or you can logout and log back in to the portal.
+    ![](./media/lab23-10.png)
+
+    >**Note:** If you choose **Decline** then during a future login as Alex Wilber, you will again be required to view and accept the Terms of Use.
+
+    >Terms of Use may take a few minutes to appear or you can logout and log back in to the portal.
  
 ### Task 3: Review the report of acceptance and rejection records
 
 The Terms of use page shows a count of the users who have accepted and declined. These counts and who accepted/declined are stored for the life of the terms of use.
 
-1. In Microsoft Azure, in **Identity Governance > Terms of use**, locate your terms of use.
+1. In Microsoft Azure, within the **Identity Governance | Terms of use** page, locate the terms of use that was newly created.
 
 2. For a terms of use, select the numbers under **Accepted** or **Declined** to view the current state for users.
 
-    ![Screen image displaying the terms of use with the Accepted and Declined columns highlighted](./media/lp4-mod1-terms-of-use-accept-decline.png)
+    ![](./media/lab23-11.png)
 
-3. In this exercise you may not have any accepted or declined terms of use. In the following example, the **Accepted** value was selected. You can see the reported user information for those that have accepted the terms of use.
-
-    ![Terms of use consents pane listing the users that have accepted](./media/accepted-tou.png)
+3. In this exercise you may not have any accepted or declined terms of use. In this lab execution, since the **Accepted** value was selected. You can see the reported user information for those that have accepted the terms of use.
 
 4. On the **Terms of Use Consents** page select **Download** to download a consents report.
 
@@ -183,67 +206,99 @@ The Terms of use page shows a count of the users who have accepted and declined.
 
 Users can review and see the terms of use that they have accepted by using the following procedure.
 
-1. Browse to [https://myapps.microsoft.com](https://myapps.microsoft.com/) and then sign in using your user account.
+1. Open a new In-private browser and navigate to [https://myapps.microsoft.com](https://myapps.microsoft.com/).
 
-2. Select the user profile photo and then select **View account**. On the Overview page, select VIEW SETTINGS AND PRIVACY.
+2. Sign in using your ODL Administrator user account to sign in:
 
-    ![Screen image of a popup which says "View settings and privacy"](./media/lp4-mod1-myaccount-setting-and-privacy.png)
+   | Setting | Value |
+   | :--- | :--- |
+   | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
+   | Password | **<inject key="AzureAdUserPassword" enableCopy="true" />** |
 
-3. On the Settings & Privacy page, select the **Privacy** tab.
+3. Select the user profile photo and then select **View account**. On the Overview page, select VIEW SETTINGS AND PRIVACY.
 
-    ![Screen image displaying the settings and privacy page with organization's notes highlighted](./media/lp4-mod1-myaccount-setting-and-privacy-org-notes.png)
+    ![](./media/settings-privacy.png)
 
-4. Under **Organization’s notice**, you can review the terms of use you have accepted.
+4. On the Settings & Privacy page, select the **Privacy** tab.
+
+    ![](./media/settings-privacy-2.png)
+
+5. Under **Organization’s notice**, you can review the terms of use you have accepted.
 
 ### Task 6: Edit terms of use details
 
 You can edit some details of terms of use, but you can't modify an existing document. The following procedure describes how to edit the details.
 
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a Global administrator.
+1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
 
-2. Open Azure Active Directory and the select **Identity Governance**.
+    ![](./media/ms-entra-id-1.png)
+
+2. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Identity Governance**.
+
+    ![](./media/lab23-1.png)
 
 3. In the left navigation menu, under **Terms of use**, select **Terms of use**.
 
-4. Select the terms of use you want to edit.
+4. To edit the terms of use details:
+    - Select **Testing terms of use (1)**
+    - On the top menu, select **Edit terms (2)**.
 
-5. On the top menu, select **Edit terms**.
+    ![](./media/lab23-12.png)
 
-6. In the Edit terms of use pane, you can change the following:
+5. In the Edit terms of use pane, you can change the following:
 
-    - **Name** – this is the internal name of the ToU that is not shared with end users
-  
-    - **Display name** – this is the name that end users can see when viewing the ToU
-
-    - **Require users to expand the terms of use** – Setting this to **On** will force the end use to expand the terms of use document before accepting it.
-
+    - **Name:** This is the internal name of the ToU that is not shared with end users.
+    - **Display name:** This is the name that end users can see when viewing the ToU.
+    - **Require users to expand the terms of use:** Setting this to **On** will force the end use to expand the terms of use document before accepting it.
     - **Update an existing terms of use** document.
-
     - You can add a language to an existing ToU If there are other settings you would like to change, such as require users to consent on every device, expire consents, duration before reacceptance, or Conditional Access policy, you must create a new terms of use.
 
-    ![Screen image of the Identity Governance terms of use being edited.](./media/lp4-mod1-edit-terms-of-use.png)
+    ![](./media/lab23-13.png)
 
-7. Once you are done, select **Save** to save your changes.
+6. Once you are done, select **Save** to save your changes.
 
 ### Task 7: Update an existing terms of use document
 
 You may, on occasion, be required to update the terms of use document.
 
-1. Select the terms of use you want to edit.
+1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
 
-2. Select **Edit terms**.
+    ![](./media/ms-entra-id-1.png)
 
-3. In the **Language Options** table, identify the terms of use language you want to update and then, in the **Action** column, select **Update**.
+2. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Identity Governance**.
 
-    ![Screen image displaying the terms of use with the update option highlighted](./media/lp4-mod1-edit-terms-of-use-update.png)
+    ![](./media/lab23-1.png)
 
-4. In the Update terms of use version pane, you can upload a new version of your terms of use document.
+3. In the left navigation menu, under **Terms of use**, select **Terms of use**.
 
-5. Additionally, you can use the **Require reaccept** toggle button if you want to require your users to accept this new version the next time they sign in. If you do not require your users to re-accept, their previous consent will stay current and only new users who have not consented before or whose consent expires will see the new version.
+4. To edit the terms of use details:
+    - Select **Testing terms of use (1)**
+    - On the top menu, select **Edit terms (2)**.
 
-    ![Screen image displaying the update terms of use version pane with the upload required pdf and require re-accept highlighted](./media/lp4-mod1-update-terms-of-use-version.png)
+    ![](./media/lab23-12.png)
 
-6. Once you have uploaded your new pdf and decided on re-accept, select **Add**.
+5. In the **Language Options** table, identify the terms of use language you want to update and then, in the **Action** column, select **Update**.
 
-7. You will now see the most recent version under the Document column.
+    ![](./media/lab23-13.png)
 
+6. In the Update terms of use version pane, you can upload a new version of your terms of use document.
+
+    ![](./media/lab23-14.png)
+
+7. Additionally, you can use the **Require reaccept** toggle button if you want to require your users to accept this new version the next time they sign in. If you do not require your users to re-accept, their previous consent will stay current and only new users who have not consented before or whose consent expires will see the new version.
+
+8. Once you have uploaded your new pdf and decided on re-accept, select **Add**.
+
+9. You will now see the most recent version under the Document column.
+
+## Review
+In this lab, you have completed:
+- Adding terms of use
+- Logging in as an user
+- Review the report of aceptance and rejection records
+- What terms of use looks like for users
+- How users can review their terms of use
+- Editting terms of use details
+- Updating an existing terms of use document
+
+### You have successfully completed the lab
