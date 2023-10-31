@@ -7,13 +7,16 @@ Your company works with many vendors and, on occasion, you need to add some vend
 
 ## Lab Objectives
 
-After completing this lab, you will be able to:
+After completing this lab, you will be able to complete the following exercises:
+
 - Add guest users to the directory
 - Invite guest users in bulk
 
 #### Estimated time: 20 minutes
 
 ### Exercise 1 - Add guest users to the directory
+
+Incorporate guest users into the directory to extend limited access and collaboration capabilities to external individuals or organizations
 
 #### Task - Add the guest user
 
@@ -44,6 +47,8 @@ After completing this lab, you will be able to:
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 ### Exercise 2 - Invite guest users in bulk
+
+Efficiently invite multiple guest users in bulk to streamline the onboarding process for external collaborators and enhance productivity in shared digital environments.
 
 #### Task 1 - Bulk user invite
 
@@ -126,7 +131,7 @@ A recent partnership has been established with another company. For now, employe
     New-AzureADMSInvitation -InvitedUserDisplayName "Display" -InvitedUserEmailAddress name@emaildomain.com -InviteRedirectURL https://myapps.microsoft.com -SendInvitationMessage $true 
     ```
 
-1. You now know how to invite users within the Microsoft Entra ID portal,Bulk invitations with a csv file, and inviting users with PowerShell commands.
+1. You now know how to invite users within the Microsoft Entra ID portal, Bulk invitations with a csv file, and inviting users with PowerShell commands.
 
 ## Review
 
