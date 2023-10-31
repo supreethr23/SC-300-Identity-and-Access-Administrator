@@ -47,6 +47,13 @@ After completing this lab, you will be able to complete the following exercises:
 
 6. Click on **Review + Create** and subsequently click on **Create**. The user is now created and registered to your organization.
 
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
+
 #### Task 2 - Login and try to create an app
 
 1. Launch a new InPrivate browser window.
@@ -316,6 +323,12 @@ Some user accounts in your organization will not be provided all available produ
 16. Notice that the license has been assigned.
 
     ![Screen image displaying the Update license assignments page and license options highlighted](./media/e5lic.png)
+   
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 ## Review
 
