@@ -7,7 +7,7 @@ The company has decided to empower the employees and enable self-service passwor
 In this lab, you will complete the following tasks:
 
 + Task 1: Add users to a group to assign SSPR
-+ Task 2: Enable SSPR for you test group
++ Task 2: Enable SSPR for the group
 + Task 3: Register for SSPR with Alex
 + Task 4: Test SSPR
 + Task 5: What happens if you try a user not in SSPRTesters group?

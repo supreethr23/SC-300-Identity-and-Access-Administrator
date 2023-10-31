@@ -7,7 +7,7 @@ The company has decided to empower the employees and enable self-service passwor
 In this lab, you will complete the following tasks:
 
 + Task 1: Add users to a group to assign SSPR
-+ Task 2: Enable SSPR for you test group
++ Task 2: Enable SSPR for the group
 + Task 3: Register for SSPR with Alex
 + Task 4: Test SSPR
 + Task 5: What happens if you try a user not in SSPRTesters group?
@@ -38,9 +38,7 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
     ![](./media/members.png)
 
-#### Task 2 - Enable SSPR for you test group
-
-Enable SSPR for the group.
+#### Task 2 - Enable SSPR for the group
 
 1. Browse back to the Microsoft Entra ID page.
 
@@ -60,7 +58,7 @@ Enable SSPR for the group.
 
 1. Under **Manage**, select and review the default values for the **Authentication methods**, **Registration**, **Notifications**, and **Customization** settings.
 
-    **Note** it is important to have **phone** selected as one of the authentication methods for the rest of this lab, but you can have other options as well.
+    >**Note** it is important to have **phone** selected as one of the authentication methods for the rest of this lab, but you can have other options as well.
 
 #### Taks 3 - Register for SSPR with Alex
 
@@ -68,7 +66,7 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
 1. Open an InPrivate browser session and then browse to [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
 
-    This is to ensure you well be prompted for user authentication.
+    >**Note:** This is to ensure you well be prompted for user authentication.
 
 1. Sign in as **alex.wilber@cloudlabsai.com**, with the password = Enter the admin password of the tenant(Refer the **Environment Details** tab to retrieve the Alex's password).
 
@@ -80,7 +78,7 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
     ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/lp2.png)
 
-    **Note** - In this lab, you will use the **Phone** option. Enter your mobile phone details.
+    >**Note** - In this lab, you will use the **Phone** option. Enter your mobile phone details.
 
 1. Enter your personal cell phone number into the phone number field.
 
@@ -114,7 +112,7 @@ Now let's test whether the user can reset their password.
 
     ![Screen image displaying the Get back into your account page with Email or Username, captcha box, and next button highlighted](./media/getback.png)
 
-1. In the **verification step 1** task, select **Text my mobile phone**, enter your phone number and then select **Text**.
+1. In the **verification step 1** task, select **Text my mobile phone (1)**, **enter your phone number (2)** and then select **Text (3)**.
 
     ![Screen image displaying verification step 1 with contact methods, phone number box, and text button highlighted](./media/Text1.png)
 
@@ -151,7 +149,7 @@ Now let's test whether the user can reset their password.
 ### Review
 In this lab, you have completed:
 - Added users to a group to assign SSPR
-- Enabled SSPR for you test group
+- Enabled SSPR for the group
 - Registered for SSPR with Alex
 - Tested SSPR
 - What happens if you try a user not in the SSPRTesters group?
