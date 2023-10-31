@@ -5,9 +5,9 @@
 The company has made the decision to implement Azure Active Directory as the authentication method for accessing virtual machines remotely. This lab will demonstrate the process of configuring this setup for both Windows and Linux virtual machines.
 
 ## Lab objectives
+
 In this lab, you will complete the following tasks:
 
-+ Exercise 1:
     + Task 1: Login to Windows Virtual Machines in Azure with Azure AD
     + Task 2: Azure AD login for existing Azure Virtual Machines
     + Task 3: Update the Server VM to support the Azure AD login
