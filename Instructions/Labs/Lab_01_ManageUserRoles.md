@@ -9,7 +9,7 @@ Your company recently hired a new employee who will perform duties as an applica
 
 ## Lab Objectives
 
-After completing this lab, you will be able to complete the following :
+After completing this lab, you will be able to complete the following exercises:
 
 -  Exercise 1 - Create a new user and test their application admin rights
 -  Exercise 2 - Assign the application admin role and create an app
