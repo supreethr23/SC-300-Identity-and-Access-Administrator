@@ -228,11 +228,11 @@ This task will use an alternative method to remove the assigned role; it will us
 
 ## Experiment with managing users
 
-You can add and remove users with the Azure AD page.  However, users can be created and roles can be assigned using the scripting.  Experiment with giving the Chris Green user account a different role using script. 
+You can add and remove users with the Microsoft Entra ID page.  However, users can be created and roles can be assigned using the scripting.  Experiment with giving the Chris Green user account a different role using script. 
  
 ### Exercise 5 - Remove a user from Microsoft Entra ID
 
-    It may happen that an account is deleted and then needs to be recovered. You need to verify you can recover an account that has been deleted recently.
+It may happen that an account is deleted and then needs to be recovered. You need to verify you can recover an account that has been deleted recently.
 
 #### Task 1 - Remove a User
 
