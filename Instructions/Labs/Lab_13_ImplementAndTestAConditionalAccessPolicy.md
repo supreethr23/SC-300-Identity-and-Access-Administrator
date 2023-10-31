@@ -94,14 +94,14 @@ Azure Active Directory conditional access is an advanced feature of Azure AD tha
 
     ![](./media/lab13-ms-entra-id-9.png)
 
->**Note:** There may be scenarios in which you may be produced with an error message stating that the Security defaults must be disabled to enable conditional access policy. In such cases, the account being provided may have the security defaults set to enabled for MFA functionality. It is recommended to disable the security default before proceeding with this lab. Follow the below instructions:
+    >**Note:** There may be scenarios in which you may be produced with an error message stating that the Security defaults must be disabled to enable conditional access policy. In such cases, the account being provided may have the security defaults set to enabled for MFA functionality. It is recommended to disable the security default before proceeding with this lab. Follow the below instructions:
     - Click on the **disable security defaults** from the warning that displays as shown in the below screenshot.
     ![](./media/lab13-ms-entra-id-10.png)
     - Within the Security defaults page, ensure that the option - **Disabled (1)** is selected.
     - Select a reason for disabling - **Too many sign-in multifactor authentication challenges (2)**
     - Click on **Save (3)**
 
-   ![](./media/lab13-ms-entra-id-11.png)
+    ![](./media/lab13-ms-entra-id-11.png)
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -239,11 +239,11 @@ As part of your company's larger security configuration, you must test a conditi
   
     ![](./media/lab13-ms-entra-id-20.png)
 
-   >**Note:** Report-only mode is a new Conditional Access policy state that allows administrators to evaluate the impact of Conditional Access policies before enabling them in their environment. With the release of report-only mode:
-    - Conditional Access policies can be enabled in report-only mode.
-    - During sign-in, policies in report-only mode are evaluated but not enforced.
-    - Results are logged in the Conditional Access and Report-only tabs of the Sign-in log details.
-    - Customers with an Azure Monitor subscription can monitor the impact of their Conditional Access policies using the Conditional Access insights workbook.
+    >**Note:** Report-only mode is a new Conditional Access policy state that allows administrators to evaluate the impact of Conditional Access policies before enabling them in their environment. With the release of report-only mode:
+        - Conditional Access policies can be enabled in report-only mode.
+        - During sign-in, policies in report-only mode are evaluated but not enforced.
+        - Results are logged in the Conditional Access and Report-only tabs of the Sign-in log details.
+        - Customers with an Azure Monitor subscription can monitor the impact of their Conditional Access policies using the Conditional Access insights workbook.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
