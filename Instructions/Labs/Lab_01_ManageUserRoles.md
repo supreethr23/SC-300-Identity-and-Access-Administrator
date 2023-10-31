@@ -192,6 +192,8 @@ This task will use an alternative method to remove the assigned role; it will us
 
 5. The Microsoft login window will appear for you to login to Azure AD.  
 
+   >**Note:** If you get any warnings you can click on **Yes**
+
 6. To verify that you are connected and to see existing users, run:  
 
     ``` 
