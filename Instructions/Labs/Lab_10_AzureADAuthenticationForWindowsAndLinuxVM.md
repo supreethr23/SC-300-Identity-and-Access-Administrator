@@ -19,7 +19,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-## Exercise 1: Login to Windows Virtual Machines in Azure with Azure AD
+## Exercise 1: Login to Windows Virtual Machines in Azure with Microsoft Entra ID
 
 ### Task 1: Create a Windows Virtual Machine with Azure AD login enabled
 
