@@ -54,7 +54,7 @@ The Global Administrator role is required in order to provide admin consent for 
 
    >**Warning** - Granting tenant-wide admin consent through App registrations will revoke any permissions that had previously been granted tenant-wide. Permissions previously granted by users on their own behalf will not be affected.
 
-#### Task 2 - Grant admin consent in Enterprise apps
+#### Task 3 - Grant admin consent in Enterprise apps
 
 You can grant tenant-wide admin consent through Enterprise applications if the application has already been provisioned in your tenant.
 
