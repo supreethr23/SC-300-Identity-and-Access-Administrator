@@ -28,11 +28,13 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
 1. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Groups**.
 
-1. Search for **SSPRTesters**, and select it.
+1. Search and select for **SSPRTesters**.
 
     ![](./media/groups(1).png)
 
 1. From the left-hand navigation pane, under **Manage** section, select **Members (1)**. On the **SSPRTesters | Members**, select **+ Add members (2)**, now add these members **Alex Wilber**, **Allan Deyoung** and **Bianca Pisani**.
+
+1. It will look similar to this image.
 
     ![](./media/members.png)
 
@@ -46,13 +48,13 @@ Enable SSPR for the group.
 
     ![](./media/password-reset.png)
 
-1. On the Password reset page Properties page, under **Self service password reset enabled**, review the **Selected** button is selected.
+1. On the Password reset page Properties page, under **Self service password reset enabled**, review the **Selected (1)** button is selected.
 
-1. Review in Select group **SSPRSecurityGroupUser**, is selected.
+1. You can review in Select group **SSPRSecurityGroupUser**, is selected.
 
-1. Click on the **SSPRSecurityGroupUser**. In the Default password reset policy pane, select the **SSPRTesters** group.
+1. Click on the **SSPRSecurityGroupUser**. In the Default password reset policy pane, select the **SSPRTesters (2)** group.
 
-1. On the Password reset page Properties page, select **Save**.
+1. On the Password reset page Properties page, select **Save (3)**.
 
     ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/SSPR-save.png)
 
