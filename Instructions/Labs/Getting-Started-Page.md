@@ -14,7 +14,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 ## **Exploring Your Lab Resources**
  
-To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** details tab.
  
 ![Explore Lab Resources](./media/g2.png)
  
@@ -49,7 +49,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    ![Enter Your Password](./media/g7.png)
  
-4. If you are prompted with a window for MFA, click on **Ask Later**
+4. If you are prompted with a window for MFA, click on **Ask Later**.
 
 4. If prompted to stay signed in, you can click "No."
  
