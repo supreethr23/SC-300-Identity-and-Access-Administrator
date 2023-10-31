@@ -1,7 +1,5 @@
 # Lab 16 - Using Azure Key Vault for Managed Identities
 
-**Note** - This lab requires an Azure Pass. Please see lab 00 for directions.
-
 ## Lab scenario
 
 When you use managed identities for Azure resources, your code can get access tokens to authenticate to resources that support Azure AD authentication.  However, not all Azure services support Azure AD authentication. To use managed identities for Azure resources with those services, store the service credentials in Azure Key Vault, and use the managed identity to access Key Vault to retrieve the credentials.
