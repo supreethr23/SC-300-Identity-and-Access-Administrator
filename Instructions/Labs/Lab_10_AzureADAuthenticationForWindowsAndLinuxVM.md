@@ -8,12 +8,12 @@ The company has made the decision to implement Azure Active Directory as the aut
 
 In this lab, you will complete the following tasks:
 
-    + Task 1: Login to Windows Virtual Machines in Azure with Azure AD
-    + Task 2: Azure AD login for existing Azure Virtual Machines
-    + Task 3: Update the Server VM to support the Azure AD login
-    + Task 4: Modify your RDP file to support the Azure AD login
-    + Task 5: Connect to the Windows Server 2022 Datacenter using Azure AD login
-    + Task 6: Optional testing to explore the Azure AD login
++ Task 1: Login to Windows Virtual Machines in Azure with Azure AD
++ Task 2: Azure AD login for existing Azure Virtual Machines
++ Task 3: Update the Server VM to support the Azure AD login
++ Task 4: Modify your RDP file to support the Azure AD login
++ Task 5: Connect to the Windows Server 2022 Datacenter using Azure AD login
++ Task 6: Optional testing to explore the Azure AD login
 
 ### Estimated time: 30 minutes
 
