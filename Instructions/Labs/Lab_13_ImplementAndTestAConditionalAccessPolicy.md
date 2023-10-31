@@ -103,6 +103,12 @@ Azure Active Directory conditional access is an advanced feature of Azure AD tha
 
    ![](./media/lab13-ms-entra-id-11.png)
 
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ### Task 3: Test the conditional access policy
 
 You should test your conditional access policies to ensure they working as expected.
@@ -238,6 +244,12 @@ As part of your company's larger security configuration, you must test a conditi
     - During sign-in, policies in report-only mode are evaluated but not enforced.
     - Results are logged in the Conditional Access and Report-only tabs of the Sign-in log details.
     - Customers with an Azure Monitor subscription can monitor the impact of their Conditional Access policies using the Conditional Access insights workbook.
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Review
 In this lab, you have completed:
