@@ -66,7 +66,7 @@ After completing this lab, you will be able to complete the following exercises:
 8. Select the **Create** button.
 9. When complete, verify the group named **sg-SC300-O365** is shown in the **All groups** list.
 
-   >**Note:** Kindly click the refresh button if you are not able to see the newly created group.
+   >**Note:** Kindly click the **Refresh** button if you are not able to see the newly created group.
    
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
      > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
