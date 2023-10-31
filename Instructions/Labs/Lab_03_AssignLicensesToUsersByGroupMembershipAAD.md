@@ -7,30 +7,34 @@ Your organization has decided to use security groups in Azure AD to manage licen
 
 ## Lab Objectives
 
-After completing this lab, you will be able to:
+After completing this lab, you will be able to complete the following exercises:
 
-- Create a security group and add a user
-- Create a Microsoft 365 group in Microsoft Entra ID
-- Creating a dynamic group with all users as members
+- Exercise 1 - Create a security group and add a user
+- Exercise 2 - Create a Microsoft 365 group in Microsoft Entra ID
+- Exercise 3 - Creating a dynamic group with all users as members
 
 #### Estimated time: 25 minutes
 
 ### Exercise 1 - Create a security group and add a user
 
+ In this exercise, you will create a security group to enhance access control and security measures and then include a user within the group to grant them specific permissions and restrictions as part of a broader security framework
+
 #### Task 1 - Check to see if Delia Dennis has access to Office 365
  
-1. Launch a new InPrivate browser window.
+1. Launch a new **InPrivate** browser window.
+
 2. Connect to [https://www.office.com](https://www.office.com).
-3. Select Sign in and connect as Delia Dennis.
+
+3. Select Sign in and connect as **Delia Dennis**.
 
    | **Setting**| **Value**|
    | :--- | :--- |
    | Username | DeliaD@`your domain name.com`|
    | Password| Enter the password for Delia Dennis|
 
-   >**Note:** To find the username for Delia Dennis, login to the Azure portal using the credentials given in the Environment Details page and navigate to the Users section of the Microsoft Entra ID, and copy the user name.
+   >**Note:** To find the username for Delia Dennis, login to the Azure portal using the credentials given in the **Environment Details** page navigate to the Users section of the Microsoft Entra ID, and copy the user name.
 
-   >**Note:** From the Microsoft Entra ID **Users** section,click on **Delia Dennis** user and from the upper tab click on **Reset Password** and copy the temporary password and login to office.com and reset the password to **Pa55w.rd@123**
+   >**Note:** From the Microsoft Entra ID **Users** section, click on **Delia Dennis** user, and from the upper tab click on **Reset Password** and copy the temporary password and login to office.com and reset the password to **Pa55w.rd@123**
 
     ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/azureaad.png)
 
