@@ -76,6 +76,12 @@ In this lab, you will complete the following tasks:
 
     ![Create vm](./media/create-vm-06.png)
 
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ### Task 2: Azure AD login for existing Azure Virtual Machines
 
 1. Browse to **Virtual Machines** within the Azure portal and select the newly created Virtual Machine from Task 1.
@@ -106,6 +112,12 @@ In this lab, you will complete the following tasks:
 1. Once the user has been selected to assign the role, click on **Review + assign** to complete the process.
 
      ![Create iam](./media/vm-iam-4.png)
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 3: Update the Server VM to support the Azure AD login
 
