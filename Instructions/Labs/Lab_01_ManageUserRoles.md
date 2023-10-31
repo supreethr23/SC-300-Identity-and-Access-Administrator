@@ -5,28 +5,30 @@
 
 Your company recently hired a new employee who will perform duties as an application administrator. You must create a new user and assign the appropriate role.
 
-#### Estimated time: 30 minutes
+#### Estimated time: 60 minutes
 
 ## Lab Objectives
 
-After completing this lab, you will be able to:
+After completing this lab, you will be able to complete the following :
 
-- Create a new user and test their application admin rights
-- Assign the application admin role and create an app
-- Remove a role assignment
-- Bulk import of users
-- Remove a user from Azure Active Directory
-- Add a Windows 10 license to a user account
+-  Exercise 1 - Create a new user and test their application admin rights
+-  Exercise 2 - Assign the application admin role and create an app
+-  Exercise 3 - Remove a role assignment
+-  Exercise 4 - Bulk import of users
+-  Exercise 5 - Remove a user from Microsoft Entra ID
+-  Exercise 6 - Add a  license to a user account
 
 ### Exercise 1 - Create a new user and test their application admin rights
+  
+  In this exercise, you will create  a new user account and verify their administrative privileges by testing their application access and control.
 
 #### Task 1 - Add a new user
 
-2. In the Azure portal,search for and  select **Microsoft Entra ID**.
+1. In the Azure portal, search for and  select **Microsoft Entra ID**.
 
-3. In the left navigation menu, under **Manage**, select **Users**, then select **+ New User** and **Create new user**.
+2. In the left navigation menu, under **Manage**, select **Users**, then select **+ New User** and **Create new user**.
 
-4. Mark the **Create user** button. Then, create a user with the following information:
+3. Mark the **Create user** button. Then, create a user with the following information:
 
     | **Setting**| **Value**|
     | :--- | :--- |
@@ -35,15 +37,15 @@ After completing this lab, you will be able to:
     | First name| Chris|
     | Last name| Green|
 
-5. Mark the **Auto-generate password** option.
+4. Mark the **Auto-generate password** option.
 
-6. Copy the generated password to a location you can remember it for the next task.
+5. Copy the generated password to a location you can remember it for the next task.
 
    >**Note:** You will have to change the password upon first login to this account
    
    >**Note:** Copy the username Of Chris Green in order to login in the next task
 
-7. Click on **Review + Create** and subsequently click on **Create**. The user is now created and registered to your organization.
+6. Click on **Review + Create** and subsequently click on **Create**. The user is now created and registered to your organization.
 
 #### Task 2 - Login and try to create an app
 
@@ -77,17 +79,17 @@ After completing this lab, you will be able to:
 
 ### Exercise 2 - Assign the application admin role and create an app
 
-#### Task 1 - Assign a role to a user
+ Using Microsoft Entra ID, you can designate limited administrators to manage identity tasks in less-privileged roles. Administrators can be assigned for such purposes as adding or changing users, assigning administrative roles, resetting user passwords, managing user licenses, and managing domain names.
 
-Using Azure Active Directory (Azure AD), you can designate limited administrators to manage identity tasks in less-privileged roles. Administrators can be assigned for such purposes as adding or changing users, assigning administrative roles, resetting user passwords, managing user licenses, and managing domain names.
+#### Task 1 - Assign a role to a user
 
 1. If you are not already logged in as a Global Administrator role, open the Azure Portal and log in.
 2. Navigate to Microsoft Entra ID  page.
 3. Select on **Users** under the Manage section of the menu.
 4. Select **Chris Green's** account.
-5. Choose **Assigned roles** from the Manage menu.(1)
-6. Select **+ Add assignments** (2)and mark the `Application administrator` role.(3)
-7. Select **Add**(4)
+5. Choose **Assigned roles** from the Manage menu.**(1)**
+6. Select **+ Add assignments (2)** and mark the `Application administrator` role **(3)**
+7. Select **Add (4)**
 
     ![Assigned roles page - showing the selected role](./media/directory-role-select-role.png)
 
@@ -117,17 +119,26 @@ Using Azure Active Directory (Azure AD), you can designate limited administrator
 
 ### Exercise 3 - Remove a role assignment
 
+In this exercise, you will remove the role assignment that was assigned in the previous task.
+
 #### Task 1 - Remove the application administrator from Chris Green
 
 This task will use an alternative method to remove the assigned role; it will use the **Roles and administrators** option in Entra ID.
 
 1. If you are not already logged in as your Global Admin, launch the Azure Portal and log in now.
+
 2. In the search box type **Microsoft Entra ID** and launch Microsoft Entra ID.
+
 3. In **Microsoft Entra ID**, select **Roles and administrators**, and then select the **Application administrator** role from the list.
+
 4. On the **Application administrator | Assignments** page you should see Chris Green's name listed.
+
 5. Put a check in the box next to Chris Green.
+
 6. Select **X Remove assignments** from the options at the top of the dialog.
+
 7. Answer **Yes** when the confirmation box opens.
+
 8. Close Microsoft Entra ID.
 
 ### Exercise 4 - Bulk import of users
@@ -136,7 +147,7 @@ This task will use an alternative method to remove the assigned role; it will us
 
 1. In your Lab Vm  navigate to **C:\AllFiles\AllFiles.zip\SC-300-Identity-and-Access-Administrator-prod\Allfiles\Labs\Lab1** and open the **SC-300BulkUser** excel file and modify the domain names for all the users.
 
-   >**Note:** Sign in with the ODL user credentials present in the Environment Details page in order to be able to edit the excel sheet.
+   >**Note:** Sign in with the ODL user credentials present in the **Environment Details page** in order to be able to edit the excel sheet.
       
 2. The .csv template provides you with the fields included with the user profile. This includes the required username, display name, and initial password. You can also complete optional fields, such as Department and Usage location, at this time. The following screenshot is an example of how you can complete the .csvfile: 
 
@@ -166,7 +177,7 @@ This task will use an alternative method to remove the assigned role; it will us
 
 1. Open PowerShell as an administrator. This can be done by searching for PowerShell in Windows and choosing Run as administrator. 
 
-   >**Note** - Select PowerShell and not PowerShell ISE.
+   >**Note** - Select **PowerShell** and not **PowerShell ISE**.
 
 2. You will need to add and import the Azure AD PowerShell module if you have not used it before.  Run the following two commands and when prompted to confirm press Y:
 
@@ -175,7 +186,7 @@ This task will use an alternative method to remove the assigned role; it will us
     Import-Module AzureAD
     ```
 
-3. Confirm that the module installed correctly by running the command:  
+3. Confirm that the module is installed correctly by running the command:  
 
     ```
     Get-Module AzureAD 
@@ -187,7 +198,7 @@ This task will use an alternative method to remove the assigned role; it will us
     Connect-AzureAD 
     ``` 
 
-5. The Microsoft login window will appear for you to login to Azure AD.  
+5. The Microsoft login window will appear for you to log in to Azure AD.  
 
    >**Note:** If you get any warnings you can click on **Yes**
 
@@ -221,9 +232,9 @@ You can add and remove users with the Azure AD page.  However, users can be crea
  
 ### Exercise 5 - Remove a user from Microsoft Entra ID
 
-#### Task 1 - Remove a User
+    It may happen that an account is deleted and then needs to be recovered. You need to verify you can recover an account that has been deleted recently.
 
-It may happen that an account is deleted and then needs to be recovered. You need to verify you can recover an account that has been deleted recently.
+#### Task 1 - Remove a User
 
 1. Browse to [https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
 
@@ -258,9 +269,9 @@ It may happen that an account is deleted and then needs to be recovered. You nee
 
 ### Exercise 6 - Add a  license to a user account
 
-#### Task 1 - Find your unlicensed user in Azure Active Directory
-
 Some user accounts in your organization will not be provided all available products in their assigned license or will need updates or additions to their license assignment. You need to ensure you are able to update a user account's license assignment in Azure AD.
+
+#### Task 1 - Find your unlicensed user in Microsoft Entra ID
 
 1. Browse to [https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
 
@@ -276,9 +287,9 @@ Some user accounts in your organization will not be provided all available produ
 
 6. To check if Andre has a usage location set, navigate to Andre Lawson's profile and choose **Edit Properties** from the top menu.
 
-7. Navigate to the **Settings** section and enter the location as **United States** and click on **Save**.
+7. Navigate to the **Settings (1)** section and enter the location as **United States (2)** and click on **Save (3)**.
 
-   ![Screen image displaying the Update license assignments page and license options highlighted](./media/unitedst.png)
+   ![Screen image displaying the Update license assignments page and license options highlighted](./media/unitedst2.png)
 
 6. Now, back on the Overview page of Microsoft Entra ID, select the **Licenses** menu item in the left-hand menu.
 
