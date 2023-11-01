@@ -11,7 +11,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 - Exercise 1 - Create a security group and add a user
 - Exercise 2 - Create a Microsoft 365 group in Microsoft Entra ID
-- Exercise 3 - Creating a dynamic group with all users as members
+- Exercise 3 - Create a dynamic group with all users as members
 
 #### Estimated time: 25 minutes
 
