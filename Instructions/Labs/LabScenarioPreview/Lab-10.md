@@ -4,7 +4,7 @@
 
 ### Lab overview
 
-In this lab scenario, you will learn how to implement Microsoft Entra ID Authentication for remote access to virtual machines. This will help you gain cross-platform authentication skills, manage user access, ensure secure remote connections and make you a proficient Azure administrator.
+In this lab, you will learn how to implement Microsoft Entra ID Authentication for remote access to virtual machines. This will help you gain cross-platform authentication skills, manage user access, ensure secure remote connections and make you a proficient Azure administrator.
 
 ### Objectives
   
