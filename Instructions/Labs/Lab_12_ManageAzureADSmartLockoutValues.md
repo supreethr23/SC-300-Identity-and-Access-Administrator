@@ -9,7 +9,7 @@ In this lab, you will complete the following tasks:
 
 + Task 1: Add Smart Lockouts
 
-### Estimated time: 5 minutes
+### Estimated time: 15 minutes
 
 ## Architecture diagram
 
