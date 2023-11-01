@@ -1,6 +1,6 @@
 # Lab Scenario Preview: SC-300:  Microsoft Identity and Access Administrator
 
-## Lab 01: Implement and test a conditional access policy
+## Lab 13: Implement and test a conditional access policy
 
 ### Lab overview
 
@@ -10,12 +10,13 @@ In this lab, you'll acquire the practical expertise needed to set up an Azure Ac
   
 After completing this lab, you will be able to:
 
-- Login to Windows Virtual Machines in Azure with Microsoft Entra ID
-- Microsoft Entra ID login for existing Azure Virtual Machines
-- Update the Server VM to support the Microsoft Entra ID login
-- Modify your RDP file to support the Microsoft Entra ID login
-- Connect to the Windows Server 2022 Datacenter using Microsoft Entra ID login
-- Optional testing to explore the Microsoft Entra ID login
+- Set a conditional access policy to block an user from accessing Office 365
+  - Create a conditional access policy
+  - Test the conditional access policy
+- Test conditional access policies with "What if"
+  - Use What if to test conditional access policies
+- Configure sign in frequency controls using a conditional access policy
+  - Use the Azure Portal to configure conditional access
 
 ### Architecture Diagram
 
