@@ -1,5 +1,5 @@
 
-# Lab 26: Configure Privileged Identity Management for Azure AD roles
+# Lab 26: Configure Privileged Identity Management for Microsoft Entra ID roles
 
 ## Lab scenario
 
