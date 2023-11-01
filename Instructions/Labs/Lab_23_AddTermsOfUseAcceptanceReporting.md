@@ -20,6 +20,8 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
+![Create resource](./media/lab23-arch.PNG)
+
 ## Exercise 1: Establish a Terms of Use and Conduct Testing
 
 ### Task 1: Add terms of use
