@@ -1,6 +1,6 @@
 # Lab Scenario Preview: SC-300:  Microsoft Identity and Access Administrator
 
-## Lab 01: Azure AD Authentication for Windows and Linux Virtual Machines
+## Lab 10: Azure AD Authentication for Windows and Linux Virtual Machines
 
 ### Lab overview
 
