@@ -10,17 +10,14 @@ In this lab, you will learn how to perform duties as an application administrato
   
 After completing this lab, you will be able to complete the following Exercises:
 
-- Create a new user and test their application admin rights
-- Assign the application admin role and create an app
-- Remove a role assignment
-- Bulk import of users
-- Remove a user from Microsoft Entra ID
-- Add a Windows 10 license to a user account
+- Exercise 1 - Create a custom subdomain
+- Exercise 2 - Change the tenant display name
+- Exercise 3 - Set your privacy information
 
 ### Architecture Diagram
 
- ![](./media/arch001.png)
+   ![](./media/arch002.png)
 
-Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/43fffebe-13a2-4517-aae2-5ed59849e20a) if you want to go through detailed guide prior to launching lab environment.
+Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/c82718df-a89c-4c2d-808e-bba583616163) if you want to go through the detailed guide prior to launching lab environment.
 
 
