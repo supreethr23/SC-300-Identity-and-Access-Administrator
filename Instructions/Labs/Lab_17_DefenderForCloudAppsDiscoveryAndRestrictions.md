@@ -2,7 +2,7 @@
 
 ## Lab scenario
 
-Microsoft Defender for Cloud Apps utilizes logs from network traffic to identify the applications that users are accessing.  Traffic logs from on-premises firewalls will provide a snapshot report on the most common applications and the users that are accessing these apps.  Traffic from managed devices will be fed into the Microsoft Defender for Cloud Apps discovery overview dashboard
+Microsoft Defender for Cloud Apps utilizes logs from network traffic to identify the applications that users are accessing. Traffic logs from on-premises firewalls will provide a snapshot report on the most common applications and the users that are accessing these apps. Traffic from managed devices will be fed into the Microsoft Defender for Cloud Apps discovery overview dashboard.
 
 ## Lab objectives
 In this lab, you will complete the following tasks:
