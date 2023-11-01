@@ -8,14 +8,14 @@ In this lab, you will learn how to perform duties as an application administrato
 
 ### Objectives
   
-After completing this lab, you will be able to:
+After completing this lab, you will be able to complete the following Exercises:
 
-- Create a new user and test their application admin rights
-- Assign the application admin role and create an app
-- Remove a role assignment
-- Bulk import of users
-- Remove a user from Microsoft Entra ID
-- Add a Windows 10 license to a user account
+-  Exercise 1 - Create a new user and test their application admin rights
+-  Exercise 2 - Assign the application admin role and create an app
+-  Exercise 3 - Remove a role assignment
+-  Exercise 4 - Bulk import of users
+-  Exercise 5 - Remove a user from Microsoft Entra ID
+-  Exercise 6 - Add a  license to a user account
 
 ### Architecture Diagram
 
