@@ -15,6 +15,8 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
+![Create resource](./media/lab20-arch.PNG)
+
 ## Exercise 1: Configure an Enterprise App
 
 ### Task 1: Add an app to your Microsoft Entra ID tenant
