@@ -8,7 +8,7 @@ In this lab, you will learn how to configure multi-factor authentication registr
 
 ### Objectives
   
-After completing this lab, you will be able to complete the following exercises:
+After completing this lab, you will be able to complete the following tasks:
 
 - Task 1 - Policy configuration
 - Task 2 - Configure Microsoft Entra ID Identity Protection policy for MFA registration
