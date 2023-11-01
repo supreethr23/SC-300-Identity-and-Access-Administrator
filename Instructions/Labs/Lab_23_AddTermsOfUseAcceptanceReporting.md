@@ -50,7 +50,7 @@ Once you have finalized your terms of use document, use the following procedure 
     - In the **Display name** box, enter **Contoso Terms of Use (4)**. This is the title that users see when they sign in.
     - To require end users to view the terms of use prior to accepting them, set **Require users to expand the terms of use** to **On (5)**.
     - To require end users to accept your terms of use on every device they are accessing from, set **Require users to consent on every device** to **Off (6)**. Users may be required to install additional applications if this option is enabled.
-    >**Note:** Consent on every device will require users to register each device with Azure AD prior to getting access. It is a good practice to require this setting to On; however for the purpose of a cleaner lab, we are using Off.
+    >**Note:** Consent on every device will require users to register each device with Microsoft Entra ID prior to getting access. It is a good practice to require this setting to On; however for the purpose of a cleaner lab, we are using Off.
     - If you want to expire terms of use consents on a schedule, set **Expire consents** to **On (7)**.
 
     ![](./media/lab23-3.png)
