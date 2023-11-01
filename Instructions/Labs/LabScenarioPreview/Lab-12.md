@@ -5,7 +5,7 @@
 
 ### Lab overview
 
-In this lab, you will learn how to implement Microsoft Entra ID Authentication for remote access to virtual machines. This will help you gain cross-platform authentication skills, manage user access, ensure secure remote connections and make you a proficient Azure administrator.
+In this lab, you will learn how to set up smart lockouts in Microsoft Entra ID which plays a vital role for security, protecting user accounts, detecting suspicious logins, and ensuring business continuity. It's a key element in their cybersecurity strategy.
 
 ### Objectives
   
