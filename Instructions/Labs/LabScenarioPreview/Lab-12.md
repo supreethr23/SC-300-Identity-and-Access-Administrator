@@ -1,7 +1,7 @@
 
 # Lab Scenario Preview: SC-300: Microsoft Identity and Access Administrator
 
-## Lab 01: Manage Microsoft Entra ID smart lockout values
+## Lab 12: Manage Microsoft Entra ID smart lockout values
 
 ### Lab overview
 
