@@ -4,7 +4,7 @@
 
 ### Lab overview
 
-In this lab, you will learn how to add guest users to a directory which involves inviting external users, such as clients or partners, to access specific resources within your organization's directory,
+In this lab, you will learn how to add guest users to a directory which involves inviting external users, such as clients or partners, to access specific resources within your organization's directory.
 
 ### Objectives
   
