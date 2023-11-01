@@ -1,4 +1,4 @@
-# Lab 27 - Microsoft Sentinel Kusto Queries for Azure AD data sources
+# Lab 27 - Microsoft Sentinel Kusto Queries for Microsoft Entra ID data sources
 
 ## Lab scenario
 
@@ -36,7 +36,7 @@ In this lab, you will be performing the following tasks:
 
 1. If prompted, select **OK** to activate the Microsoft Sentinel free trial.
 
-#### Task 2 - Add Azure AD as a Data source
+#### Task 2 - Add Microsoft Entra IDas a Data source
 
 1. In **Microsoft Sentinel**, navigate on the menu to **Configuration** and select **Data connectors**.
 
