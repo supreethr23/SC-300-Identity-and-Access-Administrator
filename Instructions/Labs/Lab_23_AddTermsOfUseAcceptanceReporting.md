@@ -6,20 +6,21 @@ Microsoft Entra terms of use policies provide a simple method that organizations
 You must create and enforce a ToU policy for your organization.
 
 ## Lab objectives
-In this lab, you will complete the following tasks:
 
-+ Exercise 1: Establish a Terms of Use and Conduct Testing
-    + Task 1: Add terms of use
-    + Task 2: Log in as an user
-    + Task 3: Review the report of aceptance and rejection records
-    + Task 4: What terms of use looks like for users
-    + Task 5: How users can review their terms of use
-    + Task 6: Edit terms of use details
-    + Task 7: Update an existing terms of use document
+In this lab, you will complete the following tasks:
++ Task 1: Add terms of use
++ Task 2: Log in as an user
++ Task 3: Review the report of aceptance and rejection records
++ Task 4: What terms of use looks like for users
++ Task 5: How users can review their terms of use
++ Task 6: Edit terms of use details
++ Task 7: Update an existing terms of use document
 
 ### Estimated time: 40 minutes
 
 ## Architecture diagram
+
+![Create resource](./media/lab23-arch.PNG)
 
 ## Exercise 1: Establish a Terms of Use and Conduct Testing
 
@@ -50,7 +51,7 @@ Once you have finalized your terms of use document, use the following procedure 
     - In the **Display name** box, enter **Contoso Terms of Use (4)**. This is the title that users see when they sign in.
     - To require end users to view the terms of use prior to accepting them, set **Require users to expand the terms of use** to **On (5)**.
     - To require end users to accept your terms of use on every device they are accessing from, set **Require users to consent on every device** to **Off (6)**. Users may be required to install additional applications if this option is enabled.
-    >**Note:** Consent on every device will require users to register each device with Azure AD prior to getting access. It is a good practice to require this setting to On; however for the purpose of a cleaner lab, we are using Off.
+    >**Note:** Consent on every device will require users to register each device with Microsoft Entra ID prior to getting access. It is a good practice to require this setting to On; however for the purpose of a cleaner lab, we are using Off.
     - If you want to expire terms of use consents on a schedule, set **Expire consents** to **On (7)**.
 
     ![](./media/lab23-3.png)

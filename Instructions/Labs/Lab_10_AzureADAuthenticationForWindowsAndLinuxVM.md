@@ -1,4 +1,4 @@
-# Lab 10 - Azure AD Authentication for Windows and Linux Virtual Machines
+# Lab 10 - Microsoft Entra ID Authentication for Windows and Linux Virtual Machines
 
 ## Lab scenario
 
@@ -8,20 +8,22 @@ The company has made the decision to implement Azure Active Directory as the aut
 
 In this lab, you will complete the following tasks:
 
-    + Task 1: Login to Windows Virtual Machines in Azure with Azure AD
-    + Task 2: Azure AD login for existing Azure Virtual Machines
-    + Task 3: Update the Server VM to support the Azure AD login
-    + Task 4: Modify your RDP file to support the Azure AD login
-    + Task 5: Connect to the Windows Server 2022 Datacenter using Azure AD login
-    + Task 6: Optional testing to explore the Azure AD login
++ Task 1: Login to Windows Virtual Machines in Azure with Microsoft Entra ID
++ Task 2: Microsoft Entra ID login for existing Azure Virtual Machines
++ Task 3: Update the Server VM to support the Microsoft Entra ID login
++ Task 4: Modify your RDP file to support the Microsoft Entra ID login
++ Task 5: Connect to the Windows Server 2022 Datacenter using Microsoft Entra ID login
++ Task 6: Optional testing to explore the Microsoft Entra ID login
 
 ### Estimated time: 30 minutes
 
 ## Architecture diagram
 
+![Create resource](./media/lab10-arch.PNG)
+
 ## Exercise 1: Login to Windows Virtual Machines in Azure with Microsoft Entra ID
 
-### Task 1: Create a Windows Virtual Machine with Azure AD login enabled
+### Task 1: Create a Windows Virtual Machine with Microsoft Entra ID login enabled
 
 1. In the Azure Portal, from the upper left corner select the **menu (1)** icon with three lines as highlighted below and then select **+ Create a resource (2)**.
 
@@ -62,8 +64,8 @@ In this lab, you will complete the following tasks:
 
     ![Create vm](./media/create-vm-03.png)
 
-1. On the **Management (1)** tab, check the box - **Login with Azure AD (2)** under the Azure AD section and then click on **Review + create (3)**.
-   >**Note:** Notice that the **System assigned managed identity** under the Identity section is auto-matically checked and turned grey. This action should happen automatically once you enable Login with Azure AD.
+1. On the **Management (1)** tab, check the box - **Login with Microsoft Entra ID (2)** under the Microsoft Entra ID section and then click on **Review + create (3)**.
+   >**Note:** Notice that the **System assigned managed identity** under the Identity section is auto-matically checked and turned grey. This action should happen automatically once you enable Login with Microsoft Entra ID.
 
     ![Create vm](./media/create-vm-04.png)
 
@@ -82,7 +84,7 @@ In this lab, you will complete the following tasks:
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Task 2: Azure AD login for existing Azure Virtual Machines
+### Task 2: Microsoft Entra ID login for existing Azure Virtual Machines
 
 1. Browse to **Virtual Machines** within the Azure portal and select the newly created Virtual Machine from Task 1.
 
@@ -119,7 +121,7 @@ In this lab, you will complete the following tasks:
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Task 3: Update the Server VM to support the Azure AD login
+### Task 3: Update the Server VM to support the Microsoft Entra ID login
 
 1. Browse to **Virtual Machines** within the Azure portal and select the Virtual Machine that was created in Task 1.
 
@@ -166,7 +168,7 @@ In this lab, you will complete the following tasks:
 
 1. **Exit** the virtual machine RDP session.
 
-### Task 4: Modify your RDP file to support the Azure AD login
+### Task 4: Modify your RDP file to support the Microsoft Entra ID login
 
 1. Open the **Downloads** folder in file manager.
 
@@ -190,7 +192,7 @@ In this lab, you will complete the following tasks:
       - <<virtual machine name>>.RDP
       - <<virtual machine name>>-AzureAD.RDP
 
-### Task 5: Connect to the Windows Server 2022 Datacenter using Azure AD login
+### Task 5: Connect to the Windows Server 2022 Datacenter using Microsoft Entra ID login
 
 1. Open the **Virtual-Machine-01 -AzureAD.RDP** file.
 
@@ -212,27 +214,27 @@ In this lab, you will complete the following tasks:
 
 1. Windows Server should confirm the login and open to the normal Server Manager Dashboard.
 
-### Task 6: Optional testing to explore the Azure AD login
+### Task 6: Optional testing to explore the Microsoft Entra ID login
 
 1. To check to see that <inject key="LabVM Admin Username" enableCopy="true" /> was the only user added to the Administrators group,
    - From the Server Manager Dashboard, select the **Tools (1)** menu from the upper right corner.
    - Launch the **Computer Management (2)** tool.
 
-     ![Azure AD Login](./media/server-manager.png)
+     ![Microsoft Entra ID Login](./media/server-manager.png)
 
 1. We can find the list of users who have been granted access to Administrator group can be found as follows :
    - Open **Local Users and Groups (1)**.
    - Navigate to **Groups (2)** and the select **Administrators (3)**.
   
-     ![Azure AD Login](./media/server-manager-1.png)
+     ![Microsoft Entra ID Login](./media/server-manager-1.png)
 
 1. You should see **<inject key="LabVM Admin Username" enableCopy="false" />** in the list.
 
-     ![Azure AD Login](./media/server-manager-2.png)
+     ![Microsoft Entra ID Login](./media/server-manager-2.png)
 
->**Note:** It's important to highlight that other Azure AD members are restricted from logging in using this RDP file.
+>**Note:** It's important to highlight that other Microsoft Entra ID members are restricted from logging in using this RDP file.
 
-## Exercise 2: Login to Linux Virtual Machines in Azure with Azure AD [READ-ONLY]
+## Exercise 2: Login to Linux Virtual Machines in Azure with Microsoft Entra ID [READ-ONLY]
 
 The tasks outlined here are intended solely for informational purposes. They are meant to provide users with a better understanding and knowledge of the topic.
 
@@ -250,7 +252,7 @@ The tasks outlined here are intended solely for informational purposes. They are
 
 1. Go through the rest of the experience of creating a virtual machine. During this preview, you’ll have to create an administrator account with username and password or SSH public key.
 
-#### Task 2: Azure AD login for existing Azure Virtual Machines
+#### Task 2: Microsoft Entra ID login for existing Azure Virtual Machines
 
 1. Browse to **Virtual Machines** in the [https://portal.azure.com](https://portal.azure.com).
 
@@ -266,11 +268,11 @@ The tasks outlined here are intended solely for informational purposes. They are
 
 ## Review
 In this lab, you have completed:
-- Login to Windows Virtual Machines in Azure with Azure AD
-- Azure AD login for existing Azure Virtual Machines
-- Update the Server VM to support the Azure AD login
-- Modify your RDP file to support the Azure AD login
-- Connect to the Windows Server 2022 Datacenter using Azure AD login
-- Optional testing to explore the Azure AD login
+- Login to Windows Virtual Machines in Azure with Microsoft Entra ID
+- Microsoft Entra ID login for existing Azure Virtual Machines
+- Update the Server VM to support the Microsoft Entra ID login
+- Modify your RDP file to support the Microsoft Entra ID login
+- Connect to the Windows Server 2022 Datacenter using Microsoft Entra ID login
+- Optional testing to explore the Microsoft Entra ID login
 
 ### You have successfully completed the lab
