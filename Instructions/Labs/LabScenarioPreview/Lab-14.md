@@ -8,7 +8,7 @@ In this lab, you will learn how to configure security measures in an identity an
 
 ### Objectives
   
-After completing this lab, you will be able to complete the following exercises:
+After completing this lab, you will be able to complete the following tasks:
 
 - Task 1 - Configure the policy
 - Task 2 - Enable Sign-in risk policy
