@@ -26,7 +26,7 @@ In this lab, you will complete the following tasks:
       >**Note:** Replace **yourtenant**, with the tenant name, copy it from the **Environment Details** page.
    - Password = Copy it from the **Environment Details** page.
 
-   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/sign-in.png)
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/signin.png)
 
 1. Confirm that Microsoft Forms opens and that you do not get any warning messages.
 

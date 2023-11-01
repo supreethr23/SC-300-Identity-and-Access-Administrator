@@ -40,7 +40,7 @@ After completing this lab, you will be able to:
 10. Under **Controls**, notice that the **Require Azure AD MFA registration** is selected and cannot be changed.
 
 
-#### Task 2 - Configure Azure AD Identity Protection policy for MFA registration
+#### Task 2 - Configure Microsoft Entra ID Identity Protection policy for MFA registration
 
 **Note**: Microsoft Entra ID Identity Protection requires a Microsoft Entra ID Premium P2 license to be activated. 
 

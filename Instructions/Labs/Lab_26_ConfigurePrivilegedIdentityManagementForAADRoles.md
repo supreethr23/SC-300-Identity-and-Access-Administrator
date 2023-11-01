@@ -12,7 +12,7 @@ After completing this lab, you will be able to:
 
 #### Estimated time: 30 minutes
 
-### Exercise 1 - Configure Azure AD role settings
+### Exercise 1 - Configure Microsoft Entra ID role settings
 
 #### Task 1 - Open role settings
 
@@ -52,7 +52,7 @@ If setting multiple approvers, approval completes as soon as one of them approve
 
 5. Once you have configured the role settings, select **Update** to save your changes.
 
-### Exercise 2 - PIM with Azure AD roles
+### Exercise 2 - PIM with Microsoft Entra ID roles
 
 #### Task 1 - Assign a role
 

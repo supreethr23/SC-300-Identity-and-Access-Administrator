@@ -2,7 +2,7 @@
 
 ## Lab scenario
 
-Azure Active Directory (Azure AD) Privileged Identity Management (PIM) can manage the built-in Azure resource roles, as well as custom roles, including (but not limited to):
+Microsoft Entra ID Privileged Identity Management (PIM) can manage the built-in Azure resource roles, as well as custom roles, including (but not limited to):
 
 - Owner
 - User Access Administrator
@@ -36,7 +36,7 @@ In this lab, you will complete the following tasks:
 
    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/PIM(1).png)
 
-1. In the Azure resources – Discovery page, select your subscription and then, on the top menu, select **Manage resource**.
+1. In the Azure resources – Discovery page, select your **subscription (1)** and then, on the top menu, select **Manage resource (2)**.
 
    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/manageresources(1).png)
 

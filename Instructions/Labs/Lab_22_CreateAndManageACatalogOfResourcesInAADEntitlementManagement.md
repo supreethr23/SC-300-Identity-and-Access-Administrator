@@ -37,15 +37,15 @@ In this lab, you will complete the following tasks:
 
     ![Screen image displaying the Identity governance catalog page with the New catalog menu highlighted ](./media/catalog.png)
 
-1. In the New catalog pane, in the **Name** box, enter **Marketing**.
+1. In the New catalog pane, in the **Name** box, enter **Marketing (1)**.
 
-1. In the **Description** box, enter **For marketing department users**. Users will see this information in an access package's details.
+1. In the **Description** box, enter **For marketing department users (2)**. Users will see this information in an access package's details.
 
-1. Under **Enabled**, select **No**.
+1. Under **Enabled**, select **No (3)**.
 
 1. You may choose to enable the catalog for immediate use or disable if you intend to stage it or keep it unavailable until you intend to use it. For this exercise, the catalog does not need to be enabled.
 
-1. Select Create.
+1. Select **Create (4)**.
 
     ![Screen image displaying the New catalog pan with the Name, Description, Enabled, and Create options highlighted](./media/create.png)
 
@@ -151,9 +151,9 @@ The user that created a catalog becomes the first catalog owner. To delegate man
 
 1. If necessary, in the Azure portal, browse to **Microsoft Entra ID**, from the left-hand navigation pane, select **Identity Governance** and select **Catalogs** and then select **Marketing**.
 
-2. In the Marketing catalog page, from the left-hand navigation pane, select **Roles and administrators**.
+2. In the Marketing catalog page, from the left-hand navigation pane, select **Roles and administrators (1)**.
 
-3. On the top menu, review the available roles and then select **+ Add catalog owner**.
+3. On the top menu, review the available roles and then select **+ Add catalog owner (2)**.
 
     ![Screen image displaying the Roles and administrators page for the Marketing catalog](./media/catalog-owner.png)
 
@@ -165,15 +165,15 @@ The user that created a catalog becomes the first catalog owner. To delegate man
 
 You can edit the name and description for a catalog. Users see this information in an access package's details.
 
-1. On the Marketing page, from the left-hand navigation pane, select **Overview**.
+1. On the Marketing page, from the left-hand navigation pane, select **Overview (1)**.
 
 2. On the top menu, select **Edit**.
 
-3. Review the setting and, under **Properties** > **Enabled**, select **Yes**.
+3. Review the setting and, under **Properties** > **Enabled**, select **Yes (2)**.
 
     ![Screen image displaying the properties being enabled.](./media/overview.png)
 
-4. Select **Save**.
+4. Select **Save (3)**.
 
 #### Task 6 - Create Access reviews for guest users
 
