@@ -1,10 +1,9 @@
 # Lab Scenario Preview: SC-300:  Microsoft Identity and Access Administrator
 
-## Lab 01: Manage user roles
-
+## Lab 02: Working with tenant properties
 ### Lab overview
 
-In this lab, you will learn how to perform duties as an application administrator and create a new user, and assign the appropriate role.
+In this lab, you will learn how to manage and configure various settings, attributes, or characteristics related to a tenant. 
 
 ### Objectives
   
