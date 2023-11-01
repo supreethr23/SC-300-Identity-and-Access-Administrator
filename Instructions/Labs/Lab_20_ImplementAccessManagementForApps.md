@@ -8,7 +8,7 @@ Your organization requires that only specific users or groups have access to ent
 In this lab, you will complete the following tasks:
 
 + Exercise 1: Configure an Enterprise App
-    + Task 1: Add an app to your Azure AD tenant
+    + Task 1: Add an app to your Microsoft Entra ID tenant
     + Task 2: Assign users to an app
 
 ### Estimated time: 20 minutes
@@ -17,7 +17,7 @@ In this lab, you will complete the following tasks:
 
 ## Exercise 1: Configure an Enterprise App
 
-### Task 1: Add an app to your Azure AD tenant
+### Task 1: Add an app to your Microsoft Entra ID tenant
 
 1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
 
@@ -85,7 +85,7 @@ In this lab, you will complete the following tasks:
 ## Review
 
 In this lab, you have completed:
-- Adding an app to your Azure AD tenant
+- Adding an app to your Microsoft Entra ID tenant
 - Assigning users to an app
 Thus, completes the configuration process of an Enterprise Application.
 
