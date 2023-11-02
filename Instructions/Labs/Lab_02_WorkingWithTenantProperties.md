@@ -13,6 +13,10 @@ After completing this lab, you will be able to:
 - Change the tenant display name
 - Set your privacy information
 
+## Architecture Diagram
+
+![Azure portal menu with Azure Active Directory selected](./media/arch002.png)
+
 #### Estimated time: 15 minutes
 
 ### Exercise 1 - Create a custom subdomains 
