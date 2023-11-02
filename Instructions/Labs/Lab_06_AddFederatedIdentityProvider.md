@@ -11,6 +11,10 @@ After completing this lab, you will be able to:
 - Exercise 1 - Configure identity providers
 - Exercise 2 - Configure Azure to work with an External identity provider
 
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch06.png)
+
 #### Estimated time: 25 minutes
 
 ### Exercise 1 - Configure identity providers
