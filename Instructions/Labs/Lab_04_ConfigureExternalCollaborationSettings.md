@@ -13,6 +13,10 @@ After completing this lab, you will be able to:
   
 #### Estimated timing: 5 minutes
 
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch004.png)
+
 ### Exercise 1 - Allowing guest users to be invited into your organization
 
 #### Task 1 - Enable Guest Users to perform self service sign-up
