@@ -24,7 +24,7 @@ Incorporate guest users into the directory to extend limited access and collabor
 
 2. Under **Manage**, select **Users**.
 
-3. Select **+ New user**.
+3. Select **+ New user** to create a new user in Microsoft Entra ID.
 
 4. On the New user menu, select **Invite external user** and then add your information as the guest user.
 
