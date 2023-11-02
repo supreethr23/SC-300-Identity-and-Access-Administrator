@@ -12,6 +12,10 @@ After completing this lab, you will be able to:
 - Exercise 1 - Review and enable Multi-factor Authentication in Azure
 - Exercise 2 - Configure MFA to be required for login
 
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch08.png)
+
 #### Estimated time: 15 minutes
 
 >**IMPORTANT** - An Azure AD Premium license is required for this exercise.
