@@ -60,7 +60,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 #### Task 2 - Login and try to create an app
 
-1. Launch a new InPrivate browser window.
+1. Launch a new **InPrivate** browser window.
 2. Open the Azure Portal [https://portal.azure.com](https://portal.azure.com) as Chris Green.
 
     | **Setting**| **Value**|
@@ -95,7 +95,7 @@ After completing this lab, you will be able to complete the following exercises:
 #### Task 1 - Assign a role to a user
 
 1. If you are not already logged in as a Global Administrator role, open the Azure Portal and log in.
-2. Navigate to Microsoft Entra ID  page.
+2. Navigate to **Microsoft Entra ID**  page.
 3. Select on **Users** under the Manage section of the menu.
 4. Select **Chris Green's** account.
 5. Choose **Assigned roles** from the Manage menu.**(1)**
