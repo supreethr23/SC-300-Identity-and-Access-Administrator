@@ -10,6 +10,10 @@ In this lab, you will complete the following tasks:
 + Task 1 - Review Identity Secure Score and improvement actions
 + Task 2 - Execute an improvement action
 
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch028.png)
+
 #### Estimated time: 15 minutes
 
 ## Architecture diagram
