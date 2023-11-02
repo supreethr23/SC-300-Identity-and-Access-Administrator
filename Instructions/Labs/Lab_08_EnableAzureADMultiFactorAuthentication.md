@@ -9,8 +9,8 @@ To improve security in your organization, you've been directed to enable multi-f
 
 After completing this lab, you will be able to:
 
-- Review and enable Multi-factor Authentication in Azure
-- Configure MFA to be required for login
+- Exercise 1 - Review and enable Multi-factor Authentication in Azure
+- Exercise 2 - Configure MFA to be required for login
 
 #### Estimated time: 15 minutes
 

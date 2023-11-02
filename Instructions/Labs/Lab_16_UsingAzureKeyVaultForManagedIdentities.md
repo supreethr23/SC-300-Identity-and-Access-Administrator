@@ -7,11 +7,11 @@ When you use managed identities for Azure resources, your code can get access to
 ## Lab objectives
 In this lab, you will complete the following tasks:
 
-+ Task 1 - Create a Windows Virtual Machine
-+ Task 2 - Create a Key Vault
-+ Task 3 - Create a secret
-+ Task 4 - Grant access to Key Vault
-+ Task 5 - Access data with Key Vault secret with PowerShell
+- Task 1 - Create a Windows Virtual Machine
+- Task 2 - Create a Key Vault
+- Task 3 - Create a secret
+- Task 4 - Grant access to Key Vault
+- Task 5 - Access data with Key Vault secret with PowerShell
 
 ## Estimated time: 20 minutes
 

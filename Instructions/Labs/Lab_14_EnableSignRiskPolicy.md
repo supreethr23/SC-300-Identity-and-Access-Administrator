@@ -8,8 +8,8 @@ As an additional layer of security, you need to enable and configure your Azure 
 ## Lab Objectives
 
 After completing this lab, you will be able to:
-- Configure the policy
-- Enable Sign-in risk policy
+- Task 1 - Configure the policy
+- Task 2 - Enable Sign-in risk policy
 
 #### Estimated time: 10 minutes
 

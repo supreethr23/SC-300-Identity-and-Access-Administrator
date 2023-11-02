@@ -9,9 +9,9 @@ You need to identify and update the different properties associated with your te
 
 After completing this lab, you will be able to:
 
-- Create a custom subdomains
-- Change the tenant display name
-- Set your privacy information
+- Task 1 - Create a custom subdomain name
+- Task 2 - Change the tenant display name
+- Task 3 - Set your privacy information
 
 ## Architecture Diagram
 

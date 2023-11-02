@@ -9,14 +9,14 @@ Your organization needs to be able to limit user access to its internal applicat
 ## Lab objectives
 In this lab, you will complete the following tasks:
 
-+ Exercise 1: Set a conditional access policy to block an user from accessing Office 365
-    + Task 1: Confirm that the user has access to Office 365
-    + Task 2: Create a conditional access policy
-    + Task 3: Test the conditional access policy
-+ Exercise 2: Test conditional access policies with "What if"
-    + Task 1: Use What if to test conditional access policies
-+ Exercise 3: Configure sign in frequency controls using a conditional access policy
-    + Task 1: Use the Azure Portal to configure conditional access
+- Exercise 1 - Set a conditional access policy to block an user from accessing Office 365
+    - Task 1 - Confirm that the user has access to Office 365
+    - Task 2 - Create a conditional access policy
+    - Task 3 - Test the conditional access policy
+- Exercise 2: Test conditional access policies with "What if"
+    - Task 1 - Use What if to test conditional access policies
+- Exercise 3: Configure sign in frequency controls using a conditional access policy
+    - Task 1 - Use the Azure Portal to configure conditional access
 
 ### Estimated time: 30 minutes
 

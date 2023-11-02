@@ -7,9 +7,9 @@ Your organization requires that only specific users or groups have access to ent
 ## Lab objectives
 In this lab, you will complete the following tasks:
 
-+ Exercise 1: Configure an Enterprise App
-    + Task 1: Add an app to your Microsoft Entra ID tenant
-    + Task 2: Assign users to an app
++ Exercise 1 - Configure an Enterprise App
+    + Task 1 - Add an app to your Microsoft Entra ID tenant
+    + Task 2 - Assign users to an app
 
 ### Estimated time: 20 minutes
 

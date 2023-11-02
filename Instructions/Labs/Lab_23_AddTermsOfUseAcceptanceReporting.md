@@ -8,13 +8,13 @@ You must create and enforce a ToU policy for your organization.
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
-+ Task 1: Add terms of use
-+ Task 2: Log in as an user
-+ Task 3: Review the report of aceptance and rejection records
-+ Task 4: What terms of use looks like for users
-+ Task 5: How users can review their terms of use
-+ Task 6: Edit terms of use details
-+ Task 7: Update an existing terms of use document
++ Task 1 - Add terms of use
++ Task 2 - Log in as an user
++ Task 3 - Review the report of aceptance and rejection records
++ Task 4 - What terms of use looks like for users
++ Task 5 - How users can review their terms of use
++ Task 6 - Edit terms of use details
++ Task 7 - Update an existing terms of use document
 
 ### Estimated time: 40 minutes
 

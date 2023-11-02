@@ -15,8 +15,8 @@ You need to make a user eligible for an Azure resource role.
 ## Lab objectives
 In this lab, you will complete the following tasks:
 
-+ Task 1: Assign Azure resource roles
-+ Task 2: Update or remove an existing resource role assignment
+- Task 1 - Assign Azure resource roles
+- Task 2 - Update or remove an existing resource role assignment
 
 ## Estimated time: 10 minutes
 

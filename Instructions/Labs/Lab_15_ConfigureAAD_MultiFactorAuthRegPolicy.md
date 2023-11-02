@@ -8,8 +8,8 @@ Azure AD multi-factor authentication provides a means to verify who you are usin
 ## Lab Objectives
 
 After completing this lab, you will be able to:
-- Complete Policy configuration
-- Configure Azure AD Identity Protection policy for MFA registration
+- Task 1 - Complete Policy configuration
+- Task 2 - Configure Azure AD Identity Protection policy for MFA registration
 
 #### Estimated time: 10 minutes
 
