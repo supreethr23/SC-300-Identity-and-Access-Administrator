@@ -1,1 +1,13 @@
-
+[
+    {
+     "Name": "Lab Scenario Preview - SC-300: Identity and Access Administrator",
+     "Language": "English",
+     "BaseURL": "https://github.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/prod",
+     "Files": [
+         {
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/prod/Instructions/Labs/LabScenarioPreview/Lab-24.md",
+           "Order": 1
+         }
+      ]  
+    } 
+ ]
