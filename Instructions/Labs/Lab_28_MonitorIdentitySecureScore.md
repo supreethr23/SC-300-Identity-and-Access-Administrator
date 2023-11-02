@@ -12,7 +12,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture Diagram
 
-![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch028.png)
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch28.png)
 
 #### Estimated time: 15 minutes
 
