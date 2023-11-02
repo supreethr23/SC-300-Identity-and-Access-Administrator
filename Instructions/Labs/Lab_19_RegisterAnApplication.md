@@ -4,8 +4,8 @@
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Register an application
-+ Task 2: Manage app registration with a custom role
++ Task 1 - Register an application
++ Task 2 - Manage app registration with a custom role
 
 #### Estimated time: 30 minutes
 

@@ -7,13 +7,13 @@ A catalog is a container of resources and access packages. You create a catalog 
 ## Lab objectives
 In this lab, you will complete the following tasks:
 
-+ Task 1: Create a catalog
-+ Task 2: Create a groups
-+ Task 3: Add resources to a catalog
-+ Task 4: Add additional catalog owners
-+ Task 5: Edit a catalog
-+ Task 6: Create Access reviews for guest users
-+ Task 7: Delete a catalog
++ Task 1 - Create a catalog
++ Task 2 - Create a groups
++ Task 3 - Add resources to a catalog
++ Task 4 - Add additional catalog owners
++ Task 5 - Edit a catalog
++ Task 6 - Create Access reviews for guest users
++ Task 7 - Delete a catalog
 
 ## Estimated time: 15 minutes
 

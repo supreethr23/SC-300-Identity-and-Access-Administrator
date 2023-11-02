@@ -6,8 +6,8 @@ For applications your organization has developed or for those that are registere
 
 ## Lab Objectives
 After completing this lab, you will be able to:
-- Perform App registration
-- Grant admin consent in Enterprise apps
+- Task 1 - App registration
+- Task 2 - Grant admin consent in Enterprise apps
 
 #### Estimated time: 15 minutes
 

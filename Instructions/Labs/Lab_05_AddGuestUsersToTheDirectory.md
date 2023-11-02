@@ -9,8 +9,8 @@ Your company works with many vendors and, on occasion, you need to add some vend
 
 After completing this lab, you will be able to complete the following exercises:
 
-- Add guest users to the directory
-- Invite guest users in bulk
+- Exercise 1 - Add guest users to the directory
+- Exercise 2 - Invite guest users in bulk
 
 #### Estimated time: 20 minutes
 

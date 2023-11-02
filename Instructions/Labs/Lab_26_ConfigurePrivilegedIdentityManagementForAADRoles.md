@@ -7,8 +7,8 @@ A Privileged role administrator can customize Privileged Identity Management (PI
 
 ## Lab Objectives
 After completing this lab, you will be able to:
-- Configure Azure AD role settings
-- Configured PIM with Azure AD roles
+- Exercise 1 - Configure Microsoft Entra ID role settings
+- Exercise 2 - PIM with Microsoft Entra ID roles
 
 #### Estimated time: 30 minutes
 

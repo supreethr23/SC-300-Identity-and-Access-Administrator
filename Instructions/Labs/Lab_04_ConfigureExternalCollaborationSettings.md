@@ -8,8 +8,8 @@ You must enable external collaboration settings for your organization for approv
 ## Lab scenario
 
 After completing this lab, you will be able to:
-- Enable Guest Users to perform self service sign-up
-- Configure external collaboration settings
+- Task 1 - Enable Guest Users to perform self service sign-up
+- Task 2 - Configure external collaboration settings
   
 #### Estimated timing: 5 minutes
 

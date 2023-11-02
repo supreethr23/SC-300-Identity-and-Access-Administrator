@@ -7,7 +7,7 @@ You must configure the additional password protection settings for your organiza
 ## Lab objectives
 In this lab, you will complete the following tasks:
 
-+ Task 1: Add Smart Lockouts
+- Task 1 - Add Smart Lockouts
 
 ### Estimated time: 15 minutes
 

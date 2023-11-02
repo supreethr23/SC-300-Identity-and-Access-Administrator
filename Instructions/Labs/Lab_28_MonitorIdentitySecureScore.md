@@ -7,8 +7,8 @@ Azure AD Identity Protection provides automated detection and remediation to ide
 ## Lab objectives
 In this lab, you will complete the following tasks:
 
-+ Task 1: Review Identity Secure Score and improvement actions
-+ Task 2: Execute an improvement action
++ Task 1 - Review Identity Secure Score and improvement actions
++ Task 2 - Execute an improvement action
 
 #### Estimated time: 15 minutes
 

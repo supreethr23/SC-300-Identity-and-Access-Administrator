@@ -8,8 +8,8 @@ Your company works with many vendors and, on occasion, you need to add some vend
 ## Lab Objectives
 
 After completing this lab, you will be able to:
-- Configure identity providers
-- Configure Azure to work with an External identity provider
+- Exercise 1 - Configure identity providers
+- Exercise 2 - Configure Azure to work with an External identity provider
 
 #### Estimated time: 25 minutes
 
@@ -80,7 +80,7 @@ After completing this lab, you will be able to:
 
 3. Enter the gmail account you created (or are using) for this lab.
 
-4. Select **Save**
+4. Select **Save**.
 
 
 ### Exercise 2 - Configure Azure to work with an External identity provider

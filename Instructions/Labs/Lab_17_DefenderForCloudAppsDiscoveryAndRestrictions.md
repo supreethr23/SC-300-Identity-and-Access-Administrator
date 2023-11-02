@@ -7,8 +7,8 @@ Microsoft Defender for Cloud Apps utilizes logs from network traffic to identify
 ## Lab objectives
 In this lab, you will complete the following tasks:
 
-+ Task 1: Discovery apps in Defender for Cloud Apps
-+ Task 2: Restrict Apps in Defender for Cloud Apps
++ Task 1 - Discovery apps in Defender for Cloud Apps
++ Task 2 - Restrict Apps in Defender for Cloud Apps
 
 ### Estimated time: 20 minutes
 

@@ -7,7 +7,7 @@ Privileged user access should be regularly reviewed in a similar manner.  Since
 ## Lab Objectives
 
 After completing this lab, you will be able to:
-+ Exercise 1: Create an internal Access review
++ Exercise 1 - Create an internal Access review
 
 #### Estimated time: 5 minutes
 
