@@ -12,6 +12,10 @@ After completing this lab, you will be able to complete the following exercises:
 - Exercise 1 - Add guest users to the directory
 - Exercise 2 - Invite guest users in bulk
 
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch05.png)
+
 #### Estimated time: 20 minutes
 
 ### Exercise 1 - Add guest users to the directory
