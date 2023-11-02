@@ -12,6 +12,10 @@ In this lab, you will be performing the following tasks:
 - Task 2 - Add Azure AD as a Data source
 - Task 3 - Run Kusto query on User activity
 
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch27.png)
+
 #### Estimated time: 30 minutes
 
 ### Exercise 1 - Configure Microsoft Sentinel for Kusto Queries
