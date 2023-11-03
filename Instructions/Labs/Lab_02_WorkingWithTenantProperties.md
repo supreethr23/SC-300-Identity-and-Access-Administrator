@@ -51,7 +51,7 @@ After completing this lab, you will be able to:
 
 #### Task 1 - Set the tenant name and technical contact
 
-1. Navigate back to **Azure HOL 1709 | Custom domain names**. From the left-hand navigation pane, in the **Manage** section, select **Properties**.
+1. In the **Custom domain names** page, from the left-hand navigation pane, in the **Manage** section, select **Properties**.
 
 1. Change the Tenant Properties for the **Name** and **Technical contact** in the dialog.
 
