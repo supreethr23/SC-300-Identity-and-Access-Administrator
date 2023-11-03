@@ -21,7 +21,7 @@ After completing this lab, you will be able to:
 
 #### Task 1 - Configure Google to be used as an identity provider
 
-**Important Note** - For this exercise, you will need a Gmail account on Google. You can use your personnel Gmail account or  create a **new Google account** and then follow the steps for the exercise.  Be sure to note the email address and password, they are necessary to complete the lab.
+**Important Note** - For this exercise, you will need a Gmail account on Google. You can use your **personnel Gmail account** or  create a **new Google account** and then follow the steps for the exercise.  Be sure to note the email address and password, they are necessary to complete the lab.
 
 1. Open the Microsoft Edge browser and copy and paste the link to go to the Google APIs at https://console.developers.google.com, and sign in with your Google account. We recommend that you use a shared team Google account.
 
