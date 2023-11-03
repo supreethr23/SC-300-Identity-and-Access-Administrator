@@ -18,7 +18,7 @@ After completing this lab, you will be able to:
 
 #### Estimated time: 30 minutes
 
->**IMPORTANT** - An Azure AD Premium license is required for this exercise.
+>**IMPORTANT** - A Microsoft Entra ID Premium license is required for this exercise.
 
 ### Exercise 1 - Review and enable Multi-factor Authentication in Azure
 
