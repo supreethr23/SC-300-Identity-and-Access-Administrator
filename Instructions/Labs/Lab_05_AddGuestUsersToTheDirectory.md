@@ -84,7 +84,7 @@ A recent partnership has been established with another company. For now, employe
 
 8. On the Bulk invite users page, under **Upload your csv file**, browse to the file.
 
-     **Note** - When you select the file, validation of the .csv file starts.
+     >**Note** - When you select the file, validation of the .csv file starts.
 
 9. After the file contents are validated, you will see **File uploaded successfully**. If there are errors, you must fix them before you can submit the job.
 
