@@ -102,7 +102,7 @@ A recent partnership has been established with another company. For now, employe
 
 1. Open PowerShell as an administrator.  This can be done by searching for PowerShell in Windows and choosing Run as administrator.  
 
-1. You will need to add the Azure AD PowerShell module, if you have not used it before.  Run the command: Install-Module AzureAD.  When prompted, select “Y” to continue.
+1. You will need to add the Azure AD PowerShell module, if you have not used it before.  Run the command: Install-Module AzureAD.  When prompted, select **Y** to continue.
 
     ``` 
     Install-Module AzureAD
