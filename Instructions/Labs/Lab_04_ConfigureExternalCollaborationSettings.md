@@ -41,7 +41,7 @@ After completing this lab, you will be able to:
 
 4. Select the **Email one-time passcode** notification link you see near the top of the screen.
 
-    **Note** - A one-time passcode is a very secure way to invite a user to join your organization.
+    >**Note** - A one-time passcode is a very secure way to invite a user to join your organization.
     
 5. Ensure that **Yes** is selected.
 6. Select **Save** if needed.
