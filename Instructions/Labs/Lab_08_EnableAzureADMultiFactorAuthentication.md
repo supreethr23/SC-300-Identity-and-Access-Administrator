@@ -7,7 +7,7 @@ To improve security in your organization, you've been directed to enable multi-f
 
 ## Lab Objectives
 
-After completing this lab, you will be able to:
+After completing this lab, you will be able to complete the following exercises:
 
 - Exercise 1 - Review and enable Multi-factor Authentication in Azure
 - Exercise 2 - Configure MFA to be required for login
