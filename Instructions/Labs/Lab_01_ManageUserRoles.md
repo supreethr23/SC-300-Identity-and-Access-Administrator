@@ -20,7 +20,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 ## Architecture Diagram
 
-![Bulk import using csv file entry](./media/arch001.png)
+![Bulk import using csv file entry](./media/archentra.png)
 
 ### Exercise 1 - Create a new user and test their application admin rights
   
