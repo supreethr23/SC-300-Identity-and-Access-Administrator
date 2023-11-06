@@ -27,8 +27,6 @@ Based on your organizational requirements, you can customize the Microsoft Entra
 
 1. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Security**.
 
-    ![](./media/ms-entra-id-2.png)
-
 1. On the Security page, in the left navigation, select **Authentication methods**.
 
     ![](./media/ms-entra-id-3.png)
@@ -38,12 +36,16 @@ Based on your organizational requirements, you can customize the Microsoft Entra
     ![](./media/ms-entra-id-4.png)
 
 1. In the Password protection settings, configure the following:
-   - In the **Lockout duration in seconds** box, set the value to **120 (1)**.
-   - **Enforce custom list:** Ensure that it has been toggled to **Yes (2)**.
-   - **Mode:** Select **Enforced (3)**
-   - Save your changes **(4)**.
 
-    ![](./media/ms-entra-id-5.png)
+   - In **Lockout threshold** box, set the value to **3 (1)**.
+   - In the **Lockout duration in seconds** box, set the value to **120 (2)**.
+   - **Enforce custom list:** Ensure that it has been toggled to **Yes (3)**.
+   - In **Custom banned password list**: add these values, **Password01**, **F00tball01**, **Se@Hawks1**, **Never4get!!**. (After adding each values press enter) **(4)**.
+   - In **Enable password protection on Windows Server Active Directory**: Select **Yes (5)**.
+   - **Mode:** Select **Enforced (6)**
+   - Save your changes **(7)**.
+
+        ![](./media/passwordprotection.png)
 
    >**Note:** When the smart lockout threshold is triggered, you will get the following message while the account is locked:
     - Your account is temporarily locked to prevent unauthorized use. Try again later, and if you still have trouble, contact your admin.

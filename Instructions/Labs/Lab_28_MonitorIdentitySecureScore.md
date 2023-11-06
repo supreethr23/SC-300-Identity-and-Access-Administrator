@@ -18,9 +18,9 @@ In this lab, you will complete the following tasks:
 
 #### Task 1 - Review Identity Secure Score and improvement actions
 
-1. Sign in to the [https://entra.microsoft.com/](https://entra.microsoft.com/).
+1. Open a new tab, and sign in to the [https://entra.microsoft.com/](https://entra.microsoft.com/).
 
-2. Search for and then select **Protection > Identity Secure Score** to view the dashboard.
+2. From the left-hand navigation pane, select **Protection > Identity Secure Score** to view the dashboard.
 
 3. In the **Identity Secure Score** This will take you to the Identity Secure Score dashboard.
 
@@ -30,21 +30,23 @@ In this lab, you will complete the following tasks:
 
 #### Task 2 - Execute an improvement action
 
-1. Select **Identity Protection | Sign-in risk policy** from left panel.
+1. Select **Identity Protection**, from the left-hand navigation menu.
 
-2. Select **All users** under **Assignments**.
+1. Select **Sign-in risk policy** from the left pane.
 
-3. Select **low and above** under Sign-in risk and then select **Medium and above**.
+1. Select **All users** under **Assignments**.
 
-4. Select **Allow** - **Require multi-factor authentication** under **Controls**.
+1. Select **low and above** under Sign-in risk and then select **Medium and above**.
 
-5. Turn the **Policy enforcement** to **Enabled** (if not done so already), and select **Save**.
+1. Select **Allow** - **Require multi-factor authentication**, (if not done so already) under **Controls**.
+
+1. Turn the **Policy enforcement** to **Enabled** (if not done so already), and select **Save**.
 
    ![](./media/Identify.png)
 
-6. You have created a Sign-in risk policy that should now increase your Identity Secure Score.  This will take up to 24 hours to take affect in your Identity Secure Score.
+1. You have created a Sign-in risk policy that should now increase your Identity Secure Score.  This will take up to 24 hours to take affect in your Identity Secure Score.
 
-8. Review other improvement actions and the steps to create and enable them.
+1. Review other improvement actions and the steps to create and enable them.
 
 ### Review
 In this lab, you have completed:
