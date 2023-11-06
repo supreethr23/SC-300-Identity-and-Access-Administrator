@@ -11,6 +11,10 @@ After completing this lab, you will be able to:
 - Task 1 - Complete Policy configuration
 - Task 2 - Configure Azure AD Identity Protection policy for MFA registration
 
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch15.png)
+
 #### Estimated time: 10 minutes
 
 ### Exercise 1 - Set up MFA registration policy

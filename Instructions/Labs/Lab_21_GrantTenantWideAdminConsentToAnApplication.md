@@ -7,7 +7,12 @@ For applications your organization has developed or for those that are registere
 ## Lab Objectives
 After completing this lab, you will be able to:
 - Task 1 - App registration
-- Task 2 - Grant admin consent in Enterprise apps
+- Task 2 - Grant admin consent in App registrations
+- Task 3 - Grant admin consent in Enterprise apps
+
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch021.png)
 
 #### Estimated time: 15 minutes
 

@@ -10,6 +10,10 @@ After completing this lab, you will be able to:
 - Exercise 1 - Configure Microsoft Entra ID role settings
 - Exercise 2 - PIM with Microsoft Entra ID roles
 
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch26.png)
+
 #### Estimated time: 30 minutes
 
 ### Exercise 1 - Configure Microsoft Entra ID role settings

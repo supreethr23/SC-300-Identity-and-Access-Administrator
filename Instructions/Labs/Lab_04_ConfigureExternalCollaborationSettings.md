@@ -7,11 +7,15 @@ You must enable external collaboration settings for your organization for approv
 
 ## Lab scenario
 
-After completing this lab, you will be able to:
+After completing this lab, you will be able to complete the following tasks:
 - Task 1 - Enable Guest Users to perform self service sign-up
 - Task 2 - Configure external collaboration settings
   
-#### Estimated timing: 5 minutes
+#### Estimated timing: 15 minutes
+
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch004.png)
 
 ### Exercise 1 - Allowing guest users to be invited into your organization
 
@@ -37,7 +41,7 @@ After completing this lab, you will be able to:
 
 4. Select the **Email one-time passcode** notification link you see near the top of the screen.
 
-    **Note** - A one-time passcode is a very secure way to invite a user to join your organization.
+    >**Note** - A one-time passcode is a very secure way to invite a user to join your organization.
     
 5. Ensure that **Yes** is selected.
 6. Select **Save** if needed.

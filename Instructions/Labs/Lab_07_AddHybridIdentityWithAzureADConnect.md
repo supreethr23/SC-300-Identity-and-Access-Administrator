@@ -1,11 +1,4 @@
----
-lab:
-    title: '07 - Add Hybrid Identity with Azure AD Connect'
-    learning path: '01'
-    module: 'Module 01 - Implement an identity management solution'
----
-
-# Lab 07: OPTIONAL --- Add Hybrid Identity with Azure AD Connect
+# Lab 07: Add Hybrid Identity with Azure AD Connect (Read Only)
 
 **Note** - This lab requires an Azure Pass. Please see lab 00 for directions.
 

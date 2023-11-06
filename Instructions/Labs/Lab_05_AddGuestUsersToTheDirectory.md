@@ -12,6 +12,10 @@ After completing this lab, you will be able to complete the following exercises:
 - Exercise 1 - Add guest users to the directory
 - Exercise 2 - Invite guest users in bulk
 
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch05.png)
+
 #### Estimated time: 20 minutes
 
 ### Exercise 1 - Add guest users to the directory
@@ -24,7 +28,7 @@ Incorporate guest users into the directory to extend limited access and collabor
 
 2. Under **Manage**, select **Users**.
 
-3. Select **+ New user**.
+3. Select **+ New user** to create a new user in Microsoft Entra ID.
 
 4. On the New user menu, select **Invite external user** and then add your information as the guest user.
 
@@ -80,7 +84,7 @@ A recent partnership has been established with another company. For now, employe
 
 8. On the Bulk invite users page, under **Upload your csv file**, browse to the file.
 
-     **Note** - When you select the file, validation of the .csv file starts.
+     >**Note** - When you select the file, validation of the .csv file starts.
 
 9. After the file contents are validated, you will see **File uploaded successfully**. If there are errors, you must fix them before you can submit the job.
 
@@ -90,7 +94,7 @@ A recent partnership has been established with another company. For now, employe
 
 11. To view the job status, select **Select here to view the status of each operation**. Or, you can select **Bulk operation results** in the Activity section. For details about each line item within the bulk operation, select the values under the **# Success**, **# Failure**, or **Total Requests** columns. If failures occurred, the reasons for failure will be listed.
 
-     ![Screen image displaying Bulk invite users with File uploaded successfully message highlighted](./media/lp1-mod3-bulk-operations-results12.png)
+     ![Screen image displaying Bulk invite users with File uploaded successfully message highlighted](./media/lp11.png)
 
 12. When the job completes, you will see a notification that the bulk operation succeeded.
 
@@ -98,7 +102,7 @@ A recent partnership has been established with another company. For now, employe
 
 1. Open PowerShell as an administrator.  This can be done by searching for PowerShell in Windows and choosing Run as administrator.  
 
-1. You will need to add the Azure AD PowerShell module, if you have not used it before.  Run the command: Install-Module AzureAD.  When prompted, select “Y” to continue.
+1. You will need to add the Azure AD PowerShell module, if you have not used it before.  Run the command: Install-Module AzureAD.  When prompted, select **Y** to continue.
 
     ``` 
     Install-Module AzureAD

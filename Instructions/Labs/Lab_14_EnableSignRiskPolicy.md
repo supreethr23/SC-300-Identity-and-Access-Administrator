@@ -11,6 +11,10 @@ After completing this lab, you will be able to:
 - Task 1 - Configure the policy
 - Task 2 - Enable Sign-in risk policy
 
+## Architecture Diagram
+
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch14.png)
+
 #### Estimated time: 10 minutes
 
 ### Exercise 1 - Enable User risk policy

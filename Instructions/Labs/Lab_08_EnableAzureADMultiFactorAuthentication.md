@@ -7,14 +7,18 @@ To improve security in your organization, you've been directed to enable multi-f
 
 ## Lab Objectives
 
-After completing this lab, you will be able to:
+After completing this lab, you will be able to complete the following exercises:
 
 - Exercise 1 - Review and enable Multi-factor Authentication in Azure
 - Exercise 2 - Configure MFA to be required for login
 
-#### Estimated time: 15 minutes
+## Architecture Diagram
 
->**IMPORTANT** - An Azure AD Premium license is required for this exercise.
+![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch08.png)
+
+#### Estimated time: 30 minutes
+
+>**IMPORTANT** - A Microsoft Entra ID Premium license is required for this exercise.
 
 ### Exercise 1 - Review and enable Multi-factor Authentication in Azure
 
@@ -40,7 +44,7 @@ After completing this lab, you will be able to:
 
 #### Task 2 - Setup conditional access rules for MFA for Delia Dennis
 
-Next let's examine how to set up Conditional Access policy rules that would enforce MFA for guest users accessing specific apps on your network.
+Next, let's examine how to set up Conditional Access policy rules that would enforce MFA for guest users accessing specific apps on your network.
 
 1. Switch back to the Azure portal and select **Azure Active Directory**, then **Security**, and then **Conditional access**.
 
@@ -93,12 +97,13 @@ Next let's examine how to set up Conditional Access policy rules that would enfo
 2. Connect to https://www.office.com.
 3. Select the sign-in option.
 4. Enter **DeliaD@** `<<your domain address>>`.
-5. Enter the password = Enter the Global admin password of the tenant (Note : Refer the 'Lab Resources' tab to retrieve the admin password).
-
-    >**Note:** There is a chance that you might get a login failure message with several options on how to proceed.  Select the **Try Again** option in this case.
+5. Enter the password
+   
     >**Note:** You can find the username and password for Delina from the Azure portal in the **Microsoft Entra ID** Users section.
 
-6. You can see that because of the Conditional Access rule we created for Delia, MFA is required to launch Office 365 home page.
+    >**Note:** There is a chance that you might get a login failure message with several options on how to proceed.  Select the **Try Again** option in this case.
+
+7. You can see that because of the Conditional Access rule we created for Delia, MFA is required to launch Office 365 home page.
 
    ![Screenshot showing the complete Add Policy dialog](./media/mfa.png)
 
@@ -129,10 +134,6 @@ Finally, let's look at how to configure MFA for user accounts. This is another w
 9. Notice that Adele now has **Enabled** as her MFA status.
 10. You can select **service settings** to see the MFA setting screen, seen earlier in the lab.
 11. Close the MFA setting tab.
-
-#### Task 2 -- Try logging in as Adele
-
-1. If you want to see another example of MFA login process, you can try to log in a Adele.
 
 ## Review
 
