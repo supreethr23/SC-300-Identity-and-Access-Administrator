@@ -86,8 +86,10 @@ In this lab, you will complete the following tasks:
 
 1. Select **Create**.
 
-    >**Note:** Copy the Key Vault URI, and paste it in the notepad.
-
+1. Once deloyement is completed click on **Go to resources**
+1. On **keyvault-<inject key="DeploymentID" enableCopy="false"/>** page copy the url and paste that URL in notepad you need this values in further tasks.
+    
+     
 #### Task 3 - Create a secret
 
 1. Navigate to your newly created Key Vault.
@@ -107,7 +109,7 @@ In this lab, you will complete the following tasks:
 
 1. Select **Create** to create the secret.
 
-    >**Note:** Copy the secret name, and paste it in the notepad.
+1. Copy the secret name **secret-<inject key="DeploymentID" enableCopy="false"/>** , and paste it in the notepad you need this values in further tasks.
 
 #### Task 4 - Grant access to Key Vault
 
@@ -150,12 +152,14 @@ In this lab, you will complete the following tasks:
 1. Use PowerShell’s Invoke-WebRequest command to retrieve the secret you created earlier in the Key Vault, passing the access token in the Authorization header.  You’ll need the URL of your Key Vault, which is in the Essentials section of the Overview page of the Key Vault.  Reminder - URI for Key Vault is on the Overview tab.
 
     ```
-    Invoke-RestMethod -Uri https://<your-key-vault-URI>/secrets/<secret-name>?api-version=2016-10-01 -Method GET -Headers @{Authorization="Bearer $KeyVaultToken"}
+    Invoke-RestMethod -Uri <your-key-vault-URI>/secrets/<secret-name>?api-version=2016-10-01 -Method GET -Headers @{Authorization="Bearer $KeyVaultToken"}
     ```
 
     >**Note:** Replace **your-key-vault-URI** to the Key Vault URI that you copied in Task-2, and replace **secret-name** with the secret name that you copied in Task-3.
 
     >**Important-note:** It will look similar to this:- **Invoke-RestMethod -Uri https://keyvault-1131297.vault.azure.net//secrets/secret-1131297?api-version=2016-10-01 -Method GET -Headers @{Authorization="Bearer $KeyVaultToken"}**
+
+  
 
 1. You should receive a response that looks like the following: 
     
