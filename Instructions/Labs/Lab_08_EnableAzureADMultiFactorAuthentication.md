@@ -44,13 +44,13 @@ After completing this lab, you will be able to complete the following exercises:
 
 Next, let's examine how to set up Conditional Access policy rules that would enforce MFA for guest users accessing specific apps on your network.
 
-1. Switch back to the Azure portal and select **Azure Active Directory**, then **Security**, and then **Conditional access**.
+1. Switch back to the Azure portal, search for and select **Microsoft Entra ID**, then  navigate to **Security** under the Manage section, and then subsequently select **Conditional access**.
 
-2. On the menu, Select **+ New policy**. From the drop down select **Create new policy**.
+2. From the menu, click on **Create new policy**.
 
     ![creenshot highlighting the New Policy button in the Azure portal](./media/createnewpolicy1.png)
 
-3. Name your policy, for example **MFA_for_Delia**.
+3. Name your policy, for example **MFA_for_Delia**
 
 4. Under Assignments:
 
@@ -69,13 +69,13 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 
 6. Review the Conditions section.
 
-   - Under **Conditions** click on **0 conditions selected** Under **Locations** click on **Any Location** and then configure it to **Yes**  and ensure that under **Include** ,**Any location** is selected.
+   - Under **Conditions** click on **0 conditions selected** then under **Locations** click on **Not Configured** and then under  **Configure** toggle  it to **Yes**  and ensure that under **Include** ,**Any location** is selected.
 
-      ![Screenshot highlighting the New Policy button in the Azure portal](./media/anylocation.png)
+      ![Screenshot highlighting the New Policy button in the Azure portal](./media/sc-300loc.png)
 
 7. Under **Access Controls** click on  **0 controls selected** and verify **Grant access** is selected.
 
-8. Select the **Require multi-factor authentication** check box to enforces MFA.
+8. Select the **Require multi-factor authentication** check box to enforce MFA.
 
 9. Ensure that **Require all the selected controls** is selected.
 
@@ -89,19 +89,32 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 
 13. MFA is now enabled for your selected user and application(s). The next time a guest tries to sign into that app they will be prompted to register for MFA.
 
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
 #### Task 3 - Test Delia's login
 
-1. Open a new InPrivate Browsing windows.
+1. Open a new **InPrivate** browsing window.
 2. Connect to https://www.office.com.
 3. Select the sign-in option.
 4. Enter **DeliaD@** `<<your domain address>>`.
-5. Enter the password
-   
-    >**Note:** You can find the username and password for Delina from the Azure portal in the **Microsoft Entra ID** Users section.
 
-    >**Note:** There is a chance that you might get a login failure message with several options on how to proceed.  Select the **Try Again** option in this case.
+   >**Note:** You can find the username for **Delina** from the Azure portal in the **Microsoft Entra ID** Users section.
 
-7. You can see that because of the Conditional Access rule we created for Delia, MFA is required to launch Office 365 home page.
+5. To find the password, in the Microsoft Entra ID **Users** section, click on **Delia Dennis** user, and from the top navigation pane  click on **Reset Password** and copy the temporary password.
+
+    ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/azureaad.png)
+
+6. Sign in with the temporary password
+ 
+   >**Note:** There is a chance that you might get a login failure message with several options on how to proceed.  Select the **Try Again** option in this case.
+
+7. Click on **Next**
+
+8. You can see that because of the Conditional Access rule we created for Delia, MFA is required to launch Office 365 home page.
 
    ![Screenshot showing the complete Add Policy dialog](./media/mfa.png)
 
@@ -111,17 +124,15 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 
 Finally, let's look at how to configure MFA for user accounts. This is another way to get to the multi-factor auth settings.
 
-1. Switch back to the Azure Active Directory dashboard in the Azure portal.
+1. Switch back to the **Microsoft Entra ID** dashboard in the Azure portal.
 
 2. Select **Users**.
 
 3. At the top of the Users pane, select **Per-user MFA**.
 
-   ![Screenshot showing the MFA option](./media/peruser.png)
+   ![Screenshot showing the MFA option](./media/mfauuser.png)
 
 4. A new browser tab/window will open with a multi-factor authentication user settings dialog.
-
-   You can enable or disable MFA on a user basis by selecting a user and then using the quick steps on the right side.
 
    ![Screenshot showing the MFA options](./media/and-users.png)
 
@@ -130,8 +141,7 @@ Finally, let's look at how to configure MFA for user accounts. This is another w
 7. Read the notification popup if you get it, then select **enable multi-factor auth** button.
 8. Select **Close**.
 9. Notice that Adele now has **Enabled** as her MFA status.
-10. You can select **service settings** to see the MFA setting screen, seen earlier in the lab.
-11. Close the MFA setting tab.
+10. Close the MFA setting tab.
 
 ## Review
 
