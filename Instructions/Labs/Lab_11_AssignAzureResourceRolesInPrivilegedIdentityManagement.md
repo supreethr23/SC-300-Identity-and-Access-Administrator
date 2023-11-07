@@ -31,32 +31,33 @@ In this lab, you will complete the following tasks:
    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab11-1.png)
 
 1. on the **Privileged Identity Management | Quick start** page, from the left-hand navigation pane, under **Manage** section, select **Azure resources (1)**.
+   ![](./media/lab11-2.png)
 
 1. On the top menu of **Privileged Identity Management | Azure resources** page, select **Discover resources (2)**.
 
-   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/PIM(1).png)
+   ![](./media/lab11-3.png)
 
 1. In the Azure resources – Discovery page, select your **subscription (1)** and then, on the top menu, select **Manage resource (2)**.
 
-   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/manageresources(1).png)
+  ![](./media/lab11-4.png)
 
-1. In the **Onboarding selected resource for management** dialog box, review the information and then select **OK**.
+1. When the **Onboarding selected resource for management** dialog box prompted, review the information and then select **OK**.
 
 1. When onboarding completes, close the Azure resources – Discovery page.
 
-1. In the Azure resources page, select the subscription.
+1. Back on **Privileged Identity Management | Azure resources**, select the subscription.
 
-   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/subscriptions.png)
+   ![](./media/lab11-5.png)
 
-1. From the left-hand navigation menu, under **Manage**, select **Roles** to see the list of roles for Azure resources.
+1. From the left-hand navigation menu, under **Manage**, select **Roles** to see the list of roles for Azure resources and on the top menu, select + **Add assignments**.
+   ![](./media/lab11-6.png)
 
-1. On the top menu, select + **Add assignments**.
+1. In the **Add assignments** page, for the **Select role** menu and then select **API Management Service Contributor.**
 
-1. In the Add assignments page, select the **Select role** menu and then select **API Management Service Contributor.**
+   ![](./media/lab11-7.png)
 
-1. Under **Select member(s),** select **No member selected**.
-
-1. Select **Miriam Graham** from your organization that will be assigned the role. Then chose **Select**.
+1. Under **Select member(s),** select **No member selected** and Select **Miriam Graham** from your organization that will be assigned the role. Then chose **Select**.
+    ![](./media/lab11-8.png)
 
 1. Select **Next >**.
 
@@ -84,11 +85,14 @@ Follow these steps to update or remove an existing role assignment.
 
 4. From the left-hand navigation pane, under **Manage**, select **Assignments**.
 
-5. On the **Eligible assignments** tab, in the Action column, review the available options, and select it.
+   ![](./media/lab11-9.png)
 
-6. Select **Remove**.
+6. On the **Eligible assignments** tab, in the Action column, review the available options, and select it.
 
-7. In the **Remove** dialog box, review the information and then select **Yes**.
+7. Select **Remove**.
+   ![](./media/lab11-10.png)
+
+9. In the **Remove** dialog box, review the information and then select **Yes**.
 
 ### Review
 In this lab, you have completed:
