@@ -24,7 +24,7 @@ In this lab, you will complete the following tasks:
 
 ![Create resource](./media/lab13-arch.PNG)
 
-## Exercise 1: Set a conditional access policy to block an user from accessing Office 365
+## Exercise 1: Set a conditional access policy to block a user from accessing Office 365
 
 ### Task 1: Confirm that the user has access to Office 365
 
