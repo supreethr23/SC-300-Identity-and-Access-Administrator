@@ -27,15 +27,23 @@ After completing this lab, you will be able to:
 
 2. Accept the terms of service if you're prompted to do so.
 
-3. At the top of the page, click on the dropdown next to the **select the project** menu to open the Select a project page. Choose **New Project**.  Leave the remaining fields with the default settings.
+3. At the top of the page, click on the dropdown next to the **select a project** menu to open the Select a project page. Choose **New Project**.  Leave the remaining fields with the default settings.
 
-4. On the New Project page, give the project a name (for example, **MyB2BApp**), and then select **Create**.
+   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/selectaproject.png) 
 
-5. Open the new project by selecting the link in the Notifications message box or by using the project menu at the top of the page.
+4. On the New Project page, give the project name **MyB2BApp (1)**, and then select **Create(2)**.
 
-6. In the left menu, select **APIs & Services**, and then select **OAuth consent screen**.
+   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/project.png)
 
-7. Under User Type, select **External**, and then select **Create**.
+5. Open the new project by selecting the the **Notifications** message box or by using the project menu at the top of the page.
+
+   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/selectproject.png)
+
+6. In the left menu, under **APIs & Services**, select **OAuth consent screen**.
+
+7. Under User Type, select **External (1)**, and then select **Create (2)**.
+
+   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/external.png)
 
 8. On the **OAuth consent screen**, under App information, enter an App name, such as **Entra ID**.
 
@@ -55,7 +63,7 @@ After completing this lab, you will be able to:
 
 14. Select **+ Create credentials**, and then select **OAuth client ID**.
 
-15. In the Application type menu, select Web application. Give the application a suitable name, like Entra ID B2B. Under **Authorized redirect URIs**, select **ADD URI**, and add the following URIs:
+15. In the Application type menu, select Web application. Give the application a suitable name, **Entra ID B2B**. Under **Authorized redirect URIs**, select **+ ADD URI**, and add the following URIs (select **ADD URI**, after adding each URIs):
 
       ```
       https://login.microsoftonline.com
@@ -80,7 +88,7 @@ After completing this lab, you will be able to:
 
 1. Select the **OAuth consent screen** under APIs and Services menu.
 
-2. Scroll down and under the **Test Users** section of the page, choose **+ Add Users**.
+2. Scroll down and under the **Test Users** section of the page, choose **+ ADD USERS**.
 
 3. Enter the gmail account you created (or are using) for this lab.
 
@@ -96,7 +104,7 @@ After completing this lab, you will be able to:
 
 3. Under **Manage**, select **External Identities**.
 
-4. Choose **All identity providers** from the menu on the left.
+4. Select **All identity providers** from the menu on the left.
 
    ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/federation.png)  
 
@@ -120,7 +128,7 @@ This completes the configuration of Google as an identity provider.
 
 1. Open **Microsoft Entra ID**.
 
-1. From the left-hand navigation pane, Select Users.
+1. From the left-hand navigation pane, Select **Users**.
 
 1. Select **+ New User**.
 
@@ -155,7 +163,7 @@ This completes the configuration of Google as an identity provider.
 
 6. Choose **Accept**.
 
-7. Once login is complete, you will be sent MyApplications.
+7. Once login is complete, **My Apps** page will display.
 
 #### Task 4 - Login to Microsoft 365 using your Google account
 1. Once you have finished the external user invite process of Task 3, you can log directly into Microsoft Online.
@@ -180,7 +188,7 @@ This completes the configuration of Google as an identity provider.
 
 6. Enter your **lab tenant domain name** in the box and select **Next**.
 
-   >**Note:** To find the domain name, navigate to the Azure Portal where you are signed in as as the ODL user.Go to Microsoft Entra ID and from the Overview page copy the entry next to the **Primary Domain Name**.
+   >**Note:** To find the domain name, navigate to the Azure Portal where you are signed in as as the ODL user. Go to Microsoft Entra ID and from the Overview page copy the entry next to the **Primary Domain Name**.
 
     ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/primdomain121.png)  
 
