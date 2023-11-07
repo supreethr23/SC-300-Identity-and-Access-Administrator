@@ -2,7 +2,7 @@
 
 ## Lab scenario
 
-Your organization needs to be able to limit user access to its internal applications. You must deploy an Azure Active Directory conditional access policy.
+Your organization needs to be able to limit user access to its internal applications. You must deploy the Microsoft Entra ID conditional access policy.
 
 **Note** - For Conditional Access Policies, you can turn off Security Defaults, the key points to remember are from the training.  Additional information on Security defaults can be found at this link: <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults>
 
