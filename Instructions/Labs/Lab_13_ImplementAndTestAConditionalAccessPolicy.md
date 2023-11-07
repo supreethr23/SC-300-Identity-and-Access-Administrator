@@ -7,7 +7,8 @@ Your organization needs to be able to limit user access to its internal applicat
 **Note** - For Conditional Access Policies, you can turn off Security Defaults, the key points to remember are from the training.  Additional information on Security defaults can be found at this link: <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults>
 
 ## Lab objectives
-In this lab, you will complete the following tasks:
+
+After completing this lab, you will be able to complete the following exercises:
 
 - Exercise 1 - Set a conditional access policy to block an user from accessing Office 365
 - Exercise 2: Test conditional access policies with "What if"
