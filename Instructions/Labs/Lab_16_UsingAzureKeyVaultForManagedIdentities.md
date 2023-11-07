@@ -23,13 +23,13 @@ In this lab, you will complete the following tasks:
 
 1. Select **+ Create a resource**.
 
-    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/createaresoruces.png)
+    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab16-1.png)
 
 1. In **Search services and marketplace**, type and search for **Windows Client (1)**.
 
 1. On the **Marketplace** page, under **Windows Client**, select **Create (2)** drop-down and from the plan dropdown choose **Windows 10 Enterprise N x64 (3)**.
 
-    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/windowsclient.png)
+    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab16-2.png)
 
 1. On the **Create a virtual machine** page, follow the instruction to create a virtual machine, after filling all the details, select **Next : Disks >**:-
 
@@ -61,6 +61,14 @@ In this lab, you will complete the following tasks:
 
 1. Select **Create**.
 
+   >**Note**: Please wait for deployment to complete.
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 #### Task 2 - Create a Key Vault
 
 1. Select **+ Create a resource**.
@@ -87,9 +95,10 @@ In this lab, you will complete the following tasks:
 1. Select **Create**.
 
 1. Once deloyement is completed click on **Go to resources**
+
 1. On **keyvault-<inject key="DeploymentID" enableCopy="false"/>** page copy the url and paste that URL in notepad you need this values in further tasks.
-    
-     
+
+         
 #### Task 3 - Create a secret
 
 1. Navigate to your newly created Key Vault.
