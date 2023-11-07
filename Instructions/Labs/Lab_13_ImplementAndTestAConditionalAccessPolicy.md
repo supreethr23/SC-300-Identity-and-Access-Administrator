@@ -180,7 +180,7 @@ You should test your conditional access policies to ensure they working as expec
     - Click on **Select (4)** which opens the Select pane.
     - In the Select pane, search for and select **Office 365 (5)** and then click on **Select (6)**
 
-    ![](./media/lab13-ms-entra-id-18.png)
+    ![](./media/office365lab13.png)
 
 8. Select **What if** present at the bottom of the page. You will be provided with a report at the bottom of the tile for **Policies that will apply** and **Policies that will not apply**.
 
