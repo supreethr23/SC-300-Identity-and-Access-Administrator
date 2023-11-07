@@ -24,23 +24,21 @@ After completing this lab, you will be able to complete the following exercises:
 
 #### Task 1 - Review Azure Multi-Factor Authentication options
 
-1. Browse to the [https://portal.azure.com](https://portal.azure.com) and sign in using a Global administrator account for the directory.
+1. In the Azure portal, use the search feature and search for **multi-factor**.
 
-2. Use the search feature and search for **multi-factor**.
+2. In the search results, select **Multi-Factor Authentication**.
 
-3. In the search results, select **Multi-Factor Authentication**.
-
-4. On the Getting started page, under **Configure**, select **Additional cloud-based MFA settings**.
+3. On the Getting started page, under **Configure**, select **Additional cloud-based MFA settings**.
 
     ![Screenshot showing MFA options in the dashboard](./media/multifactor1.png)
 
-5. In the new browser page, you can see the MFA options for Azure users and service settings.
+4. In the new browser page, you can see the MFA options for Azure users and service settings.
 
     ![Screenshot showing MFA configuration](./media/mfa-settings.png)
 
-6. This is where you would select the supported authentication methods, in the screen above, all of them are selected.
+5. This is where you would select the supported authentication methods, in the screen above, all of them are selected.
 
-7. You can also enable or disable app passwords here, which allow users to create unique account passwords for apps that don't support multi-factor authentication. This feature lets the user authenticate with their Azure AD identity using a different password specific to that app.
+6. You can also enable or disable app passwords here, which allow users to create unique account passwords for apps that don't support multi-factor authentication. This feature lets the user authenticate with their Microsoft Entra ID identity using a different password specific to that app.
 
 #### Task 2 - Setup conditional access rules for MFA for Delia Dennis
 
