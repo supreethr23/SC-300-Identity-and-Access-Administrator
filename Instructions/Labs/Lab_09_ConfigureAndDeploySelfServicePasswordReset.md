@@ -79,21 +79,15 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
 1. In the **More information required** dialog box, select **Next**.
 
-1. On the Keep your account secure page, use the **Phone** option.
+1. On the Keep your account secure page, click on **I want to set up a different method** and from **Choose a different method** window, select **Phone** and click on **Confirm** and **Next**
 
-    ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/lp2.png)
+     ![](./media/lab9-4.png)
 
     >**Note** - In this lab, you will use the **Phone** option. Enter your mobile phone details.
 
-1. Enter your personal cell phone number into the phone number field.
-
-1. Select **Text me a code**.
-
-1. Select **Next**.
+1. On the Keep your account secure page, ensure **Receive a code** is selected and enter your personal cell phone number into the phone number field and select **Next**.
 
 1. When you receive the code on your mobile phone, enter the code in the text box and then select **Next**.
-
-    ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/phonenumber.png)
 
 1. After your phone has been registered, select **Next** and then select **Done**.
 
@@ -111,19 +105,20 @@ Now let's test whether the user can reset their password.
 
 1. On the Enter password page, select **Forgot my password**.
 
-    ![Screen image displaying the Get back into your account page with Email or Username, captcha box, and next button highlighted](./media/passwordreset.png)
+   ![](./media/lab9-6.png)
 
 1. On the Get back into your account page, complete the requested information and then select **Next**.
 
-    ![Screen image displaying the Get back into your account page with Email or Username, captcha box, and next button highlighted](./media/getback.png)
+  ![](./media/lab9-7.png)
 
 1. In the **verification step 1** task, select **Text my mobile phone (1)**, **enter your phone number (2)** and then select **Text (3)**.
 
-    ![Screen image displaying verification step 1 with contact methods, phone number box, and text button highlighted](./media/Text1.png)
+   ![](./media/lab9-8.png)
 
 1. Enter your verification code and then select **Next**.
 
 1. In the choose a new password step, enter and then confirm your new password. Recommend password **Pass@w.rd1234**
+    ![](./media/lab9-9.png)
 
 1. When complete, select **Finish**.
 
@@ -132,22 +127,23 @@ Now let's test whether the user can reset their password.
 1. Sign in as **alex.wilber@cloudlabsai.com** with the new password you created.
 
 10. Enter your verification code and then verify you can complete the sign in process.
+    **Note**: If **Protect your account** window prompted please click on **Skip for now**
 
-11. When finished, close your browser.
+12. When finished, close your browser.
 
 #### Task 5 - What happens if you try a user not in SSPRTesters group?
 
 1. As a test, open a new InPrivate browser window, and browse to [https://portal.azure.com](https://portal.azure.com).
 
-1. Enter the username **miriam.graham@cloudlabsai.com**, and then select **Next**.
-
+1. Type the username **miriam.graham@cloudlabsai.com**, and then select **Next**.
+   
 1. On the Enter password page, select **Forgot my password**.
 
 1. On the Get back into your account page, complete the requested information and then select **Next**.
 
 1. You can see the error message which states, **You can't reset your own password because password reset isn’t turned on for your account.**
 
-    ![Screen image displaying verification step 1 with contact methods, phone number box, and text button highlighted](./media/getbackto.png)
+    ![](./media/lab9-11.png)
 
 1. Close the InPrivate browser.
 
