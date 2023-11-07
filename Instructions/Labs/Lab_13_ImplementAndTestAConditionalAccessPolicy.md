@@ -2,21 +2,17 @@
 
 ## Lab scenario
 
-Your organization needs to be able to limit user access to its internal applications. You must deploy an Azure Active Directory conditional access policy.
+Your organization needs to be able to limit user access to its internal applications. You must deploy the Microsoft Entra ID conditional access policy.
 
 **Note** - For Conditional Access Policies, you can turn off Security Defaults, the key points to remember are from the training.  Additional information on Security defaults can be found at this link: <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults>
 
 ## Lab objectives
-In this lab, you will complete the following tasks:
+
+After completing this lab, you will be able to complete the following exercises:
 
 - Exercise 1 - Set a conditional access policy to block an user from accessing Office 365
-    - Task 1 - Confirm that the user has access to Office 365
-    - Task 2 - Create a conditional access policy
-    - Task 3 - Test the conditional access policy
 - Exercise 2: Test conditional access policies with "What if"
-    - Task 1 - Use What if to test conditional access policies
 - Exercise 3: Configure sign in frequency controls using a conditional access policy
-    - Task 1 - Use the Azure Portal to configure conditional access
 
 ### Estimated time: 30 minutes
 
@@ -24,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 ![Create resource](./media/lab13-arch.PNG)
 
-## Exercise 1: Set a conditional access policy to block an user from accessing Office 365
+## Exercise 1: Set a conditional access policy to block a user from accessing Office 365
 
 ### Task 1: Confirm that the user has access to Office 365
 

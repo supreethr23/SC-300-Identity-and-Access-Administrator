@@ -49,13 +49,13 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    ![Enter Your Password](./media/g7.png)
  
-4. If you are prompted with a window for MFA, click on **Ask Later**.
-
 4. If prompted to stay signed in, you can click "No."
+
+5. If you are prompted with a window for MFA, click on **Ask Later**.
+
+6. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
  
-5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
- 
-6. Click "Next" from the bottom right corner to embark on your Lab journey!
+7. Click "Next" from the bottom right corner to embark on your Lab journey!
  
      ![Start Your Azure Journey](./media/g8.png)
  
