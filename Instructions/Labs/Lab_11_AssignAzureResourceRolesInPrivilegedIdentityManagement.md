@@ -33,13 +33,13 @@ In this lab, you will complete the following tasks:
 1. on the **Privileged Identity Management | Quick start** page, from the left-hand navigation pane, under **Manage** section, select **Azure resources (1)**.
    ![](./media/lab11-2.png)
 
-1. On the top menu of **Privileged Identity Management | Azure resources** page, select **Discover resources (2)**.
+1. On the top menu of **Privileged Identity Management | Azure resources** page, select **Discover resources**.
 
    ![](./media/lab11-3.png)
 
 1. In the Azure resources – Discovery page, select your **subscription (1)** and then, on the top menu, select **Manage resource (2)**.
 
-  ![](./media/lab11-4.png)
+   ![](./media/lab11-4.png)
 
 1. When the **Onboarding selected resource for management** dialog box prompted, review the information and then select **OK**.
 
@@ -52,7 +52,7 @@ In this lab, you will complete the following tasks:
 1. From the left-hand navigation menu, under **Manage**, select **Roles** to see the list of roles for Azure resources and on the top menu, select + **Add assignments**.
    ![](./media/lab11-6.png)
 
-1. In the **Add assignments** page, for the **Select role** menu and then select **API Management Service Contributor.**
+1. In the **Add assignments** page, for the **Select role** menu, select **API Management Service Contributor.**
 
    ![](./media/lab11-7.png)
 
