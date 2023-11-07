@@ -149,5 +149,5 @@ In this lab you have completed the following tasks:
 - Reviewed and enabled Multi-factor Authentication in Azure
 - Configured MFA to be required for login
 
-## You have successfully complete the lab
+## You have successfully completed the lab
 
