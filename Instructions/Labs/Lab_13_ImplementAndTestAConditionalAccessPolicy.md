@@ -22,6 +22,8 @@ After completing this lab, you will be able to complete the following exercises:
 
 ## Exercise 1: Set a conditional access policy to block a user from accessing Office 365
 
+In this exercise, you will learn to create a conditional access policy in Microsoft Entra ID which allows you to tailor access control measures to meet specific security requirements. 
+
 ### Task 1: Confirm that the user has access to Office 365
 
 1. Launch a new **InPrivate** browser window.
@@ -143,6 +145,8 @@ You should test your conditional access policies to ensure they working as expec
 
 ## Exercise 2: Test conditional access policies with "What if"
 
+The "What if" feature in Microsoft Entra ID's conditional access policies is a powerful tool for assessing the potential impact of your access control policies without actually enforcing them.
+
 ### Task 1: Use What if to test conditional access policies
 
 1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
@@ -189,6 +193,8 @@ You should test your conditional access policies to ensure they working as expec
     >**Note:** This allows you to test the policies and their affectiveness before enabling the policies.
 
 ## Exercise 3: Configure sign in frequency controls using a conditional access policy
+
+ Configuring sign-in frequency controls using a conditional access policy in Azure can help you manage and enforce specific restrictions on how often users can sign in.
 
 ### Task 1: Use the Azure Portal to configure conditional access
 
