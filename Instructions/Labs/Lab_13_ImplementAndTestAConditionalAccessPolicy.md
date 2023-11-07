@@ -24,7 +24,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 ### Task 1: Confirm that the user has access to Office 365
 
-1. Launch a new InPrivate browser window.
+1. Launch a new **InPrivate** browser window.
 
 2. Connect to [https://www.office.com](https://www.office.com) 
 
@@ -35,6 +35,7 @@ After completing this lab, you will be able to complete the following exercises:
    | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
    | Password | **<inject key="AzureAdUserPassword" enableCopy="true" />** |
     
+4. If a prompt appears, click on **Ask Later** 
 5. Ensure that you are able to access the Microsoft Office website via browser.
 
 ### Task 2: Create a conditional access policy
@@ -94,12 +95,14 @@ Azure Active Directory conditional access is an advanced feature of Azure AD tha
 
     >**Note:** There may be scenarios in which you may be produced with an error message stating that the Security defaults must be disabled to enable conditional access policy. In such cases, the account being provided may have the security defaults set to enabled for MFA functionality. It is recommended to disable the security default before proceeding with this lab. Follow the below instructions:
     - Click on the **disable security defaults** from the warning that displays as shown in the below screenshot.
-    ![](./media/lab13-ms-entra-id-10.png)
+    
+       ![](./media/lab13-ms-entra-id-10.png)
+    
     - Within the Security defaults page, ensure that the option - **Disabled (1)** is selected.
     - Select a reason for disabling - **Too many sign-in multifactor authentication challenges (2)**
-    - Click on **Save (3)**
+    - Click on **Save (3)** and subsequently click on **Disable** in the pop up that apperas.
 
-    ![](./media/lab13-ms-entra-id-11.png)
+       ![](./media/lab13-ms-entra-id-11.png)
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -112,7 +115,8 @@ Azure Active Directory conditional access is an advanced feature of Azure AD tha
 You should test your conditional access policies to ensure they working as expected.
 
 1. Open a new 'Inprivate' browser tab and then browse to [https://www.office.com](https://www.office.com).
-    - When prompted, log in as DebraB:
+    
+    - When prompted, log in as:
 
    | Setting | Value |
    | :--- | :--- |
@@ -237,12 +241,12 @@ As part of your company's larger security configuration, you must test a conditi
   
     ![](./media/lab13-ms-entra-id-20.png)
 
-    >**Note:** Report-only mode is a new Conditional Access policy state that allows administrators to evaluate the impact of Conditional Access policies before enabling them in their environment. With the release of report-only mode:
-        - Conditional Access policies can be enabled in report-only mode.
-        - During sign-in, policies in report-only mode are evaluated but not enforced.
-        - Results are logged in the Conditional Access and Report-only tabs of the Sign-in log details.
-        - Customers with an Azure Monitor subscription can monitor the impact of their Conditional Access policies using the Conditional Access insights workbook.
-
+     >**Note:** Report-only mode is a new Conditional Access policy state that allows administrators to evaluate the impact of Conditional Access policies before enabling them in their environment. With the release of report-only mode:
+     > - Conditional Access policies can be enabled in report-only mode.
+     > - During sign-in, policies in report-only mode are evaluated but not enforced.
+     > - Results are logged in the Conditional Access and Report-only tabs of the Sign-in log details.
+     > - Customers with an Azure Monitor subscription can monitor the impact of their Conditional Access policies using the Conditional Access insights workbook.
+   
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
@@ -250,7 +254,7 @@ As part of your company's larger security configuration, you must test a conditi
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Review
-In this lab, you have completed:
+In this lab, you have completed the following tasks:
 - Set a conditional access policy to block an user from accessing Office 365
 - Use What if to test conditional access policies
 - Configure sign in frequency controls using a conditional access policy
