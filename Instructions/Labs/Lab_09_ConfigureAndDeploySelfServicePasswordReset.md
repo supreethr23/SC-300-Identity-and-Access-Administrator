@@ -32,12 +32,12 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
     ![](./media/lab9-2.png)
 
-1. From the left-hand navigation pane, under **Manage** section, select **Members (1)**. On the **SSPRTesters | Members**, select **+ Add members (2)**.
+1. From the left-hand navigation pane, under **Manage** section, select **Members**. On the **SSPRTesters | Members**, select **+ Add members**.
 
-1. On **Add members** window Search and select these members **Alex Wilber**, **Allan Deyoung**, **Bianca Pisani** and check on **Select**.
+1. On **Add members** window search and select these members **Alex Wilber**, **Allan Deyoung**, **Bianca Pisani** and check on **Select**.
    ![](./media/lab9-3.png)
 
-1. Back on **SSPRTesters | Members**, refresh the page and it should see all three user which look similar to this image.
+1. Back on **SSPRTesters | Members**, refresh the page and you should see all three user are list as shown in below image.
 
     ![](./media/members.png)
 
@@ -81,7 +81,7 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
 1. On the Keep your account secure page, click on **I want to set up a different method** and from **Choose a different method** window, select **Phone** and click on **Confirm** and **Next**
 
-     ![](./media/lab9-4.png)
+     ![](./media/lab9-5.png)
 
     >**Note** - In this lab, you will use the **Phone** option. Enter your mobile phone details.
 
@@ -107,9 +107,9 @@ Now let's test whether the user can reset their password.
 
    ![](./media/lab9-6.png)
 
-1. On the Get back into your account page, complete the requested information and then select **Next**.
+1. On the Get back into your account page, complete the requested by entering captcha and then select **Next**.
 
-  ![](./media/lab9-7.png)
+   ![](./media/lab9-7.png)
 
 1. In the **verification step 1** task, select **Text my mobile phone (1)**, **enter your phone number (2)** and then select **Text (3)**.
 
@@ -127,6 +127,7 @@ Now let's test whether the user can reset their password.
 1. Sign in as **alex.wilber@cloudlabsai.com** with the new password you created.
 
 10. Enter your verification code and then verify you can complete the sign in process.
+
     **Note**: If **Protect your account** window prompted please click on **Skip for now**
 
 12. When finished, close your browser.
