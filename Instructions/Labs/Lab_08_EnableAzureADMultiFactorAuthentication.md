@@ -22,6 +22,8 @@ After completing this lab, you will be able to complete the following exercises:
 
 ### Exercise 1 - Review and enable Multi-factor Authentication in Azure
 
+  In this exercise, you will learn how to  enhance security, and ensure Multi-factor Authentication (MFA) is configured and enabled in your Azure environment, adding an extra layer of protection for your accounts and data.
+
 #### Task 1 - Review Azure Multi-Factor Authentication options
 
 1. In the Azure portal, use the search feature and search for **multi-factor**.
@@ -119,6 +121,8 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
    ![Screenshot showing the complete Add Policy dialog](./media/mfa.png)
 
 ### Exercise 2 - Configure MFA to be required for login
+
+   By enforcing MFA, you significantly reduce the risk of unauthorized access and data breaches, enhancing the overall security of your Azure environment.
 
 #### Task 1 - Configure Azure AD Per-User MFA
 
