@@ -6,7 +6,7 @@ The company has made the decision to implement Azure Active Directory as the aut
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+After completing this lab, you will be able to complete the following tasks:
 
 - Task 1 - Login to Windows Virtual Machines in Azure with Microsoft Entra ID
 - Task 2 - Microsoft Entra ID login for existing Azure Virtual Machines
@@ -64,7 +64,7 @@ In this lab, you will complete the following tasks:
 
     ![Create vm](./media/create-vm-03.png)
 
-1. On the **Management (1)** tab, check the box - **Login with Microsoft Entra ID (2)** under the Microsoft Entra ID section and then click on **Review + create (3)**.
+1. On the **Management (1)** tab, check the box - **Login with Azure AD (2)** under the Microsoft Entra ID section and then click on **Review + create (3)**.
    >**Note:** Notice that the **System assigned managed identity** under the Identity section is auto-matically checked and turned grey. This action should happen automatically once you enable Login with Microsoft Entra ID.
 
     ![Create vm](./media/create-vm-04.png)
