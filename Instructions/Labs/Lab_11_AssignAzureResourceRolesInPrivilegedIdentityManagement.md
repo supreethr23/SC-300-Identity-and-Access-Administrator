@@ -28,11 +28,11 @@ In this lab, you will complete the following tasks:
 
 1. In **Search resources, services, and docs** search for and then select **Microsoft Entra Privileged Identity Management**.
 
-   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/MEP.png)
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab11-1.png)
 
-1. In the Privileged Identity Management page, from the left-hand navigation pane, under **Manage** section, select **Azure resources (1)**.
+1. on the **Privileged Identity Management | Quick start** page, from the left-hand navigation pane, under **Manage** section, select **Azure resources (1)**.
 
-1. On the top menu, select **Discover resources (2)**.
+1. On the top menu of **Privileged Identity Management | Azure resources** page, select **Discover resources (2)**.
 
    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/PIM(1).png)
 
