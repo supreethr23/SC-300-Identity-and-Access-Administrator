@@ -23,13 +23,13 @@ In this lab, you will complete the following tasks:
 
 1. Select **+ Create a resource**.
 
-    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/createaresoruces.png)
+    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab16-1.png)
 
 1. In **Search services and marketplace**, type and search for **Windows Client (1)**.
 
 1. On the **Marketplace** page, under **Windows Client**, select **Create (2)** drop-down and from the plan dropdown choose **Windows 10 Enterprise N x64 (3)**.
 
-    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/windowsclient.png)
+    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab16-2.png)
 
 1. On the **Create a virtual machine** page, follow the instruction to create a virtual machine, after filling all the details, select **Next : Disks >**:-
 
@@ -61,6 +61,14 @@ In this lab, you will complete the following tasks:
 
 1. Select **Create**.
 
+   >**Note**: Please wait for deployment to complete.
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 #### Task 2 - Create a Key Vault
 
 1. Select **+ Create a resource**.
@@ -86,8 +94,11 @@ In this lab, you will complete the following tasks:
 
 1. Select **Create**.
 
-    >**Note:** Copy the Key Vault URI, and paste it in the notepad.
+1. Once deloyement is completed click on **Go to resources**
 
+1. On **keyvault-<inject key="DeploymentID" enableCopy="false"/>** page copy the url and paste that URL in notepad you need this values in further tasks.
+
+         
 #### Task 3 - Create a secret
 
 1. Navigate to your newly created Key Vault.
@@ -107,7 +118,7 @@ In this lab, you will complete the following tasks:
 
 1. Select **Create** to create the secret.
 
-    >**Note:** Copy the secret name, and paste it in the notepad.
+1. Copy the secret name **secret-<inject key="DeploymentID" enableCopy="false"/>** , and paste it in the notepad you need this values in further tasks.
 
 #### Task 4 - Grant access to Key Vault
 
@@ -150,12 +161,14 @@ In this lab, you will complete the following tasks:
 1. Use PowerShell’s Invoke-WebRequest command to retrieve the secret you created earlier in the Key Vault, passing the access token in the Authorization header.  You’ll need the URL of your Key Vault, which is in the Essentials section of the Overview page of the Key Vault.  Reminder - URI for Key Vault is on the Overview tab.
 
     ```
-    Invoke-RestMethod -Uri https://<your-key-vault-URI>/secrets/<secret-name>?api-version=2016-10-01 -Method GET -Headers @{Authorization="Bearer $KeyVaultToken"}
+    Invoke-RestMethod -Uri <your-key-vault-URI>/secrets/<secret-name>?api-version=2016-10-01 -Method GET -Headers @{Authorization="Bearer $KeyVaultToken"}
     ```
 
     >**Note:** Replace **your-key-vault-URI** to the Key Vault URI that you copied in Task-2, and replace **secret-name** with the secret name that you copied in Task-3.
 
     >**Important-note:** It will look similar to this:- **Invoke-RestMethod -Uri https://keyvault-1131297.vault.azure.net//secrets/secret-1131297?api-version=2016-10-01 -Method GET -Headers @{Authorization="Bearer $KeyVaultToken"}**
+
+  
 
 1. You should receive a response that looks like the following: 
     

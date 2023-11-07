@@ -22,21 +22,30 @@ In this lab, you will complete the following tasks:
 
 You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
 
-1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
+1. In Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Microsoft Entra ID**, and then select **Microsoft Entra ID** under services.
 
-    ![](./media/EntraID(1).png)
+    ![](./media/lab9-1.png)
 
 1. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Groups**.
 
 1. Search and select for **SSPRTesters**.
 
-    ![](./media/groups(1).png)
+    ![](./media/lab9-2.png)
 
-1. From the left-hand navigation pane, under **Manage** section, select **Members (1)**. On the **SSPRTesters | Members**, select **+ Add members (2)**, now add these members **Alex Wilber**, **Allan Deyoung** and **Bianca Pisani**.
+1. From the left-hand navigation pane, under **Manage** section, select **Members**. On the **SSPRTesters | Members**, select **+ Add members**.
 
-1. It will look similar to this image.
+1. On **Add members** window search and select these members **Alex Wilber**, **Allan Deyoung**, **Bianca Pisani** and check on **Select**.
+   ![](./media/lab9-3.png)
+
+1. Back on **SSPRTesters | Members**, refresh the page and you should see all three user are list as shown in below image.
 
     ![](./media/members.png)
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 #### Task 2 - Enable SSPR for the group
 
@@ -44,17 +53,19 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
 1. Under **Manage**, select **Password reset**.
 
-    ![](./media/password-reset.png)
+   ![](./media/lab9-4.png)
 
-1. On the Password reset page Properties page, under **Self service password reset enabled**, review the **Selected (1)** button is selected.
+1. On the Password reset page Properties page, under **Self service password reset enabled**, review the **Selected** button is selected.
 
-1. You can review in Select group **SSPRSecurityGroupUser**, is selected.
+1. Skip following steps if Select group **SSPRTesters**, is already selected, if not plesae perform below step:
 
-1. Click on the **SSPRSecurityGroupUser**. In the Default password reset policy pane, select the **SSPRTesters (2)** group.
+   - You can review in Select group **SSPRSecurityGroupUser**, is selected.
 
-1. On the Password reset page Properties page, select **Save (3)**.
+   - Click on the **SSPRSecurityGroupUser**. In the **Default password reset policy** pane, select the **SSPRTesters (2)** group.
+ 
+   -  On the Password reset page Properties page, select **Save (3)**.
 
-    ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/SSPR-save.png)
+      ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/SSPR-save.png)
 
 1. Under **Manage**, select and review the default values for the **Authentication methods**, **Registration**, **Notifications**, and **Customization** settings.
 
@@ -74,21 +85,15 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
 1. In the **More information required** dialog box, select **Next**.
 
-1. On the Keep your account secure page, use the **Phone** option.
+1. On the Keep your account secure page, click on **I want to set up a different method** and from **Choose a different method** window, select **Phone** and click on **Confirm** and **Next**
 
-    ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/lp2.png)
+     ![](./media/lab9-5.png)
 
     >**Note** - In this lab, you will use the **Phone** option. Enter your mobile phone details.
 
-1. Enter your personal cell phone number into the phone number field.
-
-1. Select **Text me a code**.
-
-1. Select **Next**.
+1. On the Keep your account secure page, ensure **Receive a code** is selected and enter your personal cell phone number into the phone number field and select **Next**.
 
 1. When you receive the code on your mobile phone, enter the code in the text box and then select **Next**.
-
-    ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/phonenumber.png)
 
 1. After your phone has been registered, select **Next** and then select **Done**.
 
@@ -106,19 +111,20 @@ Now let's test whether the user can reset their password.
 
 1. On the Enter password page, select **Forgot my password**.
 
-    ![Screen image displaying the Get back into your account page with Email or Username, captcha box, and next button highlighted](./media/passwordreset.png)
+   ![](./media/lab9-6.png)
 
-1. On the Get back into your account page, complete the requested information and then select **Next**.
+1. On the Get back into your account page, complete the requested by entering captcha and then select **Next**.
 
-    ![Screen image displaying the Get back into your account page with Email or Username, captcha box, and next button highlighted](./media/getback.png)
+   ![](./media/lab9-7.png)
 
 1. In the **verification step 1** task, select **Text my mobile phone (1)**, **enter your phone number (2)** and then select **Text (3)**.
 
-    ![Screen image displaying verification step 1 with contact methods, phone number box, and text button highlighted](./media/Text1.png)
+   ![](./media/lab9-8.png)
 
 1. Enter your verification code and then select **Next**.
 
 1. In the choose a new password step, enter and then confirm your new password. Recommend password **Pass@w.rd1234**
+    ![](./media/lab9-9.png)
 
 1. When complete, select **Finish**.
 
@@ -128,21 +134,23 @@ Now let's test whether the user can reset their password.
 
 10. Enter your verification code and then verify you can complete the sign in process.
 
-11. When finished, close your browser.
+    **Note**: If **Protect your account** window prompted please click on **Skip for now**
+
+12. When finished, close your browser.
 
 #### Task 5 - What happens if you try a user not in SSPRTesters group?
 
 1. As a test, open a new InPrivate browser window, and browse to [https://portal.azure.com](https://portal.azure.com).
 
-1. Enter the username **miriam.graham@cloudlabsai.com**, and then select **Next**.
-
+1. Type the username **miriam.graham@cloudlabsai.com**, and then select **Next**.
+   
 1. On the Enter password page, select **Forgot my password**.
 
 1. On the Get back into your account page, complete the requested information and then select **Next**.
 
 1. You can see the error message which states, **You can't reset your own password because password reset isn’t turned on for your account.**
 
-    ![Screen image displaying verification step 1 with contact methods, phone number box, and text button highlighted](./media/getbackto.png)
+    ![](./media/lab9-11.png)
 
 1. Close the InPrivate browser.
 
