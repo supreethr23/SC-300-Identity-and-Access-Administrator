@@ -22,17 +22,20 @@ In this lab, you will complete the following tasks:
 
 You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
 
-1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
+1. In Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Microsoft Entra ID**, and then select **Microsoft Entra ID** under services.
 
-    ![](./media/EntraID(1).png)
+    ![](./media/lab9-1.png)
 
 1. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Groups**.
 
 1. Search and select for **SSPRTesters**.
 
-    ![](./media/groups(1).png)
+    ![](./media/lab9-2.png)
 
-1. From the left-hand navigation pane, under **Manage** section, select **Members (1)**. On the **SSPRTesters | Members**, select **+ Add members (2)**, now add these members **Alex Wilber**, **Allan Deyoung** and **Bianca Pisani**.
+1. From the left-hand navigation pane, under **Manage** section, select **Members (1)**. On the **SSPRTesters | Members**, select **+ Add members (2)**.
+
+1. On **Add members** window Search and select these members **Alex Wilber**, **Allan Deyoung**, **Bianca Pisani** and check on **Select**.
+   ![](./media/lab9-3.png)
 
 1. It will look similar to this image.
 
@@ -44,9 +47,9 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
 1. Under **Manage**, select **Password reset**.
 
-    ![](./media/password-reset.png)
+   ![](./media/lab9-4.png)
 
-1. On the Password reset page Properties page, under **Self service password reset enabled**, review the **Selected (1)** button is selected.
+1. On the Password reset page Properties page, under **Self service password reset enabled**, review the **Selected** button is selected.
 
 1. You can review in Select group **SSPRSecurityGroupUser**, is selected.
 
