@@ -37,7 +37,7 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 1. On **Add members** window Search and select these members **Alex Wilber**, **Allan Deyoung**, **Bianca Pisani** and check on **Select**.
    ![](./media/lab9-3.png)
 
-1. It will look similar to this image.
+1. Back on **SSPRTesters | Members**, refresh the page and it should see all three user which look similar to this image.
 
     ![](./media/members.png)
 
@@ -51,13 +51,15 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
 1. On the Password reset page Properties page, under **Self service password reset enabled**, review the **Selected** button is selected.
 
-1. You can review in Select group **SSPRSecurityGroupUser**, is selected.
+1. Skip following steps if Select group **SSPRTesters**, is already selected, if not plesae perform below step:
 
-1. Click on the **SSPRSecurityGroupUser**. In the Default password reset policy pane, select the **SSPRTesters (2)** group.
+   - You can review in Select group **SSPRSecurityGroupUser**, is selected.
 
-1. On the Password reset page Properties page, select **Save (3)**.
+   - Click on the **SSPRSecurityGroupUser**. In the **Default password reset policy** pane, select the **SSPRTesters (2)** group.
+ 
+   -  On the Password reset page Properties page, select **Save (3)**.
 
-    ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/SSPR-save.png)
+      ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/SSPR-save.png)
 
 1. Under **Manage**, select and review the default values for the **Authentication methods**, **Registration**, **Notifications**, and **Customization** settings.
 
