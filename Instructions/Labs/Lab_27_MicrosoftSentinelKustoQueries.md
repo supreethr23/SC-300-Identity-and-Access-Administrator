@@ -50,7 +50,7 @@ In this lab, you will be performing the following tasks:
 
 1. Once installation is done. navigate back to the menu to **Configuration** and select **Data connectors (1)** .
 
-1. To the right, a preview tile will open. Select **Open connector page (2)**.
+1. Select **Microsoft Entra ID** connector name and to the right, a preview tile will open click on **Open connector page**.
 
    ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/dataconnectors.png)
 
