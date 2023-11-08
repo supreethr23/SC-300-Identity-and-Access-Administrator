@@ -20,6 +20,7 @@ In this lab, you will complete the following tasks:
 ## Architecture diagram
 
 ### Exercise 1 - Building out resources in Entitlement Management
+Building out resources in Entitlement Management involves defining and structuring the catalog of resources and services available to users, streamlining access management within an organization.
 
 #### Task 1 - Create a catalog
 
