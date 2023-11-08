@@ -62,8 +62,8 @@ In this lab, you will complete the following tasks:
 
 1. Select **Create**.
 
-   >**Note**: Please wait for deployment to complete.
-
+   >**Note**: Please wait till the deployment is successful.
+   
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
    > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
