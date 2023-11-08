@@ -18,6 +18,7 @@ In this lab, you will complete the following tasks:
 ## Architecture diagram
 
 ### Exercise 1 - Use Azure Key Vault to manage Virtual Machine identities
+Use Azure Key Vault to securely manage and rotate secrets, keys, and certificates for Virtual Machine identities in Azure, enhancing security and access control.
 
 #### Task 1 - Create a Windows Virtual Machine
 
