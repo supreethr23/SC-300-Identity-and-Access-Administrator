@@ -13,7 +13,9 @@ After completing this lab, you will be able to complete the following exercises:
 
 ## Estimated time: 30 minutes
 
-## Architecture diagram
+## Architecture Diagram
+
+   ![](./media/arch18.png)
 
 ### Exercise 1 - Create and test the Conditional Access App Contol policy
   

@@ -9,7 +9,11 @@ Privileged user access should be regularly reviewed in a similar manner.  Since
 After completing this lab, you will be able to:
 + Exercise 1 - Create an internal Access review
 
-#### Estimated time: 5 minutes
+## Estimated time: 5 minutes
+
+## Architecture Diagram
+
+   ![](./media/arch25.png)
 
 ### Exercise 1 - Create an internal Access review
 

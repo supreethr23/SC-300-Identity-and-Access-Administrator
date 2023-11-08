@@ -15,7 +15,9 @@ In this lab, you will complete the following tasks:
 
 ## Estimated time: 20 minutes
 
-## Architecture diagram
+## Architecture Diagram
+
+   ![](./media/arch16.png)
 
 ### Exercise 1 - Use Azure Key Vault to manage Virtual Machine identities
 
