@@ -20,7 +20,9 @@ In this lab, you will complete the following tasks:
 
 ## Estimated time: 10 minutes
 
-## Architecture diagram
+## Architecture Diagram
+
+   ![](./media/arch11.png)
 
 ### Exercise 1 - PIM with Azure resources
 

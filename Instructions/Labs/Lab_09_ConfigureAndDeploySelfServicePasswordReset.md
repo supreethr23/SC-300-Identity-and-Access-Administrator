@@ -16,6 +16,8 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
+   ![](./media/arch009.png)
+
 ### Exercise 1 - Add users to a group with SSPR enabled
 
 #### Task 1 - Add users to a group to assign SSPR
