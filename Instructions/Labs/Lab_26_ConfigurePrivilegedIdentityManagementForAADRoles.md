@@ -30,7 +30,7 @@ Follow these steps to open the settings for an Azure AD role.
   
 5. Review the list of roles and then, in the **Search by role name (2)**, enter **compliance**.
    
- ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/set.png)
+   ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/set.png)
 
 6. In the results, select **Compliance Administrator**.
 
