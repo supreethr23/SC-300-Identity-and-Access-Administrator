@@ -74,7 +74,7 @@ In this lab, you will complete the following tasks:
 
 1. Select **+ Create a resource**.
 
-    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/createaresoruces.png)
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab16-1.png)
 
 1. In **Search services and marketplace**, type and search for **Key Vault**.
    ![](./media/lab16-4.png)
