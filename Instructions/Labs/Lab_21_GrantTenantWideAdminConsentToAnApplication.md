@@ -15,7 +15,7 @@ After completing this lab, you will be able to complete the following tasks:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch021.png)
 
-#### Estimated time: 15 minutes
+#### Estimated time: 30 minutes
 
 ### Exercise 1 - Admin Consent
 
