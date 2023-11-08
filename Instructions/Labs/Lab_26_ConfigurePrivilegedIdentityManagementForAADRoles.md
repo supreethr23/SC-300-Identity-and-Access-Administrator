@@ -22,9 +22,7 @@ After completing this lab, you will be able to:
 
 Follow these steps to open the settings for an Azure AD role.
 
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a Global administrator.
-
-2. Search for and then select **Microsoft Entra ID Privileged Identity Management.**
+2. In the Azure portal, search for and  select **Microsoft Entra ID Privileged Identity Management.**
 
 3. In the Privileged Identity Management page, in the left navigation, select **Microsoft Entra ID roles.**
 
