@@ -99,18 +99,6 @@ Building out resources in Entitlement Management involves defining and structuri
     | Settings | Value |
     | -------- | ------ |
     | Group type | **Security** |
-    | Group name | **Salesforce** |
-    | Group description | **Applications** |
-
-1. Select **Create**.
-
-1. On **Groups | All groups**, select **New Group**.
-
-1. Now, follow these instruction to create a groups:-
-
-    | Settings | Value |
-    | -------- | ------ |
-    | Group type | **Security** |
     | Group name | **SharePoint sites** |
     | Group description | **SharePoint** |
 
