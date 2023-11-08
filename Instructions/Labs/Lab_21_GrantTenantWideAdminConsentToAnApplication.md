@@ -33,11 +33,18 @@ Registering your application establishes a trust relationship between your app a
 
 3. On the **App registrations** page, on the menu, select **+ New registration**.
 
-4. On the **Register an application** blade, register an app named **Demo app** using the default values. You do not need to enter the redirect URI.
+4. On the **Register an application** blade, register an app named **Demo app (1)** using the default values. You do not need to enter the redirect URI and click on **Register (2)**.
 
-    ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/lp3-mod3-register-an-application.png)
+    ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/demoapp1.png)
 
 5. When complete, you will be directed to the **Demo app** blade.
+
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
 
 #### Task 2 - Grant admin consent in App registrations
 
@@ -45,8 +52,7 @@ Registering your application establishes a trust relationship between your app a
 
 The Global Administrator role is required in order to provide admin consent for application permissions to the Microsoft Graph API.
 
-1. In a previous task, you created an app named Demo app. If necessary, in Microsoft Azure, browse to **Microsoft Entra ID**, then select **App registrations**, and then select **Demo app**.
-
+1. In Microsoft Azure, browse to **Microsoft Entra ID**, then select **App registrations**, and then select **Demo app** under **All Applications tab**.
 
 2. On the **Demo app** page, locate and copy and save each **Application (client) ID** and **Directory (tenant) ID** values so that you can use them later.
 
