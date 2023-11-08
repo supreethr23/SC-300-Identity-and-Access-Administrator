@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
 ### Exercise 1 - Add users to a group with SSPR enabled
 
-To add users to a group with SSPR enabled, use your identity management system (e.g., Azure AD) to add users to the desired group and configure Self-Service Password Reset settings for that group.
+To add users to a group with SSPR enabled, use your identity management system (e.g., microsoft entra id) to add users to the desired group and configure Self-Service Password Reset settings for that group.
 
 #### Task 1 - Add users to a group to assign SSPR
 
