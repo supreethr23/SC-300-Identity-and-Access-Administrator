@@ -5,7 +5,8 @@
 For applications your organization has developed or for those that are registered directly in your Azure AD tenant, you can grant tenant-wide admin consent from App registrations in the Azure portal.
 
 ## Lab Objectives
-After completing this lab, you will be able to:
+After completing this lab, you will be able to complete the following tasks:
+
 - Task 1 - App registration
 - Task 2 - Grant admin consent in App registrations
 - Task 3 - Grant admin consent in Enterprise apps
@@ -18,23 +19,25 @@ After completing this lab, you will be able to:
 
 ### Exercise 1 - Admin Consent
 
+Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
+
 #### Task 1 - App registration
 
 Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
 
-1. Sign in to [https://portal.azure.com](https://portal.azure.com) using a Global Administrator account.
+1. Navigate to Azure Portal, in **Search resources, services and docs (1)** search and select for **Microsoft Entra ID (2)**.
 
-2. Open the portal menu and then search for and select **Microsoft Entra ID**.
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/MicrosoftentraID.png)
 
-3. On the **Microsoft Entra ID** blade, under **Manage**, select **App registrations.**
+2. On the **Microsoft Entra ID** blade, under **Manage**, select **App registrations.**
 
-4. On the **App registrations** page, on the menu, select **+ New registration**.
+3. On the **App registrations** page, on the menu, select **+ New registration**.
 
-5. On the **register an application** blade, register an app named **Demo app** using the default values. You do not need to enter the redirect URI.
+4. On the **Register an application** blade, register an app named **Demo app** using the default values. You do not need to enter the redirect URI.
 
     ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/lp3-mod3-register-an-application.png)
 
-6. When complete, you will be directed to the **Demo app** blade.
+5. When complete, you will be directed to the **Demo app** blade.
 
 #### Task 2 - Grant admin consent in App registrations
 
