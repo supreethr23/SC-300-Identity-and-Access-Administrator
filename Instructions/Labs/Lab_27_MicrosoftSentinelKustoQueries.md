@@ -19,6 +19,7 @@ In this lab, you will be performing the following tasks:
 #### Estimated time: 30 minutes
 
 ### Exercise 1 - Configure Microsoft Sentinel for Kusto Queries
+Configuring Microsoft Sentinel for Kusto Queries enables advanced log and security data analysis within the Azure Sentinel platform, enhancing threat detection and response capabilities.
 
 #### Task 1 - Create a Microsoft Sentinel workspace
 
