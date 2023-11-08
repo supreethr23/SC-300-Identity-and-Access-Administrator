@@ -51,7 +51,7 @@ After completing this lab, you will be able to:
     |Settings|Value|
     |--------|-----|
     |Select reviewers| **Selected user(s) or group(s)**|
-    |Users or groups| **ODL_User <inject key="DeploymentID" enableCopy="false"/>**|
+    |Users or groups| Click on **+ Select reviewers** and select **ODL_User <inject key="DeploymentID" enableCopy="false"/>**|
     |**Specify recurrence of review**| 
     |**Duration in days**| **Keep it as default**|
     |Review recurrence| **Select the options of your choice**|
@@ -61,9 +61,11 @@ After completing this lab, you will be able to:
 
 1. Select **Next: Review and Create** to finalize the access review.
 
-1. Name the access review **SC300 Access Review Test**.
+1. On the **Review and Create** tab enter **SC300 Access Review Test** for Review name.
 
-1. Select **Create**. When the access review is created, the access review list will populate with the roles and owners of the reviews.
+1. Select **Create**.
+
+1. Back on **Identity Governance | Access reviews** page refresh page and the access review list will populate with the roles and owners of the reviews.
 
 1. Members that are being reviewed will receive an email when the review is initiated.
 
