@@ -16,6 +16,8 @@ After completing this lab, you will be able to complete the following exercises:
 ## Architecture diagram
 
 ### Exercise 1 - Create and test the Conditional Access App Contol policy
+  
+  In this lab, you will learn to create and test a Conditional Access App Control policy. 
 
 #### Task 1 - Confirm that PradeepG has unconditional access to FORMS
 
@@ -92,9 +94,9 @@ Choose the **Pradeep Gupta** account for the lab tenant and select **Select**.
 
 ### Exercise 2 - Setup alerts in Microsoft Defender for Cloud Apps
 
-#### Task 1 - Access Microsoft Defender for Cloud Apps and create Conditional Access App Control
-
 Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
+
+#### Task 1 - Access Microsoft Defender for Cloud Apps and create Conditional Access App Control
 
 1. Open a new tab, and browse to the [https://security.microsoft.com](https://security.microsoft.com).
 
