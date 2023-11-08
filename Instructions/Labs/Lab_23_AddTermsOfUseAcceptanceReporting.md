@@ -7,7 +7,8 @@ You must create and enforce a ToU policy for your organization.
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+After completing this lab, you will be able to complete the following tasks:
+
 + Task 1 - Add terms of use
 + Task 2 - Log in as an user
 + Task 3 - Review the report of aceptance and rejection records
@@ -233,7 +234,7 @@ Users can review and see the terms of use that they have accepted by using the f
    | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
    | Password | **<inject key="AzureAdUserPassword" enableCopy="true" />** |
 
-   >**Note:** If you are already signed in as Alex,kindly sign out and login with the above credentials.
+   >**Note:** If you are already signed in as Alex, kindly sign out and log in with the above credentials.
 
 3. Select the user profile photo and then select **View account**. On the Overview page, select **VIEW SETTINGS AND PRIVACY**.
 
@@ -273,7 +274,7 @@ You can edit some details of terms of use, but you can't modify an existing docu
     - **Update an existing terms of use** document.
     - You can add a language to an existing ToU If there are other settings you would like to change, such as require users to consent on every device, expire consents, duration before reacceptance, or Conditional Access policy, you must create a new terms of use.
 
-    ![](./media/lab23-13.png)
+      ![](./media/lab23-13.png)
 
 6. Once you are done, select **Save** to save your changes.
 
@@ -312,7 +313,8 @@ You may, on occasion, be required to update the terms of use document.
 9. You will now see the most recent version under the Document column.
 
 ## Review
-In this lab, you have completed:
+
+In this lab you have completed the following tasks:
 - Adding terms of use
 - Logging in as an user
 - Review the report of aceptance and rejection records
