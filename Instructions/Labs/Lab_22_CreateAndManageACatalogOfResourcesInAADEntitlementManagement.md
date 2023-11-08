@@ -41,9 +41,9 @@ Building out resources in Entitlement Management involves defining and structuri
 
    | **Option**                          | **Value**                               |
    | ----------------------------------- | --------------------------------------- |
-   | **Name**                            | **Marketing (1)**.                     |
-   | **Description**                     | Enter **For marketing department users (2)**.                 |
-   | **Enabled**                         | **No (3)**. |
+   | **Name**                            | **Marketing**.                     |
+   | **Description**                     | Enter **For marketing department users**.                 |
+   | **Enabled**                         | **No**. |
    |||
 
    ![Screen image displaying the Identity governance catalog page with the New catalog menu highlighted ](./media/lab22-4.png)
@@ -140,11 +140,11 @@ The user that created a catalog becomes the first catalog owner. To delegate man
 
 You can edit the name and description for a catalog. Users see this information in an access package's details.
 
-1. On the Marketing page, from the left-hand navigation pane, select **Overview (1)**.
+1. On the Marketing page, from the left-hand navigation pane, select **Overview**.
 
 2. On the top menu, select **Edit**.
 
-3. Review the setting and, under **Properties** > **Enabled**, select **Yes (2)** and click  **Save (3)**.
+3. Review the setting and, under **Properties** > **Enabled**, select **Yes** and click  **Save**.
 
     ![](./media/lab22-10.png)
 
