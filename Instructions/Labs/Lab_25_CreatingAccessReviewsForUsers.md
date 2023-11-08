@@ -12,6 +12,7 @@ After completing this lab, you will be able to:
 #### Estimated time: 5 minutes
 
 ### Exercise 1 - Create an internal Access review
+Creating an internal Access review involves regularly evaluating and validating the access permissions of users and roles within your organization to maintain security and compliance.
 
 #### Task 1 - Create a new Access review
 
