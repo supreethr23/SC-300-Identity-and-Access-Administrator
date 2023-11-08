@@ -18,6 +18,7 @@ In this lab, you will complete the following tasks:
 ![Create resource](./media/lab20-arch.PNG)
 
 ## Exercise 1: Configure an Enterprise App
+Configuring an Enterprise App involves setting up and managing the identity and access settings for an application in your organization's identity management system (e.g., Microsoft Entra Id), ensuring secure and controlled access for users and services.
 
 ### Task 1: Add an app to your Microsoft Entra ID tenant
 
