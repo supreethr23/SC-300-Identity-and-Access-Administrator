@@ -46,7 +46,7 @@ Building out resources in Entitlement Management involves defining and structuri
    | **Enabled**                         | **No**. |
    |||
 
-   ![Screen image displaying the Identity governance catalog page with the New catalog menu highlighted ](./media/lab22-4-1.png)
+   ![Screen image displaying the Identity governance catalog page with the New catalog menu highlighted ](./media/lab22-4-(1).png)
 
 1. You may choose to enable the catalog for immediate use or disable if you intend to stage it or keep it unavailable until you intend to use it. For this exercise, the catalog does not need to be enabled.
 
