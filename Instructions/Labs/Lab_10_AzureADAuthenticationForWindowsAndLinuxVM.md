@@ -15,7 +15,7 @@ After completing this lab, you will be able to complete the following tasks:
 - Task 5 - Connect to the Windows Server 2022 Datacenter using Microsoft Entra ID login
 - Task 6 - Optional testing to explore the Microsoft Entra ID login
 
-### Estimated time: 30 minutes
+### Estimated time: 40 minutes
 
 ## Architecture diagram
 
@@ -137,7 +137,7 @@ After completing this lab, you will be able to complete the following tasks:
 
      ![start vm](./media/start-vm-3.png)
 
-1. Open the **Downloads** folder in File Manager.
+1. Open the **Downloads** folder in File Manager and click on **Connect**.
 
 1. Open the RDP file that was downloaded and choose to log in as an Alternate User.
 
@@ -147,6 +147,8 @@ After completing this lab, you will be able to complete the following tasks:
    - If prompted, say yes to allow access to the virtual machine or RDP session.
 
 1. Wait for the server to initiate and all the software to load, like the Server Manager Dashboard.
+
+   >**Note:** If you see a pop-up related to Network discovery click on **No**.
 
 1. Select the **Start button** in the virtual machine.
 
@@ -200,11 +202,9 @@ After completing this lab, you will be able to complete the following tasks:
 
 1. Instead of getting prompted on what User Account to log in with, you should get a message prompting on whether you want to connect to the remote computer.
 
-1. Select **Yes** from the bottom of the screen.
+1. Select **Yes**.
 
-1. The Remote Desktop session should open; and show the Windows Server login screen.  **Other User** with an OK button should be displayed.
-
-1. Select **OK**.
+1. The Remote Desktop session should open; and show the Windows Server login screen with  **Other User** should be displayed.
 
 1. In the login dialog enter the following information:
    - Username:  **<inject key="LabVM Admin Username" enableCopy="true" />**
@@ -232,7 +232,7 @@ After completing this lab, you will be able to complete the following tasks:
 
      ![Microsoft Entra ID Login](./media/server-manager-2.png)
 
->**Note:** It's important to highlight that other Microsoft Entra ID members are restricted from logging in using this RDP file.
+     >**Note:** It's important to highlight that other Microsoft Entra ID members are restricted from logging in using this RDP file.
 
 ## Exercise 2: Login to Linux Virtual Machines in Azure with Microsoft Entra ID [READ-ONLY]
 
@@ -267,12 +267,13 @@ The tasks outlined here are intended solely for informational purposes. They are
 1. For detailed steps, see Assign Azure roles using the Azure portal.
 
 ## Review
-In this lab, you have completed:
-- Login to Windows Virtual Machines in Azure with Microsoft Entra ID
+In this lab, you have completed the following tasks:
+
+- Logged in to Windows Virtual Machines in Azure with Microsoft Entra ID
 - Microsoft Entra ID login for existing Azure Virtual Machines
-- Update the Server VM to support the Microsoft Entra ID login
-- Modify your RDP file to support the Microsoft Entra ID login
-- Connect to the Windows Server 2022 Datacenter using Microsoft Entra ID login
+- Updated the Server VM to support the Microsoft Entra ID login
+- Modified your RDP file to support the Microsoft Entra ID login
+- Connected to the Windows Server 2022 Datacenter using Microsoft Entra ID login
 - Optional testing to explore the Microsoft Entra ID login
 
 ### You have successfully completed the lab
