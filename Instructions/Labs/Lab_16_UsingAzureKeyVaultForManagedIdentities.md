@@ -140,7 +140,7 @@ In this lab, you will complete the following tasks:
    ![](./media/lab16-8.png)
 
 1. On the **Create an access policy**, under Configure from template, choose Secret Management from the drop-down. Select **Prinicpal**.
-   ![](./media/lab16-9.png)
+   ![](./media/lab16-(9).png)
    
 1. On the **Principal** page, in the search field enter the name **VM-<inject key="DeploymentID" enableCopy="false"/>**, and select it. Select **Next**.
 
