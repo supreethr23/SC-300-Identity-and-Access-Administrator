@@ -19,16 +19,20 @@ After completing this lab, you will be able to:
 
     ![Azure portal menu with Azure Active Directory selected](./media/msentrid.png)
 
-1. From the left-hand navigation pane, select **Groups**. On **Groups | All groups**, select **New group**. Now, follow the instructions for creating the groups, and select **Create**:
+1. From the left-hand navigation pane, select **Groups**.
+
+1. On **Groups | All groups**, select **New group**. Now, follow the instructions for creating the groups, and select **Create**:
 
     |Settings|Value|
     |--------|-----|
     |Group type| **Security**|
     |Group name| **Sales and Marketing**|
     |Group description| **Sales and Marketing**|
-    |Owners| **No owners selected** > **ODL_User <inject key="DeploymentID" enableCopy="false"/>**|
+    |Owners| click on **No owners selected** > Select **ODL_User <inject key="DeploymentID" enableCopy="false"/>** and click on **select**|
 
-1. Access reviews can manage the access lifecycle.  Within **Microsoft Entra ID**, from the left-hand navigation pane, select **Identity Governance** under the **Manage** menu.  In **Identity Goverance**, select **Access reviews** from left panel.
+1. Return back to **Microsoft Entra ID** page, from the left-hand navigation pane, select **Identity Governance** under the **Manage** menu.  In **Identity Goverance**, select **Access reviews** from left panel.
+
+   **Note**: Access reviews can manage the access lifecycle.
 
 1. Select **+ New access review**.
 
