@@ -14,7 +14,7 @@ After completing this lab, you will be able to:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch26.png)
 
-## Estimated time: 30 minutes
+## Estimated time: 45 minutes
 
 ### Exercise 1 - Configure Microsoft Entra ID role settings
 
