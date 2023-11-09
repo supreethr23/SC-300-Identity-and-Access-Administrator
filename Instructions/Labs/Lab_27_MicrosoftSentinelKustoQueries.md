@@ -33,7 +33,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. Name the workspace as **SentinelLogAnalytics**.
 
-1. Select Region as **<inject key="Region" enableCopy="false"/>**
+1. Select Region as **<inject key="Region" enableCopy="false"/>**.
 
 1. Select **Review + Create** and then **Create**.
 
