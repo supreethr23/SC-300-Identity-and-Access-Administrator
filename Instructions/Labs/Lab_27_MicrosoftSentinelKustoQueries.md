@@ -74,7 +74,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. Close the **Welcome to Log Analytics** window.
 
-1. A window will open with sample queries, select **Audit (1)**, and scroll to find **User IDs**.
+1. A window will open with sample queries, select **Audit (1)**, search and scroll to find **User IDs**.
 
 1. Select **Run (2)**.
 
