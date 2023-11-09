@@ -53,19 +53,18 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. Select **Microsoft Entra ID** connector name and to the right, a preview tile will open click on **Open connector page**.
 
-   ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/dataconnectors.png)
+   ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/lab27-1.png)
 
 1. In the connector page, the instructions and next steps will be provided for the data connector. Verify that a check-mark is next to each of the **Prerequisites** to continue with the **Configuration**.
 
-1. Under **Configuration**, check the boxes for **Sign-in logs** and **Audit logs**. Additional log sources are available but are currently in **Preview** and out of scope for this course.
-
-1. Select **Apply Changes**. 
+1. Under **Configuration**, check the boxes for **Sign-in logs** and **Audit logs**. Additional log sources are available but are currently in **Preview** and out of scope for this course and click on **Apply Changes**. 
+   ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/lab27-3.png)
 
 1. Notification will be provided that the changes were applied successfully. Navigate to the **Microsoft Sentinel** workspace by selecting the **X** on the top right of the connector page.
 
 1. Select **Refresh** on the **Microsoft Sentinel | Data connectors** tile and the number 1 will show in the **Connected** count.
 
-   ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/connected(1).png)
+   ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/lab27-2.png)
 
    **Note** - The Azure AD data connector may take a few minutes to show in the active count. 
 
@@ -81,7 +80,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
    ![](./media/audit.png)
 
-1. This will provide a list of User IDs on Azure AD.  Since we have just created the workspace, you may not see results. Copy the format of the query.
+1. This will provide a list of User IDs on Azure AD.  Since we have just created the workspace, you may not see results. Copy the format of the query and paste it in notepad you need this in next step.
 
 1. From the left-hand navigation menu, under **Threat management** section, select **Hunting**.
 
