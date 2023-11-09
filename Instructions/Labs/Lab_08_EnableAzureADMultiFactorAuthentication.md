@@ -1,5 +1,5 @@
 
-# Lab 08 - Enable Azure AD multi-factor authentication
+# Lab 08 - Enable Microsoft Entra ID  multi-factor authentication
 
 ## Lab scenario
 
