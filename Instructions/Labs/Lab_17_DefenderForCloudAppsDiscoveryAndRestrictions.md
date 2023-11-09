@@ -10,7 +10,7 @@ In this lab, you will complete the following tasks:
 + Task 1 - Discovery apps in Defender for Cloud Apps
 + Task 2 - Restrict Apps in Defender for Cloud Apps
 
-### Estimated time: 20 minutes
+## Estimated time: 20 minutes
 
 ## Architecture diagram
 
