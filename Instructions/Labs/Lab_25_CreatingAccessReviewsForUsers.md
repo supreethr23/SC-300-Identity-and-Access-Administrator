@@ -71,7 +71,7 @@ Creating an internal Access review involves regularly evaluating and validating 
 
 1. On the **Review and Create** tab enter **SC300 Access Review Test** for Review name and  click on **Create**.
 
-  ![Azure portal menu with Azure Active Directory selected](./media/lab25-8.png)
+   ![Azure portal menu with Azure Active Directory selected](./media/lab25-8.png)
 
 1. Back on **Identity Governance | Access reviews** page refresh page and the access review list will populate with the roles and owners of the reviews.
 
