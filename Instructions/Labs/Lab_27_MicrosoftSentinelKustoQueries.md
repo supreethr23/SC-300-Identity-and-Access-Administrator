@@ -33,6 +33,8 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. Name the workspace as **SentinelLogAnalytics**.
 
+1. Select Region as **<inject key="Region" enableCopy="false"/>**
+
 1. Select **Review + Create** and then **Create**.
 
 1. After the Log Analytics workspace deployment completes, choose the **Refresh** button. Then select your workspace and select **Add**.  This will add the workspace to Microsoft Sentinel and open Microsoft Sentinel.
