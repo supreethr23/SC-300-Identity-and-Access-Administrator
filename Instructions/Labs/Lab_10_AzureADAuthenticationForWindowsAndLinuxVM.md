@@ -15,7 +15,7 @@ After completing this lab, you will be able to complete the following tasks:
 - Task 5 - Connect to the Windows Server 2022 Datacenter using Microsoft Entra ID login
 - Task 6 - Optional testing to explore the Microsoft Entra ID login
 
-### Estimated time: 40 minutes
+## Estimated time: 40 minutes
 
 ## Architecture diagram
 
