@@ -16,7 +16,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch08.png)
 
-#### Estimated time: 30 minutes
+### Estimated time: 30 minutes
 
 >**IMPORTANT** - A Microsoft Entra ID Premium license is required for this exercise.
 
