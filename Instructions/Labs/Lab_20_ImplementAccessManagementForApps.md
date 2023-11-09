@@ -18,6 +18,7 @@ In this lab, you will complete the following tasks:
 ![Create resource](./media/lab20-arch.PNG)
 
 ## Exercise 1: Configure an Enterprise App
+Configuring an Enterprise App involves setting up and managing the identity and access settings for an application in your organization's identity management system (e.g., Microsoft Entra Id), ensuring secure and controlled access for users and services.
 
 ### Task 1: Add an app to your Microsoft Entra ID tenant
 
@@ -77,12 +78,6 @@ In this lab, you will complete the following tasks:
 6. Select **Assign** on the **Add Assignment** page.
 
     ![](./media/enterprise-apps-8.png)
-
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Review
 

@@ -25,6 +25,7 @@ In this lab, you will complete the following tasks:
    ![](./media/arch11.png)
 
 ### Exercise 1 - PIM with Azure resources
+Using Privileged Identity Management (PIM) with Azure resources enables just-in-time access, auditing, and monitoring of privileged roles to enhance security and compliance.
 
 #### Task 1 - Assign Azure resource roles
 
