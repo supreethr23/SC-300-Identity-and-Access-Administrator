@@ -16,7 +16,7 @@ After completing this lab, you will be able to complete the following tasks:
 + Task 5 - How users can review their terms of use
 + Task 6 - Edit terms of use details
 
-### Estimated time: 40 minutes
+## Estimated time: 40 minutes
 
 ## Architecture diagram
 
