@@ -15,7 +15,6 @@ After completing this lab, you will be able to complete the following tasks:
 + Task 4 - What terms of use looks like for users
 + Task 5 - How users can review their terms of use
 + Task 6 - Edit terms of use details
-+ Task 7 - Update an existing terms of use document
 
 ### Estimated time: 40 minutes
 
@@ -215,7 +214,7 @@ The Terms of use page shows a count of the users who have accepted and declined.
 
 2. Users can view the terms of use and, if necessary, use buttons to zoom in and out.
 
-    ![View of terms of use with zoom buttons](./media/zoom-buttons.png)
+    ![View of terms of use with zoom buttons](./media/zoom-buttons11.png)
 
 3. On mobile devices, the terms of use will be displayed similar to the following example.
 
