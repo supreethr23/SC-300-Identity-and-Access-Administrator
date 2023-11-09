@@ -207,7 +207,7 @@ The Terms of use page shows a count of the users who have accepted and declined.
 
 4. On the **Identity Governance | Terms of Use** page, highlight **Testing terms of use** and select **View selected audit logs** to view the audit logs activity.
 
-### Task 4: What terms of use looks like for users
+### Task 4: What terms of use looks like for users [Read Only]
 
 1. Once a terms of use is created and enforced, users who are in scope will see the terms of use page.
 
@@ -246,7 +246,7 @@ Users can review and see the terms of use that they have accepted by using the f
 
 5. Under **Organization’s notice**, you can review the terms of use you have accepted.
 
-### Task 6: Edit terms of use details (Read Only)
+### Task 6: Edit terms of use details 
 
 You can edit some details of terms of use, but you can't modify an existing document. The following procedure describes how to edit the details.
 
@@ -266,45 +266,23 @@ You can edit some details of terms of use, but you can't modify an existing docu
 
     ![](./media/lab23-12.png)
 
-5. In the Edit terms of use pane, you can change the following:
-
-    - **Name:** This is the internal name of the ToU that is not shared with end users.
-    - **Display name:** This is the name that end users can see when viewing the ToU.
-    - **Require users to expand the terms of use:** Setting this to **On** will force the end use to expand the terms of use document before accepting it.
-    - **Update an existing terms of use** document.
-    - You can add a language to an existing ToU If there are other settings you would like to change, such as require users to consent on every device, expire consents, duration before reacceptance, or Conditional Access policy, you must create a new terms of use.
+    >**Note:** In the Edit terms of use pane, you can change the following:
+    >- **Name:** This is the internal name of the ToU that is not shared with end users. 
+    >- **Require users to expand the terms of use:** Setting this to **On** will force the end use to expand the terms of use document before accepting it.
+    >- **Update an existing terms of use** document.
+    >- You can add a language to an existing ToU If there are other settings you would like to change, such as require users to consent on every device, expire consents, duration before reacceptance, or Conditional Access policy, you must create a new terms of use.
 
       ![](./media/lab23-13.png)
-
-6. Once you are done, select **Save** to save your changes.
-
-### Task 7: Update an existing terms of use document (Read Only)
-
-You may, on occasion, be required to update the terms of use document.
-
-1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
-
-    ![](./media/ms-entra-id-1.png)
-
-2. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Identity Governance**.
-
-    ![](./media/lab23-1.png)
-
-3. In the left navigation menu, under **Terms of use**, select **Terms of use**.
-
-4. To edit the terms of use details:
-    - Select **Testing terms of use (1)**
-    - On the top menu, select **Edit terms (2)**.
-
-    ![](./media/lab23-12.png)
 
 5. In the **Language Options** table, identify the terms of use language you want to update and then, in the **Action** column, select **Update**.
 
     ![](./media/lab23-13.png)
 
-6. In the Update terms of use version pane, you can upload a new version of your terms of use document.
+6. The Update terms of use version pane will look like as shown as below    
 
     ![](./media/lab23-14.png)
+
+    >**Note:** You can also upload a new version of the  **Terms of Use Document** and choose the language of your choice.
 
 7. Additionally, you can use the **Require reaccept** toggle button if you want to require your users to accept this new version the next time they sign in. If you do not require your users to re-accept, their previous consent will stay current and only new users who have not consented before or whose consent expires will see the new version.
 
@@ -315,12 +293,12 @@ You may, on occasion, be required to update the terms of use document.
 ## Review
 
 In this lab you have completed the following tasks:
+
 - Adding terms of use
 - Logging in as an user
 - Review the report of aceptance and rejection records
 - What terms of use looks like for users
 - How users can review their terms of use
 - Editting terms of use details
-- Updating an existing terms of use document
 
 ### You have successfully completed the lab
