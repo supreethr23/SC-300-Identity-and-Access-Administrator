@@ -18,6 +18,8 @@ After completing this lab, you will be able to:
 
 ### Exercise 1 - Configure Microsoft Entra ID role settings
 
+In this exercise, you will learn how to customize role settings by configuring Microsoft Entra ID roles.
+
 #### Task 1 - Open role settings
 
 Follow these steps to open the settings for an Azure AD role.
