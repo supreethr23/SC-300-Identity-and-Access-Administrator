@@ -23,6 +23,8 @@ After completing this lab, you will be able to complete the following tasks:
 
 ## Exercise 1: Login to Windows Virtual Machines in Azure with Microsoft Entra ID
 
+In this exercise, you will learn how to access Windows Virtual Machines in Azure seamlessly using Microsoft Entra ID.
+
 ### Task 1: Create a Windows Virtual Machine with Microsoft Entra ID login enabled
 
 1. In the Azure Portal, from the upper left corner select the **menu (1)** icon with three lines as highlighted below and then select **+ Create a resource (2)**.
