@@ -47,7 +47,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-#### Task 2 - Add Microsoft Entra IDas a Data source
+#### Task 2 - Add Microsoft Entra ID as a Data source
 
 1. In **Microsoft Sentinel**, from the left-hand navigate menu under the **Configuration** section, select **Data connectors**.
 
