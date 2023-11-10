@@ -10,7 +10,7 @@ In this lab you will be performing the following task:
 
 - Task 1 - Manage the lifecycle of external users in Azure AD Identity Governance settings
 
-## Estimated time: 20 minutes
+## Estimated time: 30 minutes
 
 ## Architecture Diagram
 
