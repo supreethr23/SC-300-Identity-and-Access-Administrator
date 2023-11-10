@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture Diagram
 
-   ![](./media/arch11.png)
+   ![](./media/arch011.png)
 
 ### Exercise 1 - PIM with Azure resources
 
