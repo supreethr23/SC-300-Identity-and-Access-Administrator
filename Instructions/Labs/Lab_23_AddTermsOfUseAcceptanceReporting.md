@@ -24,6 +24,8 @@ After completing this lab, you will be able to complete the following tasks:
 
 ## Exercise 1: Establish a Terms of Use and Conduct Testing
 
+In this exercise, you will learn how to use Microsoft Entra terms of use policies which is a simple method that organizations can use to present information to end users.
+
 ### Task 1: Add terms of use
 
 Once you have finalized your terms of use document, use the following procedure to add it.
