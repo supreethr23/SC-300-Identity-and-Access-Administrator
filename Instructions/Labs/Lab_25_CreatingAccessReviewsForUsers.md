@@ -9,7 +9,11 @@ Privileged user access should be regularly reviewed in a similar manner.  Since
 After completing this lab, you will be able to:
 + Exercise 1 - Create an internal Access review
 
-#### Estimated time: 5 minutes
+## Estimated time: 5 minutes
+
+## Architecture Diagram
+
+   ![](./media/Lab-25.png)
 
 ### Exercise 1 - Create an internal Access review
 Creating an internal Access review involves regularly evaluating and validating the access permissions of users and roles within your organization to maintain security and compliance.

@@ -17,7 +17,9 @@ In this lab, you will complete the following tasks:
 
 ## Estimated time: 15 minutes
 
-## Architecture diagram
+### Architecture Diagram
+
+   ![](./media/arch22.png)
 
 ### Exercise 1 - Building out resources in Entitlement Management
 Building out resources in Entitlement Management involves defining and structuring the catalog of resources and services available to users, streamlining access management within an organization.

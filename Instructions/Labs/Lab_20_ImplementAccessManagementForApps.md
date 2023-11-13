@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
     + Task 1 - Add an app to your Microsoft Entra ID tenant
     + Task 2 - Assign users to an app
 
-### Estimated time: 20 minutes
+## Estimated time: 20 minutes
 
 ## Architecture diagram
 

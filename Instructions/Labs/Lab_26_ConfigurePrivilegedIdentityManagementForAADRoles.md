@@ -14,25 +14,25 @@ After completing this lab, you will be able to:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch26.png)
 
-#### Estimated time: 30 minutes
+## Estimated time: 45 minutes
 
 ### Exercise 1 - Configure Microsoft Entra ID role settings
+
+In this exercise, you will learn how to customize role settings by configuring Microsoft Entra ID roles.
 
 #### Task 1 - Open role settings
 
 Follow these steps to open the settings for an Azure AD role.
 
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a Global administrator.
-
-2. Search for and then select **Microsoft Entra ID Privileged Identity Management.**
+2. In the Azure portal, search for and  select **Microsoft Entra ID Privileged Identity Management.**
 
 3. In the Privileged Identity Management page, in the left navigation, select **Microsoft Entra ID roles.**
 
-4. On the Quick start page, in the left navigation, select **Settings.**
-
-    ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/settings12.png)
-
-5. Review the list of roles and then, in the **Search by role name**, enter **compliance**.
+4. On the Quick start page, in the left navigation, select **Settings (1)**
+  
+5. Review the list of roles and then, in the **Search by role name (2)**, enter **compliance**.
+   
+   ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/set.png)
 
 6. In the results, select **Compliance Administrator**.
 
@@ -52,7 +52,7 @@ If setting multiple approvers, approval completes as soon as one of them approve
 
 4. In the Select a member pane, select your administrator account and then select **Select**.
 
-    ![Screen image displaying the edit role settings page and select a member pane with the selected members highlighted](./media/approver12.png)
+    ![Screen image displaying the edit role settings page and select a member pane with the selected members highlighted](./media/admin123.png)
 
 5. Once you have configured the role settings, select **Update** to save your changes.
 
@@ -70,11 +70,11 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 
 2. In the Privileged Identity Management page, in the left navigation, select **Microsoft Entra ID roles.**
 
-3. On the Quick start page, in the left navigation, under Manage select **Roles**.
+3. On the Quick start page, in the left navigation, under Manage select **Roles (1)**.
 
-4. On the top menu, select **+ Add assignments.**
+4. On the top menu, select **+ Add assignments (2)**
 
-    ![Screen image displaying Azure AD roles with Add assignments menu highlighted](./media/cotoso12.png)
+    ![Screen image displaying Azure AD roles with Add assignments menu highlighted](./media/aroll.png)
 
 5. In the Add assignments page, on the **Membership** tab, review the settings.
 
@@ -86,7 +86,7 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 
 9. In the Select a member pane, select **Miriam Graham** and then select **Select**.
 
-   ![Screen image displaying the select a member pane with a selected member highlighted](./media/graham12.png)
+   ![Screen image displaying the select a member pane with a selected member highlighted](./media/miriam12345.png)
 
 10. In the Add assignments page, select **Next**.
 
@@ -96,6 +96,12 @@ Follow these steps to make a user eligible for an Azure AD admin role.
     - Active assignments do not require the member to perform any action to use the role. Members assigned as active have the privileges always assigned to the role.
 
 12. Review the remaining settings and then select **Assign**.
+
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 #### Task 2 - Log in with Miriam
 
@@ -111,7 +117,7 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 
    >**Note:** To find the username for Miriam Graham, login to the Azure portal and navigate to the Users section of the Microsoft Entra ID, and copy the user name.
 
-   >**Note:** From the Microsoft Entra ID **Users** section, click on **Miriam Graham** user and from the upper tab click on **Reset Password** and subsequently click on **Reset Password**  again and copy the temporary password and login to office.com and reset the password to **Pa55w.rd@123**
+   >**Note:** From the Microsoft Entra ID **Users** section, click on **Miriam Graham** user and from the top navigation pane, click on **Reset Password** and subsequently click on **Reset Password**  again and copy the temporary password and login to office.com and reset the password to **Pa55w.rd@123**
 
 5. Close the **Welcome to Azure dialog**.
 6. From the **Search resource, services, and docs** bar look for Microsoft Entra ID, and open the page.
@@ -123,21 +129,23 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 10. From the left navigation pane,under Manage select **Assigned roles** then select **Eligible assignments**.
 11. Notice that the **Compliance Administrator** role is now available to Miriam.
 
-#### Task 3 - Activate your Azure AD roles
+#### Task 3 - Activate your Microsoft Entra ID roles
 
 When you need to assume an Azure AD role, you can request activation by opening **My roles** in Privileged Identity Management.
 
 1. From the **Search, resources, services, and docs** bar, look for Privileged.
-2. Open the **Azure AD Privileged Identity Management** page.
-3. On the Privileged Identity Management page, in the left navigation menu, select **My roles.**
 
-4. In the My roles page, review the list of eligible assignments.
+2. Open the **Microsoft Entra ID Privileged Identity Management** page.
 
-    ![Screen image displaying My roles with eligible role assignments highlighted](./media/roles123.png)
+3. On the Privileged Identity Management page, in the left navigation menu, select **My roles (1)**
 
-5. In the Compliance Administrator role row, select **Activate**.
+4. In the My roles page, review the list of **Eligible assignments (2)**.
 
-6. In the Activate – Compliance Administrator pane, select **Additional verification required** and then follow the instructions to provide additional security verification. You are required to authenticate only once per session.
+5. In the Compliance Administrator role row, select **Activate (3)**.
+
+    ![Screen image displaying My roles with eligible role assignments highlighted](./media/role567.png)
+
+7. In the Activate – Compliance Administrator pane, select **Additional verification required** and then follow the instructions to provide additional security verification. You are required to authenticate only once per session.
 
     ![Screen image displaying a popup to activate the compliance administrator](./media/activate121.png)
 
@@ -145,11 +153,13 @@ When you need to assume an Azure AD role, you can request activation by opening 
     
     >**Note:** In the MFA window select **I want to set up a different method** and choose **Phone** and complete the additional verification process.
 
-7. After you have completed the additional security verification, back in the Azure portal, in the **Activate – Compliance Administrator** pane, in the **Reason** box, enter the **This is my justification for activating this role**.
+8. After you have completed the additional security verification, back in the Azure portal, in the **Activate – Compliance Administrator** pane, in the **Reason** box, enter the **This is my justification for activating this role**.
 
-    >**Important Note** - The principal of least privilege, you should only activate the account for the amount of time you need it.  If the work needed to be done, only takes 1.5 hours, then set the duration to two hours.  Similarily, if you know that you won't be able to do the work until after 3 p.m., choose a Custom activation time.
+     >**Notes:** If required you will have to sigin in again as Miriam Graham with a SMS verification.
+     
+     >**Important Note** - The principal of least privilege, you should only activate the account for the amount of time you need it.  If the work needed to be done, only takes 1.5 hours, then set the duration to two hours.  Similarily, if you know that you won't be able to do the work until after 3 p.m., choose a Custom activation time.
 
-8. Select **Activate**.
+9. Select **Activate**.
 
 #### Task 4 - Assign a role with restricted scope
 
@@ -172,7 +182,7 @@ For certain roles, the scope of the granted permissions can be restricted to a s
 
 Follow these steps to update or remove an existing role assignment.
 
-1. In the Open Azure AD Privileged Identity Management > Microsoft Entra ID roles page, in the left navigation, select **Assignments**.
+1. In the **Privileged Identity Management | Microsoft Entra roles** page, in the left navigation, select **Assignments**.
 
 2. In **Assignments** list, for Compliance Administrator, review the options in the **Action** column.
 

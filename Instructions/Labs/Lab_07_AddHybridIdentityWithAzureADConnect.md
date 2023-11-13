@@ -2,7 +2,7 @@
 
 **Note** - This lab requires an Azure Pass. Please see lab 00 for directions.
 
-**Note 2** - This lab is titled Optional.  It takes at least 1 hour to complete and does require that you are detailed in your lab steps.  Please feel free to computer it as time permits.  If your company has already set up its Hybrid configuration, or you don't plan to use Azure AD Connect, please jump over this lab.
+**Note 2** - This lab is titled Read-Only.  It takes at least 1 hour to complete and does require that you are detailed in your lab steps.  Please feel free to computer it as time permits.  If your company has already set up its Hybrid configuration, or you don't plan to use Azure AD Connect, please jump over this lab.
 
 ## Lab scenario
 

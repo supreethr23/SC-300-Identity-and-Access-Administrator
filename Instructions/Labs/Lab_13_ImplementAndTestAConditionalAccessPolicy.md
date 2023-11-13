@@ -2,33 +2,31 @@
 
 ## Lab scenario
 
-Your organization needs to be able to limit user access to its internal applications. You must deploy an Azure Active Directory conditional access policy.
+Your organization needs to be able to limit user access to its internal applications. You must deploy the Microsoft Entra ID conditional access policy.
 
 **Note** - For Conditional Access Policies, you can turn off Security Defaults, the key points to remember are from the training.  Additional information on Security defaults can be found at this link: <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults>
 
 ## Lab objectives
-In this lab, you will complete the following tasks:
+
+After completing this lab, you will be able to complete the following exercises:
 
 - Exercise 1 - Set a conditional access policy to block an user from accessing Office 365
-    - Task 1 - Confirm that the user has access to Office 365
-    - Task 2 - Create a conditional access policy
-    - Task 3 - Test the conditional access policy
 - Exercise 2: Test conditional access policies with "What if"
-    - Task 1 - Use What if to test conditional access policies
 - Exercise 3: Configure sign in frequency controls using a conditional access policy
-    - Task 1 - Use the Azure Portal to configure conditional access
 
-### Estimated time: 30 minutes
+## Estimated time: 45 minutes
 
 ## Architecture diagram
 
 ![Create resource](./media/lab13-arch.PNG)
 
-## Exercise 1: Set a conditional access policy to block an user from accessing Office 365
+## Exercise 1: Set a conditional access policy to block a user from accessing Office 365
+
+In this exercise, you will learn to create a conditional access policy in Microsoft Entra ID which allows you to tailor access control measures to meet specific security requirements. 
 
 ### Task 1: Confirm that the user has access to Office 365
 
-1. Launch a new InPrivate browser window.
+1. Launch a new **InPrivate** browser window.
 
 2. Connect to [https://www.office.com](https://www.office.com) 
 
@@ -39,6 +37,7 @@ In this lab, you will complete the following tasks:
    | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
    | Password | **<inject key="AzureAdUserPassword" enableCopy="true" />** |
     
+4. If a prompt appears, click on **Ask Later** 
 5. Ensure that you are able to access the Microsoft Office website via browser.
 
 ### Task 2: Create a conditional access policy
@@ -98,12 +97,14 @@ Azure Active Directory conditional access is an advanced feature of Azure AD tha
 
     >**Note:** There may be scenarios in which you may be produced with an error message stating that the Security defaults must be disabled to enable conditional access policy. In such cases, the account being provided may have the security defaults set to enabled for MFA functionality. It is recommended to disable the security default before proceeding with this lab. Follow the below instructions:
     - Click on the **disable security defaults** from the warning that displays as shown in the below screenshot.
-    ![](./media/lab13-ms-entra-id-10.png)
+    
+       ![](./media/lab13-ms-entra-id-10.png)
+    
     - Within the Security defaults page, ensure that the option - **Disabled (1)** is selected.
     - Select a reason for disabling - **Too many sign-in multifactor authentication challenges (2)**
-    - Click on **Save (3)**
+    - Click on **Save (3)** and subsequently click on **Disable** in the pop up that apperas.
 
-    ![](./media/lab13-ms-entra-id-11.png)
+       ![](./media/lab13-ms-entra-id-11.png)
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -116,7 +117,8 @@ Azure Active Directory conditional access is an advanced feature of Azure AD tha
 You should test your conditional access policies to ensure they working as expected.
 
 1. Open a new 'Inprivate' browser tab and then browse to [https://www.office.com](https://www.office.com).
-    - When prompted, log in as DebraB:
+    
+    - When prompted, log in as:
 
    | Setting | Value |
    | :--- | :--- |
@@ -142,6 +144,8 @@ You should test your conditional access policies to ensure they working as expec
    ![](./media/lab13-ms-entra-id-14.png)
 
 ## Exercise 2: Test conditional access policies with "What if"
+
+The "What if" feature in Microsoft Entra ID's conditional access policies is a powerful tool for assessing the potential impact of your access control policies without actually enforcing them.
 
 ### Task 1: Use What if to test conditional access policies
 
@@ -180,7 +184,7 @@ You should test your conditional access policies to ensure they working as expec
     - Click on **Select (4)** which opens the Select pane.
     - In the Select pane, search for and select **Office 365 (5)** and then click on **Select (6)**
 
-    ![](./media/lab13-ms-entra-id-18.png)
+    ![](./media/office365lab13.png)
 
 8. Select **What if** present at the bottom of the page. You will be provided with a report at the bottom of the tile for **Policies that will apply** and **Policies that will not apply**.
 
@@ -189,6 +193,8 @@ You should test your conditional access policies to ensure they working as expec
     >**Note:** This allows you to test the policies and their affectiveness before enabling the policies.
 
 ## Exercise 3: Configure sign in frequency controls using a conditional access policy
+
+ Configuring sign-in frequency controls using a conditional access policy in Azure can help you manage and enforce specific restrictions on how often users can sign in.
 
 ### Task 1: Use the Azure Portal to configure conditional access
 
@@ -241,12 +247,12 @@ As part of your company's larger security configuration, you must test a conditi
   
     ![](./media/lab13-ms-entra-id-20.png)
 
-    >**Note:** Report-only mode is a new Conditional Access policy state that allows administrators to evaluate the impact of Conditional Access policies before enabling them in their environment. With the release of report-only mode:
-        - Conditional Access policies can be enabled in report-only mode.
-        - During sign-in, policies in report-only mode are evaluated but not enforced.
-        - Results are logged in the Conditional Access and Report-only tabs of the Sign-in log details.
-        - Customers with an Azure Monitor subscription can monitor the impact of their Conditional Access policies using the Conditional Access insights workbook.
-
+     >**Note:** Report-only mode is a new Conditional Access policy state that allows administrators to evaluate the impact of Conditional Access policies before enabling them in their environment. With the release of report-only mode:
+     > - Conditional Access policies can be enabled in report-only mode.
+     > - During sign-in, policies in report-only mode are evaluated but not enforced.
+     > - Results are logged in the Conditional Access and Report-only tabs of the Sign-in log details.
+     > - Customers with an Azure Monitor subscription can monitor the impact of their Conditional Access policies using the Conditional Access insights workbook.
+   
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
@@ -254,7 +260,7 @@ As part of your company's larger security configuration, you must test a conditi
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Review
-In this lab, you have completed:
+In this lab, you have completed the following tasks:
 - Set a conditional access policy to block an user from accessing Office 365
 - Use What if to test conditional access policies
 - Configure sign in frequency controls using a conditional access policy

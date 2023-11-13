@@ -16,6 +16,8 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
+   ![](./media/arch-09.png)
+
 ### Exercise 1 - Add users to a group with SSPR enabled
 
 To add users to a group with SSPR enabled, use your identity management system (e.g., microsoft entra id) to add users to the desired group and configure Self-Service Password Reset settings for that group.

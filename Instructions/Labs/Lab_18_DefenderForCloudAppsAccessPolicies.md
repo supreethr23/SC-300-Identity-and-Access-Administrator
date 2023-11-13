@@ -5,36 +5,52 @@
 Microsoft Defender for Cloud Apps  allows us to create additional Conditional Access policies specific to the cloud apps that we are monitoring.  Creating these policies can be done from within the Control menu within the Microsoft Defender for Cloud Apps  portal.
 
 ## Lab objectives
-In this lab, you will complete the following tasks:
+
+After completing this lab, you will be able to complete the following exercises:
 
 + Exercise 1 - Create and test the Conditional Access App Contol policy
 + Exercise 2 - Setup alerts in Microsoft Defender for Cloud Apps
 
-## Estimated time: 20 minutes
+## Estimated time: 30 minutes
 
-## Architecture diagram
+## Architecture Diagram
+
+   ![](./media/arch18.png)
 
 ### Exercise 1 - Create and test the Conditional Access App Contol policy
+  
+  In this lab, you will learn to create and test a Conditional Access App Control policy. 
 
 #### Task 1 - Confirm that PradeepG has unconditional access to FORMS
 
-1. Open an Edge browser, launch a new InPrivate browsing window, and browse to [https://forms.microsoft.com](https://forms.microsoft.com).
-
-1. Select **Sign in** and log in as Pradeep Gupta.
-   - Username = pradeep.gupta@yourtenant.onmicrosoft.com
-
-      >**Note:** Replace **yourtenant**, with the tenant name, copy it from the **Environment Details** page.
-   - Password = Copy it from the **Environment Details** page.
+1. Open a Microsoft Edge browser, launch a new **InPrivate** browsing window, and browse to [https://forms.microsoft.com](https://forms.microsoft.com).
 
    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/signin.png)
 
-1. Confirm that Microsoft Forms opens and that you do not get any warning messages.
+1. Select **Sign in** and log in as Pradeep Gupta.
+    
+   | **Setting**| **Value**|
+   | :--- | :--- |
+   | Username | pradeep.gupta@`your domain name.com`|
+   | Password| Enter the password for Pradeep Gupta|
 
-1. Close the InPrivate browsing window.
+4. To find the username for **Pradeep Gupta**, login to the Azure portal using the credentials given in the **Environment Details** page navigate to the Users section of the Microsoft Entra ID, and copy the user name.
 
-#### Task 2 - Configure Azure AD to work with Defender for Cloud Apps
+5. From the Microsoft Entra ID **Users** section, click on **Pradeep Gupta** user, and from the top navigation pane click on **Reset Password** and copy the temporary password and login  and reset the password to **Pa55w.rd@123**
 
-1. Navigate to Azure Portal, in **Search resources, services and docs** search and select for **Microsoft Entra ID**.
+    ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/pradeep.png)
+
+   >**Note:** Copy the username and password of Pradeep in a notepad file because you will be needing it for further tasks.
+    
+7. Confirm that Microsoft Forms opens and that you do not get any warning messages.
+
+   >**Note:** You will not have access to Microsft Forms.
+
+8. Close the InPrivate browsing window.
+
+#### Task 2 - Configure Microsoft Entra ID to work with Defender for Cloud Apps
+
+1. Navigate to Azure Portal, in **Search resources, services and docs (1)** search and select for **Microsoft Entra ID (2)**.
 
    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/MicrosoftentraID.png)
 
@@ -57,30 +73,42 @@ Choose the **Pradeep Gupta** account for the lab tenant and select **Select**.
 
 11. Under **Enable policy**, select **On**, and select **Create**.
 
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 #### Task 3 - Log into Forms and validate that conditional access is monitoring
 
 1. Launch a new InPrivate browsing window, and browse to [https://forms.microsoft.com](https://forms.microsoft.com).
 
-1. Select **Sign in** and log in as Pradeep Gupta.
-   - Username = pradeep.gupta@yourtenant.onmicrosoft.com
+2. Select **Sign in** and log in as Pradeep Gupta.
 
-      >**Note:** Replace **yourtenant**, with the tenant name, copy it from the **Environment Details** page.
-   - Password = Copy it from the **Environment Details** page.
+   | **Setting**| **Value**|
+   | :--- | :--- |
+   | Username | pradeep.gupta@`your domain name.com`|
+   | Password| Pa55w.rd@123|
+    
+   >**Note:** Copy the username for Pradeep from the notepad file as mentioned in the previous task.
+   
+3. Confirm  that you get a new message as shown below:
 
-1. Confirm that Pradeep has access and that you get a new message:
    - Access to Microsoft Forms is monitored.
+   
+     ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/access.png)
 
-1. Close the InPrivate browsing window.
+4. Close the InPrivate browsing window.
 
 ### Exercise 2 - Setup alerts in Microsoft Defender for Cloud Apps
 
-#### Task 1 - Access Microsoft Defender for Cloud Apps and create Conditional Access App Control
-
 Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
+
+#### Task 1 - Access Microsoft Defender for Cloud Apps and create Conditional Access App Control
 
 1. Open a new tab, and browse to the [https://security.microsoft.com](https://security.microsoft.com).
 
-   >**Note:** Close the **Your new endpoint protection home** page.
+   >**Note:** If you get  **Your new endpoint protection home** page close it.
 
 1. From the left-hand navigation pane, scroll to the bottom and select **More resources**.
 
@@ -95,6 +123,8 @@ Registering your application establishes a trust relationship between your app a
 1. Leave the **Category** as **Access control**.
 
 1. Under **Activities matching all of the following**, select the drop-down for **Intune compliant, Hybrid Azure AD joined** and unselect **Hybrid Azure AD joined**.
+
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/365defender.png)
 
 1. Select the drop-down for **Select apps**, select **Microsoft Forms**.
 
@@ -111,13 +141,19 @@ Registering your application establishes a trust relationship between your app a
 1. Launch a new InPrivate browsing window, and browse to [https://forms.microsoft.com](https://forms.microsoft.com).
 
 1. Select **Sign in** and log in as Pradeep Gupta.
-   - Username = pradeep.gupta@yourtenant.onmicrosoft.com
 
-      >**Note:** Replace **yourtenant**, with the tenant name, copy it from the **Environment Details** page.
-   - Password = Copy it from the **Environment Details** page.
+   | **Setting**| **Value**|
+   | :--- | :--- |
+   | Username | pradeep.gupta@`your domain name.com`|
+   | Password| Pa55w.rd@123|
+    
+   >**Note:** Copy the username for Pradeep from the notepad file as mentioned in the previous task.
 
-1. Confirm that Pradeep has access and that you get a new message:
+1. Confirm  that you get a new message as shown below:
+
    - Access to Microsoft Forms is monitored.
+
+     ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/access.png)
 
 1. Close the InPrivate browsing window.
 
@@ -133,11 +169,12 @@ Registering your application establishes a trust relationship between your app a
 
 5. Notice the sign-on records for Pradeep.
 
-   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/singlesignon.png)
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/msforms2.png)
 
 ### Review
-In this lab, you have completed:
-- Created and test the Conditional Access App Contol policy
+
+In this lab, you have completed the following exercises:
+- Created and tested the Conditional Access App Contol policy
 - Setup alerts in Microsoft Defender for Cloud Apps
 
 ### You have successfully completed the lab

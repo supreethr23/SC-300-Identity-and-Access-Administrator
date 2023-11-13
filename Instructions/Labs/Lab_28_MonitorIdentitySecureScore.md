@@ -14,7 +14,7 @@ In this lab, you will complete the following tasks:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch28.png)
 
-#### Estimated time: 15 minutes
+## Estimated time: 15 minutes
 
 ## Architecture diagram
 
