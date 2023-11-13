@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch19.png)
 
-#### Estimated time: 30 minutes
+## Estimated time: 30 minutes
 
 ### Exercise 1 - Register an application
 

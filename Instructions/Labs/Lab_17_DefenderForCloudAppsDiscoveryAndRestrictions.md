@@ -10,7 +10,7 @@ In this lab, you will complete the following tasks:
 + Task 1 - Discovery apps in Defender for Cloud Apps
 + Task 2 - Restrict Apps in Defender for Cloud Apps
 
-### Estimated time: 20 minutes
+## Estimated time: 20 minutes
 
 ## Architecture diagram
 
@@ -48,7 +48,7 @@ In this lab, you will complete the following tasks:
 
     >**Note**: There is a delay between unsanctioning an application and that application being blocked.
 
-    Once the application has been blocked as unsanctioned, the application will not be accessible through browser, in-private browser, or store download on a Client that is onboarded to MDE (Microsoft Defender for Endpoint) integrated with Microsoft Defender for Cloud Apps.
+1.  Once the application has been blocked as unsanctioned, the application will not be accessible through browser, in-private browser, or store download on a Client that is onboarded to MDE (Microsoft Defender for Endpoint) integrated with Microsoft Defender for Cloud Apps.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.

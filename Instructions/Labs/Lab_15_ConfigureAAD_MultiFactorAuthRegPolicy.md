@@ -15,7 +15,7 @@ After completing this lab, you will be able to:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch15.png)
 
-#### Estimated time: 10 minutes
+## Estimated time: 10 minutes
 
 ### Exercise 1 - Set up MFA registration policy
 

@@ -14,7 +14,7 @@ After completing this lab, you will be able to complete the following exercises:
 - Exercise 2: Test conditional access policies with "What if"
 - Exercise 3: Configure sign in frequency controls using a conditional access policy
 
-### Estimated time: 45 minutes
+## Estimated time: 45 minutes
 
 ## Architecture diagram
 

@@ -1,4 +1,4 @@
-# Lab 24: Manage the lifecycle of external users in Azure AD Identity Governance settings  
+# Lab 24: Manage the lifecycle of external users in Microsoft Entra ID Identity Governance settings  
 
 ## Lab scenario
 
@@ -6,25 +6,23 @@ You can select what happens when an external user, who was invited to your direc
 
 ## Lab Objectives
 
-In this lab you will be performing the following tasks:
+In this lab you will be performing the following task:
 
 - Task 1 - Manage the lifecycle of external users in Azure AD Identity Governance settings
 
-## Estimated time: 5 minutes
+## Estimated time: 30 minutes
 
 ## Architecture Diagram
 
    ![](./media/Lab-24.png)
 
-### Exercise 1 - Azure AD Identity Governance settings
+### Exercise 1 - Microsoft Entra ID Identity Governance settings
 
 #### Task 1 - Manage the lifecycle of external users in Azure AD Identity Governance settings
 
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a Global administrator.
+1. In the Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
 
-2. An account with Global administrator or User administrator is required to complete these tasks.
-
-3. Open Azure Active Directory and the select **Identity Governance**.
+2. From the left navigation pane, **Identity Governance**.
 
 4. In the left navigation menu, under **Entitlement management**, select **Settings**.
 
@@ -44,13 +42,16 @@ In this lab you will be performing the following tasks:
 
 10. If you want to remove the guest user account in this directory, you can set the number of days before it is removed. If you want to remove the guest user account as soon as they lose their last assignment to any access packages, set **Number of days before removing external user from this directory** to **0**.
 
-11. If you’ve made any changes, select **Save**.
-
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Review
 
-In this lab, you have performed  the following tasks:
+In this lab, you have performed  the following task:
 
-- Manage the lifecycle of external users in Azure AD Identity Governance settings.
+- Manage the lifecycle of external users in Microsoft Entra ID Identity Governance settings.
   
 ## You have successfully completed the lab
