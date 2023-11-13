@@ -19,7 +19,7 @@ After completing this lab, you will be able to complete the following tasks:
 
 ## Architecture diagram
 
-![Create resource](./media/lab10-arch.PNG)
+![Create resource](./media/lab10-arch-new.PNG)
 
 ## Exercise 1: Login to Windows Virtual Machines in Azure with Microsoft Entra ID
 

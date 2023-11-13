@@ -14,7 +14,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![Create resource](./media/lab17-arch.PNG)
+![Create resource](./media/lab17-arch-new.PNG)
 
 ## Exercise 1: Defender for Cloud Apps discovery
 
