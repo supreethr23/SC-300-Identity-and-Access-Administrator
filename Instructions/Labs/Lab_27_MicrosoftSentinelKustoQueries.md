@@ -16,7 +16,7 @@ In this lab, you will be performing the following tasks:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch27.png)
 
-## Estimated time: 30 minutes
+#### Estimated time: 60 minutes
 
 ### Exercise 1 - Configure Microsoft Sentinel for Kusto Queries
 Configuring Microsoft Sentinel for Kusto Queries enables advanced log and security data analysis within the Azure Sentinel platform, enhancing threat detection and response capabilities.
