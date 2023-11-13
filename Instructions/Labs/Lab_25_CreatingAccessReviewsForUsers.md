@@ -13,7 +13,7 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
-   ![](./media/arch25.png)
+   ![](./media/Lab-25.png)
 
 ### Exercise 1 - Create an internal Access review
 Creating an internal Access review involves regularly evaluating and validating the access permissions of users and roles within your organization to maintain security and compliance.

@@ -14,7 +14,7 @@ In this lab you will be performing the following task:
 
 ## Architecture Diagram
 
-   ![](./media/arch24.PNG)
+   ![](./media/Lab-24.png)
 
 ### Exercise 1 - Microsoft Entra ID Identity Governance settings
 
