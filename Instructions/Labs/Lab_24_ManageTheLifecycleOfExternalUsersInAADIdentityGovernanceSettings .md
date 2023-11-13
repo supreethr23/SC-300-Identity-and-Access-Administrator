@@ -14,7 +14,7 @@ In this lab you will be performing the following tasks:
 
 ## Architecture Diagram
 
-   ![](./media/arch24.png)
+   ![](./media/Lab-24.png)
 
 ### Exercise 1 - Azure AD Identity Governance settings
 
