@@ -1,8 +1,6 @@
 # Lab 07: Add Hybrid Identity with Azure AD Connect (Read Only)
 
-**Note** - This lab requires an Azure Pass. Please see lab 00 for directions.
-
-**Note 2** - This lab is titled Read-Only.  It takes at least 1 hour to complete and does require that you are detailed in your lab steps.  Please feel free to computer it as time permits.  If your company has already set up its Hybrid configuration, or you don't plan to use Azure AD Connect, please jump over this lab.
+**Note 1:** - This lab is titled Read-Only.  It takes at least 1 hour to complete and does require that you are detailed in your lab steps. 
 
 ## Lab scenario
 
@@ -668,3 +666,4 @@ In this task, you will configure Azure AD Connect device synchronization options
    > **Note**: You might need to wait until the Azure AD registration status is correctly reported and its Azure AD object appears in the Azure portal.
 
 
+## You have successfully completed the lab
