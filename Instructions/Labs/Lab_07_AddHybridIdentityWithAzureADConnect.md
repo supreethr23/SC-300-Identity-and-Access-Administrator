@@ -663,7 +663,7 @@ In this task, you will configure Azure AD Connect device synchronization options
    ```
 11. Switch back to the Remote Desktop session to **DC1**, in the Edge browser window displaying the Azure portal, navigate to the **Devices - All devices** page of the Contoso Azure AD tenant and verify that there is an entry representing the APP1 server, with the **Join Type** set to **Hybrid Azure AD joined**.
 
-   > **Note**: You might need to wait until the Azure AD registration status is correctly reported and its Azure AD object appears in the Azure portal.
+     > **Note**: You might need to wait until the Azure AD registration status is correctly reported and its Azure AD object appears in the Azure portal.
 
 
 ## You have successfully completed the lab
