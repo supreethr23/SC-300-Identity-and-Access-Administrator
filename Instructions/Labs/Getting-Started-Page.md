@@ -32,20 +32,17 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 ## **Lab Duration Extension**
 
-If you fall short of time please feel free to extend the duration from the **Bell**  icon from the top right corner of the lab environment.
+1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
 
-![Manage Your Virtual Machine](./media/g5.1.png)
+    ![Manage Your Virtual Machine](./media/gext.png)
 
+    >**Note:** You will get the **Hourglass** icon when there are 10 minutes remaining in the lab.
 
+3. Click **Ok** to extend your lab duration by 15 minutes.
+ 
+   ![Manage Your Virtual Machine](./media/gext2.png)
 
-
-
-
-
-
-
-
-
+4. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **Ok** to proceed.
 
 ## **Let's Get Started with Azure Portal**
  
