@@ -30,6 +30,23 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 ![Manage Your Virtual Machine](./media/g4.png)
  
+## **Lab Duration Extension**
+
+If you fall short of time please feel free to extend the duration from the **Bell**  icon from the top right corner of the lab environment.
+
+![Manage Your Virtual Machine](./media/g5.1.png)
+
+
+
+
+
+
+
+
+
+
+
+
 ## **Let's Get Started with Azure Portal**
  
 1. On your virtual machine, click on the Azure Portal icon as shown below:
