@@ -71,13 +71,6 @@ After completing this lab, you will be able to complete the following exercises:
 9. When complete, verify the group named **sg-SC300-O365** is shown in the **All groups** list.
 
    >**Note:** Kindly click the **Refresh** button if you are not able to see the newly created group.
-   
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
 
 #### Task 3 - Assign a license to a group
 
@@ -137,12 +130,6 @@ Part of your duties as an Azure AD administrator is to create different types of
 
 5. When complete, verify the group named **Northwest sales** is shown in the **All groups** list.
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
 ### Exercise 3 - Creating a dynamic group with all users as members
 
 #### Task 1 - Create the dynamic group
@@ -195,12 +182,6 @@ As your company grows, manually group management is too time consuming. Since st
 6. Notice that it shows that it contains **Direct members**.
 7. Select on **Members** in the **Manage** menu.
 8. Review the members.
-
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 #### Task 3 - Experiment with alternate rules (Optional)
 

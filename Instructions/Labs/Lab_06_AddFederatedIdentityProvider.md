@@ -118,12 +118,6 @@ After completing this lab, you will be able to:
 
 This completes the configuration of Google as an identity provider.
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
 #### Task 2 - Invite you Test User account
 
 1. Open **Microsoft Entra ID**.
@@ -139,12 +133,6 @@ This completes the configuration of Google as an identity provider.
 1. Enter a personal message as you want.
 
 1. Select **Review + Invite** and subsequently click on **Invite**.
-
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 #### Task 3 - Accept the invitation and login
 1. Open an InPrivate browser to log into your gmail account.
