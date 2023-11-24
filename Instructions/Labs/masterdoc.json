@@ -9,97 +9,114 @@
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_01_Lab1_Ex1_Explore_M365_Defender.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_01_ManageUserRoles.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_02_Lab1_Ex1_Deploy_Defender_Endpoint.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_02_WorkingWithTenantProperties.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_02_Lab1_Ex2_Mitigate_Attacks.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_03_AssignLicensesToUsersByGroupMembershipAAD.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_03_Lab1_Ex1_Enable_Defender.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_04_ConfigureExternalCollaborationSettings.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_03_Lab1_Ex2_Azure_Defender.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_05_AddGuestUsersToTheDirectory.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_04_Lab1_Ex1_KQL.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_06_AddFederatedIdentityProvider.md",
         "Order": 7
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_05_Lab1_Ex1_Deploy_Sentinel.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_08_EnableAzureADMultiFactorAuthentication.md",
         "Order": 8
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_06_Lab1_Ex1_Connect_Services.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_09_ConfigureAndDeploySelfServicePasswordReset.md",
         "Order": 9
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_06_Lab1_Ex2_Connect_Windows.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_10_AzureADAuthenticationForWindowsAndLinuxVM.md",
         "Order": 10
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_06_Lab1_Ex3_Connect_Linux.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_11_AssignAzureResourceRolesInPrivilegedIdentityManagement.md",
         "Order": 11
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_07_Lab1_Ex1_Security_Rule.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_12_ManageAzureADSmartLockoutValues.md",
         "Order": 12
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_07_Lab1_Ex2_Playbook.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_13_ImplementAndTestAConditionalAccessPolicy.md",
         "Order": 13
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_07_Lab1_Ex3_Scheduled_Query.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_14_EnableSignRiskPolicy.md",
         "Order": 14
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_07_Lab1_Ex4_Entity_Behavior.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_15_ConfigureAAD_MultiFactorAuthRegPolicy.md",
         "Order": 15
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_07_Lab1_Ex5_Attacks.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_16_UsingAzureKeyVaultForManagedIdentities.md",
         "Order": 16
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_07_Lab1_Ex6_Perform_Attacks.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_17_DefenderForCloudAppsDiscoveryAndRestrictions.md",
         "Order": 17
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_07_Lab1_Ex7_Detections.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_18_DefenderForCloudAppsAccessPolicies.md",
         "Order": 18
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_07_Lab1_Ex8_Investigate.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_19_RegisterAnApplication.md",
         "Order": 19
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_07_Lab1_Ex9_ASIM.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_20_ImplementAccessManagementForApps.md",
         "Order": 20
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_07_Lab1_Ex10_Workbooks.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_21_GrantTenantWideAdminConsentToAnApplication.md",
         "Order": 21
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_07_Lab1_Ex11_Content_Management.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_22_CreateAndManageACatalogOfResourcesInAADEntitlementManagement.md",
         "Order": 22
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_08_Lab1_Ex1_Hunting.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_23_AddTermsOfUseAcceptanceReporting.md",
         "Order": 23
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/AzurePass-New/Instructions/Labs/LAB_AK_08_Lab1_Ex2_Notebooks.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_24_ManageTheLifecycleOfExternalUsersInAADIdentityGovernanceSettings%20.md",
         "Order": 24
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_25_CreatingAccessReviewsForUsers.md",
+        "Order": 25
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_26_ConfigurePrivilegedIdentityManagementForAADRoles.md",
+        "Order": 26
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_27_MicrosoftSentinelKustoQueries.md",
+        "Order": 27
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/AzurePass-New/Instructions/Labs/Lab_28_MonitorIdentitySecureScore.md",
+        "Order": 28
       }
+      
     ]
   }
 ]
