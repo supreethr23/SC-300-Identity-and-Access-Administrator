@@ -1,4 +1,3 @@
-
 # Lab 02: Working with tenant properties
 
 ## Lab scenario
@@ -84,7 +83,7 @@ After completing this lab, you will be able to:
 
 #### Task 3 - Finding the tenant ID
 
-Azure subscriptions have a trust relationship with Azure Active Directory (Azure AD). Azure AD is trusted to authenticate users, services, and devices for the subscription. Each subscription has a tenant ID associated with it, and there are a few ways you can find the tenant ID for your subscription.
+Azure subscriptions have a trust relationship with Microsoft Entra ID. Microsoft Entra ID is trusted to authenticate users, services, and devices for the subscription. Each subscription has a tenant ID associated with it, and there are a few ways you can find the tenant ID for your subscription.
 
 1. In the **Microsoft Entra ID** page, in the Manage section, select **Properties**.
 
