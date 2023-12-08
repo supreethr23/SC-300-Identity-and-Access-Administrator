@@ -2,7 +2,7 @@
 
 ## Lab scenario
 
-When you use managed identities for Azure resources, your code can get access tokens to authenticate to resources that support Microsoft Entra.  However, not all Azure services support Microsoft Entra authentication. To use managed identities for Azure resources with those services, store the service credentials in Azure Key Vault, and use the managed identity to access Key Vault to retrieve the credentials.
+When you use managed identities for Azure resources, your code can get access tokens to authenticate to resources that support Microsoft Entra authentication.  However, not all Azure services support Microsoft Entra authentication. To use managed identities for Azure resources with those services, store the service credentials in Azure Key Vault, and use the managed identity to access Key Vault to retrieve the credentials.
 
 ## Lab objectives
 In this lab, you will complete the following tasks:
