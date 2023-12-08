@@ -106,6 +106,7 @@ A recent partnership has been established with another company. For now, employe
     ```
     Install-Module Microsoft.Graph
     ```
+>**Note:** - It might take some time for it to run.
 
 1. Confirm the Microsoft.Graph module is installed:
    
