@@ -1,15 +1,14 @@
-
-# Lab 15 - Configure an Multifactor authentication registration policy'
+# Lab 15 - Configure a Microsoft Entra ID multi-factor authentication registration policy
 
 ## Lab scenario
 
-Multifactor authentication provides a means to verify who you are using more than just a username and password. It provides a second layer of security to user sign-ins. For users to be able to respond to MFA prompts, they must first register for Microsoft Entra Multifactor Authentication. You must configure your Microsoft Entra organization's MFA registration policy to be assigned to all users.
+Multi-factor authentication provides a means to verify who you are using more than just a username and password. It provides a second layer of security to user sign-ins. For users to be able to respond to MFA prompts, they must first register for Microsoft Entra Multi-Factor Authentication. You must configure your Microsoft Entra organization's MFA registration policy to be assigned to all users.
 
 ## Lab Objectives
 
 After completing this lab, you will be able to:
 - Task 1 - Complete Policy configuration
-- Task 2 - Configure Azure AD Identity Protection policy for MFA registration
+- Task 2 - Configure Microsoft Entra ID Identity Protection policy for MFA registration
 
 ## Architecture Diagram
 
@@ -43,10 +42,9 @@ After completing this lab, you will be able to:
 
 10. Under **Controls**, notice that the **Require Microsoft Entra ID multifactor authentication registration** is selected and cannot be changed.
 
-
 #### Task 2 - Configure Microsoft Entra Identity Protection policy for MFA registration
 
-**Note**: Microsoft Entra ID Identity Protection requires a Microsoft Entra ID Premium P2 license to be activated. 
+**Note**: Microsoft Entra Identity Protection requires a Microsoft Entra ID Premium P2 license to be activated. 
 
 Now let us enable MFA registration for a single user.
 
@@ -72,7 +70,7 @@ Now let us enable MFA registration for a single user.
 
 In this lab you have completed the following tasks:
 - Completed Policy configuration
-- Configured Azure AD Identity Protection policy for MFA registration
+- Configured Microsoft Entra ID Identity Protection policy for MFA registration
 
 ## You have successfully completed the lab
 

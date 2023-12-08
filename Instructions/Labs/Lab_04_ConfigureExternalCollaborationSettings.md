@@ -52,7 +52,7 @@ After completing this lab, you will be able to complete the following tasks:
    ![Screen image displaying guest user access restriction options](./media/lp1-mod3-guest-user-access-restrictions1.png)
 
     >**NOTE:**
-    >- Guest users have the same access as members (most inclusive): This option gives guests the same access to Azure AD resources and directory data as member users.
+    >- Guest users have the same access as members (most inclusive): This option gives guests the same access to Microsoft Entra  resources and directory data as member users.
     >- Guest users have limited access to properties and memberships of directory objects: (Default) This setting blocks guests from certain directory tasks, like enumerating users, groups, or other directory resources. Guests can see membership of all non-hidden groups.
     >- Guest user access is restricted to properties and memberships of their own directory objects (most restrictive): With this setting, guests can access only their own profiles. Guests are not allowed to see other users' profiles, groups, or group memberships.
 

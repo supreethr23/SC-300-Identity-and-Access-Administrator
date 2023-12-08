@@ -1,4 +1,6 @@
-# Lab 07: Add Hybrid Identity with Azure AD Connect (Read Only)
+# Lab 07: Add Hybrid Identity with Microsoft Entra Connect (Read Only)
+
+# This lab is currently undergoing maintenance and may fail with multiple issue  due to licensing with Microsoft Entra.
 
 **Note 1:** - This lab is titled Read-Only.  It takes at least 1 hour to complete and does require that you are detailed in your lab steps. 
 
@@ -59,8 +61,8 @@ Your company works has Active Directory Domain Services on-premises.  They would
    -   Username: **demouser**
    -   Password: **Use the secure password you created in Task 1**
 
-2.  Within the Remote Desktop session to **DC1**, start **Windows PowerShell ISE**, add the following script to the script pane, and run it to disable Internet Explorer enhanced security configuration and User Access Control on both **DC1** and **APP1** Azure VMs:
-
+2.  Within the Remote Desktop session to **DC1**, start **Windows PowerShell ISE**, then open the Script pane. Next, add the following script to the script pane, and run it to disable Internet Explorer enhanced security configuration and User Access Control on both **DC1** and **APP1** Azure VMs:
+   
     ```pwsh
 
     $vmNames = @('dc1','app1')
@@ -71,7 +73,7 @@ Your company works has Active Directory Domain Services on-premises.  They would
 
     **Note:** To run multiple PowerShell scripts in the same file, you can highlight a specific script and select **Run Selection** next to the green play button. 
 
-3.  Within the **Windows PowerShell ISE** window  add the following script to the script pane, and run it to install Remote Server Administration Tools on both **DC1* and **APP1** Azure VMs:
+4.  Within the **Windows PowerShell ISE** window  add the following script to the script pane, and run it to install Remote Server Administration Tools on both **DC1* and **APP1** Azure VMs:
 
     ```pwsh
 
@@ -79,7 +81,7 @@ Your company works has Active Directory Domain Services on-premises.  They would
     Invoke-Command -ComputerName $vmNames {Install-WindowsFeature RSAT -IncludeAllSubFeature} 
     ```
 
-4.  Within the **Windows PowerShell ISE** window  add the following script to the script pane, and run it to enable TLS 1.2 on both **DC1* and **APP1** Azure VMs:
+5.  Within the **Windows PowerShell ISE** window  add the following script to the script pane, and run it to enable TLS 1.2 on both **DC1* and **APP1** Azure VMs:
 
     ```pwsh
 
@@ -93,7 +95,7 @@ Your company works has Active Directory Domain Services on-premises.  They would
     Invoke-Command -ComputerName $vmNames {New-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\.NETFramework\v4.0.30319' -name 'SchUseStrongCrypto' -value 1 –PropertyType DWORD}
     ```
 
-5.  Within the **Windows PowerShell ISE** window  add the following script to the script pane, and run it to configure Windows Integrated Authentication on the Default Web Site hosted on the **APP1** Azure VM:
+6.  Within the **Windows PowerShell ISE** window  add the following script to the script pane, and run it to configure Windows Integrated Authentication on the Default Web Site hosted on the **APP1** Azure VM:
 
     ```pwsh
 
@@ -130,7 +132,7 @@ Your company works has Active Directory Domain Services on-premises.  They would
 2.  Within the Remote Desktop session to **DC1**, start Internet Explorer and navigate to the link below.
 
     ```
-    https://github.com/microsoft/MCW-Hybrid-identity/tree/main/Hands-on%20lab/studentfiles
+    https://github.com/microsoft/MCW-Hybrid-identity/tree/Archive/Hands-on%20lab/studentfiles
     ```
 
 3. On the **Create Users/Group for Active Directory Demo/Test Environment** page, select the **CreateDemoUsers.ps1** link, accept the licensing terms, and save the corresponding script to the local file system.
@@ -314,7 +316,7 @@ In this task, you will configure the DNS suffix of the Contoso Active Directory 
     }
     ```
 
-### Task 6: Install Azure AD Connect
+### Task 6: Install Microsoft Entra ID Connect
 
 In this task, you will install Azure AD Connect.
 
@@ -328,7 +330,7 @@ In this task, you will install Azure AD Connect.
 
 2. Within the Remote Desktop session to **DC1**, start the Chrome browser and navigate to the Azure portal at <https://portal.azure.com>.
 
-3. When prompted to sign in, enter the credentials of the **john.doe** Azure AD user account, which you copied into Notepad earlier in this exercise.
+3. When prompted to sign in, enter the credentials of the **john.doe** Microsoft Entra user account, which you copied into Notepad earlier in this exercise.
 
 4. When prompted, change the password for the **john.doe** user account. 
   
@@ -338,13 +340,13 @@ In this task, you will install Azure AD Connect.
 
 6. If presented with the **Welcome to Microsoft Azure** dialog box, select **Maybe later**. 
 
-7. In the Azure portal, select **Azure Active Directory** on the portal's left navigation to navigate to the **Contoso - Overview** page.
+7. In the Azure portal, select **Microsoft Entra Connect**.
 
-8. On the **Contoso - Overview** page, select **Azure AD Connect** under **Manage** on the left.
+8. On the search results page, select **Microsoft Entra Connect**.
 
-9.  On the **Azure AD Connect** page, select the **Download Azure AD Connect** link.  Then choose **Connect Sync** from the menu.
+9.  On the **Microsoft Entra Connect** page, select the **Download Microsoft Entra Connect** link.  Then choose **Connect Sync** from the menu.
 
-10. On the **Microsoft Azure Active Directory Connect** web page of the Microsoft Downloads site, select **Download**.
+10. On the **Microsoft Azure Active Directory Connect v2** web page of the Microsoft Downloads site, select **Download**.
 
 11. When prompted whether to run or save **AzureADConnect.msi**, select **Run**. This will download the file and automatically start the **Microsoft Azure Active Directory Connect** wizard. 
 

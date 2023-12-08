@@ -3,7 +3,7 @@
 
 ## Lab scenario
 
-Your organization has decided to use security groups in Azure AD to manage licenses. You need to configure a new security group and assign a license to that group and verify group member license's have been updated.
+Your organization has decided to use security groups in Microsoft Entra ID to manage licenses. You need to configure a new security group and assign a license to that group and verify group member license's have been updated.
 
 ## Lab Objectives
 
@@ -115,7 +115,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 #### Task 1 - Create the group
 
-Part of your duties as an Azure AD administrator is to create different types of groups. You need to create a new Microsoft 365 group for your organization's sales department.
+Part of your duties as an Microsoft Entra administrator is to create different types of groups. You need to create a new Microsoft 365 group for your organization's sales department.
 
 1. From the Azure portal, navigate to **Microsoft Entra ID**
 
@@ -208,7 +208,7 @@ As your company grows, manually group management is too time consuming. Since st
 
    - (user.objectid -ne null) and (user.userType -eq "Guest")
 
-2. Try make a group with only **Members** of the Azure AD users.
+2. Try make a group with only **Members** of the Microsoft Entra users.
 
    - (user.objectid -ne null) and (user.userType -eq "Member")
 

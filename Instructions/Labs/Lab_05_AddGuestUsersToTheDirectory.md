@@ -1,4 +1,3 @@
-
 # Lab 05: Add guest users to the directory
 
 ## Lab scenario
@@ -32,7 +31,7 @@ Incorporate guest users into the directory to extend limited access and collabor
 
 4. On the New user menu, select **Invite external user** and then add your information as the guest user.
 
-   >**Note:** - Group email addresses are not supported; enter the email address for an individual. Also, some email providers allow users to add a plus symbol (+) and additional text to their email addresses to help with things like inbox filtering. However, Azure AD does not currently support plus symbols in email addresses. To avoid delivery issues, omit the plus symbol and any characters following it up to the @ symbol.
+   >**Note:** - Group email addresses are not supported; enter the email address for an individual. Also, some email providers allow users to add a plus symbol (+) and additional text to their email addresses to help with things like inbox filtering. However, Microsoft Entra ID does not currently support plus symbols in email addresses. To avoid delivery issues, omit the plus symbol and any characters following it up to the @ symbol.
 
 5. Enter an email address, such as **sc300externaluser1@sc300email.com**
 
@@ -100,42 +99,47 @@ A recent partnership has been established with another company. For now, employe
 
 #### Task 2 - Invite guest users with PowerShell
 
-1. Open PowerShell as an administrator.  This can be done by searching for PowerShell in Windows and choosing Run as administrator.  
+1. Open PowerShell as an administrator.  This can be done by searching for PowerShell in Windows and choosing Run as administrator. 
 
-1. You will need to add the Azure AD PowerShell module, if you have not used it before.  Run the command: Install-Module AzureAD.  When prompted, select **Y** to continue.
-
-    ``` 
-    Install-Module AzureAD
-    ```
-
-1. Confirm that the module installed correctly by running the command:  
+1. You will need to Install the Microsoft.Graph PowerShell module if you have not used it before. Run the following two commands and when prompted to confirm press Y:
 
     ```
-    Get-Module AzureAD 
+    Install-Module Microsoft.Graph
     ```
+>**Note:** - It might take some time for it to run.
 
-1. Next, you will need to login to Azure by running:  
-
+1. Confirm the Microsoft.Graph module is installed:
+   
     ```
-    Connect-AzureAD
+    Get-InstalledModule Microsoft.Graph
     ```
     
-1. The Microsoft login window will appear for you to login to Microsoft Entra ID.You can find the login credentils from the Environment details page.  
-
-1. To verify that you are connected and to see existing users, run:  
-
+1. Next, you will need to login to Azure by running:
+   
     ```
-    Get-AzureADUser 
+    Connect-MgGraph -Scopes "User.ReadWrite.All"
     ```
-    >**Note:** If you get any warnings you can click on **Yes**
-
-1. You are ready to invite a guest user.  You can run the following command  with the user information and run.  If you have more than one user to add, you can use a notepad txt file to add the user information and copy/paste into PowerShell. 
-
+     
+    The Edge browser will open and you will be prompted to sign-in.  Use the MOD Administrator account to connect.  Accpet the permissions request; then close the browser window.
+    
+1. Set the values for the email and redirect for the External user:
+   
     ```
-    New-AzureADMSInvitation -InvitedUserDisplayName "Display" -InvitedUserEmailAddress name@emaildomain.com -InviteRedirectURL https://myapps.microsoft.com -SendInvitationMessage $true 
+    Import-Module Microsoft.Graph.Identity.SignIns
+    
+    $params = @{
+	    invitedUserEmailAddress = "admin@fabrikam.com"
+	    inviteRedirectUrl = "https://myapp.contoso.com"
+    }
     ```
+1. Sent the MgInvitation command to invite the External user:
 
-1. You now know how to invite users within the Microsoft Entra ID portal, Bulk invitations with a csv file, and inviting users with PowerShell commands.
+   ```
+    New-MgInvitation -BodyParameter $params
+    ```
+1. You can close PowerShell at this point.
+    
+You now know how to invite users within the Microsoft Entra admin center, Microsoft 365 Admin center, Bulk invitations with a csv file, and inviting users with PowerShell commands.  You can go into the Microsoft Entra admin center, and check All Users to see that ADMIN has been added as an external suer.
 
 ## Review
 

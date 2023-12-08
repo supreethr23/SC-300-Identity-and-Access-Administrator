@@ -3,7 +3,7 @@
 
 ## Lab scenario
 
-To improve security in your organization, you've been directed to enable multi-factor authentication for Azure Active Directory.
+To improve security in your organization, you've been directed to enable multi-factor authentication for Microsoft Entra ID.
 
 ## Lab Objectives
 
@@ -124,7 +124,7 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 
    By enforcing MFA, you significantly reduce the risk of unauthorized access and data breaches, enhancing the overall security of your Azure environment.
 
-#### Task 1 - Configure Azure AD Per-User MFA
+#### Task 1 - Configure Microsoft Entra ID Per-User MFA
 
 Finally, let's look at how to configure MFA for user accounts. This is another way to get to the multi-factor auth settings.
 
