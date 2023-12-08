@@ -31,7 +31,7 @@ Incorporate guest users into the directory to extend limited access and collabor
 
 4. On the New user menu, select **Invite external user** and then add your information as the guest user.
 
-   >**Note:** - Group email addresses are not supported; enter the email address for an individual. Also, some email providers allow users to add a plus symbol (+) and additional text to their email addresses to help with things like inbox filtering. However, Azure AD does not currently support plus symbols in email addresses. To avoid delivery issues, omit the plus symbol and any characters following it up to the @ symbol.
+   >**Note:** - Group email addresses are not supported; enter the email address for an individual. Also, some email providers allow users to add a plus symbol (+) and additional text to their email addresses to help with things like inbox filtering. However, Microsoft Entra ID does not currently support plus symbols in email addresses. To avoid delivery issues, omit the plus symbol and any characters following it up to the @ symbol.
 
 5. Enter an email address, such as **sc300externaluser1@sc300email.com**
 
