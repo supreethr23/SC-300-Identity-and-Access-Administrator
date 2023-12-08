@@ -1,4 +1,3 @@
-
 # Lab 15 - Configure a Microsoft Entra ID multi-factor authentication registration policy
 
 ## Lab scenario
@@ -41,10 +40,9 @@ After completing this lab, you will be able to:
 
 9. Additionally, you can choose to exclude users from the policy.
 
-10. Under **Controls**, notice that the **Require Microsoft Entra ID MFA registration** is selected and cannot be changed.
+10. Under **Controls**, notice that the **Require Microsoft Entra ID multifactor authentication registration** is selected and cannot be changed.
 
-
-#### Task 2 - Configure Microsoft Entra ID Identity Protection policy for MFA registration
+#### Task 2 - Configure Microsoft Entra Identity Protection policy for MFA registration
 
 **Note**: Microsoft Entra Identity Protection requires a Microsoft Entra ID Premium P2 license to be activated. 
 
