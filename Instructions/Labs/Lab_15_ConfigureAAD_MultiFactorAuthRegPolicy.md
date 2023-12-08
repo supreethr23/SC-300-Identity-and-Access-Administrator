@@ -9,7 +9,7 @@ Multi-factor authentication provides a means to verify who you are using more th
 
 After completing this lab, you will be able to:
 - Task 1 - Complete Policy configuration
-- Task 2 - Configure Azure AD Identity Protection policy for MFA registration
+- Task 2 - Configure Microsoft Entra ID Identity Protection policy for MFA registration
 
 ## Architecture Diagram
 
@@ -41,7 +41,7 @@ After completing this lab, you will be able to:
 
 9. Additionally, you can choose to exclude users from the policy.
 
-10. Under **Controls**, notice that the **Require Azure AD MFA registration** is selected and cannot be changed.
+10. Under **Controls**, notice that the **Require Microsoft Entra ID MFA registration** is selected and cannot be changed.
 
 
 #### Task 2 - Configure Microsoft Entra ID Identity Protection policy for MFA registration
@@ -72,7 +72,7 @@ Now let us enable MFA registration for a single user.
 
 In this lab you have completed the following tasks:
 - Completed Policy configuration
-- Configured Azure AD Identity Protection policy for MFA registration
+- Configured Microsoft Entra ID Identity Protection policy for MFA registration
 
 ## You have successfully completed the lab
 
