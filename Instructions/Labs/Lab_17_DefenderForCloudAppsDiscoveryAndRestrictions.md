@@ -32,7 +32,7 @@ In this lab, you will complete the following tasks:
 
     ![](./media/defender-1.png)
 
-1. Open another browser tab and navigate to **Dropbox.com**.
+1. Open another browser tab and navigate to **www.dropbox.com**.
 
 1. Notice that you will be able to access this website.
 
