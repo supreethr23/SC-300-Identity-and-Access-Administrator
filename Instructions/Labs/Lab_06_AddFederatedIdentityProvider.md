@@ -97,7 +97,8 @@ After completing this lab, you will be able to:
 
 ### Exercise 2 - Configure Azure to work with an External identity provider
 
-#### Task 1 - Configure Azure AD for Google federation
+#### Task 1 - Configure Microsoft Entra ID for Google federation
+
 1. Navigate back to the Azure Portal.
 
 2. Search and select for **Microsoft Entra ID**.
