@@ -1,4 +1,4 @@
-# Lab 07: Add Hybrid Identity with Azure AD Connect (Read Only)
+# Lab 07: Add Hybrid Identity with Microsoft Entra Connect (Read Only)
 
 **Note 1:** - This lab is titled Read-Only.  It takes at least 1 hour to complete and does require that you are detailed in your lab steps. 
 
