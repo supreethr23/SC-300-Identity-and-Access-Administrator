@@ -31,7 +31,7 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
    
 6. Select **Create**.
 
-    ![Screen image displaying the New Group page with group type, group name, and create highlighted](./media/az204_07_09-01.png)
+    ![Screen image displaying the New Group page with group type, group name, and create highlighted](./media/az204_07_09-01.1.png)
 
 #### Task 2 - Enable SSPR for you test group
 
