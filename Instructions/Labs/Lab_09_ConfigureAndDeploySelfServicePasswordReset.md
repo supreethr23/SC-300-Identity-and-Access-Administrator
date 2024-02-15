@@ -11,7 +11,7 @@ The company has decided to empower the employees and enable self-service passwor
 
 You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
 
-1. On the home page of Azure portal, please search for **Azure Active Directory**.
+1. On the home page of Azure portal, please search for **Microsoft Entra ID**.
  
 2. On the Azure Active Directory page, under **Manage**, select **Groups** and select **New Group** on the right side window.
 
@@ -37,27 +37,21 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
 Enable SSPR for the group.
 
-1. Browse back to the Azure Active Directory page.
+1. Browse back to the **Microsoft Entra ID** page.
 
-2. Under **Manage**, select **Password reset**.
+1. Under **Manage**, select **Password reset**.   
 
-3. Select **Get a free Premium trial to use this feature** and choose **Activate** on **Azure AD premium P2**. Wait for the trial license to be assigned and refresh your webpage before proceeding. 
+1. On the **Password reset|Properties** pane, under **Self service password reset enabled**, select **Selected**.
 
-    ![](./media/activate-license.png)
-    
-4. On search bar, search for **Password reset**.    
+1. Select **Select group**.
 
-5. On the **Password reset|Properties** pane, under **Self service password reset enabled**, select **Selected**.
+1. In the Default password reset policy pane, select the **SSPRTesters** group.
 
-6. Select **Select group**.
-
-7. In the Default password reset policy pane, select the **SSPRTesters** group.
-
-8. On the Password reset page Properties page, select **Save**.
+1. On the Password reset page Properties page, select **Save**.
 
     ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/az204_07_09-03.png)
 
-9. Under **Manage**, select and review the default values for the **Authentication methods**, **Registration**, **Notifications**, and **Customization** settings.
+1. Under **Manage**, select and review the default values for the **Authentication methods**, **Registration**, **Notifications**, and **Customization** settings.
 
     **Note** it is important to have **phone** selected as one of the authentication methods for the rest of this lab, but you can have other options as well.
 
