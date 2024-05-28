@@ -28,43 +28,17 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 
     ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab16-1.png)
 
-1. In **Search services and marketplace**, type and search for **Windows Client**.
-   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab16-2.png)
+1. Type **Windows 11** in Search the Marketplace search bar.
 
-1. On the **Marketplace** page, under **Windows Client**, select **Create (2)** drop-down and from the plan dropdown choose **Windows 10 Enterprise N x64 (3)**.
+1. Select **Windows 11** and from the plan dropdown choose **Windows 11 Enterprise, version 21H2**. Then choose **Create**.
 
-    ![](./media/lab16-3.png)
+1. You will have to create an administrator username and password for the VM on the basics tab.
 
-1. On the **Create a virtual machine** page, follow the instruction to create a virtual machine, after filling all the details, select **Next : Disks >**:-
+1. On the **Management** tab, check the box to **Enable system assigned managed identity**.
 
-    | Settings | Values |
-    | -------- | ------ |
-    | Resource group | Select **sc-300-rg-<inject key="DeploymentID" enableCopy="false"/>** |
-    | Virtual machine name | **VM-<inject key="DeploymentID" enableCopy="false"/>** |
-    | Region | **<inject key="Region" enableCopy="false"/>** |
-    | Availbility options | **No infrastructure redundancy required** |
-    | Security type | Keep it as default |
-    | Image | see all images > Microsoft windows 10 > choose **Select** drop-down > select **Windows 10 Enterprise, version 22H2 - x64 Gen 1** |
-    | Size | **see all sizes > Standard_B2s - 2 vcpus, 4 GiB memory** |
-    | Username | **azureuser** |
-    | Password | **Password@..!!** |
-    | Confirm Password | **Password@..!!** |
-    | Licensing | check the box |
+1. Go through the rest of the experience of creating a virtual machine. 
 
-1.  On disk page, follow the instruction, after this select **Next : Disk >**:-
-
-    | Settings | Values |
-    | -------- | ------ |
-    | OS disk type | **Standard HDD (locally-redundant storage)** |
-
-1. Select **Next : Management >**.
-
-1. On the **Management** tab, select the check the box for **Enable system assigned managed identity**.
-
-1. Select **Review + Create**.
-
-1. Select **Create**.
-
+1. Select Create
    >**Note**: Please wait till the deployment is successful.
    
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
