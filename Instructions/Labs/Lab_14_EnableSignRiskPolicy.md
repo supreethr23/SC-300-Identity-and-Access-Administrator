@@ -17,6 +17,24 @@ After completing this lab, you will be able to:
 
 ## Estimated time: 10 minutes
 
+### Before the Hands-on lab
+
+1. Sign in to the [https://portal.azure.com]( https://portal.azure.com) using a Global administrator account.
+
+2. Open the portal menu and then search for and select **Microsoft Entra ID**.
+
+3. On the **Microsoft Entra ID** page, under **Manage**, select **Users**.
+
+4. Select <inject key="AzureAdUserEmail"></inject> 
+
+5. From the **Users** page, under **Manage** select **Assigned Roles**
+
+   ![Screen image displaying the User risk policy page and highlighted browsing path](./media/assigned-roles.png)
+
+6. Select **+ Add Assignments**. From the list of roles, choose **Conditional Access Administrator** and click **Next >**. Finally, click **Assign**.
+ 
+   ![Screen image displaying the User risk policy page and highlighted browsing path](./media/assign.png)
+
 ### Exercise 1 - Enable User risk policy
 
 #### Task 1 - Configure the policy
