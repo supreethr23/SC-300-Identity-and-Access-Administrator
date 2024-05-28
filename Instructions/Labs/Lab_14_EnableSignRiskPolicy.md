@@ -25,7 +25,7 @@ After completing this lab, you will be able to:
 
 2. Open the portal menu and then search for and select **Microsoft Entra ID**.
 
-3. On the Microsoft Entra ID* page, under **Manage**, select **Security**.
+3. On the **Microsoft Entra ID** page, under **Manage**, select **Security**.
 
 4. On the Security page, in the left navigation, under **Protect** select **Identity protection**.
 
