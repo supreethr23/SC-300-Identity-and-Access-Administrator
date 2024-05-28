@@ -51,13 +51,6 @@ After completing this lab, you will be able to complete the following exercises:
 
 6. Click on **Review + Create** and subsequently click on **Create**. The user is now created and registered to your organization.
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
-
 #### Task 2 - Login and try to create an app
 
 1. Launch a new **InPrivate** browser window.
@@ -67,7 +60,6 @@ After completing this lab, you will be able to complete the following exercises:
     | :--- | :--- |
     | User name| ChrisG@`your domain name.com`|
     | Password| Enter the auto-generated password from previous task. |
-
 
 3. Update your password.
 
@@ -108,7 +100,13 @@ After completing this lab, you will be able to complete the following exercises:
 
 8. Select the **Refesh** button.
 
-9. The newly assigned Application administrator role appears on the user’s Assigned roles page.**
+9. The newly assigned Application administrator role appears on the user’s Assigned roles page.
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 #### Task 2 - Check application permissions
 
