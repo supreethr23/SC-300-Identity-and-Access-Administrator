@@ -23,22 +23,22 @@ After completing this lab, you will be able to complete the following exercises:
 
  In this exercise, you will create a security group to enhance access control and security measures and then include a user within the group to grant them specific permissions and restrictions as part of a broader security framework
 
-#### Task 1 - Check to see if Delia Dennis has access to Office 365
+#### Task 1 - Check to see if USER01 has access to Office 365
  
 1. Launch a new **InPrivate** browser window.
 
 2. Connect to [https://www.office.com](https://www.office.com).
 
-3. Select Sign in and connect as **Delia Dennis**.
+3. Select Sign in and connect as **USER 01**, you can get the details of the USER01 from the enviornment details page:
 
    | **Setting**| **Value**|
    | :--- | :--- |
-   | Username | DeliaD@`your domain name.com`|
-   | Password| Enter the password for Delia Dennis|
+   | Username | for example: DeliaD@`your domain name.com`|
+   | Password| Enter the password for User 01|
 
-4. To find the username for Delia Dennis, login to the Azure portal using the credentials given in the **Environment Details** page navigate to the Users section of the Microsoft Entra ID, and copy the user name.
+4. To find the username for **User 01 **, login to the Azure portal using the credentials given in the **Environment Details** page navigate to the Users section of the Microsoft Entra ID, and copy the user name.
 
-5. From the Microsoft Entra ID **Users** section, click on **Delia Dennis** user, and from the upper tab click on **Reset Password** and copy the temporary password and login to office.com and reset the password to **Pa55w.rd@123**
+5. From the Microsoft Entra ID **Users** section, click on **USER 01** user, and from the upper tab click on **Reset Password** and copy the temporary password and login to office.com and reset the password to **Pa55w.rd@123**
 
     ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/azureaad.png)
 
@@ -65,7 +65,8 @@ After completing this lab, you will be able to complete the following exercises:
    ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/odluser.png)
 
 5. Select the **No members selected** text under Members.
-6. Select **Delia Dennis** from the list of users.
+6. Select **User 01 **  from the list of users.
+   > Note: USER-01 details are availble in Enivronment details tab under User 01 UPN
 7. Select the **Select** button.
 8. Select the **Create** button.
 9. When complete, verify the group named **sg-SC300-O365** is shown in the **All groups** list.
