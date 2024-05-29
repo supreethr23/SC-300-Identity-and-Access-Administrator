@@ -71,7 +71,15 @@ Choose the **Pradeep Gupta** account for the lab tenant and select **Select**.
 
 10. Select the **Use Conditional Access App Control** box, select the drop-down and select **Monitor only (Preview)**, and select **Select**.
 
-11. Under **Enable policy**, select **On**, and select **Create**.
+11. Under **Enable policy**, select **On**, you will receive an alert message to disable security defaults. Click on the provided hyperlink.
+    
+    ![](./media/conditional-policy.png)
+    
+12. On the Security Defaults setup page, select the option **Disabled**. For the **Reason for disabling**, choose _My organization is planning to use Conditional Access_
+
+    ![](./media/disabled.png)
+
+13. Select **Create**.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
