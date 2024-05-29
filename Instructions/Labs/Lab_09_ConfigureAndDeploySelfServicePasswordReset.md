@@ -6,7 +6,7 @@ The company has decided to empower the employees and enable self-service passwor
 ## Lab objectives
 In this lab, you will complete the following tasks:
 
-- Task 1 - Add users to a group to assign SSPR
+- Task 1 - Create a group to assign SSPR to it
 - Task 2 - Enable SSPR for the group
 - Task 3 - Register for SSPR with Alex
 - Task 4 - Test SSPR
@@ -18,32 +18,33 @@ In this lab, you will complete the following tasks:
 
    ![](./media/arch-09.png)
 
-### Exercise 1 - Add users to a group with SSPR enabled
-
-To add users to a group with SSPR enabled, use your identity management system (e.g., microsoft entra id) to add users to the desired group and configure Self-Service Password Reset settings for that group.
-
-#### Task 1 - Add users to a group to assign SSPR
+### Exercise 1 - Create a group with SSPR enabled and add users to it
 
 You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
 
-1. In Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Microsoft Entra ID**, and then select **Microsoft Entra ID** under services.
+#### Task 1 - Create a group with SSPR enabled and add users to it
 
-    ![](./media/lab9-1.png)
+You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
 
-1. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Groups**.
+1. On the Microsoft Entra admin center, open the **Identity** navigation menu on the left.
+1. Under **Groups**, select **All groups** and select **New Group** on the right side window.
 
-1. Search and select for **SSPRTesters**.
+2. Create a new group using the following information:
 
-    ![](./media/lab9-2.png)
+    | **Setting**| **Value**|
+    | :--- | :--- |
+    | Group type| Security|
+    | Group name| SSPRTesters|
+    | Group description| Testers of SSPR rollout|
+    | Membership type| Assigned|
+    | Members| Alex Wilber |
+    | |  Allan Deyoung |
+    | | Bianca Pisani |
+  
+3. Select **Create**.
 
-1. From the left-hand navigation pane, under **Manage** section, select **Members**. On the **SSPRTesters | Members**, select **+ Add members**.
+    ![Screen image displaying the New Group page with group type, group name, and create highlighted](./media/lp2-mod2-create-sspr-security-group.png)
 
-1. On **Add members** window search and select these members **Alex Wilber**, **Allan Deyoung**, **Bianca Pisani** and check on **Select**.
-   ![](./media/lab9-3.png)
-
-1. Back on **SSPRTesters | Members**, refresh the page and you should see all three user are list as shown in below image.
-
-    ![](./media/members.png)
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -83,7 +84,9 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
     >**Note:** This is to ensure you well be prompted for user authentication.
 
-1. Sign in as **alex.wilber@cloudlabsai.com**, with the password = Enter the admin password of the tenant(Refer the **Environment Details** tab to retrieve the Alex's password).
+1. Sign in as **alex.wilber@ `<<organization-domain-name>>.com`**, with the password = Enter the admin password of the tenant(Refer the **Environment Details** tab to retrieve the Alex's password).
+
+    ![](./media/1.png)
 
     >**Note:** If prompted to update your password, enter a new password of your choice. Be sure to record the new password.
 
@@ -111,7 +114,7 @@ Now let's test whether the user can reset their password.
 
     This is to ensure you well be prompted for user authentication.
 
-1. Enter **alex.wilber@cloudlabsai.com**, and then select **Next**.
+1. Enter **alex.wilber@`<<organization-domain-name>>.com`**, and then select **Next**.
 
 1. On the Enter password page, select **Forgot my password**.
 
@@ -134,7 +137,7 @@ Now let's test whether the user can reset their password.
 
 1. Now, browse to [https://portal.azure.com](https://portal.azure.com).
 
-1. Sign in as **alex.wilber@cloudlabsai.com** with the new password you created.
+1. Sign in as **alex.wilber@`<<organization-domain-name>>.com`** with the new password you created.
 
 10. Enter your verification code and then verify you can complete the sign in process.
 
@@ -146,7 +149,7 @@ Now let's test whether the user can reset their password.
 
 1. As a test, open a new InPrivate browser window, and browse to [https://portal.azure.com](https://portal.azure.com).
 
-1. Type the username **miriam.graham@cloudlabsai.com**, and then select **Next**.
+1. Type the username **miriam.graham@`<<organization-domain-name>>.com`**, and then select **Next**.
    
 1. On the Enter password page, select **Forgot my password**.
 
