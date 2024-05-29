@@ -66,10 +66,10 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 
     ![Create vm](./media/create-vm-03.png)
 
-1. On the **Management (1)** tab, check the box - **Login with Azure AD (2)** under the Microsoft Entra ID section and then click on **Review + create (3)**.
+1. On the **Management (1)** tab, check the box - **Login with MicrosoftEntra ID (2)** under the Microsoft Entra ID section and then click on **Review + create (3)**.
    >**Note:** Notice that the **System assigned managed identity** under the Identity section is auto-matically checked and turned grey. This action should happen automatically once you enable Login with Microsoft Entra ID.
 
-    ![Create vm](./media/create-vm-04.png)
+    ![Create vm](./media/E1T1S6.png)
 
 1. On the **Review + create** tab, review the virtual machine configurations and then click on the **Create** button to initiate the deployment process.
    >**Note:** The deployment of the virtual machine can take upto 3 minutes.
