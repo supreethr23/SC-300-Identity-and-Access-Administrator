@@ -112,11 +112,13 @@ You add your organization's privacy information in the **Properties** area of 
 
 2. Add your privacy info for your employees:
 
-- **Global privacy contact** - `Allan Deyoung` **your Azure lab domain**
-     - Allan Deyoung is a built-in users in your Azure lab tenant who works as an IT Admin, we will use him as the Privacy contact.
+     ![](./media/properties.png)
+
+- **Global privacy contact** - `Delia Dennis` **your Azure lab domain**
+     - Delia Dennis is a built-in users in your Azure lab tenant who works as an IT Admin, we will use him as the Privacy contact.
      - This person is also who Microsoft contacts if there's a data breach. If there's no person listed here, Microsoft contacts your global administrators.
 
-    >**Note:** Navigate to the **Environment Details** page and copy the email ID of **Allan Deyoung**
+    >**Note:** Navigate to the **Environment Details** page and copy the email ID of **Delia Dennis**
 
 - **Privacy statement URL** -  <https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/blob/master/Allfiles/Labs/Lab2/SC-300-Lab_ContosoPrivacySample.pdf>
 
