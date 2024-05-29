@@ -1,5 +1,5 @@
 
-# Lab 01: Manage user roles
+# Lab 01: Manage User Roles
 
 ## Lab scenario
 
