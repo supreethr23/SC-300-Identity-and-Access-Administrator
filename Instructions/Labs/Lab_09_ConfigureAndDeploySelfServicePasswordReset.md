@@ -86,6 +86,8 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
 1. Sign in as **alex.wilber@ `<<organization-domain-name>>.com`**, with the password = Enter the admin password of the tenant(Refer the **Environment Details** tab to retrieve the Alex's password).
 
+    ![](./media/1.png)
+
     >**Note:** If prompted to update your password, enter a new password of your choice. Be sure to record the new password.
 
 1. In the **More information required** dialog box, select **Next**.
