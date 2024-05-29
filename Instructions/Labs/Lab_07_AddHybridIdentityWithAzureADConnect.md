@@ -120,19 +120,18 @@ Your company works has Active Directory Domain Services on-premises.  They would
     Restart-Computer -ComputerName 'DC1'
     ```
 
-### Task 5 - Configure contoso.local Active Directory
+### Task 4 - Configure contoso.local Active Directory
 
 1. Connect again to the **DC1** Azure VM via Remote Desktop. When prompted, sign in by using the following credentials:
 
     -   Username: **demouser**
 
-    -   Password: **demo\@pass123**
-       - **It is strongly recommended that you enter a secure password that you can remember.**
+    -   Password: **Use the secure password you created in Task 1**
 
 2.  Within the Remote Desktop session to **DC1**, start Internet Explorer and navigate to the link below.
 
     ```
-    https://github.com/microsoft/MCW-Hybrid-identity/tree/Archive/Hands-on%20lab/studentfiles
+    https://github.com/microsoft/MCW-Hybrid-identity/tree/main/Archive/Hands-on%20lab/studentfiles
     ```
 
 3. On the **Create Users/Group for Active Directory Demo/Test Environment** page, select the **CreateDemoUsers.ps1** link, accept the licensing terms, and save the corresponding script to the local file system.
