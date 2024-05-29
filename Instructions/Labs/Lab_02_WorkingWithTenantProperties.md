@@ -26,17 +26,26 @@ After completing this lab, you will be able to:
 
     ![Azure portal menu with Azure Active Directory selected](./media/msentrid.png)
 
-1. From the left-hand navigation pane, in the **Manage** section of **Microsoft Entra ID**, select **Custom domain names**.
+2. From the left-hand navigation pane, in the **Manage** section of **Microsoft Entra ID**, select **Custom domain names**.
 
-1. Select **Add custom domain**.
+3. Select **Add custom domain**.
 
-1. In the **Custom domain name** field, create a custom subdomain for the lab tenant by putting **sales** in front of the **onmicrosoft.com** domain name.  The format will look similar to this:
+4. In the **Custom domain name** field, create a custom subdomain for the lab tenant by putting **sales** in front of the **onmicrosoft.com** domain name.  The format will look similar to this:
 
     ```
     sales.labtenant.onmicrosoft.com
     ```
+> **Note** - You will be prompted to open the Microsoft 365 Admin center to complete this action.
 
-1. Select **Add domain** to add the subdomain.
+   ![Azure portal menu with Azure Active Directory selected](./media/admincenter.png)
+
+5. Under **Add domain** page of Microsoft 365 Admin center, paste the value **sales.labtenant.onmicrosoft.com** and click on **Use this Domian**.
+
+6. Click on **Continue** in the verify your domain page and click on **Verify** option under Add a record to verify ownership.
+   
+   > **Note**: Ignore the error message for not detecting the new record, inorder to complete the verification of the sub domain added, please follow the step-by-step process listed here: https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide&redirectSourcePath=%252farticle%252f7b7b075d-79f9-4e37-8a9e-fb60c1d95166#BKMK_verify
+
+7. Navigate back to the Azure portal. Under the custom domain section, you should now be able to see the newly created custom subdomain.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
