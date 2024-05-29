@@ -318,7 +318,7 @@ In this task, you will configure the DNS suffix of the Contoso Active Directory 
 
 ### Task 6: Install Microsoft Entra ID Connect
 
-In this task, you will install Azure AD Connect.
+In this task, you will install Microsoft Entra Connect.
 
 1. Within the Remote Desktop session to **DC1**, in Server Manager, select **Local Server**, and ensure that **IE Enhanced Security Configuration** is disabled. If not, then select the **On** link next to **IE Enhanced Security Configuration**, set the **Administrators** settings to **Off**, and select **OK**.
 
