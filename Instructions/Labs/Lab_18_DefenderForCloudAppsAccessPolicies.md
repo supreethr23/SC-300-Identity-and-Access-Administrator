@@ -124,6 +124,8 @@ Registering your application establishes a trust relationship between your app a
 
 1. In the **Microsoft 365 Defender** portal menu, from the left-hand navigation pane, under **Cloud apps** select **Policies** drop-down, and select **Policy management**.
 
+1. Click the **Enable Office 365 Cloud App Security** to allow your subscription to use Office 365 Cloud App Security.
+
 1. Select **+ Create policy**. Select **Access policy**.
 
 1. Enter a name for the policy, **Monitor Microsoft Forms access**.
