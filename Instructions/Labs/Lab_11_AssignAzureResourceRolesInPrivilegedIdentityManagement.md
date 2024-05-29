@@ -1,4 +1,4 @@
-![image](https://github.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/assets/69720936/7bc6d487-adc7-4449-b967-da73b9761abe)# Lab 11 - Assign Azure resource roles in Privileged Identity Management
+# Lab 11 - Assign Azure resource roles in Privileged Identity Management
 
 ## Lab scenario
 
