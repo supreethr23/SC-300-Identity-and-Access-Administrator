@@ -33,10 +33,8 @@ After completing this lab, you will be able to:
 1. In the **Custom domain name** field, create a custom subdomain for the lab tenant by putting **sales** in front of the **onmicrosoft.com** domain name.  The format will look similar to this:
 
     ```
-    sales[DeploymentID].onmicrosoft.com
+    sales.labtenant.onmicrosoft.com
     ```
-  
-   >**Note:** Replace the [DeploymentID] with <inject key="DeploymentID" enableCopy="false" />
 
 1. Select **Add domain** to add the subdomain.
 
