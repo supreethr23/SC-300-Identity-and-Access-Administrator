@@ -53,7 +53,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. Scroll down under the Getting started section Click on **Get these data connectors**. 
 
-1. In the list of Data connectors, locate **Azure Active Directory** and select.
+1. In the list of Data connectors, locate **Microsoft Entra ID** and select.
 
 1. To the right, a preview tile will open.  Select **Install**.
 
