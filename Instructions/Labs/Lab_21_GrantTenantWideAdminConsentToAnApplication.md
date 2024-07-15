@@ -72,7 +72,7 @@ The Global Administrator role is required in order to provide admin consent for 
 
 You can grant tenant-wide admin consent through Enterprise applications if the application has already been provisioned in your tenant.
 
-1. In Microsoft Azure, browse to **Microsoft Entra ID > Enterprise applications > Demo app.**
+1. In Microsoft Entra admin center, browse to **Identity > Applications > Enterprise applications > Demo app.**
 
 2. On the **Demo app** page, in the left navigation, under **Security,** select **Permissions.**
 
