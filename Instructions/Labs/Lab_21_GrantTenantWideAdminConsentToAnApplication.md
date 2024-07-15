@@ -62,7 +62,7 @@ The Global Administrator role is required in order to provide admin consent for 
 
 2. On the **Demo app** page, locate and copy and save each **Application (client) ID** and **Directory (tenant) ID** values so that you can use them later.
 
-    ![Screen image displaying the Demo app page with the directory ID highlighted](./media/appid121.png)
+    ![Screen image displaying the Demo app page with the directory ID highlighted](./media/lp3-mod3-demo-app-directory-id1.png)
 
 3. In the left navigation, under **Manage**, select **API permissions**.
 
