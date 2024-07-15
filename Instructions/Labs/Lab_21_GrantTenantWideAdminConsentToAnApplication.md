@@ -33,7 +33,7 @@ Registering your application establishes a trust relationship between your app a
 
 4. In the App registrations pane, select **+ New registrations**.
 
-   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/MicrosoftentraID.png)
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/entraid1.png)
 
 5. On the **Microsoft Entra ID** blade, under **Manage**, select **App registrations.**
 
@@ -41,7 +41,7 @@ Registering your application establishes a trust relationship between your app a
 
 7. On the **Register an application** blade, register an app named **Demo app (1)** using the default values. You do not need to enter the redirect URI and click on **Register (2)**.
 
-    ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/demoapp1.png)
+    ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/demoapp2.png)
 
 8. When complete, you will be directed to the **Demo app** blade.
 
