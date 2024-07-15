@@ -25,19 +25,25 @@ Registering your application establishes a trust relationship between your app a
 
 Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
 
-1. Navigate to Azure Portal, in **Search resources, services and docs (1)** search and select for **Microsoft Entra ID (2)**.
+1. Sign in to the [https://entra.microsoft.com](https://entra.microsoft.com) using a Global administrator account.
+
+2. Open the portal menu and then select **Identity**.
+
+3. On the Identity menu, under **Applications**, select **App registrations**.
+
+4. In the App registrations pane, select **+ New registrations**.
 
    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/MicrosoftentraID.png)
 
-2. On the **Microsoft Entra ID** blade, under **Manage**, select **App registrations.**
+5. On the **Microsoft Entra ID** blade, under **Manage**, select **App registrations.**
 
-3. On the **App registrations** page, on the menu, select **+ New registration**.
+6. On the **App registrations** page, on the menu, select **+ New registration**.
 
-4. On the **Register an application** blade, register an app named **Demo app (1)** using the default values. You do not need to enter the redirect URI and click on **Register (2)**.
+7. On the **Register an application** blade, register an app named **Demo app (1)** using the default values. You do not need to enter the redirect URI and click on **Register (2)**.
 
     ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/demoapp1.png)
 
-5. When complete, you will be directed to the **Demo app** blade.
+8. When complete, you will be directed to the **Demo app** blade.
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
      > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
